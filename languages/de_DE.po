@@ -1,0 +1,1282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: straightvisions 100\n"
+"POT-Creation-Date: 2019-06-14 11:38+0200\n"
+"PO-Revision-Date: 2019-06-14 11:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: lib/modules/sv_colors/sv_colors.php:30
+msgid "This module allows you to define your own color palette."
+msgstr "Dieses Modul erlaubt es dir deine eigene Farbpalette zu definieren."
+
+#: lib/modules/sv_colors/sv_colors.php:33
+msgid "Colors"
+msgstr "Farben"
+
+#: lib/modules/sv_colors/sv_colors.php:34
+msgid "Color Settings"
+msgstr "Farbeinstellungen"
+
+#: lib/modules/sv_colors/sv_colors.php:41
+msgid "Color Palettes"
+msgstr "Farbpaletten"
+
+#: lib/modules/sv_colors/sv_colors.php:42
+msgid "These colors will also be available in Gutenberg-Editor."
+msgstr "Diese Farben werden auch im Gutenberg-Editor verfügbar sein."
+
+#: lib/modules/sv_colors/sv_colors.php:49
+msgid "Color Name"
+msgstr "Farb Name"
+
+#: lib/modules/sv_colors/sv_colors.php:50
+msgid "This Name is used to identify this color for users."
+msgstr ""
+"Dieser Name wird verwendet, um diese Farbe für Benutzer zu identifizieren."
+
+#: lib/modules/sv_colors/sv_colors.php:58
+msgid "Color Slug"
+msgstr "Color Slug"
+
+#: lib/modules/sv_colors/sv_colors.php:59
+msgid "This Slug is used to identify this color within code."
+msgstr ""
+"Dieser Slug wird verwendet, um diese Farbe innerhalb des Codes zu "
+"identifizieren."
+
+#: lib/modules/sv_colors/sv_colors.php:67
+msgid "Color Value"
+msgstr "Farbwert"
+
+#: lib/modules/sv_colors/sv_colors.php:68
+msgid "The color to be used. Accepts hex and rgb values."
+msgstr "Die Farbe, die verwendet werden soll. Akzeptiert Hex und rgb-Werte."
+
+#: lib/modules/sv_colors/sv_colors.php:111
+msgid "Invalid color code"
+msgstr "Ungültige Farbcode"
+
+#: lib/modules/sv_comments/lib/frontend/tpl/default.php:10
+msgid "Comment"
+msgstr "Kommentar"
+
+#: lib/modules/sv_comments/lib/frontend/tpl/default.php:11
+msgid "Comments"
+msgstr "Kommentare"
+
+#: lib/modules/sv_comments/sv_comments.php:18
+msgid ""
+"This module gives the ability to display comments of the current post/page "
+"via the \"[sv_comments]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, Kommentare des/der aktuellen Beitrages/"
+"Seite über den \"[sv_comments]\" Shortcode anzuzeigen."
+
+#: lib/modules/sv_common/sv_common.php:22
+msgid "This module manages general styles, scripts & dependencies."
+msgstr "Dieses Modul verwaltet allgemeine Stile, Skripte und Abhängigkeiten."
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/archive.php:3
+msgid "Archive"
+msgstr "Archiv"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/author.php:3
+msgid "Posts from"
+msgstr "Beiträge von"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/category.php:3
+msgid "Category"
+msgstr "Kategorie"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/home.php:11
+msgid "Recent Posts"
+msgstr "Aktuelle Beiträge"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/no_post.php:3
+msgid "No posts available"
+msgstr "Keine Beiträge vorhanden"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/search.php:3
+#: lib/modules/sv_search/lib/frontend/tpl/grid.php:3
+#: lib/modules/sv_search/lib/frontend/tpl/masonry.php:3
+msgid "Search results for"
+msgstr "Suchergebnisse für"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/tag.php:3
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/grid.php:26
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:64
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:37
+#: lib/modules/sv_search/lib/frontend/tpl/grid.php:33
+#: lib/modules/sv_search/lib/frontend/tpl/masonry.php:32
+#: lib/modules/sv_tags/lib/frontend/tpl/default.php:33
+#, php-format
+msgid "View all posts in %s"
+msgstr "Zeige alle Beiträge in %s"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:43
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:54
+#: lib/modules/sv_search/lib/frontend/tpl/masonry.php:52
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:76
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:70
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: lib/modules/sv_content/lib/frontend/tpl/content/404.php:7
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: lib/modules/sv_content/lib/frontend/tpl/content/404.php:10
+msgid "Bring me back to the homepage"
+msgstr "Bringe mich zurück zur Startseite"
+
+#: lib/modules/sv_content/lib/frontend/tpl/content/frontpage.php:41
+#: lib/modules/sv_content/lib/frontend/tpl/content/frontpage_sidebar.php:42
+#: lib/modules/sv_content/lib/frontend/tpl/content/page.php:41
+#: lib/modules/sv_content/lib/frontend/tpl/content/page_sidebar.php:42
+#: lib/modules/sv_content/lib/frontend/tpl/content/single.php:42
+#: lib/modules/sv_content/lib/frontend/tpl/content/single_sidebar.php:43
+msgid "Page"
+msgstr "Seite"
+
+#: lib/modules/sv_content/sv_content.php:18
+msgid ""
+"This module defines and manages content output, via the \"[sv_content]\" "
+"shortcode."
+msgstr ""
+"Dieses Modul definiert und verwaltet die Ausgabe von Inhalten über den "
+"Shortcode \"[sv_content]\"."
+
+#: lib/modules/sv_content/sv_content.php:21
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:26
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:70
+msgid "Content"
+msgstr "Inhalt"
+
+#: lib/modules/sv_content/sv_content.php:22
+#: lib/modules/sv_human_time/sv_human_time.php:26
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:22
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/modules/sv_content/sv_content.php:48
+msgid "Small"
+msgstr "Klein"
+
+#: lib/modules/sv_content/sv_content.php:53
+msgid "Normal"
+msgstr "Normal"
+
+#: lib/modules/sv_content/sv_content.php:58
+msgid "Medium"
+msgstr "Mittel"
+
+#: lib/modules/sv_content/sv_content.php:63
+msgid "Large"
+msgstr "Groß"
+
+#: lib/modules/sv_content/sv_content.php:68
+msgid "Huge"
+msgstr "Riesig"
+
+#: lib/modules/sv_content/sv_content.php:81
+msgid "Home Slider"
+msgstr "Startseiten Slider"
+
+#: lib/modules/sv_content/sv_content.php:82
+msgid "Activate or deactivate the slider on the home page."
+msgstr "Aktiviere oder deaktiviere den Slider auf der Startseite."
+
+#: lib/modules/sv_content/sv_content.php:88
+msgid "Home Slider - Transition"
+msgstr "Startseiten Slider -Übergang"
+
+#: lib/modules/sv_content/sv_content.php:89
+msgid "Choose a transition style for the slider."
+msgstr "Wähle einen Übergangsstil für den Slider."
+
+#: lib/modules/sv_content/sv_content.php:99
+msgid "Home Slider - Max posts"
+msgstr "Startseiten Slider - Maximale Beiträge"
+
+#: lib/modules/sv_content/sv_content.php:100
+msgid ""
+"Set the maximum number of posts that will be shown in the slider.<br>1 = "
+"single image"
+msgstr ""
+"Setze die maximale Anzahl der Beiträge, die im Slider angezeigt werden. <br> "
+"1 = Einzelbild"
+
+#: lib/modules/sv_content/sv_content.php:108
+msgid "Home Listing"
+msgstr "Startseiten Auflistung"
+
+#: lib/modules/sv_content/sv_content.php:109
+msgid "Defines how posts on the homepage will be displayed."
+msgstr "Legt fest, wie Beiträge auf der Startseite angezeigt werden."
+
+#: lib/modules/sv_content/sv_content.php:111
+#: lib/modules/sv_content/sv_content.php:123
+#: lib/modules/sv_content/sv_content.php:135
+#: lib/modules/sv_content/sv_content.php:147
+#: lib/modules/sv_content/sv_content.php:159
+msgid "List (Default)"
+msgstr "Liste (Standard)"
+
+#: lib/modules/sv_content/sv_content.php:112
+#: lib/modules/sv_content/sv_content.php:124
+#: lib/modules/sv_content/sv_content.php:136
+#: lib/modules/sv_content/sv_content.php:148
+#: lib/modules/sv_content/sv_content.php:160
+msgid "Masonry"
+msgstr "Masonry"
+
+#: lib/modules/sv_content/sv_content.php:113
+#: lib/modules/sv_content/sv_content.php:125
+#: lib/modules/sv_content/sv_content.php:137
+#: lib/modules/sv_content/sv_content.php:149
+#: lib/modules/sv_content/sv_content.php:161
+msgid "Grid"
+msgstr "Raster"
+
+#: lib/modules/sv_content/sv_content.php:120
+msgid "Category Listing"
+msgstr "Kategorienliste"
+
+#: lib/modules/sv_content/sv_content.php:121
+msgid "Defines how posts filtered by category will be displayed."
+msgstr ""
+"Legt fest, wie Beiträge, die nach Kategorien gefiltert werden, angezeigt "
+"werden."
+
+#: lib/modules/sv_content/sv_content.php:132
+msgid "Tag Listing"
+msgstr "Schlagwörter Auflistung"
+
+#: lib/modules/sv_content/sv_content.php:133
+msgid "Defines how posts filtered by tags will be displayed."
+msgstr ""
+"Legt fest, wie Beiträge, die durch Schlagwörtern gefiltert werden, angezeigt "
+"werden."
+
+#: lib/modules/sv_content/sv_content.php:144
+msgid "Author Listing"
+msgstr "Autorenliste"
+
+#: lib/modules/sv_content/sv_content.php:145
+msgid "Defines how posts created by an author will be displayed."
+msgstr ""
+"Legt fest, wie Beiträge, die von einem Autor erstellt wurden, angezeigt "
+"werden."
+
+#: lib/modules/sv_content/sv_content.php:156
+msgid "Search Listing"
+msgstr "Such Auflistung"
+
+#: lib/modules/sv_content/sv_content.php:157
+msgid "Defines how the search results will be displayed."
+msgstr "Legt fest, wie die Suchergebnisse angezeigt werden."
+
+#: lib/modules/sv_content/sv_content.php:168
+msgid "404 Page"
+msgstr "404 Seite"
+
+#: lib/modules/sv_content/sv_content.php:169
+msgid "Select a page for showing custom content in error 404 / not found cases"
+msgstr ""
+"Wähle eine Seite, die angezeigt werden soll, wenn keine Seite gefunden wurde"
+
+#: lib/modules/sv_content/sv_content.php:312
+msgid "Sidebar - Frontpage"
+msgstr "Seitenleiste - Startseite"
+
+#: lib/modules/sv_content/sv_content.php:313
+msgid ""
+"Widgets in this area will be shown in the sidebar of the frontpage/"
+"landingpage."
+msgstr ""
+"Widgets in diesem Bereich werden in der Seitenleiste der Startseite "
+"angezeigt."
+
+#: lib/modules/sv_content/sv_content.php:317
+msgid "Sidebar - Pages"
+msgstr "Seitenleiste - Seiten"
+
+#: lib/modules/sv_content/sv_content.php:318
+msgid "Widgets in this area will be shown in the sidebar of a page."
+msgstr ""
+"Widgets in diesem Bereich werden in der Seitenleiste einer Seite angezeigt."
+
+#: lib/modules/sv_content/sv_content.php:322
+msgid "Sidebar - Posts"
+msgstr "Seitenleiste - Beiträge"
+
+#: lib/modules/sv_content/sv_content.php:323
+msgid "Widgets in this area will be shown in the sidebar of single posts."
+msgstr ""
+"Widgets in diesem Bereich werden in der Seitenleiste einzelner Beiträge "
+"angezeigt."
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:18
+msgid "This module gives the ability to define how excerpts will be displayed."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit festzulegen, wie Auszüge angezeigt werden."
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:21
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:22
+msgid "Adjust Settings"
+msgstr "Einstellungen anpassen"
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:37
+msgid "Excerpt length"
+msgstr "Länge des Auszugs"
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:38
+msgid "Maximum number of words allowed in displaying excerpts."
+msgstr ""
+"Maximale Anzahl der Wörter, die bei der Anzeige von Auszügen erlaubt sind."
+
+#: lib/modules/sv_excerpt/sv_excerpt.php:44
+msgid "Text to show at the end of the excerpt"
+msgstr "Text der zum Ende des Ausschnitts angezeigt wird"
+
+#: lib/modules/sv_featured_image/sv_featured_image.php:17
+msgid ""
+"This module shows a featured image via \"[sv_featured_image]\" shortcode."
+msgstr ""
+"Dieses Modul gibt ein Beitragsbild über den \"[sv_featured_image]\" "
+"Shortcode aus."
+
+#: lib/modules/sv_featured_image/sv_featured_image.php:21
+msgid "Settings for Featured Image"
+msgstr "Einstellungen für Featured Image"
+
+#: lib/modules/sv_featured_image/sv_featured_image.php:34
+msgid "Fallback image"
+msgstr "Fallback-Bild"
+
+#: lib/modules/sv_featured_image/sv_featured_image.php:35
+msgid "Uploaded image will be used when post has not featured image set."
+msgstr ""
+"Das hochgeladene Bild wird verwendet, wenn der Beitrag kein Beitragsbild "
+"enthält."
+
+#: lib/modules/sv_footer/sv_footer.php:18
+msgid ""
+"This module gives the ability to display the footer via the \"[sv_footer]\" "
+"shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, den Footer über den \"[sv_footer]\" "
+"Shortcode anzuzeigen."
+
+#: lib/modules/sv_footer/sv_footer.php:59
+msgid "Footer - Left"
+msgstr "Footer - Links"
+
+#: lib/modules/sv_footer/sv_footer.php:60
+msgid "Widgets in this area will be shown in the left section of the footer."
+msgstr ""
+"Widgets in diesem Bereich werden in der linken Seitenleiste des Footers "
+"angezeigt."
+
+#: lib/modules/sv_footer/sv_footer.php:64
+msgid "Footer - Center"
+msgstr "Footer - Mitte"
+
+#: lib/modules/sv_footer/sv_footer.php:65
+msgid "Widgets in this area will be shown in the center section of the footer."
+msgstr ""
+"Widgets in diesem Bereich werden in der mittleren Seitenleiste des Footers "
+"angezeigt."
+
+#: lib/modules/sv_footer/sv_footer.php:69
+msgid "Footer - Right"
+msgstr "Footer - Rechts"
+
+#: lib/modules/sv_footer/sv_footer.php:70
+msgid "Widgets in this area will be shown in the right section of the footer."
+msgstr ""
+"Widgets in diesem Bereich werden in der rechten Seitenleiste des Footers "
+"angezeigt."
+
+#: lib/modules/sv_header/sv_header.php:18
+msgid ""
+"This module gives the ability to display the header via the \"[sv_header]\" "
+"shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, den Header über den \"[sv_header]\" "
+"Shortcode anzuzeigen."
+
+#: lib/modules/sv_header/sv_header.php:32
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: lib/modules/sv_header/sv_header.php:110
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: lib/modules/sv_header/sv_header.php:122
+msgid "Header"
+msgstr "Header"
+
+#: lib/modules/sv_header/sv_header.php:123
+msgid ""
+"Widgets in this area will be shown in the header, next to the navigation."
+msgstr ""
+"Widgets in diesem Bereich werden im Header neben der Navigation angezeigt."
+
+#: lib/modules/sv_human_time/sv_human_time.php:22
+msgid ""
+"This module converts dates and times to a human readable text, via the "
+"\"[sv_human_time]\" shortcode."
+msgstr ""
+"Dieses Modul wandelt Daten und Zeiten über den Shortcode \"[sv_human_time]\" "
+"in einen menschlich lesbaren Text um."
+
+#: lib/modules/sv_human_time/sv_human_time.php:43
+msgid "Enables relative date format for all posts"
+msgstr "Ermöglicht das relative Datumsformat für alle Beiträge"
+
+#: lib/modules/sv_human_time/sv_human_time.php:51
+msgid "Enables relative date format for all comments"
+msgstr "Ermöglicht das relative Datumsformat für alle Kommentare"
+
+#: lib/modules/sv_human_time/sv_human_time.php:59
+msgid "Show Date Format"
+msgstr "Datumsformat anzeigen"
+
+#: lib/modules/sv_human_time/sv_human_time.php:60
+msgid ""
+"Shows the date and time in the default WordPress format, when the time "
+"difference is higher than the set days.<br>0 = never"
+msgstr ""
+"Zeigt das Datum und die Uhrzeit im Standard-WordPress-Format an, wenn der "
+"Zeitunterschied höher ist als die gesetzten Tage.<br>0 = nie"
+
+#: lib/modules/sv_human_time/sv_human_time.php:86
+msgid "Starting date is needed!"
+msgstr "Startdatum ist erforderlich!"
+
+#: lib/modules/sv_human_time/sv_human_time.php:104
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: lib/modules/sv_icon/sv_icon.php:18
+msgid ""
+"This module gives the ability to upload & display icons via the "
+"\"[sv_icon]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, Symbole über den Shortcode \"[sv_icon]\" "
+"hochzuladen und anzuzeigen."
+
+#: lib/modules/sv_icon/sv_icon.php:21 lib/modules/sv_icon/sv_icon.php:36
+msgid "Icons"
+msgstr "Symbole"
+
+#: lib/modules/sv_icon/sv_icon.php:22
+msgid "Icon Settings"
+msgstr "Symbol Einstellungen"
+
+#: lib/modules/sv_icon/sv_icon.php:37
+msgid "Here you can add and remove icons."
+msgstr "Hier kannst du Symbole hinzufügen und entfernen."
+
+#: lib/modules/sv_icon/sv_icon.php:44
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:57
+msgid "Label"
+msgstr "Beschriftung"
+
+#: lib/modules/sv_icon/sv_icon.php:45
+msgid "This will be the label for this icon settings."
+msgstr "Dies wird die Beschriftung für diese Symbol Einstellungen sein."
+
+#: lib/modules/sv_icon/sv_icon.php:53
+msgid "ID"
+msgstr "ID"
+
+#: lib/modules/sv_icon/sv_icon.php:54
+msgid ""
+"The icon ID will be used in the shortcode, to display the icon. Allowed "
+"characters: (a-z, 0-9, -, _)."
+msgstr ""
+"Die Symbol-ID wird im Shortcode verwendet, um das Symbol anzuzeigen. "
+"Erlaubte Zeichen: (a-z, 0-9,-, _)."
+
+#: lib/modules/sv_icon/sv_icon.php:56
+msgid "icon-id"
+msgstr "symbol-id"
+
+#: lib/modules/sv_icon/sv_icon.php:62
+msgid "Inline Embed"
+msgstr "Inline-Einbettung"
+
+#: lib/modules/sv_icon/sv_icon.php:63
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:34
+msgid "Here you can post the SVG embed code."
+msgstr "Hier kannst du den SVG-Einbett-Code speichern."
+
+#: lib/modules/sv_icon/sv_icon.php:70
+msgid "Icon as CSS variable"
+msgstr "Icon als CSS-Variable"
+
+#: lib/modules/sv_icon/sv_icon.php:71
+msgid "The icon will be available as CSS variable."
+msgstr "Das Icon wird als CSS-Variable verfügbar sein."
+
+#: lib/modules/sv_icon/sv_icon.php:78 lib/modules/sv_icon/sv_icon.php:81
+msgid "Title"
+msgstr "Titel"
+
+#: lib/modules/sv_icon/sv_icon.php:79
+msgid ""
+"Here you can set the title for the icon, that will be shown if you hover "
+"over the icon."
+msgstr ""
+"Hier kannst du den Titel für das Symbol festlegen, der angezeigt wird, wenn "
+"die Maus über das Icon wandert."
+
+#: lib/modules/sv_icon/sv_icon.php:87
+msgid "Icon Classes"
+msgstr "Symbol Klassen"
+
+#: lib/modules/sv_icon/sv_icon.php:88
+msgid ""
+"Here you can add additional CSS classes, to the icon (seperate with spaces)."
+msgstr ""
+"Hier kannst du zusätzliche CSS-Klassen zum Symbol hinzufügen (getrennt mit "
+"Leerzeichen)."
+
+#: lib/modules/sv_icon/sv_icon.php:90
+msgid "class-1, class-2"
+msgstr "klasse-1, klasse-2"
+
+#: lib/modules/sv_icon/sv_icon.php:96
+msgid "Custom Styles"
+msgstr "Eigene Styles"
+
+#: lib/modules/sv_icon/sv_icon.php:97
+msgid "Here you can add custom styles to the icon."
+msgstr "Hier kannst du dem Symbol individuelle Stile hinzufügen."
+
+#: lib/modules/sv_icon/sv_icon.php:99
+msgid "fill: white; height: 20px;"
+msgstr "fill: white; height: 20px;"
+
+#: lib/modules/sv_logo/sv_logo.php:18
+msgid "This module allows you to upload your own Logo."
+msgstr "Mit diesem Modul kannst du dein eigenes Logo hochladen."
+
+#: lib/modules/sv_logo/sv_logo.php:22
+msgid "Logo Settings"
+msgstr "Logo Einstellungen"
+
+#: lib/modules/sv_logo/sv_logo.php:34
+msgid "<p>Upload your primary logo here.</p>"
+msgstr "<p>lade hier dein Primärlogo hoch</p>"
+
+#: lib/modules/sv_logo/sv_logo.php:35
+msgid "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
+msgstr "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
+
+#: lib/modules/sv_logo/sv_logo.php:36
+msgid "<p>This Logo is available in media library, as well as shortcode:</p>"
+msgstr ""
+"<p>Dieses Logo ist in der Mediathek erhältlich, ebenso wie Shortcode:</p>"
+
+#: lib/modules/sv_logo/sv_logo.php:38
+msgid "<h4 style=\"margin-top:24px;\">SVG support</h4>"
+msgstr "<h4 style=\"margin-top:24px;\">SVG Unterstützung</h4>"
+
+#: lib/modules/sv_logo/sv_logo.php:39
+msgid ""
+"<p>We recommend SVG, but you will need to add <a href=\"https://de.wordpress."
+"org/plugins/svg-support/\" target=\"_blank\">SVG Support</a> to WordPress. "
+"Make sure that your SVG file has the <a href=\"https://wordpress.org/support/"
+"topic/sorry-this-file-type-is-not-permitted-for-security-reasons-16/\" "
+"target=\"_blank\">following code</a> prepend: </p>"
+msgstr ""
+"<p>Wir empfehlen SVG, aber du musst <a href=\"https://de.wordpress.org/"
+"plugins/svg-support/\" target=\"_blank\" >SVG-Support </a> auf WordPress "
+"hinzufügen. Vergewissere dich, dass die SVG-Datei die <a href=\"https://"
+"wordpress.org/support/topic/sorry-this-file-type-is-not-permitted-for-"
+"security-reasons-16/\" target=\"_blank\"> folgenden Code</a> vorgehängt hat:"
+"</p>"
+
+#: lib/modules/sv_logo/sv_logo.php:45
+msgid "Primary Logo"
+msgstr "Primäres Logo"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:18
+msgid "This module manages the media files on this website."
+msgstr "Dieses Modul verwaltet die Mediendateien auf dieser Website."
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:21
+msgid "Media Library"
+msgstr "Mediathek"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:22
+msgid "Settings for Media Library"
+msgstr "Einstellungen für die Mediathek"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:37
+msgid "Media Lib Path"
+msgstr "Mediathek Pfad"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:38
+msgid "Absolute path to media library base directory, replacing default "
+msgstr ""
+"Absoluter Pfad zum Basisverzeichnis der Mediathek, ersetzt die "
+"Voreinstellung "
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:43
+msgid "Media Lib URL"
+msgstr "Mediathek URL"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:44
+msgid "Absolute URL to media library directory, replacing default "
+msgstr ""
+"Absolute URL zum Basisverzeichnis der Mediathek, ersetzt die Voreinstellung "
+
+#: lib/modules/sv_modules/sv_modules.php:18
+msgid "This module manages all installed theme modules."
+msgstr "Dieses Modul verwaltet alle installierten Theme-Module."
+
+#: lib/modules/sv_modules/sv_modules.php:21
+msgid "Modules"
+msgstr "Module"
+
+#: lib/modules/sv_modules/sv_modules.php:22
+msgid "Available Modules in the straightvisions 100 Theme."
+msgstr "Verfügbare Module im straightvisions 100 Theme."
+
+#: lib/modules/sv_modules/sv_modules.php:36
+msgid "All Modules"
+msgstr "Alle Module"
+
+#: lib/modules/sv_modules/sv_modules.php:37
+msgid "Enable or disable all modules."
+msgstr "Alle Module aktivieren oder deaktivieren."
+
+#: lib/modules/sv_navigation/sv_navigation.php:26
+msgid ""
+"This module gives the ability to manage and display navigations via the "
+"\"[sv_navigation]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, die Navigation über den Shortcode "
+"\"[sv_navigation]\" zu verwalten und anzuzeigen."
+
+#: lib/modules/sv_pagination/lib/frontend/tpl/default.php:4
+msgid "Previous"
+msgstr "Zurück"
+
+#: lib/modules/sv_pagination/lib/frontend/tpl/default.php:5
+msgid "Next"
+msgstr "Weiter"
+
+#: lib/modules/sv_pagination/sv_pagination.php:18
+msgid ""
+"This module gives the ability to display pagination for posts & pages with "
+"the \"[sv_pagination]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, die Paginierung für Beiträge und Seiten "
+"mit dem \"[sv_pagination]\" Shortcode anzuzeigen."
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:18
+msgid ""
+"This module gives the ability to manage & display a scroll to top button."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, einen Scroll-To-Top-Knopf zu verwalten "
+"und anzuzeigen."
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:21
+msgid "Scroll To Top - Button"
+msgstr "Scroll To Top - Button"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:33
+msgid "Icon Embed Code"
+msgstr "Icon Einbett-Code"
+
+#: lib/modules/sv_search/lib/frontend/tpl/widget.php:2
+msgid "Search ..."
+msgstr "Suche …"
+
+#: lib/modules/sv_search/sv_search.php:18
+msgid ""
+"This module gives the ability to display the search results via the "
+"\"[sv_search]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, die Suchergebnisse über den Shortcode "
+"\"[sv_search]\" anzuzeigen."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:15
+msgid "Import"
+msgstr "Import"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:16
+msgid ""
+"Select your settings file and click on \"Import Settings\".<br>Allowed "
+"filetypes: .json"
+msgstr ""
+"Wähle deine Konfigurationsdatei aus und klicke auf \"Einstellungen "
+"importieren\". <br>Erlaubte Dateitypen: .json"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:23
+msgid "Settings file"
+msgstr "Konfigurationsdatei"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:26
+msgid "Import Settings"
+msgstr "Einstellungen importieren"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:33
+msgid "Export"
+msgstr "Export"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:37
+msgid "Export Settings"
+msgstr "Einstellungen exportieren"
+
+#: lib/modules/sv_settings/sv_settings.php:18
+msgid "Import and export your settings."
+msgstr "Importiere und exportiere deine Einstellungen."
+
+#: lib/modules/sv_settings/sv_settings.php:21
+msgid "Settings Import/Export"
+msgstr "Konfiguration Import/Export"
+
+#: lib/modules/sv_settings/sv_settings.php:22
+msgid "Import and export your settings"
+msgstr "Importiere und exportiere deine Einstellungen"
+
+#: lib/modules/sv_sidebar/sv_sidebar.php:30
+msgid ""
+"This module gives the ability to display sidebars via the \"[sv_sidebar]\" "
+"shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, Seitenleisten über den Shortcode "
+"\"[sv_sidebar]\" anzuzeigen."
+
+#: lib/modules/sv_slick/sv_slick.php:42
+msgid "This module gives other modules the ability to use slick."
+msgstr "Dieses Modul gibt anderen Modulen die Möglichkeit, Slick zu verwenden."
+
+#: lib/modules/sv_slider/sv_slider.php:21
+msgid ""
+"This module gives the ability to display a image slider via the "
+"\"[sv_slider]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, einen Bild Slider über den "
+"\"[sv_slider]\" Shortcode anzuzeigen."
+
+#: lib/modules/sv_tags/lib/frontend/tpl/default.php:21
+#: lib/modules/sv_tags/sv_tags.php:23
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: lib/modules/sv_tags/sv_tags.php:20
+msgid ""
+"This module gives the ability to display and manage tags via the "
+"\"[sv_tags]\" shortcode."
+msgstr ""
+"Dieses Modul gibt die Möglichkeit, Schlagwörter über den Shortcode "
+"\"[sv_tags]\" anzuzeigen und zu verwalten."
+
+#: lib/modules/sv_tags/sv_tags.php:24
+msgid "Manage Tags"
+msgstr "Schlagwörter verwalten"
+
+#: lib/modules/sv_tags/sv_tags.php:35
+msgid "Max number of tags in list."
+msgstr "Maximale Anzahl der Schlagwörter in der Liste."
+
+#: lib/modules/sv_tags/sv_tags.php:36
+msgid ""
+"You can define the number of tags that should be outputted on the website, "
+"by setting a limit."
+msgstr ""
+"Du kannst die Anzahl der Schlagwörter definieren, die auf der Website "
+"ausgegeben werden sollen, indem du ein Limit festlegst."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:18
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:22
+msgid "Upload and manage fonts."
+msgstr "Schriften hochladen und verwalten."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:21
+msgid "Fonts"
+msgstr "Schriftarten"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:47
+msgid "Add a new font"
+msgstr "Neue Schriftart hinzufügen"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:54
+msgid "Font Label"
+msgstr "Beschriftung"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:55
+msgid "A label to differentiate your uploaded fonts."
+msgstr "Eine Beschriftung, um deine hochgeladenen Schriften zu unterscheiden."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:63
+msgid "Font family"
+msgstr "Schriftart (Font Family)"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:64
+msgid "The name of the font family."
+msgstr "Der Name der Schriftart (Font Family)."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:66
+msgid "Name"
+msgstr "Name"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:72
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:73
+msgid "Activate or deactivate this font."
+msgstr "Aktiviere oder deaktiviere diese Schriftart."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:80
+msgid "Italic"
+msgstr "Kursiv"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:81
+msgid "Is the font italic?"
+msgstr "Ist die Schriftart kursiv?"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:88
+msgid "Font weight"
+msgstr "Schriftstärke"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:89
+msgid "Select the font weight."
+msgstr "Wähle die Schriftstärke aus."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:107
+msgid "TrueType (.ttf)"
+msgstr "TrueType (.ttf)"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:108
+msgid "Select or drag-and-drop your .ttf file here."
+msgstr ""
+"Wähle hier die .ttf-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:116
+msgid "OpenType (.otf)"
+msgstr "OpenType (.otf)"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:117
+msgid "Select or drag-and-drop your .otf file here."
+msgstr ""
+"Wähle hier die .otf-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:125
+msgid "Web Open Font Format (.woff)"
+msgstr "Web Open Font Format (.woff)"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:126
+msgid "Select or drag-and-drop your .woff file here."
+msgstr ""
+"Wähle hier die .woff-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:134
+msgid "Web Open Font Format 2.0 (.woff2)"
+msgstr "Web Open Font Format 2.0 (.woff2)"
+
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:135
+msgid "Select or drag-and-drop your .woff2 file here."
+msgstr ""
+"Wähle hier die .woff2-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:27
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:93
+msgid "Plugins & Modules"
+msgstr "Plugins & Module"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:28
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:116
+msgid "Branding & Design"
+msgstr "Branding & Design"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:29
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:145
+msgid "Support"
+msgstr "Hilfe"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:30
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:168
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:179
+msgid "Done"
+msgstr "Fertig"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:40
+msgid "Welcome to the SV 100 setup!"
+msgstr "Willkommen zum Setup des SV 100!"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:61
+#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:12
+msgid "Start"
+msgstr "Start"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:76
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:99
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:128
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:151
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:174
+msgid "Previous step"
+msgstr "Vorheriger Schritt"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:81
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:104
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:133
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:156
+msgid "Skip this step"
+msgstr "Diesen Schritt überspringen"
+
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:84
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:107
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:136
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:159
+msgid "Contitnue"
+msgstr "Weiter"
+
+#: lib/modules/sv_wizard/sv_wizard.php:18
+msgid ""
+"An install wizard, to help the user with the configuration of the SV 100 "
+"theme."
+msgstr ""
+"Ein Installationsassistent, der dem Benutzer bei der Konfiguration des SV "
+"100-Themes hilft."
+
+#: lib/modules/sv_wizard/sv_wizard.php:21
+msgid "Install Wizard"
+msgstr "Installationsassistent"
+
+#: lib/modules/sv_wizard/sv_wizard.php:22
+msgid "Configure your SV 100 theme!"
+msgstr "Konfiguriere dein SV 100 Theme!"
+
+#: lib/modules/sv_wizard/sv_wizard.php:79
+msgid ""
+"Personalize your theme now, with the <a href=\"admin.php?"
+"page=sv_100#section_sv_100_sv_wizard\">Install Wizard</a>!"
+msgstr ""
+"Personalisiere dein Theme jetzt, mit dem <a href=\"admin.php?"
+"page=sv_100#section_sv_100_sv_wizard\">Installationsassistent</a>!"
+
+#: lib/sv_100/core/abstract.php:117 lib/sv_100/core/abstract.php:133
+#: lib/sv_100/core/abstract.php:149
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: lib/sv_100/core/abstract.php:394
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: lib/sv_100/core/abstract.php:402
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: lib/sv_100/core/abstract.php:409
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:13
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:14
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:17
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:12
+msgid "get current url"
+msgstr "Erhalte aktuelle URL"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:13
+msgid "URL to current location"
+msgstr "URL zum aktuellen Standort"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:19
+msgid "Name of current instance:"
+msgstr "Name der aktuellen Instanz:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:22
+msgid "Full hierarchy name:"
+msgstr "Voller Hierarchienname:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:28
+msgid "Shortname (without namespace) of current hierarchy class"
+msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:34
+msgid "Prefix by get_name:"
+msgstr "Präfix von get_name:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:40
+msgid "Prefix by get_name, but root class replaced with sv_common:"
+msgstr "Präfix von get_name, aber root-Klasse durch sv_common ersetzt:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:46
+msgid "Absolute path to instance:"
+msgstr "Absoluter Pfad zur Instanz:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:52
+msgid "Absolute url to instance:"
+msgstr "Absolute URL zur Instanz:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:58
+msgid "Absolute path to core:"
+msgstr "Absoluter Pfad zur Core:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:64
+msgid "Absolute url to core:"
+msgstr "Absolute URL zur Core:"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:69
+msgid "Enqueue Admin Styles"
+msgstr "Admin-Stile einreihen"
+
+#: lib/sv_100/core/backend/tpl/core_docs.php:70
+msgid "Enqueue SV style for admin menu pages:"
+msgstr "Admin-Stile einreihen für Admin-Menüseiten:"
+
+#. Author of the plugin/theme
+#: lib/sv_100/core/core.php:135 lib/sv_100/core/core.php:136
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: lib/sv_100/core/info/backend/tpl/about.php:20
+#: lib/sv_100/core/info/backend/tpl/log_list.php:16
+msgid ""
+"Our themes and plugins share a core which provides commonly used features. "
+"The core is included and shared within each plugin or theme, so make sure if "
+"you update one product, to update all others too."
+msgstr ""
+"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
+"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch aktualisiert werden."
+
+#: lib/sv_100/core/info/backend/tpl/about.php:24
+#: lib/sv_100/core/info/backend/tpl/log_list.php:20
+msgid "Instances"
+msgstr "Instanzen"
+
+#: lib/sv_100/core/log/log.php:66 lib/sv_100/core/notices/notices.php:137
+msgid "Success"
+msgstr "Erfolg"
+
+#: lib/sv_100/core/log/log.php:67 lib/sv_100/core/notices/notices.php:138
+msgid "Info"
+msgstr "Info"
+
+#: lib/sv_100/core/log/log.php:68 lib/sv_100/core/notices/notices.php:139
+msgid "Warning"
+msgstr "Warnung"
+
+#: lib/sv_100/core/log/log.php:69 lib/sv_100/core/notices/notices.php:140
+msgid "Error"
+msgstr "Fehler"
+
+#: lib/sv_100/core/log/log.php:70 lib/sv_100/core/notices/notices.php:141
+msgid "Critical"
+msgstr "Kritisch"
+
+#: lib/sv_100/core/log/modules/create.php:44
+#: lib/sv_100/core/log/modules/create.php:45
+msgid "SV Log"
+msgstr "SV Log"
+
+#: lib/sv_100/core/log/modules/create.php:65
+#: lib/sv_100/core/log/modules/create.php:67
+#: lib/sv_100/core/log/modules/create.php:68
+msgid "Group"
+msgstr "Gruppe"
+
+#: lib/sv_100/core/log/modules/create.php:82
+#: lib/sv_100/core/log/modules/create.php:84
+#: lib/sv_100/core/log/modules/create.php:85
+msgid "State"
+msgstr "Status"
+
+#: lib/sv_100/core/notices/modules/woocommerce.php:26
+#: lib/sv_100/core/notices/modules/woocommerce.php:32
+msgid "WooCommerce Order Note creation failed."
+msgstr "WooCommerce Bestellnotiz konnte nicht erstellt werden."
+
+#: lib/sv_100/core/notices/modules/woocommerce.php:27
+msgid "Order does not exist"
+msgstr "Die Bestellung existiert nicht"
+
+#: lib/sv_100/core/notices/modules/woocommerce.php:33
+msgid "WooCommerce is not available."
+msgstr "WooCommerce ist nicht verfügbar."
+
+#: lib/sv_100/core/notices/notices.php:53
+msgid "SV Notices"
+msgstr "SV Notices"
+
+#: lib/sv_100/core/notices/notices.php:54
+msgid "SV Notice"
+msgstr "SV Notice"
+
+#: lib/sv_100/core/notices/notices.php:74
+#: lib/sv_100/core/notices/notices.php:76
+msgid "SV Notices Groups"
+msgstr "SV Notices Gruppen"
+
+#: lib/sv_100/core/notices/notices.php:77
+msgid "SV Notices Group"
+msgstr "SV Notices Gruppe"
+
+#: lib/sv_100/core/scripts/scripts.php:40
+msgid "Override Scripts Loading."
+msgstr "Scripts Loading überschreiben."
+
+#: lib/sv_100/core/scripts/scripts.php:65
+msgid "Disable all CSS per Default"
+msgstr "Alle CSS per Standard abschalten"
+
+#: lib/sv_100/core/scripts/scripts.php:66
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
+"weiter unten überschreiben."
+
+#: lib/sv_100/core/scripts/scripts.php:71
+msgid "Disable all JS per Default"
+msgstr "Alle JS per Standard abschalten"
+
+#: lib/sv_100/core/scripts/scripts.php:72
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
+"unten überschreiben."
+
+#: lib/sv_100/core/scripts/scripts.php:91
+#: lib/sv_100/core/scripts/scripts.php:97
+msgid "Inline"
+msgstr "Inline"
+
+#: lib/sv_100/core/scripts/scripts.php:91
+#: lib/sv_100/core/scripts/scripts.php:98
+msgid "Attached"
+msgstr "Angehängt"
+
+#: lib/sv_100/core/scripts/scripts.php:96
+msgid "Default"
+msgstr "Standard"
+
+#: lib/sv_100/core/scripts/scripts.php:99
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: lib/sv_100/core/settings/modules/setting_group.php:49
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/sv_100/core/settings/modules/setting_group.php:78
+msgid "Entry"
+msgstr "Eintrag"
+
+#: lib/sv_100/core/settings/modules/setting_group.php:78
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: lib/sv_100/core/settings/modules/setting_multi_upload.php:57
+msgid "Allowed Filetypes:"
+msgstr "Erlaubte Dateitypen:"
+
+#: lib/sv_100/core/settings/modules/setting_multi_upload.php:61
+msgid "all"
+msgstr "Alle"
+
+#: lib/sv_100/core/settings/modules/setting_multi_upload.php:72
+msgid "Multi Upload cannot be implemented more than once on a page."
+msgstr ""
+"Multi Upload kann nicht mehr als einmal auf einer Seite implementiert werden."
+
+#: lib/sv_100/core/settings/modules/setting_select_page.php:28
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: lib/sv_100/core/settings/modules/setting_upload.php:62
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: lib/sv_100/core/settings/settings.php:219
+msgid "You need at least "
+msgstr "Du brauchst mindestens "
+
+#. translators: %s: Minimum required version
+#: lib/sv_100/sv_100.php:55
+#, php-format
+msgid ""
+" requires WordPress %s or later to function properly. Please upgrade "
+"WordPress before activating "
+msgstr ""
+" Erfordert WordPress %s oder später, um richtig zu funktionieren. Bitte "
+"aktualisiere WordPress vor der Aktivierung "
+
+#. Theme Name of the plugin/theme
+msgid "straightvisions 100"
+msgstr "straightvisions 100"
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://straightvisions.com"
+msgstr "http://straightvisions.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A modular and easy to use Theme, with focus on a Google Pagespeed 100 score."
+msgstr ""
+"Ein modulares und einfach zu bedienendes Theme, mit Fokus auf eine Google "
+"Pagespeed 100 Score."
+
+#. Template Name of the plugin/theme
+msgid "Page with Sidebar"
+msgstr "Seite mit Seitenleiste"
+
+#. Template Name of the plugin/theme
+msgid "Post with Sidebar"
+msgstr "Beitrag mit Seitenleiste"
+
+#~ msgid "Configure your button"
+#~ msgstr "Konfiguriere deinen Knopf"
