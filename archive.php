@@ -1,1 +1,1 @@
-<?php echo esc_html( $GLOBALS['sv_100']->get_module( 'sv_content' ) ? $GLOBALS['sv_100']->get_module( 'sv_content' )->load( array( 'template' => 'archive' ) ) : '' );
+<?php echo $GLOBALS['sv100']->get_module( 'sv_content' ) ? $GLOBALS['sv100']->get_module( 'sv_content' )->load( array( 'template' => 'archive' ) ) : '';

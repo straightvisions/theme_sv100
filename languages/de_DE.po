@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: straightvisions 100\n"
-"POT-Creation-Date: 2019-06-14 11:38+0200\n"
-"PO-Revision-Date: 2019-06-14 11:38+0200\n"
+"Project-Id-Version: SV 100\n"
+"POT-Creation-Date: 2019-06-27 19:18+0200\n"
+"PO-Revision-Date: 2019-06-27 19:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -20,6 +20,330 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: lib/core_theme/core/abstract.php:125 lib/core_theme/core/abstract.php:141
+#: lib/core_theme/core/abstract.php:157
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: lib/core_theme/core/abstract.php:417
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: lib/core_theme/core/abstract.php:427
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: lib/core_theme/core/abstract.php:436
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: lib/core_theme/core/abstract.php:500
+#: lib/modules/sv_content/sv_content.php:22
+#: lib/modules/sv_footer/sv_footer.php:22
+#: lib/modules/sv_human_time/sv_human_time.php:26
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:22
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/core_theme/core/ajax_fragmented_requests/backend/tpl/form.php:12
+#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:61
+msgid "Start"
+msgstr "Start"
+
+#: lib/core_theme/core/ajax_fragmented_requests/backend/tpl/form.php:13
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: lib/core_theme/core/ajax_fragmented_requests/backend/tpl/form.php:14
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: lib/core_theme/core/ajax_fragmented_requests/backend/tpl/form.php:17
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: lib/core_theme/core/backend/tpl/about.php:5
+msgid "About"
+msgstr "Über"
+
+#: lib/core_theme/core/backend/tpl/about.php:10
+msgid "Info"
+msgstr "Info"
+
+#: lib/core_theme/core/backend/tpl/about.php:12
+#: lib/core_theme/core/info/backend/tpl/about.php:12
+msgid "Name:"
+msgstr "Name:"
+
+#: lib/core_theme/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: lib/core_theme/core/backend/tpl/about.php:17
+#: lib/core_theme/core/info/backend/tpl/about.php:18
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:12
+msgid "get current url"
+msgstr "Erhalte aktuelle URL"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:13
+msgid "URL to current location"
+msgstr "URL zum aktuellen Standort"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:19
+msgid "Name of current instance:"
+msgstr "Name der aktuellen Instanz:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:22
+msgid "Full hierarchy name:"
+msgstr "Voller Hierarchienname:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:28
+msgid "Shortname (without namespace) of current hierarchy class"
+msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:34
+msgid "Prefix by get_name:"
+msgstr "Präfix von get_name:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:40
+msgid "Prefix by get_name, but root class replaced with sv_common:"
+msgstr "Präfix von get_name, aber root-Klasse durch sv_common ersetzt:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:46
+msgid "Absolute path to instance:"
+msgstr "Absoluter Pfad zur Instanz:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:52
+msgid "Absolute url to instance:"
+msgstr "Absolute URL zur Instanz:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:58
+msgid "Absolute path to core:"
+msgstr "Absoluter Pfad zur Core:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:64
+msgid "Absolute url to core:"
+msgstr "Absolute URL zur Core:"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:69
+msgid "Enqueue Admin Styles"
+msgstr "Admin-Stile einreihen"
+
+#: lib/core_theme/core/backend/tpl/core_docs.php:70
+msgid "Enqueue SV style for admin menu pages:"
+msgstr "Admin-Stile einreihen für Admin-Menüseiten:"
+
+#. Author of the plugin/theme
+#: lib/core_theme/core/core.php:122 lib/core_theme/core/core.php:123
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: lib/core_theme/core/info/backend/tpl/about.php:13
+msgid "Active Core Version:"
+msgstr ""
+
+#: lib/core_theme/core/info/backend/tpl/about.php:14
+msgid "Active Core Path:"
+msgstr ""
+
+#: lib/core_theme/core/info/backend/tpl/about.php:20
+msgid ""
+"Our themes and plugins share a core which provides commonly used features. "
+"The core is included and shared within each plugin or theme, so make sure if "
+"you update one product, to update all others too."
+msgstr ""
+"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
+"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch aktualisiert werden."
+
+#: lib/core_theme/core/info/backend/tpl/about.php:24
+msgid "Instances"
+msgstr "Instanzen"
+
+#: lib/core_theme/core/info/backend/tpl/about.php:31
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+
+#: lib/core_theme/core/info/backend/tpl/about.php:37
+msgid "Theme"
+msgstr ""
+
+#: lib/core_theme/core/info/backend/tpl/about.php:37
+msgid "Plugin"
+msgstr ""
+
+#: lib/core_theme/core/info/backend/tpl/about.php:41
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:33
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:72
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/core_theme/core/info/backend/tpl/about.php:41
+#: lib/core_theme/core/scripts/scripts.php:89
+#: lib/core_theme/core/scripts/scripts.php:99
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: lib/core_theme/core/scripts/scripts.php:40
+msgid "Override Scripts Loading."
+msgstr "Scripts Loading überschreiben."
+
+#: lib/core_theme/core/scripts/scripts.php:65
+msgid "Disable all CSS per Default"
+msgstr "Alle CSS per Standard abschalten"
+
+#: lib/core_theme/core/scripts/scripts.php:66
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
+"weiter unten überschreiben."
+
+#: lib/core_theme/core/scripts/scripts.php:71
+msgid "Disable all JS per Default"
+msgstr "Alle JS per Standard abschalten"
+
+#: lib/core_theme/core/scripts/scripts.php:72
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
+"unten überschreiben."
+
+#: lib/core_theme/core/scripts/scripts.php:91
+#: lib/core_theme/core/scripts/scripts.php:97
+msgid "Inline"
+msgstr "Inline"
+
+#: lib/core_theme/core/scripts/scripts.php:91
+#: lib/core_theme/core/scripts/scripts.php:98
+msgid "Attached"
+msgstr "Angehängt"
+
+#: lib/core_theme/core/scripts/scripts.php:96
+msgid "Default"
+msgstr "Standard"
+
+#: lib/core_theme/core/settings/modules/setting_group.php:49
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/core_theme/core/settings/modules/setting_group.php:78
+msgid "Entry"
+msgstr "Eintrag"
+
+#: lib/core_theme/core/settings/modules/setting_group.php:78
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: lib/core_theme/core/settings/modules/setting_select_page.php:28
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: lib/core_theme/core/settings/modules/setting_upload.php:70
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: lib/core_theme/core/settings/settings.php:219
+msgid "You need at least "
+msgstr "Du brauchst mindestens "
+
+#. translators: %s: Minimum required version
+#: lib/core_theme/core_theme.php:55
+#, fuzzy, php-format
+#| msgid ""
+#| " requires WordPress %s or later to function properly. Please upgrade "
+#| "WordPress before activating "
+msgid ""
+"%1$s requires WordPress %2$s or later to function properly. Please upgrade "
+"WordPress before activating %3$s."
+msgstr ""
+" Erfordert WordPress %s oder später, um richtig zu funktionieren. Bitte "
+"aktualisiere WordPress vor der Aktivierung "
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:18
+#: lib/modules/sv_cleanup/sv_cleanup.php:22
+msgid "Improve some WordPress Standards"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:21
+msgid "Cleanup"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:71
+msgid "Disable jQuery Migrate"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:72
+msgid ""
+"In most cases, you will not need jQuery-Migrate. Disabling this script will "
+"reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
+"Frontend after activating this."
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:78
+msgid "Remove non-critical meta data"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:79
+msgid ""
+"Removes some lines of HTML-Meta-Data which are not critical for your site, "
+"but saves some byte of code in the frontend: rest_output_link_wp_head, "
+"wp_oembed_add_discovery_links, rsd_link, wlwmanifest_link, "
+"wp_shortlink_wp_head, wp_generator"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:85
+#, fuzzy
+#| msgid "Enqueue Admin Styles"
+msgid "Removes Emoji Styles"
+msgstr "Admin-Stile einreihen"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:86
+msgid ""
+"Instead of loading those styles from WP, default browser emojis will be "
+"displayed"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:92
+#: lib/modules/sv_cleanup/sv_cleanup.php:99
+msgid "Load WP Media Styles inline"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:93
+#: lib/modules/sv_cleanup/sv_cleanup.php:100
+msgid ""
+"To optimize your Pagespeed Score, you may need to load WP Media Styles "
+"inline if loaded. Activate this, if Pagespeed Test Tool says external WP "
+"Media Styles are renderblocking."
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:106
+msgid "Add alt-attributes to images if missing"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:107
+msgid ""
+"No image should be without alt-attribute, so if there are some without one, "
+"an empty one will be added."
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:113
+msgid "Remove type-attributes from style and script tags"
+msgstr ""
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:114
+msgid ""
+"These are not needed for standard purposes anymore, W3C recommends to remove "
+"them if not needed. You will reduce your pageload as well."
+msgstr ""
 
 #: lib/modules/sv_colors/sv_colors.php:30
 msgid "This module allows you to define your own color palette."
@@ -88,9 +412,139 @@ msgstr ""
 "Dieses Modul gibt die Möglichkeit, Kommentare des/der aktuellen Beitrages/"
 "Seite über den \"[sv_comments]\" Shortcode anzuzeigen."
 
-#: lib/modules/sv_common/sv_common.php:22
+#: lib/modules/sv_common/sv_common.php:18
 msgid "This module manages general styles, scripts & dependencies."
 msgstr "Dieses Modul verwaltet allgemeine Stile, Skripte und Abhängigkeiten."
+
+#: lib/modules/sv_common/sv_common.php:21
+#, fuzzy
+#| msgid "Comment"
+msgid "Common"
+msgstr "Kommentar"
+
+#: lib/modules/sv_common/sv_common.php:22
+msgid "Base settings for the whole frontend."
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:44
+#: lib/modules/sv_common/sv_common.php:135
+#: lib/modules/sv_common/sv_common.php:154
+msgid "choose..."
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:56
+#, fuzzy
+#| msgid "Font family"
+msgid "Font Family"
+msgstr "Schriftart (Font Family)"
+
+#: lib/modules/sv_common/sv_common.php:57
+msgid "Base font for all frontend elements."
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:64
+#, fuzzy
+#| msgid "Font Label"
+msgid "Font Size"
+msgstr "Beschriftung"
+
+#: lib/modules/sv_common/sv_common.php:65
+msgid "Default Font Size in Pixel"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:72
+#, fuzzy
+#| msgid "Colors"
+msgid "Font Color"
+msgstr "Farben"
+
+#: lib/modules/sv_common/sv_common.php:73
+msgid "Default Font Color"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:80
+#, fuzzy
+#| msgid "Font weight"
+msgid "Font Line Height"
+msgstr "Schriftstärke"
+
+#: lib/modules/sv_common/sv_common.php:81
+msgid "Default Line Height in Pixel"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:88
+msgid "Background Color"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:89
+msgid "Background Color for Body"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:96
+msgid "Background Image"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:97
+msgid "Background Image for Body"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:103
+msgid "Background Image Media Size"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:104
+msgid "Background Image Media Size for Body"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:112
+msgid "Background Position"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:113
+msgid "Background Image Position Value"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:121
+msgid "Background Size"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:122
+msgid "Background Image Size Value"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:130
+msgid "Background Repeat"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:131
+msgid "Background Image Repeat"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:149
+msgid "Background Attachment"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:150
+msgid "Background Image Attachment"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:165
+msgid "Selection Color"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:166
+#, fuzzy
+#| msgid "Color Palettes"
+msgid "Color of selected text"
+msgstr "Farbpaletten"
+
+#: lib/modules/sv_common/sv_common.php:173
+msgid "Selection Background Color"
+msgstr ""
+
+#: lib/modules/sv_common/sv_common.php:174
+msgid "Background color of selected text"
+msgstr ""
 
 #: lib/modules/sv_content/lib/frontend/tpl/archive/archive.php:3
 msgid "Archive"
@@ -104,7 +558,7 @@ msgstr "Beiträge von"
 msgid "Category"
 msgstr "Kategorie"
 
-#: lib/modules/sv_content/lib/frontend/tpl/archive/home.php:11
+#: lib/modules/sv_content/lib/frontend/tpl/archive/home.php:16
 msgid "Recent Posts"
 msgstr "Aktuelle Beiträge"
 
@@ -123,8 +577,8 @@ msgid "Tag"
 msgstr "Schlagwort"
 
 #: lib/modules/sv_content/lib/frontend/tpl/archive/themes/grid.php:26
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:64
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:37
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:52
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:28
 #: lib/modules/sv_search/lib/frontend/tpl/grid.php:33
 #: lib/modules/sv_search/lib/frontend/tpl/masonry.php:32
 #: lib/modules/sv_tags/lib/frontend/tpl/default.php:33
@@ -132,14 +586,14 @@ msgstr "Schlagwort"
 msgid "View all posts in %s"
 msgstr "Zeige alle Beiträge in %s"
 
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:43
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:54
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:33
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:45
 #: lib/modules/sv_search/lib/frontend/tpl/masonry.php:52
 msgid "Read more"
 msgstr "Weiterlesen"
 
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:76
-#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:70
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:64
+#: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:59
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -153,10 +607,10 @@ msgstr "Bringe mich zurück zur Startseite"
 
 #: lib/modules/sv_content/lib/frontend/tpl/content/frontpage.php:41
 #: lib/modules/sv_content/lib/frontend/tpl/content/frontpage_sidebar.php:42
-#: lib/modules/sv_content/lib/frontend/tpl/content/page.php:41
-#: lib/modules/sv_content/lib/frontend/tpl/content/page_sidebar.php:42
-#: lib/modules/sv_content/lib/frontend/tpl/content/single.php:42
-#: lib/modules/sv_content/lib/frontend/tpl/content/single_sidebar.php:43
+#: lib/modules/sv_content/lib/frontend/tpl/content/page.php:46
+#: lib/modules/sv_content/lib/frontend/tpl/content/page_sidebar.php:46
+#: lib/modules/sv_content/lib/frontend/tpl/content/single.php:45
+#: lib/modules/sv_content/lib/frontend/tpl/content/single_sidebar.php:46
 msgid "Page"
 msgstr "Seite"
 
@@ -174,53 +628,47 @@ msgstr ""
 msgid "Content"
 msgstr "Inhalt"
 
-#: lib/modules/sv_content/sv_content.php:22
-#: lib/modules/sv_human_time/sv_human_time.php:26
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:22
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: lib/modules/sv_content/sv_content.php:48
+#: lib/modules/sv_content/sv_content.php:49
 msgid "Small"
 msgstr "Klein"
 
-#: lib/modules/sv_content/sv_content.php:53
+#: lib/modules/sv_content/sv_content.php:54
 msgid "Normal"
 msgstr "Normal"
 
-#: lib/modules/sv_content/sv_content.php:58
+#: lib/modules/sv_content/sv_content.php:59
 msgid "Medium"
 msgstr "Mittel"
 
-#: lib/modules/sv_content/sv_content.php:63
+#: lib/modules/sv_content/sv_content.php:64
 msgid "Large"
 msgstr "Groß"
 
-#: lib/modules/sv_content/sv_content.php:68
+#: lib/modules/sv_content/sv_content.php:69
 msgid "Huge"
 msgstr "Riesig"
 
-#: lib/modules/sv_content/sv_content.php:81
+#: lib/modules/sv_content/sv_content.php:84
 msgid "Home Slider"
 msgstr "Startseiten Slider"
 
-#: lib/modules/sv_content/sv_content.php:82
+#: lib/modules/sv_content/sv_content.php:85
 msgid "Activate or deactivate the slider on the home page."
 msgstr "Aktiviere oder deaktiviere den Slider auf der Startseite."
 
-#: lib/modules/sv_content/sv_content.php:88
+#: lib/modules/sv_content/sv_content.php:91
 msgid "Home Slider - Transition"
 msgstr "Startseiten Slider -Übergang"
 
-#: lib/modules/sv_content/sv_content.php:89
+#: lib/modules/sv_content/sv_content.php:92
 msgid "Choose a transition style for the slider."
 msgstr "Wähle einen Übergangsstil für den Slider."
 
-#: lib/modules/sv_content/sv_content.php:99
+#: lib/modules/sv_content/sv_content.php:102
 msgid "Home Slider - Max posts"
 msgstr "Startseiten Slider - Maximale Beiträge"
 
-#: lib/modules/sv_content/sv_content.php:100
+#: lib/modules/sv_content/sv_content.php:103
 msgid ""
 "Set the maximum number of posts that will be shown in the slider.<br>1 = "
 "single image"
@@ -228,90 +676,90 @@ msgstr ""
 "Setze die maximale Anzahl der Beiträge, die im Slider angezeigt werden. <br> "
 "1 = Einzelbild"
 
-#: lib/modules/sv_content/sv_content.php:108
+#: lib/modules/sv_content/sv_content.php:111
 msgid "Home Listing"
 msgstr "Startseiten Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:109
+#: lib/modules/sv_content/sv_content.php:112
 msgid "Defines how posts on the homepage will be displayed."
 msgstr "Legt fest, wie Beiträge auf der Startseite angezeigt werden."
 
-#: lib/modules/sv_content/sv_content.php:111
-#: lib/modules/sv_content/sv_content.php:123
-#: lib/modules/sv_content/sv_content.php:135
-#: lib/modules/sv_content/sv_content.php:147
-#: lib/modules/sv_content/sv_content.php:159
+#: lib/modules/sv_content/sv_content.php:114
+#: lib/modules/sv_content/sv_content.php:126
+#: lib/modules/sv_content/sv_content.php:138
+#: lib/modules/sv_content/sv_content.php:150
+#: lib/modules/sv_content/sv_content.php:162
 msgid "List (Default)"
 msgstr "Liste (Standard)"
 
-#: lib/modules/sv_content/sv_content.php:112
-#: lib/modules/sv_content/sv_content.php:124
-#: lib/modules/sv_content/sv_content.php:136
-#: lib/modules/sv_content/sv_content.php:148
-#: lib/modules/sv_content/sv_content.php:160
+#: lib/modules/sv_content/sv_content.php:115
+#: lib/modules/sv_content/sv_content.php:127
+#: lib/modules/sv_content/sv_content.php:139
+#: lib/modules/sv_content/sv_content.php:151
+#: lib/modules/sv_content/sv_content.php:163
 msgid "Masonry"
 msgstr "Masonry"
 
-#: lib/modules/sv_content/sv_content.php:113
-#: lib/modules/sv_content/sv_content.php:125
-#: lib/modules/sv_content/sv_content.php:137
-#: lib/modules/sv_content/sv_content.php:149
-#: lib/modules/sv_content/sv_content.php:161
+#: lib/modules/sv_content/sv_content.php:116
+#: lib/modules/sv_content/sv_content.php:128
+#: lib/modules/sv_content/sv_content.php:140
+#: lib/modules/sv_content/sv_content.php:152
+#: lib/modules/sv_content/sv_content.php:164
 msgid "Grid"
 msgstr "Raster"
 
-#: lib/modules/sv_content/sv_content.php:120
+#: lib/modules/sv_content/sv_content.php:123
 msgid "Category Listing"
 msgstr "Kategorienliste"
 
-#: lib/modules/sv_content/sv_content.php:121
+#: lib/modules/sv_content/sv_content.php:124
 msgid "Defines how posts filtered by category will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die nach Kategorien gefiltert werden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:132
+#: lib/modules/sv_content/sv_content.php:135
 msgid "Tag Listing"
 msgstr "Schlagwörter Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:133
+#: lib/modules/sv_content/sv_content.php:136
 msgid "Defines how posts filtered by tags will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die durch Schlagwörtern gefiltert werden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:144
+#: lib/modules/sv_content/sv_content.php:147
 msgid "Author Listing"
 msgstr "Autorenliste"
 
-#: lib/modules/sv_content/sv_content.php:145
+#: lib/modules/sv_content/sv_content.php:148
 msgid "Defines how posts created by an author will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die von einem Autor erstellt wurden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:156
+#: lib/modules/sv_content/sv_content.php:159
 msgid "Search Listing"
 msgstr "Such Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:157
+#: lib/modules/sv_content/sv_content.php:160
 msgid "Defines how the search results will be displayed."
 msgstr "Legt fest, wie die Suchergebnisse angezeigt werden."
 
-#: lib/modules/sv_content/sv_content.php:168
+#: lib/modules/sv_content/sv_content.php:171
 msgid "404 Page"
 msgstr "404 Seite"
 
-#: lib/modules/sv_content/sv_content.php:169
+#: lib/modules/sv_content/sv_content.php:172
 msgid "Select a page for showing custom content in error 404 / not found cases"
 msgstr ""
 "Wähle eine Seite, die angezeigt werden soll, wenn keine Seite gefunden wurde"
 
-#: lib/modules/sv_content/sv_content.php:312
+#: lib/modules/sv_content/sv_content.php:323
 msgid "Sidebar - Frontpage"
 msgstr "Seitenleiste - Startseite"
 
-#: lib/modules/sv_content/sv_content.php:313
+#: lib/modules/sv_content/sv_content.php:324
 msgid ""
 "Widgets in this area will be shown in the sidebar of the frontpage/"
 "landingpage."
@@ -319,20 +767,20 @@ msgstr ""
 "Widgets in diesem Bereich werden in der Seitenleiste der Startseite "
 "angezeigt."
 
-#: lib/modules/sv_content/sv_content.php:317
+#: lib/modules/sv_content/sv_content.php:328
 msgid "Sidebar - Pages"
 msgstr "Seitenleiste - Seiten"
 
-#: lib/modules/sv_content/sv_content.php:318
+#: lib/modules/sv_content/sv_content.php:329
 msgid "Widgets in this area will be shown in the sidebar of a page."
 msgstr ""
 "Widgets in diesem Bereich werden in der Seitenleiste einer Seite angezeigt."
 
-#: lib/modules/sv_content/sv_content.php:322
+#: lib/modules/sv_content/sv_content.php:333
 msgid "Sidebar - Posts"
 msgstr "Seitenleiste - Beiträge"
 
-#: lib/modules/sv_content/sv_content.php:323
+#: lib/modules/sv_content/sv_content.php:334
 msgid "Widgets in this area will be shown in the sidebar of single posts."
 msgstr ""
 "Widgets in diesem Bereich werden in der Seitenleiste einzelner Beiträge "
@@ -385,6 +833,10 @@ msgstr ""
 "Das hochgeladene Bild wird verwendet, wenn der Beitrag kein Beitragsbild "
 "enthält."
 
+#: lib/modules/sv_footer/lib/frontend/tpl/default.php:27
+msgid "Theme developed by"
+msgstr ""
+
 #: lib/modules/sv_footer/sv_footer.php:18
 msgid ""
 "This module gives the ability to display the footer via the \"[sv_footer]\" "
@@ -393,31 +845,47 @@ msgstr ""
 "Dieses Modul gibt die Möglichkeit, den Footer über den \"[sv_footer]\" "
 "Shortcode anzuzeigen."
 
-#: lib/modules/sv_footer/sv_footer.php:59
+#: lib/modules/sv_footer/sv_footer.php:21
+#, fuzzy
+#| msgid "Footer - Left"
+msgid "Footer"
+msgstr "Footer - Links"
+
+#: lib/modules/sv_footer/sv_footer.php:40
+msgid "Activate Footer"
+msgstr ""
+
+#: lib/modules/sv_footer/sv_footer.php:41
+#, fuzzy
+#| msgid "Activate or deactivate this font."
+msgid "Activate or deactivate the footer."
+msgstr "Aktiviere oder deaktiviere diese Schriftart."
+
+#: lib/modules/sv_footer/sv_footer.php:78
 msgid "Footer - Left"
 msgstr "Footer - Links"
 
-#: lib/modules/sv_footer/sv_footer.php:60
+#: lib/modules/sv_footer/sv_footer.php:79
 msgid "Widgets in this area will be shown in the left section of the footer."
 msgstr ""
 "Widgets in diesem Bereich werden in der linken Seitenleiste des Footers "
 "angezeigt."
 
-#: lib/modules/sv_footer/sv_footer.php:64
+#: lib/modules/sv_footer/sv_footer.php:83
 msgid "Footer - Center"
 msgstr "Footer - Mitte"
 
-#: lib/modules/sv_footer/sv_footer.php:65
+#: lib/modules/sv_footer/sv_footer.php:84
 msgid "Widgets in this area will be shown in the center section of the footer."
 msgstr ""
 "Widgets in diesem Bereich werden in der mittleren Seitenleiste des Footers "
 "angezeigt."
 
-#: lib/modules/sv_footer/sv_footer.php:69
+#: lib/modules/sv_footer/sv_footer.php:88
 msgid "Footer - Right"
 msgstr "Footer - Rechts"
 
-#: lib/modules/sv_footer/sv_footer.php:70
+#: lib/modules/sv_footer/sv_footer.php:89
 msgid "Widgets in this area will be shown in the right section of the footer."
 msgstr ""
 "Widgets in diesem Bereich werden in der rechten Seitenleiste des Footers "
@@ -431,19 +899,19 @@ msgstr ""
 "Dieses Modul gibt die Möglichkeit, den Header über den \"[sv_header]\" "
 "Shortcode anzuzeigen."
 
-#: lib/modules/sv_header/sv_header.php:32
+#: lib/modules/sv_header/sv_header.php:31
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
-#: lib/modules/sv_header/sv_header.php:110
+#: lib/modules/sv_header/sv_header.php:109
 msgid "Primary Menu"
 msgstr "Hauptmenü"
 
-#: lib/modules/sv_header/sv_header.php:122
+#: lib/modules/sv_header/sv_header.php:121
 msgid "Header"
 msgstr "Header"
 
-#: lib/modules/sv_header/sv_header.php:123
+#: lib/modules/sv_header/sv_header.php:122
 msgid ""
 "Widgets in this area will be shown in the header, next to the navigation."
 msgstr ""
@@ -486,107 +954,6 @@ msgstr "Startdatum ist erforderlich!"
 msgid "%s ago"
 msgstr "vor %s"
 
-#: lib/modules/sv_icon/sv_icon.php:18
-msgid ""
-"This module gives the ability to upload & display icons via the "
-"\"[sv_icon]\" shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, Symbole über den Shortcode \"[sv_icon]\" "
-"hochzuladen und anzuzeigen."
-
-#: lib/modules/sv_icon/sv_icon.php:21 lib/modules/sv_icon/sv_icon.php:36
-msgid "Icons"
-msgstr "Symbole"
-
-#: lib/modules/sv_icon/sv_icon.php:22
-msgid "Icon Settings"
-msgstr "Symbol Einstellungen"
-
-#: lib/modules/sv_icon/sv_icon.php:37
-msgid "Here you can add and remove icons."
-msgstr "Hier kannst du Symbole hinzufügen und entfernen."
-
-#: lib/modules/sv_icon/sv_icon.php:44
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:57
-msgid "Label"
-msgstr "Beschriftung"
-
-#: lib/modules/sv_icon/sv_icon.php:45
-msgid "This will be the label for this icon settings."
-msgstr "Dies wird die Beschriftung für diese Symbol Einstellungen sein."
-
-#: lib/modules/sv_icon/sv_icon.php:53
-msgid "ID"
-msgstr "ID"
-
-#: lib/modules/sv_icon/sv_icon.php:54
-msgid ""
-"The icon ID will be used in the shortcode, to display the icon. Allowed "
-"characters: (a-z, 0-9, -, _)."
-msgstr ""
-"Die Symbol-ID wird im Shortcode verwendet, um das Symbol anzuzeigen. "
-"Erlaubte Zeichen: (a-z, 0-9,-, _)."
-
-#: lib/modules/sv_icon/sv_icon.php:56
-msgid "icon-id"
-msgstr "symbol-id"
-
-#: lib/modules/sv_icon/sv_icon.php:62
-msgid "Inline Embed"
-msgstr "Inline-Einbettung"
-
-#: lib/modules/sv_icon/sv_icon.php:63
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:34
-msgid "Here you can post the SVG embed code."
-msgstr "Hier kannst du den SVG-Einbett-Code speichern."
-
-#: lib/modules/sv_icon/sv_icon.php:70
-msgid "Icon as CSS variable"
-msgstr "Icon als CSS-Variable"
-
-#: lib/modules/sv_icon/sv_icon.php:71
-msgid "The icon will be available as CSS variable."
-msgstr "Das Icon wird als CSS-Variable verfügbar sein."
-
-#: lib/modules/sv_icon/sv_icon.php:78 lib/modules/sv_icon/sv_icon.php:81
-msgid "Title"
-msgstr "Titel"
-
-#: lib/modules/sv_icon/sv_icon.php:79
-msgid ""
-"Here you can set the title for the icon, that will be shown if you hover "
-"over the icon."
-msgstr ""
-"Hier kannst du den Titel für das Symbol festlegen, der angezeigt wird, wenn "
-"die Maus über das Icon wandert."
-
-#: lib/modules/sv_icon/sv_icon.php:87
-msgid "Icon Classes"
-msgstr "Symbol Klassen"
-
-#: lib/modules/sv_icon/sv_icon.php:88
-msgid ""
-"Here you can add additional CSS classes, to the icon (seperate with spaces)."
-msgstr ""
-"Hier kannst du zusätzliche CSS-Klassen zum Symbol hinzufügen (getrennt mit "
-"Leerzeichen)."
-
-#: lib/modules/sv_icon/sv_icon.php:90
-msgid "class-1, class-2"
-msgstr "klasse-1, klasse-2"
-
-#: lib/modules/sv_icon/sv_icon.php:96
-msgid "Custom Styles"
-msgstr "Eigene Styles"
-
-#: lib/modules/sv_icon/sv_icon.php:97
-msgid "Here you can add custom styles to the icon."
-msgstr "Hier kannst du dem Symbol individuelle Stile hinzufügen."
-
-#: lib/modules/sv_icon/sv_icon.php:99
-msgid "fill: white; height: 20px;"
-msgstr "fill: white; height: 20px;"
-
 #: lib/modules/sv_logo/sv_logo.php:18
 msgid "This module allows you to upload your own Logo."
 msgstr "Mit diesem Modul kannst du dein eigenes Logo hochladen."
@@ -595,24 +962,24 @@ msgstr "Mit diesem Modul kannst du dein eigenes Logo hochladen."
 msgid "Logo Settings"
 msgstr "Logo Einstellungen"
 
-#: lib/modules/sv_logo/sv_logo.php:34
+#: lib/modules/sv_logo/sv_logo.php:31
 msgid "<p>Upload your primary logo here.</p>"
 msgstr "<p>lade hier dein Primärlogo hoch</p>"
 
-#: lib/modules/sv_logo/sv_logo.php:35
+#: lib/modules/sv_logo/sv_logo.php:32
 msgid "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
 msgstr "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
 
-#: lib/modules/sv_logo/sv_logo.php:36
+#: lib/modules/sv_logo/sv_logo.php:33
 msgid "<p>This Logo is available in media library, as well as shortcode:</p>"
 msgstr ""
 "<p>Dieses Logo ist in der Mediathek erhältlich, ebenso wie Shortcode:</p>"
 
-#: lib/modules/sv_logo/sv_logo.php:38
+#: lib/modules/sv_logo/sv_logo.php:35
 msgid "<h4 style=\"margin-top:24px;\">SVG support</h4>"
 msgstr "<h4 style=\"margin-top:24px;\">SVG Unterstützung</h4>"
 
-#: lib/modules/sv_logo/sv_logo.php:39
+#: lib/modules/sv_logo/sv_logo.php:36
 msgid ""
 "<p>We recommend SVG, but you will need to add <a href=\"https://de.wordpress."
 "org/plugins/svg-support/\" target=\"_blank\">SVG Support</a> to WordPress. "
@@ -627,40 +994,9 @@ msgstr ""
 "security-reasons-16/\" target=\"_blank\"> folgenden Code</a> vorgehängt hat:"
 "</p>"
 
-#: lib/modules/sv_logo/sv_logo.php:45
+#: lib/modules/sv_logo/sv_logo.php:41
 msgid "Primary Logo"
 msgstr "Primäres Logo"
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:18
-msgid "This module manages the media files on this website."
-msgstr "Dieses Modul verwaltet die Mediendateien auf dieser Website."
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:21
-msgid "Media Library"
-msgstr "Mediathek"
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:22
-msgid "Settings for Media Library"
-msgstr "Einstellungen für die Mediathek"
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:37
-msgid "Media Lib Path"
-msgstr "Mediathek Pfad"
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:38
-msgid "Absolute path to media library base directory, replacing default "
-msgstr ""
-"Absoluter Pfad zum Basisverzeichnis der Mediathek, ersetzt die "
-"Voreinstellung "
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:43
-msgid "Media Lib URL"
-msgstr "Mediathek URL"
-
-#: lib/modules/sv_media_lib/sv_media_lib.php:44
-msgid "Absolute URL to media library directory, replacing default "
-msgstr ""
-"Absolute URL zum Basisverzeichnis der Mediathek, ersetzt die Voreinstellung "
 
 #: lib/modules/sv_modules/sv_modules.php:18
 msgid "This module manages all installed theme modules."
@@ -690,14 +1026,6 @@ msgstr ""
 "Dieses Modul gibt die Möglichkeit, die Navigation über den Shortcode "
 "\"[sv_navigation]\" zu verwalten und anzuzeigen."
 
-#: lib/modules/sv_pagination/lib/frontend/tpl/default.php:4
-msgid "Previous"
-msgstr "Zurück"
-
-#: lib/modules/sv_pagination/lib/frontend/tpl/default.php:5
-msgid "Next"
-msgstr "Weiter"
-
 #: lib/modules/sv_pagination/sv_pagination.php:18
 msgid ""
 "This module gives the ability to display pagination for posts & pages with "
@@ -705,6 +1033,14 @@ msgid ""
 msgstr ""
 "Dieses Modul gibt die Möglichkeit, die Paginierung für Beiträge und Seiten "
 "mit dem \"[sv_pagination]\" Shortcode anzuzeigen."
+
+#: lib/modules/sv_pagination/sv_pagination.php:63
+msgid "Previous"
+msgstr "Zurück"
+
+#: lib/modules/sv_pagination/sv_pagination.php:64
+msgid "Next"
+msgstr "Weiter"
 
 #: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:18
 msgid ""
@@ -717,9 +1053,19 @@ msgstr ""
 msgid "Scroll To Top - Button"
 msgstr "Scroll To Top - Button"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:33
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:34
+#, fuzzy
+#| msgid "Activate or deactivate this font."
+msgid "Activate or deactivate the scroll to top button."
+msgstr "Aktiviere oder deaktiviere diese Schriftart."
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:40
 msgid "Icon Embed Code"
 msgstr "Icon Einbett-Code"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:41
+msgid "Here you can post the SVG embed code."
+msgstr "Hier kannst du den SVG-Einbett-Code speichern."
 
 #: lib/modules/sv_search/lib/frontend/tpl/widget.php:2
 msgid "Search ..."
@@ -843,6 +1189,10 @@ msgstr "Beschriftung"
 msgid "A label to differentiate your uploaded fonts."
 msgstr "Eine Beschriftung, um deine hochgeladenen Schriften zu unterscheiden."
 
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:57
+msgid "Label"
+msgstr "Beschriftung"
+
 #: lib/modules/sv_webfontloader/sv_webfontloader.php:63
 msgid "Font family"
 msgstr "Schriftart (Font Family)"
@@ -854,10 +1204,6 @@ msgstr "Der Name der Schriftart (Font Family)."
 #: lib/modules/sv_webfontloader/sv_webfontloader.php:66
 msgid "Name"
 msgstr "Name"
-
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:72
-msgid "Active"
-msgstr "Aktiv"
 
 #: lib/modules/sv_webfontloader/sv_webfontloader.php:73
 msgid "Activate or deactivate this font."
@@ -940,11 +1286,6 @@ msgstr "Fertig"
 msgid "Welcome to the SV 100 setup!"
 msgstr "Willkommen zum Setup des SV 100!"
 
-#: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:61
-#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:12
-msgid "Start"
-msgstr "Start"
-
 #: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:76
 #: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:99
 #: lib/modules/sv_wizard/lib/backend/tpl/wizard.php:128
@@ -983,280 +1324,17 @@ msgstr "Installationsassistent"
 msgid "Configure your SV 100 theme!"
 msgstr "Konfiguriere dein SV 100 Theme!"
 
-#: lib/modules/sv_wizard/sv_wizard.php:79
+#: lib/modules/sv_wizard/sv_wizard.php:80
 msgid ""
 "Personalize your theme now, with the <a href=\"admin.php?"
-"page=sv_100#section_sv_100_sv_wizard\">Install Wizard</a>!"
+"page=sv100#section_sv100_sv_wizard\">Install Wizard</a>!"
 msgstr ""
 "Personalisiere dein Theme jetzt, mit dem <a href=\"admin.php?"
-"page=sv_100#section_sv_100_sv_wizard\">Installationsassistent</a>!"
-
-#: lib/sv_100/core/abstract.php:117 lib/sv_100/core/abstract.php:133
-#: lib/sv_100/core/abstract.php:149
-msgid "not defined"
-msgstr "nicht definiert"
-
-#: lib/sv_100/core/abstract.php:394
-msgid "No Title defined."
-msgstr "Kein Titel definiert."
-
-#: lib/sv_100/core/abstract.php:402
-msgid "No description defined."
-msgstr "Keine Beschreibung definiert."
-
-#: lib/sv_100/core/abstract.php:409
-msgid "No privacy statement defined."
-msgstr "Keine Datenschutzerklärung definiert."
-
-#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:13
-msgid "Processing"
-msgstr "In Bearbeitung"
-
-#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:14
-msgid "Finished"
-msgstr "Abgeschlossen"
-
-#: lib/sv_100/core/ajax_fragmented_requests/backend/tpl/form.php:17
-msgid "Continue Import from Cycle"
-msgstr "Import fortsetzen von Zyklus"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:12
-msgid "get current url"
-msgstr "Erhalte aktuelle URL"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:13
-msgid "URL to current location"
-msgstr "URL zum aktuellen Standort"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:19
-msgid "Name of current instance:"
-msgstr "Name der aktuellen Instanz:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:22
-msgid "Full hierarchy name:"
-msgstr "Voller Hierarchienname:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:28
-msgid "Shortname (without namespace) of current hierarchy class"
-msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:34
-msgid "Prefix by get_name:"
-msgstr "Präfix von get_name:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:40
-msgid "Prefix by get_name, but root class replaced with sv_common:"
-msgstr "Präfix von get_name, aber root-Klasse durch sv_common ersetzt:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:46
-msgid "Absolute path to instance:"
-msgstr "Absoluter Pfad zur Instanz:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:52
-msgid "Absolute url to instance:"
-msgstr "Absolute URL zur Instanz:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:58
-msgid "Absolute path to core:"
-msgstr "Absoluter Pfad zur Core:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:64
-msgid "Absolute url to core:"
-msgstr "Absolute URL zur Core:"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:69
-msgid "Enqueue Admin Styles"
-msgstr "Admin-Stile einreihen"
-
-#: lib/sv_100/core/backend/tpl/core_docs.php:70
-msgid "Enqueue SV style for admin menu pages:"
-msgstr "Admin-Stile einreihen für Admin-Menüseiten:"
-
-#. Author of the plugin/theme
-#: lib/sv_100/core/core.php:135 lib/sv_100/core/core.php:136
-msgid "straightvisions"
-msgstr "straightvisions"
-
-#: lib/sv_100/core/info/backend/tpl/about.php:20
-#: lib/sv_100/core/info/backend/tpl/log_list.php:16
-msgid ""
-"Our themes and plugins share a core which provides commonly used features. "
-"The core is included and shared within each plugin or theme, so make sure if "
-"you update one product, to update all others too."
-msgstr ""
-"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
-"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
-"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
-"anderen auch aktualisiert werden."
-
-#: lib/sv_100/core/info/backend/tpl/about.php:24
-#: lib/sv_100/core/info/backend/tpl/log_list.php:20
-msgid "Instances"
-msgstr "Instanzen"
-
-#: lib/sv_100/core/log/log.php:66 lib/sv_100/core/notices/notices.php:137
-msgid "Success"
-msgstr "Erfolg"
-
-#: lib/sv_100/core/log/log.php:67 lib/sv_100/core/notices/notices.php:138
-msgid "Info"
-msgstr "Info"
-
-#: lib/sv_100/core/log/log.php:68 lib/sv_100/core/notices/notices.php:139
-msgid "Warning"
-msgstr "Warnung"
-
-#: lib/sv_100/core/log/log.php:69 lib/sv_100/core/notices/notices.php:140
-msgid "Error"
-msgstr "Fehler"
-
-#: lib/sv_100/core/log/log.php:70 lib/sv_100/core/notices/notices.php:141
-msgid "Critical"
-msgstr "Kritisch"
-
-#: lib/sv_100/core/log/modules/create.php:44
-#: lib/sv_100/core/log/modules/create.php:45
-msgid "SV Log"
-msgstr "SV Log"
-
-#: lib/sv_100/core/log/modules/create.php:65
-#: lib/sv_100/core/log/modules/create.php:67
-#: lib/sv_100/core/log/modules/create.php:68
-msgid "Group"
-msgstr "Gruppe"
-
-#: lib/sv_100/core/log/modules/create.php:82
-#: lib/sv_100/core/log/modules/create.php:84
-#: lib/sv_100/core/log/modules/create.php:85
-msgid "State"
-msgstr "Status"
-
-#: lib/sv_100/core/notices/modules/woocommerce.php:26
-#: lib/sv_100/core/notices/modules/woocommerce.php:32
-msgid "WooCommerce Order Note creation failed."
-msgstr "WooCommerce Bestellnotiz konnte nicht erstellt werden."
-
-#: lib/sv_100/core/notices/modules/woocommerce.php:27
-msgid "Order does not exist"
-msgstr "Die Bestellung existiert nicht"
-
-#: lib/sv_100/core/notices/modules/woocommerce.php:33
-msgid "WooCommerce is not available."
-msgstr "WooCommerce ist nicht verfügbar."
-
-#: lib/sv_100/core/notices/notices.php:53
-msgid "SV Notices"
-msgstr "SV Notices"
-
-#: lib/sv_100/core/notices/notices.php:54
-msgid "SV Notice"
-msgstr "SV Notice"
-
-#: lib/sv_100/core/notices/notices.php:74
-#: lib/sv_100/core/notices/notices.php:76
-msgid "SV Notices Groups"
-msgstr "SV Notices Gruppen"
-
-#: lib/sv_100/core/notices/notices.php:77
-msgid "SV Notices Group"
-msgstr "SV Notices Gruppe"
-
-#: lib/sv_100/core/scripts/scripts.php:40
-msgid "Override Scripts Loading."
-msgstr "Scripts Loading überschreiben."
-
-#: lib/sv_100/core/scripts/scripts.php:65
-msgid "Disable all CSS per Default"
-msgstr "Alle CSS per Standard abschalten"
-
-#: lib/sv_100/core/scripts/scripts.php:66
-msgid ""
-"CSS enqueued will be disabled by default - you may override this later down "
-"below."
-msgstr ""
-"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
-"weiter unten überschreiben."
-
-#: lib/sv_100/core/scripts/scripts.php:71
-msgid "Disable all JS per Default"
-msgstr "Alle JS per Standard abschalten"
-
-#: lib/sv_100/core/scripts/scripts.php:72
-msgid ""
-"JS enqueued will be disabled by default - you may override this later down "
-"below."
-msgstr ""
-"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
-"unten überschreiben."
-
-#: lib/sv_100/core/scripts/scripts.php:91
-#: lib/sv_100/core/scripts/scripts.php:97
-msgid "Inline"
-msgstr "Inline"
-
-#: lib/sv_100/core/scripts/scripts.php:91
-#: lib/sv_100/core/scripts/scripts.php:98
-msgid "Attached"
-msgstr "Angehängt"
-
-#: lib/sv_100/core/scripts/scripts.php:96
-msgid "Default"
-msgstr "Standard"
-
-#: lib/sv_100/core/scripts/scripts.php:99
-msgid "Disabled"
-msgstr "Deaktiviert"
-
-#: lib/sv_100/core/settings/modules/setting_group.php:49
-msgid "Add"
-msgstr "Hinzufügen"
-
-#: lib/sv_100/core/settings/modules/setting_group.php:78
-msgid "Entry"
-msgstr "Eintrag"
-
-#: lib/sv_100/core/settings/modules/setting_group.php:78
-msgid "Group #"
-msgstr "Gruppe #"
-
-#: lib/sv_100/core/settings/modules/setting_multi_upload.php:57
-msgid "Allowed Filetypes:"
-msgstr "Erlaubte Dateitypen:"
-
-#: lib/sv_100/core/settings/modules/setting_multi_upload.php:61
-msgid "all"
-msgstr "Alle"
-
-#: lib/sv_100/core/settings/modules/setting_multi_upload.php:72
-msgid "Multi Upload cannot be implemented more than once on a page."
-msgstr ""
-"Multi Upload kann nicht mehr als einmal auf einer Seite implementiert werden."
-
-#: lib/sv_100/core/settings/modules/setting_select_page.php:28
-msgid "No Page selected"
-msgstr "Keine Seite ausgewählt"
-
-#: lib/sv_100/core/settings/modules/setting_upload.php:62
-msgid "Delete File"
-msgstr "Datei löschen"
-
-#: lib/sv_100/core/settings/settings.php:219
-msgid "You need at least "
-msgstr "Du brauchst mindestens "
-
-#. translators: %s: Minimum required version
-#: lib/sv_100/sv_100.php:55
-#, php-format
-msgid ""
-" requires WordPress %s or later to function properly. Please upgrade "
-"WordPress before activating "
-msgstr ""
-" Erfordert WordPress %s oder später, um richtig zu funktionieren. Bitte "
-"aktualisiere WordPress vor der Aktivierung "
+"page=sv100#section_sv100_sv_wizard\">Installationsassistent</a>!"
 
 #. Theme Name of the plugin/theme
-msgid "straightvisions 100"
-msgstr "straightvisions 100"
+msgid "SV 100"
+msgstr ""
 
 #. Theme URI of the plugin/theme
 #. Author URI of the plugin/theme
@@ -1265,10 +1343,9 @@ msgstr "http://straightvisions.com"
 
 #. Description of the plugin/theme
 msgid ""
-"A modular and easy to use Theme, with focus on a Google Pagespeed 100 score."
+"Our SV 100 theme is a modular multipurpose theme allowing maximum PageSpeed "
+"scores and superb SEO performance."
 msgstr ""
-"Ein modulares und einfach zu bedienendes Theme, mit Fokus auf eine Google "
-"Pagespeed 100 Score."
 
 #. Template Name of the plugin/theme
 msgid "Page with Sidebar"
@@ -1277,6 +1354,167 @@ msgstr "Seite mit Seitenleiste"
 #. Template Name of the plugin/theme
 msgid "Post with Sidebar"
 msgstr "Beitrag mit Seitenleiste"
+
+#~ msgid ""
+#~ "This module gives the ability to upload & display icons via the "
+#~ "\"[sv_icon]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, Symbole über den Shortcode "
+#~ "\"[sv_icon]\" hochzuladen und anzuzeigen."
+
+#~ msgid "Icons"
+#~ msgstr "Symbole"
+
+#~ msgid "Icon Settings"
+#~ msgstr "Symbol Einstellungen"
+
+#~ msgid "Here you can add and remove icons."
+#~ msgstr "Hier kannst du Symbole hinzufügen und entfernen."
+
+#~ msgid "This will be the label for this icon settings."
+#~ msgstr "Dies wird die Beschriftung für diese Symbol Einstellungen sein."
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid ""
+#~ "The icon ID will be used in the shortcode, to display the icon. Allowed "
+#~ "characters: (a-z, 0-9, -, _)."
+#~ msgstr ""
+#~ "Die Symbol-ID wird im Shortcode verwendet, um das Symbol anzuzeigen. "
+#~ "Erlaubte Zeichen: (a-z, 0-9,-, _)."
+
+#~ msgid "icon-id"
+#~ msgstr "symbol-id"
+
+#~ msgid "Inline Embed"
+#~ msgstr "Inline-Einbettung"
+
+#~ msgid "Icon as CSS variable"
+#~ msgstr "Icon als CSS-Variable"
+
+#~ msgid "The icon will be available as CSS variable."
+#~ msgstr "Das Icon wird als CSS-Variable verfügbar sein."
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid ""
+#~ "Here you can set the title for the icon, that will be shown if you hover "
+#~ "over the icon."
+#~ msgstr ""
+#~ "Hier kannst du den Titel für das Symbol festlegen, der angezeigt wird, "
+#~ "wenn die Maus über das Icon wandert."
+
+#~ msgid "Icon Classes"
+#~ msgstr "Symbol Klassen"
+
+#~ msgid ""
+#~ "Here you can add additional CSS classes, to the icon (seperate with "
+#~ "spaces)."
+#~ msgstr ""
+#~ "Hier kannst du zusätzliche CSS-Klassen zum Symbol hinzufügen (getrennt "
+#~ "mit Leerzeichen)."
+
+#~ msgid "class-1, class-2"
+#~ msgstr "klasse-1, klasse-2"
+
+#~ msgid "Custom Styles"
+#~ msgstr "Eigene Styles"
+
+#~ msgid "Here you can add custom styles to the icon."
+#~ msgstr "Hier kannst du dem Symbol individuelle Stile hinzufügen."
+
+#~ msgid "fill: white; height: 20px;"
+#~ msgstr "fill: white; height: 20px;"
+
+#~ msgid "This module manages the media files on this website."
+#~ msgstr "Dieses Modul verwaltet die Mediendateien auf dieser Website."
+
+#~ msgid "Media Library"
+#~ msgstr "Mediathek"
+
+#~ msgid "Settings for Media Library"
+#~ msgstr "Einstellungen für die Mediathek"
+
+#~ msgid "Media Lib Path"
+#~ msgstr "Mediathek Pfad"
+
+#~ msgid "Absolute path to media library base directory, replacing default "
+#~ msgstr ""
+#~ "Absoluter Pfad zum Basisverzeichnis der Mediathek, ersetzt die "
+#~ "Voreinstellung "
+
+#~ msgid "Media Lib URL"
+#~ msgstr "Mediathek URL"
+
+#~ msgid "Absolute URL to media library directory, replacing default "
+#~ msgstr ""
+#~ "Absolute URL zum Basisverzeichnis der Mediathek, ersetzt die "
+#~ "Voreinstellung "
+
+#~ msgid "Success"
+#~ msgstr "Erfolg"
+
+#~ msgid "Warning"
+#~ msgstr "Warnung"
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "Critical"
+#~ msgstr "Kritisch"
+
+#~ msgid "SV Log"
+#~ msgstr "SV Log"
+
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+#~ msgid "State"
+#~ msgstr "Status"
+
+#~ msgid "WooCommerce Order Note creation failed."
+#~ msgstr "WooCommerce Bestellnotiz konnte nicht erstellt werden."
+
+#~ msgid "Order does not exist"
+#~ msgstr "Die Bestellung existiert nicht"
+
+#~ msgid "WooCommerce is not available."
+#~ msgstr "WooCommerce ist nicht verfügbar."
+
+#~ msgid "SV Notices"
+#~ msgstr "SV Notices"
+
+#~ msgid "SV Notice"
+#~ msgstr "SV Notice"
+
+#~ msgid "SV Notices Groups"
+#~ msgstr "SV Notices Gruppen"
+
+#~ msgid "SV Notices Group"
+#~ msgstr "SV Notices Gruppe"
+
+#~ msgid "Allowed Filetypes:"
+#~ msgstr "Erlaubte Dateitypen:"
+
+#~ msgid "all"
+#~ msgstr "Alle"
+
+#~ msgid "Multi Upload cannot be implemented more than once on a page."
+#~ msgstr ""
+#~ "Multi Upload kann nicht mehr als einmal auf einer Seite implementiert "
+#~ "werden."
+
+#~ msgid "straightvisions 100"
+#~ msgstr "straightvisions 100"
+
+#~ msgid ""
+#~ "A modular and easy to use Theme, with focus on a Google Pagespeed 100 "
+#~ "score."
+#~ msgstr ""
+#~ "Ein modulares und einfach zu bedienendes Theme, mit Fokus auf eine Google "
+#~ "Pagespeed 100 Score."
 
 #~ msgid "Configure your button"
 #~ msgstr "Konfiguriere deinen Knopf"
