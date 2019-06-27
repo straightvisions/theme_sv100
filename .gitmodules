@@ -1,3 +1,72 @@
 [submodule "lib/dependencies"]
 	path = lib/dependencies
 	url = ../sv_dependencies.git
+[submodule "lib/modules/sv_cleanup"]
+	path = lib/modules/sv_cleanup
+	url = ../module_sv_cleanup.git
+[submodule "lib/modules/sv_colors"]
+	path = lib/modules/sv_colors
+	url = ../module_sv_colors.git
+[submodule "lib/modules/sv_comments"]
+	path = lib/modules/sv_comments
+	url = ../module_sv_comments.git
+[submodule "lib/modules/sv_common"]
+	path = lib/modules/sv_common
+	url = ../module_sv_common.git
+[submodule "lib/modules/sv_content"]
+	path = lib/modules/sv_content
+	url = ../module_sv_content.git
+[submodule "lib/modules/sv_excerpt"]
+	path = lib/modules/sv_excerpt
+	url = ../module_sv_excerpt.git
+[submodule "lib/modules/sv_featured_image"]
+	path = lib/modules/sv_featured_image
+	url = ../module_sv_featured_image.git
+[submodule "lib/modules/sv_footer"]
+	path = lib/modules/sv_footer
+	url = ../module_sv_footer.git
+[submodule "lib/modules/sv_header"]
+	path = lib/modules/sv_header
+	url = ../module_sv_header.git
+[submodule "lib/modules/sv_human_time"]
+	path = lib/modules/sv_human_time
+	url = ../module_sv_human_time.git
+[submodule "lib/modules/sv_logo"]
+	path = lib/modules/sv_logo
+	url = ../module_sv_logo.git
+[submodule "lib/modules/sv_modules"]
+	path = lib/modules/sv_modules
+	url = ../module_sv_modules.git
+[submodule "lib/modules/sv_navigation"]
+	path = lib/modules/sv_navigation
+	url = ../module_sv_navigation.git
+[submodule "lib/modules/sv_pagination"]
+	path = lib/modules/sv_pagination
+	url = ../module_sv_pagination.git
+[submodule "lib/modules/sv_scroll_to_top"]
+	path = lib/modules/sv_scroll_to_top
+	url = ../module_sv_scroll_to_top.git
+[submodule "lib/modules/sv_search"]
+	path = lib/modules/sv_search
+	url = ../module_sv_search.git
+[submodule "lib/modules/sv_settings"]
+	path = lib/modules/sv_settings
+	url = ../module_sv_settings.git
+[submodule "lib/modules/sv_sidebar"]
+	path = lib/modules/sv_sidebar
+	url = ../module_sv_sidebar.git
+[submodule "lib/modules/sv_slick"]
+	path = lib/modules/sv_slick
+	url = ../module_sv_slick.git
+[submodule "lib/modules/sv_slider"]
+	path = lib/modules/sv_slider
+	url = ../module_sv_slider.git
+[submodule "lib/modules/sv_tags"]
+	path = lib/modules/sv_tags
+	url = ../module_sv_tags.git
+[submodule "lib/modules/sv_webfontloader"]
+	path = lib/modules/sv_webfontloader
+	url = ../module_sv_webfontloader.git
+[submodule "lib/modules/sv_wizard"]
+	path = lib/modules/sv_wizard
+	url = ../module_sv_wizard.git
