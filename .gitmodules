@@ -1,0 +1,3 @@
+[submodule "lib/dependencies"]
+	path = lib/dependencies
+	url = ../sv_dependencies.git
