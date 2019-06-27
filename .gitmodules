@@ -1,6 +1,3 @@
-[submodule "lib/dependencies"]
-	path = lib/dependencies
-	url = ../sv_dependencies.git
 [submodule "lib/modules/sv_cleanup"]
 	path = lib/modules/sv_cleanup
 	url = ../module_sv_cleanup.git
@@ -70,3 +67,6 @@
 [submodule "lib/modules/sv_wizard"]
 	path = lib/modules/sv_wizard
 	url = ../module_sv_wizard.git
+[submodule "lib/core_theme"]
+	path = lib/core_theme
+	url = ../sv_core_theme.git
