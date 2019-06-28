@@ -43,21 +43,12 @@
 [submodule "lib/modules/sv_scroll_to_top"]
 	path = lib/modules/sv_scroll_to_top
 	url = ../module_sv_scroll_to_top.git
-[submodule "lib/modules/sv_search"]
-	path = lib/modules/sv_search
-	url = ../module_sv_search.git
 [submodule "lib/modules/sv_settings"]
 	path = lib/modules/sv_settings
 	url = ../module_sv_settings.git
 [submodule "lib/modules/sv_sidebar"]
 	path = lib/modules/sv_sidebar
 	url = ../module_sv_sidebar.git
-[submodule "lib/modules/sv_slick"]
-	path = lib/modules/sv_slick
-	url = ../module_sv_slick.git
-[submodule "lib/modules/sv_slider"]
-	path = lib/modules/sv_slider
-	url = ../module_sv_slider.git
 [submodule "lib/modules/sv_tags"]
 	path = lib/modules/sv_tags
 	url = ../module_sv_tags.git
