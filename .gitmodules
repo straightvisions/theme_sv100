@@ -1,6 +1,3 @@
-[submodule "lib/modules/sv_cleanup"]
-	path = lib/modules/sv_cleanup
-	url = ../module_sv_cleanup.git
 [submodule "lib/modules/sv_colors"]
 	path = lib/modules/sv_colors
 	url = ../module_sv_colors.git
