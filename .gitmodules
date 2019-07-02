@@ -58,3 +58,6 @@
 [submodule "lib/core_theme"]
 	path = lib/core_theme
 	url = ../sv_core_theme.git
+[submodule "lib/modules/sv_tgmpa"]
+	path = lib/modules/sv_tgmpa
+	url = ../module_sv_tgmpa
