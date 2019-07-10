@@ -22,9 +22,6 @@
 [submodule "lib/modules/sv_header"]
 	path = lib/modules/sv_header
 	url = ../module_sv_header.git
-[submodule "lib/modules/sv_human_time"]
-	path = lib/modules/sv_human_time
-	url = ../module_sv_human_time.git
 [submodule "lib/modules/sv_logo"]
 	path = lib/modules/sv_logo
 	url = ../module_sv_logo.git
