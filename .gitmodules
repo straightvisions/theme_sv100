@@ -22,9 +22,6 @@
 [submodule "lib/modules/sv_header"]
 	path = lib/modules/sv_header
 	url = ../module_sv_header.git
-[submodule "lib/modules/sv_logo"]
-	path = lib/modules/sv_logo
-	url = ../module_sv_logo.git
 [submodule "lib/modules/sv_modules"]
 	path = lib/modules/sv_modules
 	url = ../module_sv_modules.git
@@ -49,9 +46,6 @@
 [submodule "lib/modules/sv_webfontloader"]
 	path = lib/modules/sv_webfontloader
 	url = ../module_sv_webfontloader.git
-[submodule "lib/modules/sv_wizard"]
-	path = lib/modules/sv_wizard
-	url = ../module_sv_wizard.git
 [submodule "lib/core_theme"]
 	path = lib/core_theme
 	url = ../sv_core_theme.git
