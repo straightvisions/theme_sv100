@@ -4,7 +4,7 @@ Tags: blog, entertainment, portfolio, grid-layout, one-column, two-columns, righ
 Requires at least: 5.0
 Tested up to: WordPress 5.2.2
 Requires PHP: 7.0
-Stable tag: 1.4.00
+Stable tag: 1.4.07
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
