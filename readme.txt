@@ -5,7 +5,7 @@ Requires at least: 5.0
 Tested up to: WordPress 5.2.2
 Requires PHP: 7.0
 Stable tag: 1.4.00
-License: GPLv2 or later
+License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Our SV 100 theme is a modular multipurpose theme allowing maximum PageSpeed scores and superb SEO performance.
