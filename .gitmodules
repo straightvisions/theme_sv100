@@ -52,3 +52,6 @@
 [submodule "lib/modules/sv_tgmpa"]
 	path = lib/modules/sv_tgmpa
 	url = ../module_sv_tgmpa
+[submodule "lib/modules/sv_posts"]
+	path = lib/modules/sv_posts
+	url = ../module_sv_posts
