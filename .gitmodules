@@ -55,3 +55,36 @@
 [submodule "lib/modules/sv_posts"]
 	path = lib/modules/sv_posts
 	url = ../module_sv_posts
+[submodule "lib/modules/sv_slick"]
+	path = lib/modules/sv_slick
+	url = ../module_sv_slick
+[submodule "lib/modules/sv_unite_gallery"]
+	path = lib/modules/sv_unite_gallery
+	url = ../module_sv_unite_gallery
+[submodule "lib/modules/sv_gallery"]
+	path = lib/modules/sv_gallery
+	url = ../module_sv_gallery
+[submodule "lib/modules/sv_slider"]
+	path = lib/modules/sv_slider
+	url = ../module_sv_slider
+[submodule "lib/modules/sv_mailchimp"]
+	path = lib/modules/sv_mailchimp
+	url = ../module_sv_mailchimp
+[submodule "lib/modules/sv_cleverpush"]
+	path = lib/modules/sv_cleverpush
+	url = ../module_sv_cleverpush
+[submodule "lib/modules/sv_rss_aggregator"]
+	path = lib/modules/sv_rss_aggregator
+	url = ../module_sv_rss_aggregator
+[submodule "lib/modules/sv_search"]
+	path = lib/modules/sv_search
+	url = ../module_sv_search
+[submodule "lib/modules/sv_shapepress_dsgvo"]
+	path = lib/modules/sv_shapepress_dsgvo
+	url = ../module_sv_shapepress_dsgvo
+[submodule "lib/modules/sv_wpml"]
+	path = lib/modules/sv_wpml
+	url = ../module_sv_wpml
+[submodule "lib/modules/sv_logo"]
+	path = lib/modules/sv_logo
+	url = ../module_sv_logo
