@@ -88,3 +88,9 @@
 [submodule "lib/modules/sv_logo"]
 	path = lib/modules/sv_logo
 	url = ../module_sv_logo
+[submodule "lib/modules/sv_team"]
+	path = lib/modules/sv_team
+	url = ../module_sv_team
+[submodule "lib/modules/sv_author"]
+	path = lib/modules/sv_author
+	url = ../module_sv_author
