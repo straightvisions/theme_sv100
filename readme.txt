@@ -1,6 +1,5 @@
 === SV 100 ===
 Contributors: matthias-reuter
-Tags: blog, entertainment, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-menu, featured-images, footer-widgets, full-width-template, translation-ready, block-styles, wide-blocks
 Requires at least: 5.0
 Tested up to: WordPress 5.2.2
 Requires PHP: 7.0
