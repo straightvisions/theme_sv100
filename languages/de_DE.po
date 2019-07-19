@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
-"POT-Creation-Date: 2019-07-19 18:10+0200\n"
-"PO-Revision-Date: 2019-07-19 18:10+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-07-19 23:53+0200\n"
+"PO-Revision-Date: 2019-07-19 23:59+0200\n"
+"Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -261,9 +261,13 @@ msgstr "Aktiv"
 msgid "Disabled"
 msgstr "Deaktiviert"
 
+#: lib/core_theme/core/scripts/scripts.php:39
+msgid "Scripts"
+msgstr "Skripte"
+
 #: lib/core_theme/core/scripts/scripts.php:40
 msgid "Override Scripts Loading."
-msgstr "Scripts Loading überschreiben."
+msgstr "Ladeeinstellungen der Scripte überschreiben."
 
 #: lib/core_theme/core/scripts/scripts.php:67
 msgid "Disable all CSS per Default"
@@ -343,26 +347,24 @@ msgstr "Scroll-Verhalten des Hintergrunds"
 
 #: lib/core_theme/settings_components/components/background_attachment.php:16
 #: lib/core_theme/settings_components/components/position.php:17
-msgid "Fixed"
+msgid "fixed"
 msgstr "fixiert"
 
 #: lib/core_theme/settings_components/components/background_attachment.php:17
-msgid "Scroll"
-msgstr "Mitscrollen"
+msgid "scroll"
+msgstr "scroll"
 
 #: lib/core_theme/settings_components/components/background_attachment.php:18
-msgid "Local"
-msgstr "Lokal"
+msgid "local"
+msgstr "lokal"
 
 #: lib/core_theme/settings_components/components/background_attachment.php:19
-#: lib/core_theme/settings_components/components/background_repeat.php:22
-msgid "Initial"
-msgstr "Initial"
+msgid "initial"
+msgstr "initial"
 
 #: lib/core_theme/settings_components/components/background_attachment.php:20
-#: lib/core_theme/settings_components/components/background_repeat.php:23
-msgid "Inherit"
-msgstr "Vererbt"
+msgid "inherit"
+msgstr "vererbt"
 
 #: lib/core_theme/settings_components/components/background_color.php:12
 msgid "Background Color"
@@ -424,6 +426,14 @@ msgstr "Abstand"
 msgid "Round"
 msgstr "Rund"
 
+#: lib/core_theme/settings_components/components/background_repeat.php:22
+msgid "Initial"
+msgstr "Initial"
+
+#: lib/core_theme/settings_components/components/background_repeat.php:23
+msgid "Inherit"
+msgstr "Vererbt"
+
 #: lib/core_theme/settings_components/components/background_size.php:12
 msgid "Background Size"
 msgstr "Hintergrund Größe"
@@ -484,7 +494,7 @@ msgid "Position"
 msgstr "Position"
 
 #: lib/core_theme/settings_components/components/position.php:16
-msgid "Static"
+msgid "static"
 msgstr "statisch"
 
 #: lib/core_theme/settings_components/components/text_color.php:12
@@ -517,6 +527,7 @@ msgstr "Definiere deine eigene Farbpalette."
 
 #: lib/modules/sv_colors/sv_colors.php:19
 #: lib/modules/sv_comments/lib/backend/tpl/settings.php:26
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:23
 #: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:3
 #: lib/modules/sv_footer/lib/backend/tpl/settings.php:55
 #: lib/modules/sv_pagination/lib/backend/tpl/settings.php:16
@@ -719,20 +730,18 @@ msgid "Content Header"
 msgstr "Inhalts-Kopfzeile"
 
 #: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:3
-msgid "Content Header - Title"
-msgstr "Inhalts-Kopfzeile - Titel"
+#: lib/modules/sv_header/sv_header.php:36
+#: lib/modules/sv_header/sv_header.php:57
+msgid "Title"
+msgstr "Titel"
 
 #: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:13
-msgid "Content Header - Excerpt"
-msgstr "Inhalts-Kopfzeile - Auszug"
-
-#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:23
-msgid "Content Header - Colors"
-msgstr "Inhalts-Kopfzeile - Farben"
+msgid "Excerpt"
+msgstr "Auszug"
 
 #: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:31
-msgid "Content Header - Colors (with Thumbnail)"
-msgstr "Inhalts-Kopfzeile - Farben (mit Beitragsbild)"
+msgid "Colors (with Thumbnail)"
+msgstr "Farben (mit Beitragsbild)"
 
 #: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:2
 #: lib/modules/sv_footer/lib/backend/tpl/settings.php:6
@@ -1094,6 +1103,10 @@ msgstr "Text der zum Ende des Ausschnitts angezeigt wird"
 msgid "Set a default thumbnail for all posts and pages."
 msgstr "Lege ein Standard Beitragsbild für alle Beiträge und Seiten fest."
 
+#: lib/modules/sv_featured_image/sv_featured_image.php:19
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
 #: lib/modules/sv_featured_image/sv_featured_image.php:20
 msgid "Upload a default thumbnail"
 msgstr "Lade ein Standard Beitragsbild hoch"
@@ -1191,7 +1204,7 @@ msgid "Menu"
 msgstr "Menü"
 
 #: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:4
-msgid "Submenu - Background "
+msgid "Submenu - Background"
 msgstr "Untermenü - Hintergrund"
 
 #: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:26
@@ -1222,11 +1235,6 @@ msgstr "Text-, Farb- & Branding-Einstellungen."
 #: lib/modules/sv_header/sv_header.php:35
 msgid "No branding"
 msgstr "Kein Branding"
-
-#: lib/modules/sv_header/sv_header.php:36
-#: lib/modules/sv_header/sv_header.php:57
-msgid "Title"
-msgstr "Titel"
 
 #: lib/modules/sv_header/sv_header.php:47
 msgid "Decide in which way you wanna display your brand/website in the header."
@@ -1293,6 +1301,7 @@ msgstr ""
 "angezeigt."
 
 #: lib/modules/sv_modules/lib/backend/tpl/settings.php:13
+#: lib/modules/sv_modules/sv_modules.php:20
 msgid "Modules"
 msgstr "Module"
 
@@ -1302,11 +1311,7 @@ msgstr "Erforderliche Module"
 
 #: lib/modules/sv_modules/sv_modules.php:17
 msgid "Manages all installed theme modules."
-msgstr "Verwaltet alle installierten Themenmodule."
-
-#: lib/modules/sv_modules/sv_modules.php:20
-msgid "Theme modules"
-msgstr "Themenmodule"
+msgstr "Verwaltet alle installierten Theme-Module."
 
 #: lib/modules/sv_modules/sv_modules.php:21
 msgid "Available modules in the SV100 theme"
@@ -2056,6 +2061,36 @@ msgstr "Seite mit Seitenleiste"
 #. Template Name of the plugin/theme
 msgid "Post with Sidebar"
 msgstr "Beitrag mit Seitenleiste"
+
+#~ msgid "Theme modules"
+#~ msgstr "Theme-Module"
+
+#~ msgid "Submenu - Background "
+#~ msgstr "Untermenü - Hintergrund"
+
+#~ msgid "Fixed"
+#~ msgstr "Fixiert"
+
+#~ msgid "Scroll"
+#~ msgstr "Mitscrollen"
+
+#~ msgid "Local"
+#~ msgstr "Lokal"
+
+#~ msgid "Static"
+#~ msgstr "statisch"
+
+#~ msgid "Content Header - Title"
+#~ msgstr "Inhalts-Kopfzeile - Titel"
+
+#~ msgid "Content Header - Excerpt"
+#~ msgstr "Inhalts-Kopfzeile - Auszug"
+
+#~ msgid "Content Header - Colors"
+#~ msgstr "Inhalts-Kopfzeile - Farben"
+
+#~ msgid "Content Header - Colors (with Thumbnail)"
+#~ msgstr "Inhalts-Kopfzeile - Farben (mit Beitragsbild)"
 
 #~ msgid "Color Name"
 #~ msgstr "Farb Name"
