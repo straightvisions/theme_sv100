@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
-"POT-Creation-Date: 2019-07-15 20:48+0200\n"
-"PO-Revision-Date: 2019-07-15 20:57+0200\n"
-"Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
+"POT-Creation-Date: 2019-07-19 18:10+0200\n"
+"PO-Revision-Date: 2019-07-19 18:10+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -19,29 +19,26 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: lib/core_theme/core/abstract.php:129 lib/core_theme/core/abstract.php:145
 #: lib/core_theme/core/abstract.php:161
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_theme/core/abstract.php:439
+#: lib/core_theme/core/abstract.php:460
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_theme/core/abstract.php:449
+#: lib/core_theme/core/abstract.php:470
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_theme/core/abstract.php:458
+#: lib/core_theme/core/abstract.php:479
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_theme/core/abstract.php:502
-#: lib/modules/sv_content/sv_content.php:22
-#: lib/modules/sv_footer/sv_footer.php:22
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:22
+#: lib/core_theme/core/abstract.php:523
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -144,6 +141,10 @@ msgstr "Admin-Stile einreihen"
 msgid "Enqueue SV style for admin menu pages:"
 msgstr "Admin-Stile einreihen für Admin-Menüseiten:"
 
+#: lib/core_theme/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr "Abbrechen"
+
 #: lib/core_theme/core/backend/tpl/header.php:16
 msgid "General info & description"
 msgstr "Allgemeine Infos & Beschreibung"
@@ -186,24 +187,24 @@ msgstr "Lizenz: GPL3 oder höher"
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-#: lib/core_theme/core/core.php:87
+#: lib/core_theme/core/core.php:89
 #: lib/core_theme/core/info/backend/tpl/about.php:33
 msgid "Expert Mode"
 msgstr "Experten-Modus"
 
-#: lib/core_theme/core/core.php:126 lib/core_theme/core/core.php:145
+#: lib/core_theme/core/core.php:128 lib/core_theme/core/core.php:147
 msgid "Setting saved"
 msgstr "Einstellung gespeichert"
 
-#: lib/core_theme/core/core.php:140
+#: lib/core_theme/core/core.php:142
 msgid "Nothing to update."
 msgstr "Nichts zu aktualisieren."
 
-#: lib/core_theme/core/core.php:147
+#: lib/core_theme/core/core.php:149
 msgid "You are unauthorized to perform this action."
 msgstr "Du bist nicht berechtigt, diese Aktion durchzuführen."
 
-#: lib/core_theme/core/core.php:150
+#: lib/core_theme/core/core.php:152
 msgid "Nonce check cannot fail."
 msgstr "Nonce-Prüfung kann nicht fehlschlagen."
 
@@ -249,9 +250,8 @@ msgid "Plugin"
 msgstr "Plugin"
 
 #: lib/core_theme/core/info/backend/tpl/about.php:59
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:33
 #: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:2321
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:72
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:68
 msgid "Active"
 msgstr "Aktiv"
 
@@ -328,7 +328,7 @@ msgid "You need at least "
 msgstr "Du brauchst mindestens "
 
 #. translators: %s: Minimum required version
-#: lib/core_theme/core_theme.php:55
+#: lib/core_theme/core_theme.php:86
 #, php-format
 msgid ""
 "%1$s requires WordPress %2$s or later to function properly. Please upgrade "
@@ -460,6 +460,17 @@ msgstr "Schriftgröße"
 msgid "Font Size in Pixel"
 msgstr "Schriftgröße in Pixel"
 
+#: lib/core_theme/settings_components/components/highlight_color.php:12
+msgid "Highlight Color"
+msgstr "Hervorhebungsfarbe"
+
+#: lib/core_theme/settings_components/components/highlight_color.php:13
+msgid ""
+"This color is used for highlighting elements, like links on hover/focus."
+msgstr ""
+"Diese Farbe wird zum hervorheben von Elementen verwendet, z.B. Links auf "
+"Hover/Fokus."
+
 #: lib/core_theme/settings_components/components/line_height.php:12
 msgid "Line Height"
 msgstr "Zeilenabstand"
@@ -470,7 +481,7 @@ msgstr "Zeilenabstand in Pixel"
 
 #: lib/core_theme/settings_components/components/position.php:12
 msgid "Position"
-msgstr ""
+msgstr "Position"
 
 #: lib/core_theme/settings_components/components/position.php:16
 msgid "Static"
@@ -500,147 +511,269 @@ msgstr "Durchgestrichen"
 msgid "Overline"
 msgstr "Überstrichen"
 
-#: lib/modules/sv_colors/sv_colors.php:33
-msgid "This module allows you to define your own color palette."
-msgstr "Dieses Modul erlaubt es dir deine eigene Farbpalette zu definieren."
+#: lib/modules/sv_colors/sv_colors.php:17
+msgid "Define your own color palette."
+msgstr "Definiere deine eigene Farbpalette."
 
-#: lib/modules/sv_colors/sv_colors.php:36
+#: lib/modules/sv_colors/sv_colors.php:19
+#: lib/modules/sv_comments/lib/backend/tpl/settings.php:26
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:3
+#: lib/modules/sv_footer/lib/backend/tpl/settings.php:55
+#: lib/modules/sv_pagination/lib/backend/tpl/settings.php:16
+#: lib/modules/sv_tags/lib/backend/tpl/settings.php:22
 msgid "Colors"
 msgstr "Farben"
 
-#: lib/modules/sv_colors/sv_colors.php:37
-msgid "Color Settings"
-msgstr "Farbeinstellungen"
+#: lib/modules/sv_colors/sv_colors.php:20
+msgid "Define your color palette"
+msgstr "Definiere deine Farbpalette"
 
-#: lib/modules/sv_colors/sv_colors.php:44
-msgid "Color Palettes"
-msgstr "Farbpaletten"
+#: lib/modules/sv_colors/sv_colors.php:38
+msgid "Color palette"
+msgstr "Farbpalette"
 
-#: lib/modules/sv_colors/sv_colors.php:45
-msgid "These colors will also be available in Gutenberg-Editor."
-msgstr "Diese Farben werden auch im Gutenberg-Editor verfügbar sein."
+#: lib/modules/sv_colors/sv_colors.php:40
+msgid ""
+"These colors will be available in the Gutenberg-Editor and as helper classes."
+msgstr ""
+"Diese Farben werden im Gutenberg-Editor und als Helferklassen verfügbar sein."
+
+#: lib/modules/sv_colors/sv_colors.php:41
+msgid "Text color class"
+msgstr "Textfarbklasse"
+
+#: lib/modules/sv_colors/sv_colors.php:43
+msgid "Background color class"
+msgstr "Hintergrundfarbklasse"
 
 #: lib/modules/sv_colors/sv_colors.php:52
-#: lib/modules/sv_colors/sv_colors.php:55
-msgid "Color Name"
-msgstr "Farb Name"
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:62
+msgid "Name"
+msgstr "Name"
 
 #: lib/modules/sv_colors/sv_colors.php:53
-msgid "This Name is used to identify this color for users."
-msgstr ""
-"Dieser Name wird verwendet, um diese Farbe für Benutzer zu identifizieren."
+msgid "Give your color a name."
+msgstr "Gebe deiner Farbe einen Namen."
+
+#: lib/modules/sv_colors/sv_colors.php:60
+msgid "Slug"
+msgstr "Slug"
 
 #: lib/modules/sv_colors/sv_colors.php:61
-msgid "Color Slug"
-msgstr "Color Slug"
+msgid "This slug is used for the helper classes."
+msgstr "Dieser Slug wird für die Helferklassen verwendet."
 
-#: lib/modules/sv_colors/sv_colors.php:62
-msgid "This Slug is used to identify this color within code."
-msgstr ""
-"Dieser Slug wird verwendet, um diese Farbe innerhalb des Codes zu "
-"identifizieren."
+#: lib/modules/sv_colors/sv_colors.php:68
+msgid "Color"
+msgstr "Farbe"
 
-#: lib/modules/sv_colors/sv_colors.php:64
-msgid "color-slug"
-msgstr "farb-slug"
-
-#: lib/modules/sv_colors/sv_colors.php:70
-msgid "Color Value"
-msgstr "Farbwert"
-
-#: lib/modules/sv_colors/sv_colors.php:71
-msgid "The color to be used. Accepts hex and rgb values."
-msgstr "Die Farbe, die verwendet werden soll. Akzeptiert Hex und rgb-Werte."
-
-#: lib/modules/sv_colors/sv_colors.php:115
+#: lib/modules/sv_colors/sv_colors.php:102
 msgid "Invalid color code"
 msgstr "Ungültige Farbcode"
+
+#: lib/modules/sv_comments/lib/backend/tpl/settings.php:6
+msgid "Texts"
+msgstr "Texte"
+
+#: lib/modules/sv_comments/lib/backend/tpl/settings.php:16
+msgid "Titles"
+msgstr "Titel"
 
 #: lib/modules/sv_comments/lib/frontend/tpl/default.php:11
 msgid "Comment"
 msgstr "Kommentar"
 
 #: lib/modules/sv_comments/lib/frontend/tpl/default.php:11
+#: lib/modules/sv_comments/sv_comments.php:20
 msgid "Comments"
 msgstr "Kommentare"
 
-#: lib/modules/sv_comments/sv_comments.php:18
-msgid ""
-"This module gives the ability to display comments of the current post/page "
-"via the \"[sv_comments]\" shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, Kommentare des/der aktuellen Beitrages/"
-"Seite über den \"[sv_comments]\" Shortcode anzuzeigen."
+#: lib/modules/sv_comments/sv_comments.php:17
+msgid "Display and manage comments in your posts."
+msgstr "Anzeigen und Verwalten von Kommentaren in deinen Beiträgen."
+
+#: lib/modules/sv_comments/sv_comments.php:21
+#: lib/modules/sv_pagination/sv_pagination.php:21
+#: lib/modules/sv_tags/sv_tags.php:21
+msgid "Text & Color settings"
+msgstr "Text- & Farbeinstellungen"
+
+#: lib/modules/sv_comments/sv_comments.php:48
+msgid "Author Color"
+msgstr "Autoren-Farbe"
+
+#: lib/modules/sv_comments/sv_comments.php:49
+msgid "This color is used for the author name."
+msgstr "Diese Farbe wird für den Autorennamen verwendet."
 
 #: lib/modules/sv_common/lib/backend/tpl/settings.php:6
-#: lib/modules/sv_footer/lib/backend/tpl/settings.php:13
 msgid "Text Settings"
 msgstr "Texteinstellungen"
 
-#: lib/modules/sv_common/lib/backend/tpl/settings.php:46
-#: lib/modules/sv_footer/lib/backend/tpl/settings.php:23
+#: lib/modules/sv_common/lib/backend/tpl/settings.php:16
 msgid "Background Settings"
 msgstr "Hintergrund-Einstellungen"
 
-#: lib/modules/sv_common/lib/backend/tpl/settings.php:68
+#: lib/modules/sv_common/lib/backend/tpl/settings.php:38
 msgid "Selection"
 msgstr "Auswahl"
 
-#: lib/modules/sv_common/lib/backend/tpl/settings.php:76
+#: lib/modules/sv_common/lib/backend/tpl/settings.php:46
 msgid "Spacing"
 msgstr "Abstand"
 
-#: lib/modules/sv_common/sv_common.php:18
-msgid "This module manages general styles, scripts & dependencies."
-msgstr "Dieses Modul verwaltet allgemeine Stile, Skripte und Abhängigkeiten."
+#: lib/modules/sv_common/sv_common.php:17
+msgid "Manage general styles, scripts & dependencies."
+msgstr "Verwalte allgemeine Stile, Skripte und Abhängigkeiten."
 
-#: lib/modules/sv_common/sv_common.php:21
+#: lib/modules/sv_common/sv_common.php:20
 msgid "Common"
 msgstr "Allgemein"
 
-#: lib/modules/sv_common/sv_common.php:22
-msgid "Base settings for the whole frontend."
-msgstr "Basiseinstellungen für das gesamte Frontend."
+#: lib/modules/sv_common/sv_common.php:21
+msgid "Common settings for your website"
+msgstr "Allgemeine Einstellungen für deine Website"
 
-#: lib/modules/sv_common/sv_common.php:101
-msgid "Selection Color"
-msgstr "Markierung Farbe"
+#: lib/modules/sv_common/sv_common.php:50
+msgid "Selection color"
+msgstr "Auswahlfarbe"
 
-#: lib/modules/sv_common/sv_common.php:102
+#: lib/modules/sv_common/sv_common.php:51
 msgid "Color of selected text"
 msgstr "Farbe des markierten Textes"
 
-#: lib/modules/sv_common/sv_common.php:109
-msgid "Selection Background Color"
-msgstr "Markierung Hintergrundfarbe"
+#: lib/modules/sv_common/sv_common.php:56
+msgid "Selection background color"
+msgstr "Auswahl Hintergrundfarbe"
 
-#: lib/modules/sv_common/sv_common.php:110
+#: lib/modules/sv_common/sv_common.php:57
 msgid "Background color of selected text"
 msgstr "Hintergrundfarbe des markierten Textes"
 
-#: lib/modules/sv_common/sv_common.php:117
+#: lib/modules/sv_common/sv_common.php:62
 msgid "Distance to border"
 msgstr "Abstand zum Rand"
 
-#: lib/modules/sv_common/sv_common.php:118
+#: lib/modules/sv_common/sv_common.php:63
 msgid ""
-"Defines the distance between your content and the window border in pixel."
+"The distance between your content and the window border on mobile devices, "
+"in pixels."
 msgstr ""
-"Definiert den Abstand zwischen dem Inhalt und dem Fensterrahmen in Pixel."
+"Der Abstand zwischen deinem Inhalt und dem Fensterrahmen auf mobilen Geräten "
+"in Pixeln."
 
-#: lib/modules/sv_content/lib/backend/tpl/settings.php:7
-#: lib/modules/sv_content/sv_content.php:90
-msgid "Home Slider"
-msgstr "Startseiten Slider"
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:2
+msgid "Archives"
+msgstr "Archive"
 
-#: lib/modules/sv_content/lib/backend/tpl/settings.php:17
-msgid "Post listing themes"
-msgstr "Beitragsauflistung Design"
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:3
+msgid "Display styles"
+msgstr "Anzeigestile"
 
-#: lib/modules/sv_content/lib/backend/tpl/settings.php:34
-#: lib/modules/sv_content/sv_content.php:177
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:19
+msgid "List - Title"
+msgstr "Liste - Titel"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:29
+msgid "List - Excerpt"
+msgstr "Liste - Auszug"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:39
+msgid "List - Read more"
+msgstr "Liste - Weiterlesen"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:49
+msgid "List - Colors"
+msgstr "Liste - Farben"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:58
+msgid "Masonry - Title"
+msgstr "Masonry - Titel"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:68
+msgid "Masonry - Excerpt"
+msgstr "Masonry - Auszug"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:78
+msgid "Masonry - Read more"
+msgstr "Masonry - Weiterlesen"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:88
+msgid "Masonry - Colors"
+msgstr "Masonry - Farben"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:104
+msgid "Grid - Title"
+msgstr "Raster - Titel"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:114
+msgid "Grid - Excerpt"
+msgstr "Raster - Auszug"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_archives.php:124
+msgid "Grid - Colors"
+msgstr "Raster - Farben"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:2
+msgid "Content Header"
+msgstr "Inhalts-Kopfzeile"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:3
+msgid "Content Header - Title"
+msgstr "Inhalts-Kopfzeile - Titel"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:13
+msgid "Content Header - Excerpt"
+msgstr "Inhalts-Kopfzeile - Auszug"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:23
+msgid "Content Header - Colors"
+msgstr "Inhalts-Kopfzeile - Farben"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_content_header.php:31
+msgid "Content Header - Colors (with Thumbnail)"
+msgstr "Inhalts-Kopfzeile - Farben (mit Beitragsbild)"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:2
+#: lib/modules/sv_footer/lib/backend/tpl/settings.php:6
+#: lib/modules/sv_header/lib/backend/tpl/subpage_general.php:2
+#: lib/modules/sv_scroll_to_top/lib/backend/tpl/settings.php:6
+msgid "General"
+msgstr "Allgemein"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:9
+#: lib/modules/sv_content/sv_content.php:341
 msgid "404 Page"
 msgstr "404 Seite"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:16
+msgid "Date"
+msgstr "Datum"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:17
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:26
+msgid "You can override this within each post or page."
+msgstr "Du kannst dies in jedem Beitrag oder jeder Seite überschreiben."
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_general.php:25
+msgid "Author"
+msgstr "Autor"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_gutenberg_blocks.php:2
+msgid "Gutenberg-Blocks"
+msgstr "Gutenberg-Blöcke"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_sidebar.php:2
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_sidebar.php:3
+msgid "Widget - Title"
+msgstr "Widget - Titel"
+
+#: lib/modules/sv_content/lib/backend/tpl/subpage_sidebar.php:13
+msgid "Widget - Colors"
+msgstr "Widget - Farben"
 
 #: lib/modules/sv_content/lib/frontend/tpl/archive/archive.php:3
 msgid "Archive"
@@ -680,6 +813,8 @@ msgstr "Zeige alle Beiträge in %s"
 
 #: lib/modules/sv_content/lib/frontend/tpl/archive/themes/list.php:19
 #: lib/modules/sv_content/lib/frontend/tpl/archive/themes/masonry.php:37
+#: lib/modules/sv_content/sv_content.php:180
+#: lib/modules/sv_content/sv_content.php:212
 msgid "Read more"
 msgstr "Weiterlesen"
 
@@ -698,569 +833,641 @@ msgstr "Bringe mich zurück zur Startseite"
 
 #: lib/modules/sv_content/lib/frontend/tpl/content/frontpage.php:28
 #: lib/modules/sv_content/lib/frontend/tpl/content/frontpage_sidebar.php:30
-#: lib/modules/sv_content/lib/frontend/tpl/content/page.php:28
+#: lib/modules/sv_content/lib/frontend/tpl/content/page.php:30
 #: lib/modules/sv_content/lib/frontend/tpl/content/page_sidebar.php:30
-#: lib/modules/sv_content/lib/frontend/tpl/content/single.php:32
+#: lib/modules/sv_content/lib/frontend/tpl/content/single.php:29
 #: lib/modules/sv_content/lib/frontend/tpl/content/single_sidebar.php:34
 msgid "Page"
 msgstr "Seite"
 
-#: lib/modules/sv_content/sv_content.php:18
-msgid ""
-"This module defines and manages content output, via the \"[sv_content]\" "
-"shortcode."
-msgstr ""
-"Dieses Modul definiert und verwaltet die Ausgabe von Inhalten über den "
-"Shortcode \"[sv_content]\"."
+#: lib/modules/sv_content/lib/modules/metabox.php:50
+msgid "Show date"
+msgstr "Datum anzeigen"
 
-#: lib/modules/sv_content/sv_content.php:21
+#: lib/modules/sv_content/lib/modules/metabox.php:61
+msgid "Show author"
+msgstr "Autor anzeigen"
+
+#. Theme Name of the plugin/theme
+#: lib/modules/sv_content/lib/modules/metabox.php:76
+msgid "SV100"
+msgstr "SV100"
+
+#: lib/modules/sv_content/sv_content.php:19
+msgid "Manages content output."
+msgstr "Verwaltet die Inhaltsausgabe."
+
+#: lib/modules/sv_content/sv_content.php:24
 msgid "Content"
 msgstr "Inhalt"
 
-#: lib/modules/sv_content/sv_content.php:53
+#: lib/modules/sv_content/sv_content.php:25
+msgid "Content settings"
+msgstr "Inhalts Einstellungen"
+
+#: lib/modules/sv_content/sv_content.php:46
 msgid "Small"
 msgstr "Klein"
 
-#: lib/modules/sv_content/sv_content.php:58
+#: lib/modules/sv_content/sv_content.php:51
 msgid "Normal"
 msgstr "Normal"
 
-#: lib/modules/sv_content/sv_content.php:63
+#: lib/modules/sv_content/sv_content.php:56
 msgid "Medium"
 msgstr "Mittel"
 
-#: lib/modules/sv_content/sv_content.php:68
+#: lib/modules/sv_content/sv_content.php:61
 msgid "Large"
 msgstr "Groß"
 
-#: lib/modules/sv_content/sv_content.php:73
+#: lib/modules/sv_content/sv_content.php:66
 msgid "Huge"
 msgstr "Riesig"
 
-#: lib/modules/sv_content/sv_content.php:91
-msgid "Activate or deactivate the slider on the home page."
-msgstr "Aktiviere oder deaktiviere den Slider auf der Startseite."
+#: lib/modules/sv_content/sv_content.php:136
+#: lib/modules/sv_content/sv_content.php:155
+msgid "Author & Date color"
+msgstr "Autor & Datum Farbe"
 
-#: lib/modules/sv_content/sv_content.php:97
-msgid "Home Slider - Transition"
-msgstr "Startseiten Slider -Übergang"
+#: lib/modules/sv_content/sv_content.php:137
+msgid "Color for the post author and date in the header."
+msgstr "Farbe für den Postautor und Datum in der Kopfzeile."
 
-#: lib/modules/sv_content/sv_content.php:98
-msgid "Choose a transition style for the slider."
-msgstr "Wähle einen Übergangsstil für den Slider."
+#: lib/modules/sv_content/sv_content.php:145 lib/modules/sv_tags/sv_tags.php:45
+msgid "Title color"
+msgstr "Titelfarbe"
 
-#: lib/modules/sv_content/sv_content.php:108
-msgid "Home Slider - Max posts"
-msgstr "Startseiten Slider - Maximale Beiträge"
+#: lib/modules/sv_content/sv_content.php:150
+msgid "Excerpt color"
+msgstr "Auszug Farbe"
 
-#: lib/modules/sv_content/sv_content.php:109
-msgid ""
-"Set the maximum number of posts that will be shown in the slider.<br>1 = "
-"single image"
-msgstr ""
-"Setze die maximale Anzahl der Beiträge, die im Slider angezeigt werden. <br> "
-"1 = Einzelbild"
+#: lib/modules/sv_content/sv_content.php:179
+#: lib/modules/sv_content/sv_content.php:211
+msgid "Read more text"
+msgstr "'Weiterlesen'-Text"
 
-#: lib/modules/sv_content/sv_content.php:118
-msgid "Home Listing"
+#: lib/modules/sv_content/sv_content.php:187
+#: lib/modules/sv_content/sv_content.php:232
+#: lib/modules/sv_content/sv_content.php:266
+msgid "Info text color"
+msgstr "Infotextfarbe"
+
+#: lib/modules/sv_content/sv_content.php:188
+#: lib/modules/sv_content/sv_content.php:233
+#: lib/modules/sv_content/sv_content.php:267
+msgid "Color for the post info."
+msgstr "Farbe für die Beitragsinfo."
+
+#: lib/modules/sv_content/sv_content.php:220
+#: lib/modules/sv_content/sv_content.php:254
+msgid "Category text color"
+msgstr "Kategorietextfarbe"
+
+#: lib/modules/sv_content/sv_content.php:221
+#: lib/modules/sv_content/sv_content.php:255
+msgid "Color for the post categories."
+msgstr "Farbe für die Beitragskategorien."
+
+#: lib/modules/sv_content/sv_content.php:226
+#: lib/modules/sv_content/sv_content.php:260
+msgid "Category background color"
+msgstr "Kategorie Hintergrundfarbe"
+
+#: lib/modules/sv_content/sv_content.php:227
+#: lib/modules/sv_content/sv_content.php:261
+msgid "Background color for the post categories."
+msgstr "Hintergrundfarbe für die Beitragskategorien."
+
+#: lib/modules/sv_content/sv_content.php:273
+msgid "Home listing"
 msgstr "Startseiten Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:119
+#: lib/modules/sv_content/sv_content.php:274
 msgid "Defines how posts on the homepage will be displayed."
 msgstr "Legt fest, wie Beiträge auf der Startseite angezeigt werden."
 
-#: lib/modules/sv_content/sv_content.php:121
-#: lib/modules/sv_content/sv_content.php:133
-#: lib/modules/sv_content/sv_content.php:145
-#: lib/modules/sv_content/sv_content.php:157
-#: lib/modules/sv_content/sv_content.php:168
+#: lib/modules/sv_content/sv_content.php:276
+#: lib/modules/sv_content/sv_content.php:286
+#: lib/modules/sv_content/sv_content.php:296
+#: lib/modules/sv_content/sv_content.php:306
+#: lib/modules/sv_content/sv_content.php:316
 msgid "List (Default)"
 msgstr "Liste (Standard)"
 
-#: lib/modules/sv_content/sv_content.php:122
-#: lib/modules/sv_content/sv_content.php:134
-#: lib/modules/sv_content/sv_content.php:146
-#: lib/modules/sv_content/sv_content.php:158
-#: lib/modules/sv_content/sv_content.php:169
+#: lib/modules/sv_content/sv_content.php:277
+#: lib/modules/sv_content/sv_content.php:287
+#: lib/modules/sv_content/sv_content.php:297
+#: lib/modules/sv_content/sv_content.php:307
+#: lib/modules/sv_content/sv_content.php:317
 msgid "Masonry"
 msgstr "Masonry"
 
-#: lib/modules/sv_content/sv_content.php:123
-#: lib/modules/sv_content/sv_content.php:135
-#: lib/modules/sv_content/sv_content.php:147
-#: lib/modules/sv_content/sv_content.php:159
-#: lib/modules/sv_content/sv_content.php:170
+#: lib/modules/sv_content/sv_content.php:278
+#: lib/modules/sv_content/sv_content.php:288
+#: lib/modules/sv_content/sv_content.php:298
+#: lib/modules/sv_content/sv_content.php:308
+#: lib/modules/sv_content/sv_content.php:318
 msgid "Grid"
 msgstr "Raster"
 
-#: lib/modules/sv_content/sv_content.php:130
-msgid "Search Listing"
+#: lib/modules/sv_content/sv_content.php:283
+msgid "Search listing"
 msgstr "Such Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:131
+#: lib/modules/sv_content/sv_content.php:284
 msgid "Defines how the search results will be displayed."
 msgstr "Legt fest, wie die Suchergebnisse angezeigt werden."
 
-#: lib/modules/sv_content/sv_content.php:142
-msgid "Category Listing"
-msgstr "Kategorienliste"
+#: lib/modules/sv_content/sv_content.php:293
+msgid "Category listing"
+msgstr "Kategorie Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:143
+#: lib/modules/sv_content/sv_content.php:294
 msgid "Defines how posts filtered by category will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die nach Kategorien gefiltert werden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:154
-msgid "Tag Listing"
+#: lib/modules/sv_content/sv_content.php:303
+msgid "Tag listing"
 msgstr "Schlagwörter Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:155
+#: lib/modules/sv_content/sv_content.php:304
 msgid "Defines how posts filtered by tags will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die durch Schlagwörtern gefiltert werden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:165
-msgid "Author Listing"
-msgstr "Autorenliste"
+#: lib/modules/sv_content/sv_content.php:313
+msgid "Author listing"
+msgstr "Autor Auflistung"
 
-#: lib/modules/sv_content/sv_content.php:166
+#: lib/modules/sv_content/sv_content.php:314
 msgid "Defines how posts created by an author will be displayed."
 msgstr ""
 "Legt fest, wie Beiträge, die von einem Autor erstellt wurden, angezeigt "
 "werden."
 
-#: lib/modules/sv_content/sv_content.php:178
+#: lib/modules/sv_content/sv_content.php:330
+msgid "Widget text color"
+msgstr "Widget-Textfarbe"
+
+#: lib/modules/sv_content/sv_content.php:335
+#: lib/modules/sv_footer/sv_footer.php:62
+msgid "Widget background color"
+msgstr "Widget-Hintergrundfarbe"
+
+#: lib/modules/sv_content/sv_content.php:342
 msgid "Select a page for showing custom content in error 404 / not found cases"
 msgstr ""
 "Wähle eine Seite, die angezeigt werden soll, wenn keine Seite gefunden wurde"
 
-#: lib/modules/sv_content/sv_content.php:329
+#: lib/modules/sv_content/sv_content.php:348
+msgid "Show date on posts"
+msgstr "Datum auf Beiträgen anzeigen"
+
+#: lib/modules/sv_content/sv_content.php:354
+msgid "Show date on pages"
+msgstr "Datum auf Seiten anzeigen"
+
+#: lib/modules/sv_content/sv_content.php:361
+msgid "Show author on posts"
+msgstr "Autor auf Beiträgen anzeigen"
+
+#: lib/modules/sv_content/sv_content.php:367
+msgid "Show author on pages"
+msgstr "Autor auf Seiten anzeigen"
+
+#: lib/modules/sv_content/sv_content.php:482
 msgid "Sidebar - Frontpage"
 msgstr "Seitenleiste - Startseite"
 
-#: lib/modules/sv_content/sv_content.php:330
-msgid ""
-"Widgets in this area will be shown in the sidebar of the frontpage/"
-"landingpage."
+#: lib/modules/sv_content/sv_content.php:483
+msgid "Widgets in this sidebar will be shown on the frontpage/landingpage."
 msgstr ""
-"Widgets in diesem Bereich werden in der Seitenleiste der Startseite "
+"Widgets in dieser Seitenleiste werden auf der Titelseite/Landingpage "
 "angezeigt."
 
-#: lib/modules/sv_content/sv_content.php:334
+#: lib/modules/sv_content/sv_content.php:487
 msgid "Sidebar - Pages"
 msgstr "Seitenleiste - Seiten"
 
-#: lib/modules/sv_content/sv_content.php:335
-msgid "Widgets in this area will be shown in the sidebar of a page."
-msgstr ""
-"Widgets in diesem Bereich werden in der Seitenleiste einer Seite angezeigt."
+#: lib/modules/sv_content/sv_content.php:488
+msgid "Widgets in this sidebar will be shown on pages."
+msgstr "Widgets in dieser Seitenleiste werden auf Seiten angezeigt."
 
-#: lib/modules/sv_content/sv_content.php:339
+#: lib/modules/sv_content/sv_content.php:492
 msgid "Sidebar - Posts"
 msgstr "Seitenleiste - Beiträge"
 
-#: lib/modules/sv_content/sv_content.php:340
-msgid "Widgets in this area will be shown in the sidebar of single posts."
-msgstr ""
-"Widgets in diesem Bereich werden in der Seitenleiste einzelner Beiträge "
-"angezeigt."
+#: lib/modules/sv_content/sv_content.php:493
+msgid "Widgets in this sidebar will be shown on posts."
+msgstr "Widgets in dieser Seitenleiste werden auf Beiträgen angezeigt."
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:18
-msgid "This module gives the ability to define how excerpts will be displayed."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit festzulegen, wie Auszüge angezeigt werden."
+#: lib/modules/sv_excerpt/sv_excerpt.php:17
+msgid "Manages excerpts."
+msgstr "Verwaltet Auszüge."
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:21
-msgid "Excerpt"
-msgstr "Auszug"
+#: lib/modules/sv_excerpt/sv_excerpt.php:19
+msgid "Excerpts"
+msgstr "Auszüge"
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:22
-msgid "Adjust Settings"
-msgstr "Einstellungen anpassen"
+#: lib/modules/sv_excerpt/sv_excerpt.php:20
+msgid "Excerpt settings"
+msgstr "Auszugseinstellungen"
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:38
+#: lib/modules/sv_excerpt/sv_excerpt.php:32
 msgid "Excerpt length"
 msgstr "Länge des Auszugs"
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:39
-msgid "Maximum number of words allowed in displaying excerpts."
+#: lib/modules/sv_excerpt/sv_excerpt.php:33
+msgid "Maximum number of words allowed in displayed excerpts."
 msgstr ""
-"Maximale Anzahl der Wörter, die bei der Anzeige von Auszügen erlaubt sind."
+"Maximale Anzahl von Wörtern, die in angezeigten Auszügen zulässig sind."
 
-#: lib/modules/sv_excerpt/sv_excerpt.php:46
+#: lib/modules/sv_excerpt/sv_excerpt.php:39
 msgid "Text to show at the end of the excerpt"
 msgstr "Text der zum Ende des Ausschnitts angezeigt wird"
 
-#: lib/modules/sv_featured_image/sv_featured_image.php:18
-msgid ""
-"This module shows a featured image via \"[sv_featured_image]\" shortcode."
-msgstr ""
-"Dieses Modul gibt ein Beitragsbild über den \"[sv_featured_image]\" "
-"Shortcode aus."
+#: lib/modules/sv_featured_image/sv_featured_image.php:17
+msgid "Set a default thumbnail for all posts and pages."
+msgstr "Lege ein Standard Beitragsbild für alle Beiträge und Seiten fest."
 
-#: lib/modules/sv_featured_image/sv_featured_image.php:22
-msgid "Settings for Featured Image"
-msgstr "Einstellungen für Featured Image"
+#: lib/modules/sv_featured_image/sv_featured_image.php:20
+msgid "Upload a default thumbnail"
+msgstr "Lade ein Standard Beitragsbild hoch"
 
-#: lib/modules/sv_featured_image/sv_featured_image.php:35
-msgid "Fallback image"
-msgstr "Fallback-Bild"
+#: lib/modules/sv_featured_image/sv_featured_image.php:31
+msgid "Default thumbnail"
+msgstr "Standard Beitragsbild"
 
-#: lib/modules/sv_featured_image/sv_featured_image.php:36
-msgid "Uploaded image will be used when post has not featured image set."
+#: lib/modules/sv_featured_image/sv_featured_image.php:32
+msgid "Image will be used when posts or pages has no thumbnail set."
 msgstr ""
 "Das hochgeladene Bild wird verwendet, wenn der Beitrag kein Beitragsbild "
 "enthält."
 
-#: lib/modules/sv_footer/lib/backend/tpl/settings.php:6
-msgid "General"
-msgstr "Allgemein"
+#: lib/modules/sv_footer/lib/backend/tpl/settings.php:13
+#: lib/modules/sv_header/lib/backend/tpl/subpage_general.php:18
+#: lib/modules/sv_pagination/lib/backend/tpl/settings.php:6
+#: lib/modules/sv_tags/lib/backend/tpl/settings.php:12
+msgid "Text"
+msgstr "Text"
 
-#: lib/modules/sv_footer/lib/frontend/tpl/default.php:21
+#: lib/modules/sv_footer/lib/backend/tpl/settings.php:23
+msgid "Widgets title"
+msgstr "Widgets-Titel"
+
+#: lib/modules/sv_footer/lib/backend/tpl/settings.php:33
+#: lib/modules/sv_header/lib/backend/tpl/subpage_general.php:28
+msgid "Background"
+msgstr "Hintergrund"
+
+#: lib/modules/sv_footer/lib/frontend/tpl/default.php:33
 msgid "Theme by"
 msgstr "Theme von"
 
-#: lib/modules/sv_footer/sv_footer.php:18
-msgid ""
-"This module gives the ability to display the footer via the \"[sv_footer]\" "
-"shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, den Footer über den \"[sv_footer]\" "
-"Shortcode anzuzeigen."
+#: lib/modules/sv_footer/sv_footer.php:17
+msgid "Manages the footer."
+msgstr "Verwaltet die Fußzeile."
 
 #: lib/modules/sv_footer/sv_footer.php:21
 msgid "Footer"
 msgstr "Footer"
 
-#: lib/modules/sv_footer/sv_footer.php:39
-msgid "Activate Footer"
+#: lib/modules/sv_footer/sv_footer.php:22
+msgid "Sidebar & Color settings"
+msgstr "Seitenleisten & Farbeinstellungen"
+
+#: lib/modules/sv_footer/sv_footer.php:31
+msgid "Activate footer"
 msgstr "Footer aktivieren"
 
-#: lib/modules/sv_footer/sv_footer.php:40
+#: lib/modules/sv_footer/sv_footer.php:32
 msgid "Activate or deactivate the footer."
 msgstr "Aktiviere oder deaktiviere den Footer."
 
-#: lib/modules/sv_footer/sv_footer.php:92
+#: lib/modules/sv_footer/sv_footer.php:90
 msgid "Footer - Left"
 msgstr "Footer - Links"
 
-#: lib/modules/sv_footer/sv_footer.php:93
-msgid "Widgets in this area will be shown in the left section of the footer."
+#: lib/modules/sv_footer/sv_footer.php:91
+msgid ""
+"Widgets in this sidebar will be shown in the left section of the footer."
 msgstr ""
-"Widgets in diesem Bereich werden in der linken Seitenleiste des Footers "
+"Widgets in dieser Seitenleiste werden im linken Bereich der Fußzeile "
 "angezeigt."
 
-#: lib/modules/sv_footer/sv_footer.php:97
+#: lib/modules/sv_footer/sv_footer.php:95
 msgid "Footer - Center"
 msgstr "Footer - Mitte"
 
-#: lib/modules/sv_footer/sv_footer.php:98
-msgid "Widgets in this area will be shown in the center section of the footer."
+#: lib/modules/sv_footer/sv_footer.php:96
+msgid ""
+"Widgets in this sidebar will be shown in the center section of the footer."
 msgstr ""
-"Widgets in diesem Bereich werden in der mittleren Seitenleiste des Footers "
+"Widgets in dieser Seitenleiste werden im mittleren Bereich der Fußzeile "
 "angezeigt."
 
-#: lib/modules/sv_footer/sv_footer.php:102
+#: lib/modules/sv_footer/sv_footer.php:100
 msgid "Footer - Right"
 msgstr "Footer - Rechts"
 
-#: lib/modules/sv_footer/sv_footer.php:103
-msgid "Widgets in this area will be shown in the right section of the footer."
+#: lib/modules/sv_footer/sv_footer.php:101
+msgid ""
+"Widgets in this sidebar will be shown in the right section of the footer."
 msgstr ""
-"Widgets in diesem Bereich werden in der rechten Seitenleiste des Footers "
+"Widgets in dieser Seitenleiste werden im rechten Bereich der Fußzeile "
 "angezeigt."
 
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:6
-msgid "Header Settings"
-msgstr "Einstellungen für die Kopfzeile"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:13
-msgid "Header Branding"
-msgstr "Branding der Kopfzeile"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:21
-msgid "Header Text Settings"
-msgstr "Texteinstellungen für die Kopfzeile"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:31
-msgid "Header Background Settings"
-msgstr "Hintergrund-Einstellungen für die Kopfzeile"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:53
-msgid "Submenu Background Settings"
-msgstr "Untermenü-Hintergrundeinstellungen"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:75
-msgid "Submenu Item Settings"
-msgstr "Untermenü-Elementeinstellungen"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:90
-msgid "Submenu Item Settings (Hover/Focus)"
-msgstr "Untermenü-Elementeinstellungen (Hover/Fokus)"
-
-#: lib/modules/sv_header/lib/backend/tpl/settings.php:100
-msgid "Mobile Settings"
-msgstr "Mobileinstellungen"
-
-#: lib/modules/sv_header/sv_header.php:18
-#: lib/modules/sv_header/sv_header.php:22
-msgid "The header for your website."
-msgstr "Die Kopfzeile für deine Website."
-
-#: lib/modules/sv_header/sv_header.php:21
-#: lib/modules/sv_header/sv_header.php:258
-msgid "Header"
-msgstr "Kopfzeile"
-
-#: lib/modules/sv_header/sv_header.php:40
-msgid "Main Menu"
-msgstr "Hauptmenü"
-
-#: lib/modules/sv_header/sv_header.php:70
-msgid "No Branding"
-msgstr "Kein Branding"
-
-#: lib/modules/sv_header/sv_header.php:71
-msgid "Title"
-msgstr "Titel"
-
-#: lib/modules/sv_header/sv_header.php:82
+#: lib/modules/sv_header/lib/backend/tpl/subpage_general.php:10
+#: lib/modules/sv_header/sv_header.php:45
 msgid "Branding"
 msgstr "Branding"
 
-#: lib/modules/sv_header/sv_header.php:84
+#: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:2
+msgid "Menu"
+msgstr "Menü"
+
+#: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:4
+msgid "Submenu - Background "
+msgstr "Untermenü - Hintergrund"
+
+#: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:26
+msgid "Submenu - Items"
+msgstr "Untermenü - Elemente"
+
+#: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:41
+msgid "Submenu - Items (hover/focus)"
+msgstr "Untermenü - Elemente (Hover/Fokus)"
+
+#: lib/modules/sv_header/lib/backend/tpl/subpage_menu.php:51
+msgid "Mobile"
+msgstr "Mobil"
+
+#: lib/modules/sv_header/sv_header.php:17
+msgid "Manages the header."
+msgstr "Verwaltet die Kopfzeile."
+
+#: lib/modules/sv_header/sv_header.php:22
+#: lib/modules/sv_header/sv_header.php:196
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: lib/modules/sv_header/sv_header.php:23
+msgid "Text, Color & Branding settings."
+msgstr "Text-, Farb- & Branding-Einstellungen."
+
+#: lib/modules/sv_header/sv_header.php:35
+msgid "No branding"
+msgstr "Kein Branding"
+
+#: lib/modules/sv_header/sv_header.php:36
+#: lib/modules/sv_header/sv_header.php:57
+msgid "Title"
+msgstr "Titel"
+
+#: lib/modules/sv_header/sv_header.php:47
 msgid "Decide in which way you wanna display your brand/website in the header."
 msgstr ""
 "Entscheide, auf welche Weise du deine Marke/Website im Header anzeigen "
 "möchtest."
 
-#: lib/modules/sv_header/sv_header.php:85
+#: lib/modules/sv_header/sv_header.php:48
 msgid "If you uploaded a logo in the Customizer, the option"
 msgstr "Wenn du ein Logo im Customizer hochgeladen hast, wird die Option"
 
-#: lib/modules/sv_header/sv_header.php:86
+#: lib/modules/sv_header/sv_header.php:49
 msgid "will be available."
 msgstr "verfügbar sein."
 
-#: lib/modules/sv_header/sv_header.php:95
-msgid "Title Text"
-msgstr "Text des Titels"
-
-#: lib/modules/sv_header/sv_header.php:96
+#: lib/modules/sv_header/sv_header.php:58
 msgid ""
-"On default the title will be your Website title, but you can change the "
+"On default the title will be your website title, but you can change the "
 "title that will be displayed in your header."
 msgstr ""
-"Standardmäßig ist der Titel der Website-Titel, aber du kannst den Titel "
-"ändern, der im Header angezeigt wird."
+"Standardmäßig ist der Titel dein Websitetitel, aber du kannst den Titel "
+"ändern, der in deiner Kopfzeile angezeigt wird."
 
-#: lib/modules/sv_header/sv_header.php:107
-msgid "Highlight Color"
-msgstr "Hervorhebungsfarbe"
-
-#: lib/modules/sv_header/sv_header.php:108
-msgid ""
-"Defines the text color of the branding title and the underline color of the "
-"menu item on hover/focus."
-msgstr ""
-"Definiert die Textfarbe des Brandingtitels und die Unterstrichfarbe des "
-"Hover/Fokus-Menuelements."
-
-#: lib/modules/sv_header/sv_header.php:129
-#: lib/modules/sv_header/sv_header.php:150
-msgid "Activate Background Color"
+#: lib/modules/sv_header/sv_header.php:85
+#: lib/modules/sv_header/sv_header.php:105
+msgid "Activate background color"
 msgstr "Aktivieren der Hintergrundfarbe"
 
-#: lib/modules/sv_header/sv_header.php:158
-msgid "Menu Icon (Closed)"
-msgstr "Menü Symbol (geschlossen)"
+#: lib/modules/sv_header/sv_header.php:110
+msgid "Menu icon (closed)"
+msgstr "Menüsymbol (geschlossen)"
 
-#: lib/modules/sv_header/sv_header.php:160
-#: lib/modules/sv_header/sv_header.php:177
+#: lib/modules/sv_header/sv_header.php:112
+#: lib/modules/sv_header/sv_header.php:126
 msgid "The menu icon for the mobile menu, when it's open."
 msgstr "Das Menüsymbol für das Mobilmenü, wenn es geöffnet ist."
 
-#: lib/modules/sv_header/sv_header.php:161
-#: lib/modules/sv_header/sv_header.php:178
-msgid "Please post for SVG embed code below."
-msgstr "Bitte füge den SVG Code ein."
+#: lib/modules/sv_header/sv_header.php:113
+#: lib/modules/sv_header/sv_header.php:127
+msgid "Please post your SVG embed code below."
+msgstr "Bitte poste unten deinen SVG-Einbettungscode."
 
-#: lib/modules/sv_header/sv_header.php:168
-msgid "Menu Icon (Closed) Color"
+#: lib/modules/sv_header/sv_header.php:119
+msgid "Menu icon (closed) color"
 msgstr "Farbe des Menüsymbols (geschlossen)"
 
-#: lib/modules/sv_header/sv_header.php:175
-msgid "Menu Icon (Open)"
+#: lib/modules/sv_header/sv_header.php:124
+msgid "Menu icon (open)"
 msgstr "Menüsymbol (offen)"
 
-#: lib/modules/sv_header/sv_header.php:186
-msgid "Menu Icon (Open) Color"
+#: lib/modules/sv_header/sv_header.php:133
+msgid "Menu icon (open) color"
 msgstr "Farbe des Menüsymbols (offen)"
 
-#: lib/modules/sv_header/sv_header.php:246
-msgid "Primary Menu"
+#: lib/modules/sv_header/sv_header.php:184
+msgid "Primary menu"
 msgstr "Hauptmenü"
 
-#: lib/modules/sv_header/sv_header.php:259
+#: lib/modules/sv_header/sv_header.php:197
 msgid ""
-"Widgets in this area will be shown in the header, next to the navigation."
+"Widgets in this sidebar will be shown in the header, next to the navigation."
 msgstr ""
-"Widgets in diesem Bereich werden im Header neben der Navigation angezeigt."
+"Widgets in dieser Seitenleiste werden in der Kopfzeile neben der Navigation "
+"angezeigt."
 
-#: lib/modules/sv_modules/lib/backend/tpl/settings.php:10
-msgid "Deactivate all modules"
-msgstr "Deaktiviere alle Module"
-
-#: lib/modules/sv_modules/lib/backend/tpl/settings.php:14
-#: lib/modules/sv_modules/sv_modules.php:21
+#: lib/modules/sv_modules/lib/backend/tpl/settings.php:13
 msgid "Modules"
 msgstr "Module"
 
-#: lib/modules/sv_modules/lib/backend/tpl/settings.php:53
+#: lib/modules/sv_modules/lib/backend/tpl/settings.php:54
 msgid "Required modules"
 msgstr "Erforderliche Module"
 
-#: lib/modules/sv_modules/sv_modules.php:18
-msgid "This module manages all installed theme modules."
-msgstr "Dieses Modul verwaltet alle installierten Theme-Module."
+#: lib/modules/sv_modules/sv_modules.php:17
+msgid "Manages all installed theme modules."
+msgstr "Verwaltet alle installierten Themenmodule."
 
-#: lib/modules/sv_modules/sv_modules.php:22
-msgid "Available Modules in the straightvisions 100 Theme."
-msgstr "Verfügbare Module im straightvisions 100 Theme."
+#: lib/modules/sv_modules/sv_modules.php:20
+msgid "Theme modules"
+msgstr "Themenmodule"
 
-#: lib/modules/sv_modules/sv_modules.php:37
-msgid "All Modules"
+#: lib/modules/sv_modules/sv_modules.php:21
+msgid "Available modules in the SV100 theme"
+msgstr "Verfügbare Module im SV100 Theme"
+
+#: lib/modules/sv_modules/sv_modules.php:30
+msgid "All modules"
 msgstr "Alle Module"
 
-#: lib/modules/sv_modules/sv_modules.php:38
+#: lib/modules/sv_modules/sv_modules.php:31
 msgid "Enable or disable all modules."
 msgstr "Alle Module aktivieren oder deaktivieren."
 
 #: lib/modules/sv_navigation/sv_navigation.php:26
-msgid ""
-"This module gives the ability to manage and display navigations via the "
-"\"[sv_navigation]\" shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, die Navigation über den Shortcode "
-"\"[sv_navigation]\" zu verwalten und anzuzeigen."
+msgid "Manages navigations and their locations"
+msgstr "Verwaltet Navigationen und deren Standorte"
 
-#: lib/modules/sv_pagination/sv_pagination.php:18
-msgid ""
-"This module gives the ability to display pagination for posts & pages with "
-"the \"[sv_pagination]\" shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, die Paginierung für Beiträge und Seiten "
-"mit dem \"[sv_pagination]\" Shortcode anzuzeigen."
+#: lib/modules/sv_pagination/sv_pagination.php:17
+msgid "Manage pagination in posts and pages."
+msgstr "Verwalte die Paginierung in Beiträgen und Seiten."
 
-#: lib/modules/sv_pagination/sv_pagination.php:64
+#: lib/modules/sv_pagination/sv_pagination.php:20
+msgid "Pagination"
+msgstr "Paginierung"
+
+#: lib/modules/sv_pagination/sv_pagination.php:84
 msgid "Previous"
 msgstr "Zurück"
 
-#: lib/modules/sv_pagination/sv_pagination.php:65
+#: lib/modules/sv_pagination/sv_pagination.php:85
 msgid "Next"
 msgstr "Weiter"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:18
-msgid ""
-"This module gives the ability to manage & display a scroll to top button."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, einen Scroll-To-Top-Knopf zu verwalten "
-"und anzuzeigen."
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:17
+msgid "Displays a scroll to top button."
+msgstr "Zeigt einen \"Nach Oben Scrollen\"-Button an."
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:20
+msgid "Scroll To Top"
+msgstr "Nach Oben Scrollen"
 
 #: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:21
-msgid "Scroll To Top - Button"
-msgstr "Scroll To Top - Button"
+msgid "Icon & Color settings"
+msgstr "Symbol- & Farbeinstellungen"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:34
-msgid "Activate or deactivate the scroll to top button."
-msgstr "Aktiviere oder deaktiviere den Scroll-To-Top Button."
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:32
+msgid "Activate Scroll To Top Button"
+msgstr "\"Nach Oben Scrollen\"-Button aktiviern"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:40
-msgid "Icon Embed Code"
-msgstr "Icon Einbett-Code"
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:37
+msgid "Icon embed code"
+msgstr "Symboleinbettungscode"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:41
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:38
 msgid "Here you can post the SVG embed code."
 msgstr "Hier kannst du den SVG-Einbett-Code speichern."
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:16
-msgid "Import"
-msgstr "Import"
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:43
+msgid "Icon color"
+msgstr "Icon Farbe"
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:17
-msgid ""
-"Select your settings file and click on \"Import Settings\".<br>Allowed "
-"filetypes: .json"
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:26
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:83
+msgid "Import settings"
+msgstr "Einstellungen importieren"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:27
+msgid "All your settings will be removed and replaced with the new settings."
 msgstr ""
-"Wähle deine Konfigurationsdatei aus und klicke auf \"Einstellungen "
-"importieren\". <br>Erlaubte Dateitypen: .json"
+"Alle deine Einstellungen werden entfernt und durch die neuen Einstellungen "
+"ersetzt."
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:24
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:28
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:53
+msgid "Do you want to proceed?"
+msgstr "Willst du fortfahren?"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:51
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:109
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:52
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:101
+msgid ""
+"All your settings will be removed and replaced with the default settings."
+msgstr ""
+"Alle deine Einstellungen werden entfernt und durch die Standardeinstellungen "
+"ersetzt."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:64
+msgid "Import"
+msgstr "Importieren"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:67
+msgid "Select your settings file and click on \"Import settings\"."
+msgstr ""
+"Wähle deine Einstellungsdatei aus und klicke auf \"Einstellungen importieren"
+"\"."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:68
+msgid "Allowed filetypes: .json"
+msgstr "Zulässige Dateitypen: .json"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:77
 msgid "Settings file"
 msgstr "Konfigurationsdatei"
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:27
-msgid "Import Settings"
-msgstr "Einstellungen importieren"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:34
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:90
 msgid "Export"
 msgstr "Export"
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:38
-msgid "Export Settings"
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:93
+msgid "Export settings"
 msgstr "Einstellungen exportieren"
 
-#: lib/modules/sv_settings/sv_settings.php:18
-msgid "Import and export your settings."
-msgstr "Importiere und exportiere deine Einstellungen."
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:99
+msgid "Reset to factory settings"
+msgstr "Zurücksetzen auf Werkseinstellungen"
 
-#: lib/modules/sv_settings/sv_settings.php:21
+#: lib/modules/sv_settings/sv_settings.php:17
+msgid "Manages settings"
+msgstr "Verwaltet Einstellungen"
+
+#: lib/modules/sv_settings/sv_settings.php:20
 msgid "Settings Import/Export"
 msgstr "Konfiguration Import/Export"
 
-#: lib/modules/sv_settings/sv_settings.php:22
+#: lib/modules/sv_settings/sv_settings.php:21
 msgid "Import and export your settings"
 msgstr "Importiere und exportiere deine Einstellungen"
 
-#: lib/modules/sv_sidebar/sv_sidebar.php:30
-msgid ""
-"This module gives the ability to display sidebars via the \"[sv_sidebar]\" "
-"shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, Seitenleisten über den Shortcode "
-"\"[sv_sidebar]\" anzuzeigen."
+#: lib/modules/sv_settings/sv_settings.php:75
+msgid "Successfully reseted all settings."
+msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
 
+#: lib/modules/sv_sidebar/sv_sidebar.php:29
+msgid "Creates and manages sidebars."
+msgstr "Erstellt und verwaltet Seitenleisten."
+
+#: lib/modules/sv_tags/lib/backend/tpl/settings.php:5
 #: lib/modules/sv_tags/lib/frontend/tpl/default.php:19
-#: lib/modules/sv_tags/sv_tags.php:23
+#: lib/modules/sv_tags/sv_tags.php:20
 msgid "Tags"
 msgstr "Schlagwörter"
 
-#: lib/modules/sv_tags/sv_tags.php:20
-msgid ""
-"This module gives the ability to display and manage tags via the "
-"\"[sv_tags]\" shortcode."
-msgstr ""
-"Dieses Modul gibt die Möglichkeit, Schlagwörter über den Shortcode "
-"\"[sv_tags]\" anzuzeigen und zu verwalten."
+#: lib/modules/sv_tags/sv_tags.php:17
+msgid "Manages tags."
+msgstr "Verwaltet Schlagwörter."
 
-#: lib/modules/sv_tags/sv_tags.php:24
-msgid "Manage Tags"
-msgstr "Schlagwörter verwalten"
-
-#: lib/modules/sv_tags/sv_tags.php:35
+#: lib/modules/sv_tags/sv_tags.php:30
 msgid "Max number of tags in list."
 msgstr "Maximale Anzahl der Schlagwörter in der Liste."
 
-#: lib/modules/sv_tags/sv_tags.php:36
+#: lib/modules/sv_tags/sv_tags.php:31
 msgid ""
-"You can define the number of tags that should be outputted on the website, "
-"by setting a limit."
+"You can define the max number of tags that should be displayed, by setting a "
+"limit."
 msgstr ""
-"Du kannst die Anzahl der Schlagwörter definieren, die auf der Website "
-"ausgegeben werden sollen, indem du ein Limit festlegst."
+"Du kannst die maximale Anzahl von Schlagwörtern definieren, die angezeigt "
+"werden sollen, indem du einen Grenzwert festlegst."
 
 #: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:327
 msgid "Install Required Plugins"
@@ -1731,106 +1938,98 @@ msgstr "Alle Installationen wurden abgeschlossen."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
 
-#: lib/modules/sv_tgmpa/sv_tgmpa.php:18
-msgid "Recommend Plugins for use with our theme."
+#: lib/modules/sv_tgmpa/sv_tgmpa.php:17
+msgid "Recommend plugins for use with our theme."
 msgstr "Empfohlene Plugins für die Nutzung unseres Themes."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:18
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:22
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:17
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:21
 msgid "Upload and manage fonts."
 msgstr "Schriften hochladen und verwalten."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:21
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:20
 msgid "Fonts"
 msgstr "Schriftarten"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:47
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:43
 msgid "Add a new font"
 msgstr "Neue Schriftart hinzufügen"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:54
-msgid "Font Label"
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:50
+msgid "Font label"
 msgstr "Beschriftung"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:55
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:51
 msgid "A label to differentiate your uploaded fonts."
 msgstr "Eine Beschriftung, um deine hochgeladenen Schriften zu unterscheiden."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:57
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:53
 msgid "Label"
 msgstr "Beschriftung"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:63
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:59
 msgid "Font family"
 msgstr "Schriftart (Font Family)"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:64
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:60
 msgid "The name of the font family."
 msgstr "Der Name der Schriftart (Font Family)."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:66
-msgid "Name"
-msgstr "Name"
-
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:73
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:69
 msgid "Activate or deactivate this font."
 msgstr "Aktiviere oder deaktiviere diese Schriftart."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:80
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:76
 msgid "Italic"
 msgstr "Kursiv"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:81
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:77
 msgid "Is the font italic?"
 msgstr "Ist die Schriftart kursiv?"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:88
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:84
 msgid "Font weight"
 msgstr "Schriftstärke"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:89
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:85
 msgid "Select the font weight."
 msgstr "Wähle die Schriftstärke aus."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:109
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:105
 msgid "TrueType (.ttf)"
 msgstr "TrueType (.ttf)"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:110
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:106
 msgid "Select or drag-and-drop your .ttf file here."
 msgstr ""
 "Wähle hier die .ttf-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:118
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:115
 msgid "OpenType (.otf)"
 msgstr "OpenType (.otf)"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:119
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:116
 msgid "Select or drag-and-drop your .otf file here."
 msgstr ""
 "Wähle hier die .otf-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:127
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:125
 msgid "Web Open Font Format (.woff)"
 msgstr "Web Open Font Format (.woff)"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:128
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:126
 msgid "Select or drag-and-drop your .woff file here."
 msgstr ""
 "Wähle hier die .woff-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:136
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:135
 msgid "Web Open Font Format 2.0 (.woff2)"
 msgstr "Web Open Font Format 2.0 (.woff2)"
 
-#: lib/modules/sv_webfontloader/sv_webfontloader.php:137
+#: lib/modules/sv_webfontloader/sv_webfontloader.php:136
 msgid "Select or drag-and-drop your .woff2 file here."
 msgstr ""
 "Wähle hier die .woff2-Datei aus oder ziehe sie per Drag-And-Drop ins Feld."
-
-#. Theme Name of the plugin/theme
-msgid "SV100"
-msgstr "SV100"
 
 #. Theme URI of the plugin/theme
 msgid ""
@@ -1858,6 +2057,165 @@ msgstr "Seite mit Seitenleiste"
 msgid "Post with Sidebar"
 msgstr "Beitrag mit Seitenleiste"
 
+#~ msgid "Color Name"
+#~ msgstr "Farb Name"
+
+#~ msgid "This Name is used to identify this color for users."
+#~ msgstr ""
+#~ "Dieser Name wird verwendet, um diese Farbe für Benutzer zu identifizieren."
+
+#~ msgid "Color Slug"
+#~ msgstr "Color Slug"
+
+#~ msgid "This Slug is used to identify this color within code."
+#~ msgstr ""
+#~ "Dieser Slug wird verwendet, um diese Farbe innerhalb des Codes zu "
+#~ "identifizieren."
+
+#~ msgid "color-slug"
+#~ msgstr "farb-slug"
+
+#~ msgid "Color Value"
+#~ msgstr "Farbwert"
+
+#~ msgid "The color to be used. Accepts hex and rgb values."
+#~ msgstr "Die Farbe, die verwendet werden soll. Akzeptiert Hex und rgb-Werte."
+
+#~ msgid ""
+#~ "This module gives the ability to display comments of the current post/"
+#~ "page via the \"[sv_comments]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, Kommentare des/der aktuellen Beitrages/"
+#~ "Seite über den \"[sv_comments]\" Shortcode anzuzeigen."
+
+#~ msgid "Base settings for the whole frontend."
+#~ msgstr "Basiseinstellungen für das gesamte Frontend."
+
+#~ msgid "Home Slider"
+#~ msgstr "Startseiten Slider"
+
+#~ msgid "Post listing themes"
+#~ msgstr "Beitragsauflistung Design"
+
+#~ msgid ""
+#~ "This module defines and manages content output, via the \"[sv_content]\" "
+#~ "shortcode."
+#~ msgstr ""
+#~ "Dieses Modul definiert und verwaltet die Ausgabe von Inhalten über den "
+#~ "Shortcode \"[sv_content]\"."
+
+#~ msgid "Activate or deactivate the slider on the home page."
+#~ msgstr "Aktiviere oder deaktiviere den Slider auf der Startseite."
+
+#~ msgid "Home Slider - Transition"
+#~ msgstr "Startseiten Slider -Übergang"
+
+#~ msgid "Choose a transition style for the slider."
+#~ msgstr "Wähle einen Übergangsstil für den Slider."
+
+#~ msgid "Home Slider - Max posts"
+#~ msgstr "Startseiten Slider - Maximale Beiträge"
+
+#~ msgid ""
+#~ "Set the maximum number of posts that will be shown in the slider.<br>1 = "
+#~ "single image"
+#~ msgstr ""
+#~ "Setze die maximale Anzahl der Beiträge, die im Slider angezeigt werden. "
+#~ "<br> 1 = Einzelbild"
+
+#~ msgid ""
+#~ "This module gives the ability to define how excerpts will be displayed."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit festzulegen, wie Auszüge angezeigt "
+#~ "werden."
+
+#~ msgid "Adjust Settings"
+#~ msgstr "Einstellungen anpassen"
+
+#~ msgid ""
+#~ "This module shows a featured image via \"[sv_featured_image]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt ein Beitragsbild über den \"[sv_featured_image]\" "
+#~ "Shortcode aus."
+
+#~ msgid "Settings for Featured Image"
+#~ msgstr "Einstellungen für Featured Image"
+
+#~ msgid "Fallback image"
+#~ msgstr "Fallback-Bild"
+
+#~ msgid ""
+#~ "This module gives the ability to display the footer via the "
+#~ "\"[sv_footer]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, den Footer über den \"[sv_footer]\" "
+#~ "Shortcode anzuzeigen."
+
+#~ msgid "Header Settings"
+#~ msgstr "Einstellungen für die Kopfzeile"
+
+#~ msgid "Header Branding"
+#~ msgstr "Branding der Kopfzeile"
+
+#~ msgid "Header Text Settings"
+#~ msgstr "Texteinstellungen für die Kopfzeile"
+
+#~ msgid "Header Background Settings"
+#~ msgstr "Hintergrund-Einstellungen für die Kopfzeile"
+
+#~ msgid "Mobile Settings"
+#~ msgstr "Mobileinstellungen"
+
+#~ msgid "Title Text"
+#~ msgstr "Text des Titels"
+
+#~ msgid ""
+#~ "Defines the text color of the branding title and the underline color of "
+#~ "the menu item on hover/focus."
+#~ msgstr ""
+#~ "Definiert die Textfarbe des Brandingtitels und die Unterstrichfarbe des "
+#~ "Hover/Fokus-Menuelements."
+
+#~ msgid "Deactivate all modules"
+#~ msgstr "Deaktiviere alle Module"
+
+#~ msgid ""
+#~ "This module gives the ability to manage and display navigations via the "
+#~ "\"[sv_navigation]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, die Navigation über den Shortcode "
+#~ "\"[sv_navigation]\" zu verwalten und anzuzeigen."
+
+#~ msgid ""
+#~ "This module gives the ability to display pagination for posts & pages "
+#~ "with the \"[sv_pagination]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, die Paginierung für Beiträge und "
+#~ "Seiten mit dem \"[sv_pagination]\" Shortcode anzuzeigen."
+
+#~ msgid ""
+#~ "This module gives the ability to manage & display a scroll to top button."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, einen Scroll-To-Top-Knopf zu verwalten "
+#~ "und anzuzeigen."
+
+#~ msgid "Import and export your settings."
+#~ msgstr "Importiere und exportiere deine Einstellungen."
+
+#~ msgid ""
+#~ "This module gives the ability to display sidebars via the "
+#~ "\"[sv_sidebar]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, Seitenleisten über den Shortcode "
+#~ "\"[sv_sidebar]\" anzuzeigen."
+
+#~ msgid ""
+#~ "This module gives the ability to display and manage tags via the "
+#~ "\"[sv_tags]\" shortcode."
+#~ msgstr ""
+#~ "Dieses Modul gibt die Möglichkeit, Schlagwörter über den Shortcode "
+#~ "\"[sv_tags]\" anzuzeigen und zu verwalten."
+
 #, fuzzy
 #~| msgid "Enqueue Admin Styles"
 #~ msgid "Removes Emoji Styles"
@@ -1882,9 +2240,6 @@ msgstr "Beitrag mit Seitenleiste"
 
 #~ msgid "Enables relative date format for all comments"
 #~ msgstr "Ermöglicht das relative Datumsformat für alle Kommentare"
-
-#~ msgid "Show Date Format"
-#~ msgstr "Datumsformat anzeigen"
 
 #~ msgid ""
 #~ "Shows the date and time in the default WordPress format, when the time "
@@ -2122,9 +2477,6 @@ msgstr "Beitrag mit Seitenleiste"
 
 #~ msgid "SV Notices Group"
 #~ msgstr "SV Notices Gruppe"
-
-#~ msgid "Allowed Filetypes:"
-#~ msgstr "Erlaubte Dateitypen:"
 
 #~ msgid "all"
 #~ msgstr "Alle"
