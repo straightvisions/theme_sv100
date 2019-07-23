@@ -55,3 +55,6 @@
 [submodule "lib/modules/sv_smooth_scrolling"]
 	path = lib/modules/sv_smooth_scrolling
 	url = ../module_sv_smooth_scrolling
+[submodule "lib/modules/sv_lightbox"]
+	path = lib/modules/sv_lightbox
+	url = ../module_sv_lightbox
