@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
-"POT-Creation-Date: 2019-08-05 10:53+0200\n"
-"PO-Revision-Date: 2019-08-05 11:20+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-08-09 14:30+0200\n"
+"PO-Revision-Date: 2019-08-09 14:30+0200\n"
+"Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -21,24 +21,24 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: lib/core_theme/core/abstract.php:131 lib/core_theme/core/abstract.php:147
-#: lib/core_theme/core/abstract.php:163
+#: lib/core_theme/core/abstract.php:130 lib/core_theme/core/abstract.php:146
+#: lib/core_theme/core/abstract.php:162
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_theme/core/abstract.php:462
+#: lib/core_theme/core/abstract.php:461
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_theme/core/abstract.php:472
+#: lib/core_theme/core/abstract.php:471
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_theme/core/abstract.php:481
+#: lib/core_theme/core/abstract.php:480
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_theme/core/abstract.php:525
+#: lib/core_theme/core/abstract.php:524
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -187,24 +187,24 @@ msgstr "Lizenz: GPL3 oder höher"
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-#: lib/core_theme/core/core.php:89
+#: lib/core_theme/core/core.php:87
 #: lib/core_theme/core/info/backend/tpl/about.php:33
 msgid "Expert Mode"
 msgstr "Experten-Modus"
 
-#: lib/core_theme/core/core.php:128 lib/core_theme/core/core.php:147
+#: lib/core_theme/core/core.php:128 lib/core_theme/core/core.php:145
 msgid "Setting saved"
 msgstr "Einstellung gespeichert"
 
-#: lib/core_theme/core/core.php:142
+#: lib/core_theme/core/core.php:140
 msgid "Nothing to update."
 msgstr "Nichts zu aktualisieren."
 
-#: lib/core_theme/core/core.php:149
+#: lib/core_theme/core/core.php:147
 msgid "You are unauthorized to perform this action."
 msgstr "Du bist nicht berechtigt, diese Aktion durchzuführen."
 
-#: lib/core_theme/core/core.php:152
+#: lib/core_theme/core/core.php:150
 msgid "Nonce check cannot fail."
 msgstr "Nonce-Prüfung kann nicht fehlschlagen."
 
@@ -333,7 +333,7 @@ msgid "You need at least "
 msgstr "Du brauchst mindestens "
 
 #. translators: %s: Minimum required version
-#: lib/core_theme/core_theme.php:86
+#: lib/core_theme/core_theme.php:57
 #, php-format
 msgid ""
 "%1$s requires WordPress %2$s or later to function properly. Please upgrade "
@@ -596,12 +596,10 @@ msgid "Titles"
 msgstr "Titel"
 
 #: lib/modules/sv_comments/lib/frontend/tpl/default.php:11
-#: lib/modules/sv_comments/lib/frontend/tpl/default_bkp.php:11
 msgid "Comment"
 msgstr "Kommentar"
 
 #: lib/modules/sv_comments/lib/frontend/tpl/default.php:11
-#: lib/modules/sv_comments/lib/frontend/tpl/default_bkp.php:11
 #: lib/modules/sv_comments/sv_comments.php:20
 msgid "Comments"
 msgstr "Kommentare"
@@ -1539,81 +1537,6 @@ msgstr "Hier kannst du den SVG-Einbett-Code speichern."
 msgid "Icon color"
 msgstr "Icon Farbe"
 
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:26
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:83
-msgid "Import settings"
-msgstr "Einstellungen importieren"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:27
-msgid "All your settings will be removed and replaced with the new settings."
-msgstr ""
-"Alle deine Einstellungen werden entfernt und durch die neuen Einstellungen "
-"ersetzt."
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:28
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:53
-msgid "Do you want to proceed?"
-msgstr "Willst du fortfahren?"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:51
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:109
-msgid "Reset settings"
-msgstr "Einstellungen zurücksetzen"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:52
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:101
-msgid ""
-"All your settings will be removed and replaced with the default settings."
-msgstr ""
-"Alle deine Einstellungen werden entfernt und durch die Standardeinstellungen "
-"ersetzt."
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:64
-msgid "Import"
-msgstr "Importieren"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:67
-msgid "Select your settings file and click on \"Import settings\"."
-msgstr ""
-"Wähle deine Einstellungsdatei aus und klicke auf \"Einstellungen importieren"
-"\"."
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:68
-msgid "Allowed filetypes: .json"
-msgstr "Zulässige Dateitypen: .json"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:77
-msgid "Settings file"
-msgstr "Konfigurationsdatei"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:90
-msgid "Export"
-msgstr "Export"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:93
-msgid "Export settings"
-msgstr "Einstellungen exportieren"
-
-#: lib/modules/sv_settings/lib/backend/tpl/tools.php:99
-msgid "Reset to factory settings"
-msgstr "Zurücksetzen auf Werkseinstellungen"
-
-#: lib/modules/sv_settings/sv_settings.php:17
-msgid "Manages settings"
-msgstr "Verwaltet Einstellungen"
-
-#: lib/modules/sv_settings/sv_settings.php:19
-msgid "Settings Import/Export"
-msgstr "Konfiguration Import/Export"
-
-#: lib/modules/sv_settings/sv_settings.php:20
-msgid "Import and export your settings"
-msgstr "Importiere und exportiere deine Einstellungen"
-
-#: lib/modules/sv_settings/sv_settings.php:66
-msgid "Successfully reseted all settings."
-msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
-
 #: lib/modules/sv_sidebar/sv_sidebar.php:29
 msgid "Creates and manages sidebars."
 msgstr "Erstellt und verwaltet Seitenleisten."
@@ -2238,6 +2161,62 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://straightvisions.com"
 msgstr "https://straightvisions.com"
+
+#~ msgid "Import settings"
+#~ msgstr "Einstellungen importieren"
+
+#~ msgid ""
+#~ "All your settings will be removed and replaced with the new settings."
+#~ msgstr ""
+#~ "Alle deine Einstellungen werden entfernt und durch die neuen "
+#~ "Einstellungen ersetzt."
+
+#~ msgid "Do you want to proceed?"
+#~ msgstr "Willst du fortfahren?"
+
+#~ msgid "Reset settings"
+#~ msgstr "Einstellungen zurücksetzen"
+
+#~ msgid ""
+#~ "All your settings will be removed and replaced with the default settings."
+#~ msgstr ""
+#~ "Alle deine Einstellungen werden entfernt und durch die "
+#~ "Standardeinstellungen ersetzt."
+
+#~ msgid "Import"
+#~ msgstr "Importieren"
+
+#~ msgid "Select your settings file and click on \"Import settings\"."
+#~ msgstr ""
+#~ "Wähle deine Einstellungsdatei aus und klicke auf \"Einstellungen "
+#~ "importieren\"."
+
+#~ msgid "Allowed filetypes: .json"
+#~ msgstr "Zulässige Dateitypen: .json"
+
+#~ msgid "Settings file"
+#~ msgstr "Konfigurationsdatei"
+
+#~ msgid "Export"
+#~ msgstr "Export"
+
+#~ msgid "Export settings"
+#~ msgstr "Einstellungen exportieren"
+
+#~ msgid "Reset to factory settings"
+#~ msgstr "Zurücksetzen auf Werkseinstellungen"
+
+#~ msgid "Manages settings"
+#~ msgstr "Verwaltet Einstellungen"
+
+#~ msgid "Settings Import/Export"
+#~ msgstr "Konfiguration Import/Export"
+
+#~ msgid "Import and export your settings"
+#~ msgstr "Importiere und exportiere deine Einstellungen"
+
+#~ msgid "Successfully reseted all settings."
+#~ msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
 
 #~ msgid "Background Settings"
 #~ msgstr "Hintergrund-Einstellungen"
