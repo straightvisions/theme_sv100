@@ -55,3 +55,6 @@
 [submodule "lib/modules/sv_lightbox"]
 	path = lib/modules/sv_lightbox
 	url = ../module_sv_lightbox
+[submodule "lib/modules/sv_card"]
+	path = lib/modules/sv_card
+	url = ../module_sv_card.git
