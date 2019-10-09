@@ -1,9 +1,9 @@
 === SV 100 ===
-Contributors: matthias-reuter
+Contributors: matthias-reuter, matthiasbathke, adrianchudzynski
 Requires at least: 5.0
 Tested up to: WordPress 5.2.2
 Requires PHP: 7.0
-Stable tag: 1.4.18
+Stable tag: 1.4.20
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -26,5 +26,5 @@ Our theme brings:
 
 == Changelog ==
 
-= 1.4.18 =
+= 1.4.20 =
 Initial Public Release
