@@ -22,12 +22,6 @@
 [submodule "lib/modules/sv_header"]
 	path = lib/modules/sv_header
 	url = ../module_sv_header.git
-[submodule "lib/modules/sv_human_time"]
-	path = lib/modules/sv_human_time
-	url = ../module_sv_human_time.git
-[submodule "lib/modules/sv_logo"]
-	path = lib/modules/sv_logo
-	url = ../module_sv_logo.git
 [submodule "lib/modules/sv_modules"]
 	path = lib/modules/sv_modules
 	url = ../module_sv_modules.git
@@ -40,9 +34,6 @@
 [submodule "lib/modules/sv_scroll_to_top"]
 	path = lib/modules/sv_scroll_to_top
 	url = ../module_sv_scroll_to_top.git
-[submodule "lib/modules/sv_settings"]
-	path = lib/modules/sv_settings
-	url = ../module_sv_settings.git
 [submodule "lib/modules/sv_sidebar"]
 	path = lib/modules/sv_sidebar
 	url = ../module_sv_sidebar.git
@@ -52,9 +43,15 @@
 [submodule "lib/modules/sv_webfontloader"]
 	path = lib/modules/sv_webfontloader
 	url = ../module_sv_webfontloader.git
-[submodule "lib/modules/sv_wizard"]
-	path = lib/modules/sv_wizard
-	url = ../module_sv_wizard.git
 [submodule "lib/core_theme"]
 	path = lib/core_theme
 	url = ../sv_core_theme.git
+[submodule "lib/modules/sv_tgmpa"]
+	path = lib/modules/sv_tgmpa
+	url = ../module_sv_tgmpa
+[submodule "lib/modules/sv_smooth_scrolling"]
+	path = lib/modules/sv_smooth_scrolling
+	url = ../module_sv_smooth_scrolling
+[submodule "lib/modules/sv_lightbox"]
+	path = lib/modules/sv_lightbox
+	url = ../module_sv_lightbox

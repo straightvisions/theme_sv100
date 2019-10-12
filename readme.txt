@@ -1,12 +1,11 @@
 === SV 100 ===
-Contributors: matthias-reuter
-Tags: blog, entertainment, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-menu, featured-images, footer-widgets, full-width-template, translation-ready, block-styles, wide-blocks
+Contributors: matthias-reuter, matthiasbathke, adrianchudzynski
 Requires at least: 5.0
 Tested up to: WordPress 5.2.2
 Requires PHP: 7.0
-Stable tag: 1.4.00
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.4.20
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 Our SV 100 theme is a modular multipurpose theme allowing maximum PageSpeed scores and superb SEO performance.
 
@@ -16,17 +15,16 @@ Our years of experience in developing custom themes for our customers results in
 Our theme brings:
 * Pagespeed 100 out of the box
 * full compatibility with wp-rocket enhance your pagespeed even more
-* lean and SEO friendly HTML Output
-* no dependencies to frameworks like Bootstrap
 * Gutenberg Support
+* 100% child-theme-support with advanced standards to replace or extend every theme module or asset
+* premium support available in English and German on enterprise level.
 * modular framework to allow full to configure which modules are loaded
 * advanced Scripts loading to allow you to configure loading of each CSS or JS
 * clean code standards themewide (PHP, HTML, CSS, JS)
-* full SVG support, e.g. for brilliant sharp Logos
-* 100% child-theme-support with advanced standards to replace or extend every theme module or asset
-* premium support available in English and German on enterprise level.
+* lean and SEO friendly HTML Output
+* no dependencies to frameworks like Bootstrap
 
 == Changelog ==
 
-= 1.3.0 =
-Initial release
+= 1.4.20 =
+Initial Public Release
