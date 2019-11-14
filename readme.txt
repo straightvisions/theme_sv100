@@ -1,5 +1,5 @@
 === SV 100 ===
-Contributors: matthias-reuter, matthiasbathke, adrianchudzynski
+Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
 Requires at least: 5.0
 Tested up to: WordPress 5.2.4
 Requires PHP: 7.0
@@ -26,5 +26,5 @@ Our theme brings:
 
 == Changelog ==
 
-= 1.4.20 =
+= 1.4.23 =
 Initial Public Release
