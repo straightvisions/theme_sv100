@@ -76,9 +76,6 @@
 [submodule "lib/modules/sv_search"]
 	path = lib/modules/sv_search
 	url = ../module_sv_search
-[submodule "lib/modules/sv_shapepress_dsgvo"]
-	path = lib/modules/sv_shapepress_dsgvo
-	url = ../module_sv_shapepress_dsgvo
 [submodule "lib/modules/sv_wpml"]
 	path = lib/modules/sv_wpml
 	url = ../module_sv_wpml
