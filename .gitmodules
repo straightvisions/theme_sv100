@@ -31,9 +31,6 @@
 [submodule "lib/modules/sv_pagination"]
 	path = lib/modules/sv_pagination
 	url = ../module_sv_pagination.git
-[submodule "lib/modules/sv_scroll_to_top"]
-	path = lib/modules/sv_scroll_to_top
-	url = ../module_sv_scroll_to_top.git
 [submodule "lib/modules/sv_sidebar"]
 	path = lib/modules/sv_sidebar
 	url = ../module_sv_sidebar.git
@@ -49,9 +46,3 @@
 [submodule "lib/modules/sv_tgmpa"]
 	path = lib/modules/sv_tgmpa
 	url = ../module_sv_tgmpa
-[submodule "lib/modules/sv_smooth_scrolling"]
-	path = lib/modules/sv_smooth_scrolling
-	url = ../module_sv_smooth_scrolling
-[submodule "lib/modules/sv_lightbox"]
-	path = lib/modules/sv_lightbox
-	url = ../module_sv_lightbox
