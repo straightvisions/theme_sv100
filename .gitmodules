@@ -46,3 +46,6 @@
 [submodule "lib/modules/sv_tgmpa"]
 	path = lib/modules/sv_tgmpa
 	url = ../module_sv_tgmpa
+[submodule "lib/modules/sv_block_pullquote"]
+	path = lib/modules/sv_block_pullquote
+	url = ../module_sv_block_pullquote
