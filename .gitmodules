@@ -49,3 +49,6 @@
 [submodule "lib/modules/sv_block_pullquote"]
 	path = lib/modules/sv_block_pullquote
 	url = ../module_sv_block_pullquote
+[submodule "lib/modules/sv_branding"]
+	path = lib/modules/sv_branding
+	url = ../module_sv_branding
