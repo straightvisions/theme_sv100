@@ -52,3 +52,6 @@
 [submodule "lib/modules/sv_branding"]
 	path = lib/modules/sv_branding
 	url = ../module_sv_branding
+[submodule "lib/modules/sv_header_content"]
+	path = lib/modules/sv_header_content
+	url = ../module_sv_header_content
