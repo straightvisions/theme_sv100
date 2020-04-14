@@ -55,3 +55,6 @@
 [submodule "lib/modules/sv_header_content"]
 	path = lib/modules/sv_header_content
 	url = ../module_sv_header_content
+[submodule "lib/modules/sv_header_menu"]
+	path = lib/modules/sv_header_menu
+	url = ../module_sv_header_menu
