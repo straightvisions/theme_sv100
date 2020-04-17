@@ -58,3 +58,9 @@
 [submodule "lib/modules/sv_header_menu"]
 	path = lib/modules/sv_header_menu
 	url = ../module_sv_header_menu
+[submodule "lib/modules/sv_block_columns"]
+	path = lib/modules/sv_block_columns
+	url = ../module_sv_block_columns
+[submodule "lib/modules/sv_block_heading"]
+	path = lib/modules/sv_block_heading
+	url = ../module_sv_block_heading
