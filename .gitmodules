@@ -67,3 +67,6 @@
 [submodule "lib/modules/sv_block_paragraph"]
 	path = lib/modules/sv_block_paragraph
 	url = ../module_sv_block_paragraph
+[submodule "lib/modules/sv_block_button"]
+	path = lib/modules/sv_block_button
+	url = ../module_sv_block_button
