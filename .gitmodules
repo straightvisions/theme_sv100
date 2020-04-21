@@ -73,3 +73,6 @@
 [submodule "lib/modules/sv_block_group"]
 	path = lib/modules/sv_block_group
 	url = ../module_sv_block_group
+[submodule "lib/modules/sv_block_cover"]
+	path = lib/modules/sv_block_cover
+	url = ../module_sv_block_cover
