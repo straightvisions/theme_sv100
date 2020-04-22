@@ -76,3 +76,6 @@
 [submodule "lib/modules/sv_block_cover"]
 	path = lib/modules/sv_block_cover
 	url = ../module_sv_block_cover
+[submodule "lib/modules/sv_block_image"]
+	path = lib/modules/sv_block_image
+	url = ../module_sv_block_image
