@@ -79,3 +79,6 @@
 [submodule "lib/modules/sv_block_image"]
 	path = lib/modules/sv_block_image
 	url = ../module_sv_block_image
+[submodule "lib/modules/sv_block_gallery"]
+	path = lib/modules/sv_block_gallery
+	url = ../module_sv_block_gallery
