@@ -82,3 +82,6 @@
 [submodule "lib/modules/sv_block_gallery"]
 	path = lib/modules/sv_block_gallery
 	url = ../module_sv_block_gallery
+[submodule "lib/modules/sv_block_table"]
+	path = lib/modules/sv_block_table
+	url = ../module_sv_block_table
