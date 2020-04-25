@@ -85,3 +85,6 @@
 [submodule "lib/modules/sv_block_table"]
 	path = lib/modules/sv_block_table
 	url = ../module_sv_block_table
+[submodule "lib/modules/sv_block_quote"]
+	path = lib/modules/sv_block_quote
+	url = ../module_sv_block_quote
