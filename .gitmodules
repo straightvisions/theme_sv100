@@ -46,21 +46,12 @@
 [submodule "lib/modules/sv_tgmpa"]
 	path = lib/modules/sv_tgmpa
 	url = ../module_sv_tgmpa
-[submodule "lib/modules/sv_posts"]
-	path = lib/modules/sv_posts
-	url = ../module_sv_posts
-[submodule "lib/modules/sv_slick"]
-	path = lib/modules/sv_slick
-	url = ../module_sv_slick
 [submodule "lib/modules/sv_unite_gallery"]
 	path = lib/modules/sv_unite_gallery
 	url = ../module_sv_unite_gallery
 [submodule "lib/modules/sv_gallery"]
 	path = lib/modules/sv_gallery
 	url = ../module_sv_gallery
-[submodule "lib/modules/sv_slider"]
-	path = lib/modules/sv_slider
-	url = ../module_sv_slider
 [submodule "lib/modules/sv_mailchimp"]
 	path = lib/modules/sv_mailchimp
 	url = ../module_sv_mailchimp
