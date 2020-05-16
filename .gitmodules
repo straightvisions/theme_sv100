@@ -49,9 +49,6 @@
 [submodule "lib/modules/sv_unite_gallery"]
 	path = lib/modules/sv_unite_gallery
 	url = ../module_sv_unite_gallery
-[submodule "lib/modules/sv_gallery"]
-	path = lib/modules/sv_gallery
-	url = ../module_sv_gallery
 [submodule "lib/modules/sv_mailchimp"]
 	path = lib/modules/sv_mailchimp
 	url = ../module_sv_mailchimp
