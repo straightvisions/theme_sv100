@@ -91,3 +91,6 @@
 [submodule "lib/modules/sv_block_list"]
 	path = lib/modules/sv_block_list
 	url = ../module_sv_block_list
+[submodule "lib/modules/sv_footer_copyright"]
+	path = lib/modules/sv_footer_copyright
+	url = ../module_sv_footer_copyright.git
