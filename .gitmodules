@@ -94,3 +94,6 @@
 [submodule "lib/modules/sv_footer_copyright"]
 	path = lib/modules/sv_footer_copyright
 	url = ../module_sv_footer_copyright.git
+[submodule "lib/modules/sv_header_bar"]
+	path = lib/modules/sv_header_bar
+	url = ../module_sv_header_bar.git
