@@ -97,3 +97,6 @@
 [submodule "lib/modules/sv_header_bar"]
 	path = lib/modules/sv_header_bar
 	url = ../module_sv_header_bar.git
+[submodule "lib/modules/sv_block_video"]
+	path = lib/modules/sv_block_video
+	url = ../module_sv_block_video
