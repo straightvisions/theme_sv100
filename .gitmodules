@@ -100,3 +100,6 @@
 [submodule "lib/modules/sv_block_video"]
 	path = lib/modules/sv_block_video
 	url = ../module_sv_block_video
+[submodule "lib/modules/sv_block_navigation"]
+	path = lib/modules/sv_block_navigation
+	url = ../module_sv_block_navigation
