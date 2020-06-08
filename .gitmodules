@@ -103,3 +103,6 @@
 [submodule "lib/modules/sv_block_navigation"]
 	path = lib/modules/sv_block_navigation
 	url = ../module_sv_block_navigation
+[submodule "lib/modules/sv_block_media_text"]
+	path = lib/modules/sv_block_media_text
+	url = ../module_sv_block_media_text
