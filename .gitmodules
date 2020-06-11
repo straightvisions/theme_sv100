@@ -49,3 +49,60 @@
 [submodule "lib/modules/sv_block_pullquote"]
 	path = lib/modules/sv_block_pullquote
 	url = ../module_sv_block_pullquote
+[submodule "lib/modules/sv_branding"]
+	path = lib/modules/sv_branding
+	url = ../module_sv_branding
+[submodule "lib/modules/sv_header_content"]
+	path = lib/modules/sv_header_content
+	url = ../module_sv_header_content
+[submodule "lib/modules/sv_header_menu"]
+	path = lib/modules/sv_header_menu
+	url = ../module_sv_header_menu
+[submodule "lib/modules/sv_block_columns"]
+	path = lib/modules/sv_block_columns
+	url = ../module_sv_block_columns
+[submodule "lib/modules/sv_block_heading"]
+	path = lib/modules/sv_block_heading
+	url = ../module_sv_block_heading
+[submodule "lib/modules/sv_block_paragraph"]
+	path = lib/modules/sv_block_paragraph
+	url = ../module_sv_block_paragraph
+[submodule "lib/modules/sv_block_button"]
+	path = lib/modules/sv_block_button
+	url = ../module_sv_block_button
+[submodule "lib/modules/sv_block_group"]
+	path = lib/modules/sv_block_group
+	url = ../module_sv_block_group
+[submodule "lib/modules/sv_block_cover"]
+	path = lib/modules/sv_block_cover
+	url = ../module_sv_block_cover
+[submodule "lib/modules/sv_block_image"]
+	path = lib/modules/sv_block_image
+	url = ../module_sv_block_image
+[submodule "lib/modules/sv_block_gallery"]
+	path = lib/modules/sv_block_gallery
+	url = ../module_sv_block_gallery
+[submodule "lib/modules/sv_block_table"]
+	path = lib/modules/sv_block_table
+	url = ../module_sv_block_table
+[submodule "lib/modules/sv_block_quote"]
+	path = lib/modules/sv_block_quote
+	url = ../module_sv_block_quote
+[submodule "lib/modules/sv_block_list"]
+	path = lib/modules/sv_block_list
+	url = ../module_sv_block_list
+[submodule "lib/modules/sv_footer_copyright"]
+	path = lib/modules/sv_footer_copyright
+	url = ../module_sv_footer_copyright.git
+[submodule "lib/modules/sv_header_bar"]
+	path = lib/modules/sv_header_bar
+	url = ../module_sv_header_bar.git
+[submodule "lib/modules/sv_block_video"]
+	path = lib/modules/sv_block_video
+	url = ../module_sv_block_video
+[submodule "lib/modules/sv_block_navigation"]
+	path = lib/modules/sv_block_navigation
+	url = ../module_sv_block_navigation
+[submodule "lib/modules/sv_block_media_text"]
+	path = lib/modules/sv_block_media_text
+	url = ../module_sv_block_media_text
