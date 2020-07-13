@@ -106,3 +106,9 @@
 [submodule "lib/modules/sv_block_media_text"]
 	path = lib/modules/sv_block_media_text
 	url = ../module_sv_block_media_text
+[submodule "lib/modules/sv_woocommerce"]
+	path = lib/modules/sv_woocommerce
+	url = ../module_sv_woocommerce
+[submodule "lib/modules/sv_block_separator"]
+	path = lib/modules/sv_block_separator
+	url = ../module_sv_block_separator
