@@ -3,7 +3,7 @@ Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
 Requires at least: 5.0
 Tested up to: WordPress 5.3.0
 Requires PHP: 7.0
-Stable tag: 1.4.30
+Stable tag: 1.4.34
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
