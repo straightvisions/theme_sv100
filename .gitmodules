@@ -112,3 +112,6 @@
 [submodule "lib/modules/sv_block_separator"]
 	path = lib/modules/sv_block_separator
 	url = ../module_sv_block_separator
+[submodule "lib/modules/sv_block_code"]
+	path = lib/modules/sv_block_code
+	url = ../module_sv_block_code
