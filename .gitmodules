@@ -115,3 +115,6 @@
 [submodule "lib/modules/sv_block_code"]
 	path = lib/modules/sv_block_code
 	url = ../module_sv_block_code
+[submodule "lib/modules/sv_block_search"]
+	path = lib/modules/sv_block_search
+	url = ../module_sv_block_search
