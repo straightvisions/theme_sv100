@@ -3,7 +3,7 @@ Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
 Requires at least: 5.0
 Tested up to: WordPress 5.3.0
 Requires PHP: 7.3
-Stable tag: 1.4.36
+Stable tag: 1.4.38
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -33,8 +33,8 @@ Our theme brings:
 
 == Changelog ==
 
-= 1.4.36 =
-Refactoring
+= 1.4.38 =
+Second Public Release
 
 = 1.4.26 =
 Initial Public Release
