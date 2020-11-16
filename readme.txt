@@ -2,8 +2,8 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.5.1
-Stable tag: 1.5.10
+Tested up to: 5.5.3
+Stable tag: 1.5.11
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -32,6 +32,9 @@ Our theme brings:
 <a href="https://straightvisions.com/en/technology/pagespeed-wordpress-themes-comparison/">Pagespeed - WordPress Themes Comparison</a>
 
 == Changelog ==
+
+= 1.5.11 =
+Fourth Public Release
 
 = 1.5.10 =
 Third Public Release

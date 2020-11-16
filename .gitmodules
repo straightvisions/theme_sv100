@@ -118,3 +118,9 @@
 [submodule "lib/modules/sv_block_search"]
 	path = lib/modules/sv_block_search
 	url = ../module_sv_block_search
+[submodule "lib/modules/sv_block_preformatted"]
+	path = lib/modules/sv_block_preformatted
+	url = ../module_sv_block_preformatted
+[submodule "lib/modules/sv_sv100_draft"]
+	path = lib/modules/sv_sv100_draft
+	url = ../module_sv_sv100_draft
