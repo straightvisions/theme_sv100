@@ -33,6 +33,9 @@ Our theme brings:
 
 == Changelog ==
 
+= 1.5.11 =
+Fourth Public Release
+
 = 1.5.10 =
 Third Public Release
 
