@@ -121,3 +121,6 @@
 [submodule "lib/modules/sv_sv100_draft"]
 	path = lib/modules/sv_sv100_draft
 	url = ../module_sv_sv100_draft
+[submodule "lib/modules/sv_featured_image"]
+	path = lib/modules/sv_featured_image
+	url = ../module_sv_featured_image
