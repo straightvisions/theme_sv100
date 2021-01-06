@@ -33,14 +33,17 @@ Our theme brings:
 
 == Changelog ==
 
+= 1.5.13 =
+5. Public Release
+
 = 1.5.11 =
-Fourth Public Release
+4. Public Release
 
 = 1.5.10 =
-Third Public Release
+3. Public Release
 
 = 1.5.00 =
-Second Public Release
+2. Public Release
 
 = 1.4.26 =
 Initial Public Release
