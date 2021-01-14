@@ -124,3 +124,6 @@
 [submodule "lib/modules/sv_featured_image"]
 	path = lib/modules/sv_featured_image
 	url = ../module_sv_featured_image
+[submodule "lib/modules/sv_author"]
+	path = lib/modules/sv_author
+	url = ../module_sv_author
