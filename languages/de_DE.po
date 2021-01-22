@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
 "POT-Creation-Date: 2020-12-19 14:56+0100\n"
-"PO-Revision-Date: 2020-12-19 15:01+0100\n"
+"PO-Revision-Date: 2021-01-13 10:46+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -243,11 +243,6 @@ msgid "Active Core Path:"
 msgstr "Aktiver Core Pfad:"
 
 #: lib/core_theme/core/info/backend/tpl/about.php:42
-#, fuzzy
-#| msgid ""
-#| "Our themes and plugins share a core which provides commonly used "
-#| "features. The core is included and shared within each plugin or theme, so "
-#| "make sure if you update one product, to update all others too."
 msgid ""
 "Our themes and plugins share a core which provides commonly used features.\n"
 "\t\t\t\t\tThe core is included and shared within each plugin or theme, so "
@@ -306,7 +301,7 @@ msgid ""
 "straightvisions."
 msgstr ""
 "Unser Core Framework ist Teil aller unserer aktuellen Plugins und Themes von "
-"straightvisions.com"
+"straightvisions.com."
 
 #: lib/core_theme/core/info/info.php:16
 msgid "does not collect or share any data from clients or visitors."
@@ -446,11 +441,11 @@ msgstr "Gruppe #"
 
 #: lib/core_theme/core/settings/settings.php:252
 msgid "No Options defined!"
-msgstr "Keine Beschreibung definiert."
+msgstr "Keine Beschreibung definiert!"
 
 #: lib/core_theme/core/settings/settings.php:281
 msgid "You need at least"
-msgstr "Du brauchst mindestens "
+msgstr "Du brauchst mindestens"
 
 #: lib/core_theme/core/settings/settings.php:281
 msgid "characters."
@@ -725,8 +720,7 @@ msgstr "Versuch ein Theme Modul zu laden, das nicht existiert: "
 #: lib/core_theme/dependencies/sv_dependencies.php:43
 msgid "You need to update your PHP version to run"
 msgstr ""
-"Du musst deine PHP Version aktualisieren, damit unsere Produkte "
-"funktionieren:"
+"Du musst deine PHP Version aktualisieren, damit unsere Produkte funktionieren"
 
 #: lib/core_theme/dependencies/sv_dependencies.php:45
 msgid "Actual version is:"
@@ -839,7 +833,7 @@ msgstr "Einstellungen für Gutenberg-Block"
 #: lib/modules/sv_pagination/sv_pagination.php:22
 #: lib/modules/sv_tags/sv_tags.php:31
 msgid "Choose a font for your text."
-msgstr "Wähle eine Schriftart für deinen Text"
+msgstr "Wähle eine Schriftart für deinen Text."
 
 #: lib/modules/sv_block_button/sv_block_button.php:22
 #: lib/modules/sv_block_code/sv_block_code.php:22
@@ -926,7 +920,7 @@ msgstr "Bitte aktiviere das Modul SV Webfontloader für diese Funktion."
 #: lib/modules/sv_pagination/sv_pagination.php:29
 #: lib/modules/sv_tags/sv_tags.php:38
 msgid "Font Size in pixel."
-msgstr "Schriftgröße in Pixel"
+msgstr "Schriftgröße in Pixel."
 
 #: lib/modules/sv_block_button/sv_block_button.php:35
 #: lib/modules/sv_block_code/sv_block_code.php:35
@@ -1257,7 +1251,7 @@ msgstr "Block: Heading"
 
 #: lib/modules/sv_block_heading/sv_block_heading.php:54
 msgid "Font Size in Pixel."
-msgstr "Schriftgröße in Pixel"
+msgstr "Schriftgröße in Pixel."
 
 #: lib/modules/sv_block_image/sv_block_image.php:6
 msgid "Block: Image"
@@ -1597,7 +1591,7 @@ msgstr "Tablet Pro"
 
 #: lib/modules/sv_common/sv_common.php:82
 msgid "Large tablets or less."
-msgstr "Große Tablets und kleiner"
+msgstr "Große Tablets und kleiner."
 
 #: lib/modules/sv_common/sv_common.php:87
 msgid "Tablet Pro (Landscape)"
@@ -1731,7 +1725,7 @@ msgstr "Normal"
 
 #: lib/modules/sv_common/sv_common.php:313
 msgid "Font Size "
-msgstr "Schriftgröße"
+msgstr "Schriftgröße "
 
 #: lib/modules/sv_content/lib/backend/tpl/archives_general.php:3
 msgid "Display styles"
@@ -1865,7 +1859,7 @@ msgstr "Zeige alle Beiträge in %s"
 #: lib/modules/sv_content/lib/modules/archive.php:172
 #: lib/modules/sv_content/lib/modules/archive.php:201
 msgid "Read more"
-msgstr "weiterlesen"
+msgstr "Weiterlesen"
 
 #: lib/modules/sv_content/lib/frontend/tpl/content/404.php:7
 msgid "Page not found"
@@ -2157,7 +2151,7 @@ msgstr "Beitragsbild"
 
 #: lib/modules/sv_featured_image/sv_featured_image.php:7
 msgid "Set a default thumbnail."
-msgstr "Lade ein Standard Beitragsbild hoch"
+msgstr "Lade ein Standard Beitragsbild hoch."
 
 #: lib/modules/sv_featured_image/sv_featured_image.php:18
 msgid "Default thumbnail"
@@ -2363,7 +2357,7 @@ msgstr "Maximale Breite für den inneren Inhalt des Footers"
 
 #: lib/modules/sv_footer/sv_footer.php:82
 msgid "Set the max width of the Footer inner content"
-msgstr "Maximale Breite für den inneren Inhalt des Footers setzen."
+msgstr "Maximale Breite für den inneren Inhalt des Footers setzen"
 
 #: lib/modules/sv_footer/sv_footer.php:89
 #: lib/modules/sv_header/sv_header.php:41
@@ -2377,22 +2371,22 @@ msgstr "Das Verhalten der Fußzeile wenn die Seite heruntergescrolled wird."
 #: lib/modules/sv_footer/sv_footer.php:92
 #: lib/modules/sv_header/sv_header.php:44
 msgid "Static"
-msgstr "statisch"
+msgstr "Statisch"
 
 #: lib/modules/sv_footer/sv_footer.php:93
 #: lib/modules/sv_header/sv_header.php:45
 msgid "Absolute"
-msgstr "absolut"
+msgstr "Absolut"
 
 #: lib/modules/sv_footer/sv_footer.php:94
 #: lib/modules/sv_header/sv_header.php:46
 msgid "Fixed"
-msgstr "fixiert"
+msgstr "Fixiert"
 
 #: lib/modules/sv_footer/sv_footer.php:95
 #: lib/modules/sv_header/sv_header.php:47
 msgid "Sticky"
-msgstr "angepinnt"
+msgstr "Angepinnt"
 
 #: lib/modules/sv_footer/sv_footer.php:176
 #: lib/modules/sv_footer/sv_footer.php:188
@@ -2502,11 +2496,11 @@ msgstr "Unterbereiche"
 
 #: lib/modules/sv_header/sv_header.php:6
 msgid "SV Header"
-msgstr "Kopfzeile"
+msgstr "Kopfbereich"
 
 #: lib/modules/sv_header/sv_header.php:7
 msgid "Manages the header."
-msgstr "Verwaltet die Kopfzeile."
+msgstr "Verwaltet den Kopfbereich."
 
 #: lib/modules/sv_header/sv_header.php:25
 msgid "Max Width Wrapper"
@@ -2582,11 +2576,11 @@ msgstr "Header Sidebar anzeigen"
 
 #: lib/modules/sv_header/sv_header.php:150
 msgid "Yes"
-msgstr "ja"
+msgstr "Ja"
 
 #: lib/modules/sv_header/sv_header.php:151
 msgid "No"
-msgstr "nein"
+msgstr "Nein"
 
 #: lib/modules/sv_header/sv_header.php:158
 msgid "Sidebar Order Position"
@@ -2606,7 +2600,7 @@ msgstr "Setze die maximale Breite der Sidebar des Kopfbereichs."
 
 #: lib/modules/sv_header/sv_header.php:215
 msgid "Header"
-msgstr "Kopfzeile"
+msgstr "Kopfbereich"
 
 #: lib/modules/sv_header/sv_header.php:216
 msgid ""
@@ -2737,7 +2731,7 @@ msgstr "Ausrichtung"
 
 #: lib/modules/sv_header_content/sv_header_content.php:71
 msgid "Set the alignment of the Content-Header"
-msgstr "Definiert die Ausrichtung innerhalb des Inhaltsheaders."
+msgstr "Definiert die Ausrichtung innerhalb des Inhaltsheaders"
 
 #: lib/modules/sv_header_content/sv_header_content.php:82
 msgid "Minimum Height"
