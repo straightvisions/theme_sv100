@@ -1,3 +1,3 @@
-<?php echo $GLOBALS['sv100']->get_module( 'sv_content' )
-	? $GLOBALS['sv100']->get_module( 'sv_content' )->load( array( 'template' => 'home' ) )
+<?php echo $GLOBALS['sv100']->get_module( 'sv_archive' )
+	? $GLOBALS['sv100']->get_module( 'sv_archive' )->load('home')
 	: '';
