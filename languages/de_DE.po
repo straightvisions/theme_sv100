@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
 "POT-Creation-Date: 2021-02-17 13:57+0100\n"
-"PO-Revision-Date: 2021-02-17 14:04+0100\n"
+"PO-Revision-Date: 2021-02-18 14:18+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -117,7 +117,7 @@ msgstr "Auszug"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:59
 msgid "Read More"
-msgstr "Weiterlesen"
+msgstr "Weiter lesen"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:63
 #: lib/modules/sv_comments/lib/tpl/settings/general.php:56
