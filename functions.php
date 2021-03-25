@@ -22,17 +22,17 @@ function sv100_freemius(){
 
 	if ( ! isset( $sv100_freemius ) ) {
 		$sv100_freemius = fs_dynamic_init( array(
-			'id'                  => '4141',
-			'slug'                => 'sv100',
-			'type'                => 'theme',
-			'public_key'          => 'pk_8b2d100933f4a81fe4f81c7f30274',
-			'is_premium'          => false,
-			'has_addons'          => false,
-			'has_paid_plans'      => false,
-			'menu'                => array(
-				'slug'           => 'sv100',
-				'account'        => false,
-				'parent'         => array(
+			'id'				  => '4141',
+			'slug'				=> 'sv100',
+			'type'				=> 'theme',
+			'public_key'		  => 'pk_8b2d100933f4a81fe4f81c7f30274',
+			'is_premium'		  => false,
+			'has_addons'		  => false,
+			'has_paid_plans'	  => false,
+			'menu'				=> array(
+				'slug'		   => 'sv100',
+				'account'		=> false,
+				'parent'		 => array(
 					'slug' => 'straightvisions',
 				),
 			),
