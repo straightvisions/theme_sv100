@@ -130,3 +130,6 @@
 [submodule "lib/modules/sv_archive"]
 	path = lib/modules/sv_archive
 	url = ../module_sv_archive
+[submodule "lib/modules/sv_metabox"]
+	path = lib/modules/sv_metabox
+	url = ../module_sv_metabox
