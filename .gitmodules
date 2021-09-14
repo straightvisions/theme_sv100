@@ -133,3 +133,6 @@
 [submodule "lib/modules/sv_metabox"]
 	path = lib/modules/sv_metabox
 	url = ../module_sv_metabox
+[submodule "lib/modules/sv_block_embed"]
+	path = lib/modules/sv_block_embed
+	url = ../module_sv_block_embed
