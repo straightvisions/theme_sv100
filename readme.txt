@@ -2,8 +2,8 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.8.0
-Stable tag: 1.8.00
+Tested up to: 5.8.1
+Stable tag: 1.8.10
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -33,7 +33,7 @@ Our theme brings:
 
 == Changelog ==
 
-= 1.8.00 =
+= 1.8.10 =
 7. Public Release
 
 = 1.5.14 =
