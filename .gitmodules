@@ -136,3 +136,60 @@
 [submodule "lib/modules/sv_block_embed"]
 	path = lib/modules/sv_block_embed
 	url = ../module_sv_block_embed
+[submodule "lib/modules/sv_block_audio"]
+	path = lib/modules/sv_block_audio
+	url = ../module_sv_block_audio
+[submodule "lib/modules/sv_block_calendar"]
+	path = lib/modules/sv_block_calendar
+	url = ../module_sv_block_calendar
+[submodule "lib/modules/sv_block_categories"]
+	path = lib/modules/sv_block_categories
+	url = ../module_sv_block_categories
+[submodule "lib/modules/sv_block_file"]
+	path = lib/modules/sv_block_file
+	url = ../module_sv_block_file
+[submodule "lib/modules/sv_block_latest_comments"]
+	path = lib/modules/sv_block_latest_comments
+	url = ../module_sv_block_latest_comments
+[submodule "lib/modules/sv_block_latest_posts"]
+	path = lib/modules/sv_block_latest_posts
+	url = ../module_sv_block_latest_posts
+[submodule "lib/modules/sv_block_post_author"]
+	path = lib/modules/sv_block_post_author
+	url = ../module_sv_block_post_author
+[submodule "lib/modules/sv_block_post_comments"]
+	path = lib/modules/sv_block_post_comments
+	url = ../module_sv_block_post_comments
+[submodule "lib/modules/sv_block_post_excerpt"]
+	path = lib/modules/sv_block_post_excerpt
+	url = ../module_sv_block_post_excerpt
+[submodule "lib/modules/sv_block_post_title"]
+	path = lib/modules/sv_block_post_title
+	url = ../module_sv_block_post_title
+[submodule "lib/modules/sv_block_query"]
+	path = lib/modules/sv_block_query
+	url = ../module_sv_block_query
+[submodule "lib/modules/sv_block_rss"]
+	path = lib/modules/sv_block_rss
+	url = ../module_sv_block_rss
+[submodule "lib/modules/sv_block_site_logo"]
+	path = lib/modules/sv_block_site_logo
+	url = ../module_sv_block_site_logo
+[submodule "lib/modules/sv_block_social_links"]
+	path = lib/modules/sv_block_social_links
+	url = ../module_sv_block_social_links
+[submodule "sv_block_spacer"]
+	path = sv_block_spacer
+	url = https://github.com/straightvisions/module_sv_block_spacer/
+[submodule "lib/modules/sv_block_tag_cloud"]
+	path = lib/modules/sv_block_tag_cloud
+	url = ../module_sv_block_tag_cloud
+[submodule "lib/modules/sv_block_spacer"]
+	path = lib/modules/sv_block_spacer
+	url = ../module_sv_block_spacer
+[submodule "lib/modules/sv_block_verse"]
+	path = lib/modules/sv_block_verse
+	url = ../module_sv_block_verse
+[submodule "lib/modules/sv_block_post_featured_image"]
+	path = lib/modules/sv_block_post_featured_image
+	url = ../module_sv_block_post_featured_image
