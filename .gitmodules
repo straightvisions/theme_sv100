@@ -178,9 +178,6 @@
 [submodule "lib/modules/sv_block_social_links"]
 	path = lib/modules/sv_block_social_links
 	url = ../module_sv_block_social_links
-[submodule "sv_block_spacer"]
-	path = sv_block_spacer
-	url = https://github.com/straightvisions/module_sv_block_spacer/
 [submodule "lib/modules/sv_block_tag_cloud"]
 	path = lib/modules/sv_block_tag_cloud
 	url = ../module_sv_block_tag_cloud
