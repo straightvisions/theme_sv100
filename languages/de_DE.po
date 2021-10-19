@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
-"POT-Creation-Date: 2021-09-28 19:37+0200\n"
-"PO-Revision-Date: 2021-09-28 20:01+0200\n"
+"POT-Creation-Date: 2021-10-19 14:59+0200\n"
+"PO-Revision-Date: 2021-10-19 15:07+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -56,33 +56,33 @@ msgstr "Hilfreiche Tools &amp; Helper"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:78
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:91
 #: lib/modules/sv_archive/lib/tpl/settings/general.php:24
-#: lib/modules/sv_archive/sv_archive.php:97
-#: lib/modules/sv_archive/sv_archive.php:104
-#: lib/modules/sv_archive/sv_archive.php:112
+#: lib/modules/sv_archive/sv_archive.php:96
+#: lib/modules/sv_archive/sv_archive.php:103
+#: lib/modules/sv_archive/sv_archive.php:111
 #: lib/modules/sv_common/lib/tpl/settings/general.php:3
 msgid "Common"
 msgstr "Allgemein"
 
-#: lib/core_theme/core/abstract.php:708
+#: lib/core_theme/core/abstract.php:709
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_theme/core/abstract.php:728
+#: lib/core_theme/core/abstract.php:729
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_theme/core/abstract.php:738
+#: lib/core_theme/core/abstract.php:739
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_theme/core/abstract.php:815
-#: lib/core_theme/core/scripts/scripts.php:86
+#: lib/core_theme/core/abstract.php:816
+#: lib/core_theme/core/scripts/scripts.php:118
 msgid "Settings"
 msgstr "Einstellungen"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:29
 #: lib/core_theme/core/abstract_template_sv_content.php:29
-#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:63
+#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:72
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:99
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:104
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:117
@@ -108,31 +108,27 @@ msgstr "Fußzeile"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:45
 #: lib/core_theme/core/abstract_template_sv_content.php:45
-#, fuzzy
-#| msgid "Sidebar"
+#: lib/modules/sv_archive/sv_archive.php:120
 msgid "Sidebar Top"
-msgstr "Seitenleiste"
+msgstr "Seitenleiste Oben"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:49
 #: lib/core_theme/core/abstract_template_sv_content.php:49
-#, fuzzy
-#| msgid "Sidebar Alignment"
+#: lib/modules/sv_archive/sv_archive.php:126
 msgid "Sidebar Right"
-msgstr "Sidebar Ausrichtung"
+msgstr "Sidebar rechts"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:53
 #: lib/core_theme/core/abstract_template_sv_content.php:53
-#, fuzzy
-#| msgid "Sidebar"
+#: lib/modules/sv_archive/sv_archive.php:132
 msgid "Sidebar Bottom"
-msgstr "Seitenleiste"
+msgstr "Seitenleiste Unten"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:57
 #: lib/core_theme/core/abstract_template_sv_content.php:57
-#, fuzzy
-#| msgid "Sidebar"
+#: lib/modules/sv_archive/sv_archive.php:138
 msgid "Sidebar Left"
-msgstr "Seitenleiste"
+msgstr "Sidebar links"
 
 #: lib/core_theme/core/abstract_template_sv_archive.php:61
 #: lib/core_theme/core/abstract_template_sv_content.php:61
@@ -459,8 +455,8 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: lib/core_theme/core/info/backend/tpl/about.php:114
-#: lib/core_theme/core/scripts/scripts.php:181
-#: lib/core_theme/core/scripts/scripts.php:191
+#: lib/core_theme/core/scripts/scripts.php:227
+#: lib/core_theme/core/scripts/scripts.php:237
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -481,23 +477,41 @@ msgid "does not collect or share any data from clients or visitors."
 msgstr "sammelt oder teilt keine Daten von Kunden oder Gästen."
 
 #: lib/core_theme/core/lib/tpl/settings/scripts_general.php:3
+#: lib/modules/sv_block_audio/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_button/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_calendar/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_categories/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_code/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_cover/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_embed/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_file/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_gallery/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_group/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_image/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_latest_comments/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_latest_posts/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_list/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_media_text/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_navigation/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_paragraph/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_post_author/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_post_comments/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_post_excerpt/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_post_featured_image/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_post_title/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_preformatted/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_pullquote/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_query/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_quote/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_rss/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_search/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_separator/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_site_logo/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_social_links/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_spacer/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_table/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_tag_cloud/lib/tpl/settings/general.php:3
+#: lib/modules/sv_block_verse/lib/tpl/settings/general.php:3
 #: lib/modules/sv_block_video/lib/tpl/settings/general.php:3
 #: lib/modules/sv_branding/lib/tpl/settings/general.php:3
 #: lib/modules/sv_colors/lib/tpl/settings/general.php:3
@@ -528,37 +542,37 @@ msgstr "Allgemein"
 msgid "Scripts Overview"
 msgstr "Skriptübersicht"
 
-#: lib/core_theme/core/scripts/scripts.php:48
+#: lib/core_theme/core/scripts/scripts.php:50
 msgid "Scripts"
 msgstr "Skripte"
 
-#: lib/core_theme/core/scripts/scripts.php:49
+#: lib/core_theme/core/scripts/scripts.php:51
 msgid "Override Scripts Loading."
 msgstr "Ladeeinstellungen der Scripte überschreiben."
 
 #. Theme Name of the plugin/theme
-#: lib/core_theme/core/scripts/scripts.php:77 lib/core_theme/core_theme.php:46
+#: lib/core_theme/core/scripts/scripts.php:109 lib/core_theme/core_theme.php:48
 #: lib/modules/sv_metabox/sv_metabox.php:20
 msgid "SV100"
 msgstr "SV100"
 
-#: lib/core_theme/core/scripts/scripts.php:98
+#: lib/core_theme/core/scripts/scripts.php:130
 msgid "Clear Cache"
 msgstr "Cache leeren"
 
-#: lib/core_theme/core/scripts/scripts.php:145
+#: lib/core_theme/core/scripts/scripts.php:191
 msgid "Flush cache for all CSS files"
 msgstr "Leere Cache für alle CSS Dateien"
 
-#: lib/core_theme/core/scripts/scripts.php:146
+#: lib/core_theme/core/scripts/scripts.php:192
 msgid "All cached CSS Files will be regenerated"
 msgstr "Alle gecachten CSS Dateien werden neu generiert"
 
-#: lib/core_theme/core/scripts/scripts.php:151
+#: lib/core_theme/core/scripts/scripts.php:197
 msgid "Disable all CSS per Default"
 msgstr "Alle CSS per Standard abschalten"
 
-#: lib/core_theme/core/scripts/scripts.php:152
+#: lib/core_theme/core/scripts/scripts.php:198
 msgid ""
 "CSS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -566,11 +580,11 @@ msgstr ""
 "CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
 "weiter unten überschreiben."
 
-#: lib/core_theme/core/scripts/scripts.php:157
+#: lib/core_theme/core/scripts/scripts.php:203
 msgid "Disable all JS per Default"
 msgstr "Alle JS per Standard abschalten"
 
-#: lib/core_theme/core/scripts/scripts.php:158
+#: lib/core_theme/core/scripts/scripts.php:204
 msgid ""
 "JS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -578,45 +592,45 @@ msgstr ""
 "JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
 "unten überschreiben."
 
-#: lib/core_theme/core/scripts/scripts.php:183
-#: lib/core_theme/core/scripts/scripts.php:189
+#: lib/core_theme/core/scripts/scripts.php:229
+#: lib/core_theme/core/scripts/scripts.php:235
 msgid "Inline"
 msgstr "Inline"
 
-#: lib/core_theme/core/scripts/scripts.php:183
-#: lib/core_theme/core/scripts/scripts.php:190
+#: lib/core_theme/core/scripts/scripts.php:229
+#: lib/core_theme/core/scripts/scripts.php:236
 msgid "Attached"
 msgstr "Angehängt"
 
-#: lib/core_theme/core/scripts/scripts.php:188
+#: lib/core_theme/core/scripts/scripts.php:234
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:203
 #: lib/modules/sv_common/sv_common.php:144
-#: lib/modules/sv_header/sv_header.php:291
-#: lib/modules/sv_header_content/sv_header_content.php:11
-#: lib/modules/sv_header_content/sv_header_content.php:20
-#: lib/modules/sv_header_content/sv_header_content.php:605
+#: lib/modules/sv_header/sv_header.php:289
+#: lib/modules/sv_header_content/sv_header_content.php:10
+#: lib/modules/sv_header_content/sv_header_content.php:19
+#: lib/modules/sv_header_content/sv_header_content.php:580
 msgid "Default"
 msgstr "Standard"
 
-#: lib/core_theme/core/scripts/scripts.php:209
-#: lib/core_theme/core/scripts/scripts.php:219
+#: lib/core_theme/core/scripts/scripts.php:254
+#: lib/core_theme/core/scripts/scripts.php:264
 msgid "Flush Cache"
 msgstr "Cache leeren"
 
-#: lib/core_theme/core/scripts/scripts.php:210
-#: lib/core_theme/core/scripts/scripts.php:220
+#: lib/core_theme/core/scripts/scripts.php:255
+#: lib/core_theme/core/scripts/scripts.php:265
 msgid "Cache Active"
 msgstr "Cache Aktiv"
 
-#: lib/core_theme/core/scripts/scripts.php:454
+#: lib/core_theme/core/scripts/scripts.php:519
 msgid "Script \""
 msgstr "Skript \""
 
-#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:50
+#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:59
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:63
+#: lib/core_theme/core/settings/modules/setting_group/setting_group.php:72
 msgid "Group #"
 msgstr "Gruppe #"
 
@@ -634,14 +648,14 @@ msgstr "Zeichen."
 
 #: lib/core_theme/core/settings/settings.php:605
 msgid "Save (classic)"
-msgstr ""
+msgstr "Speichern (klassisch)"
 
 #: lib/core_theme/core/settings/settings.php:605
 msgid "Save (AJAX)"
-msgstr ""
+msgstr "Speichern (AJAX)"
 
-#: lib/core_theme/core/settings/settings.php:761
-#: lib/core_theme/core/settings/settings.php:804
+#: lib/core_theme/core/settings/settings.php:762
+#: lib/core_theme/core/settings/settings.php:805
 msgid "Settings Template not found: "
 msgstr "Template für Einstellungen nicht gefunden: "
 
@@ -701,11 +715,11 @@ msgstr "Vertikale Länge"
 
 #: lib/core_theme/core/settings/tpl/setting_font_tpl/color.php:5
 #: lib/modules/sv_colors/sv_colors.php:63
-#: lib/modules/sv_footer/sv_footer.php:164
-#: lib/modules/sv_footer/sv_footer.php:170
-#: lib/modules/sv_footer/sv_footer.php:275
-#: lib/modules/sv_footer/sv_footer.php:281
-#: lib/modules/sv_header_content/sv_header_content.php:21
+#: lib/modules/sv_footer/sv_footer.php:167
+#: lib/modules/sv_footer/sv_footer.php:173
+#: lib/modules/sv_footer/sv_footer.php:278
+#: lib/modules/sv_footer/sv_footer.php:284
+#: lib/modules/sv_header_content/sv_header_content.php:20
 #: lib/modules/sv_header_menu/lib/tpl/settings/items.php:19
 msgid "Color"
 msgstr "Farbe"
@@ -713,17 +727,34 @@ msgstr "Farbe"
 #: lib/core_theme/core/settings/tpl/setting_font_tpl/font_family.php:8
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:37
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:213
+#: lib/modules/sv_block_audio/sv_block_audio.php:20
 #: lib/modules/sv_block_button/sv_block_button.php:20
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:20
+#: lib/modules/sv_block_categories/sv_block_categories.php:20
 #: lib/modules/sv_block_code/sv_block_code.php:20
-#: lib/modules/sv_block_heading/sv_block_heading.php:50
+#: lib/modules/sv_block_file/sv_block_file.php:20
+#: lib/modules/sv_block_heading/sv_block_heading.php:34
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:20
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:20
 #: lib/modules/sv_block_list/sv_block_list.php:20
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:20
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:20
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:20
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:20
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:20
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:20
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:20
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:20
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:20
+#: lib/modules/sv_block_query/sv_block_query.php:20
 #: lib/modules/sv_block_quote/sv_block_quote.php:20
 #: lib/modules/sv_block_quote/sv_block_quote.php:67
+#: lib/modules/sv_block_rss/sv_block_rss.php:20
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:20
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:20
 #: lib/modules/sv_block_table/sv_block_table.php:20
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:20
+#: lib/modules/sv_block_verse/sv_block_verse.php:20
 #: lib/modules/sv_branding/sv_branding.php:40
 #: lib/modules/sv_comments/sv_comments.php:27
 #: lib/modules/sv_comments/sv_comments.php:76
@@ -736,14 +767,14 @@ msgstr "Farbe"
 #: lib/modules/sv_comments/sv_comments.php:324
 #: lib/modules/sv_common/sv_common.php:180
 #: lib/modules/sv_common/sv_common.php:202
-#: lib/modules/sv_footer/sv_footer.php:137
-#: lib/modules/sv_footer/sv_footer.php:213
-#: lib/modules/sv_footer/sv_footer.php:255
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:36
+#: lib/modules/sv_footer/sv_footer.php:140
+#: lib/modules/sv_footer/sv_footer.php:216
+#: lib/modules/sv_footer/sv_footer.php:258
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:35
 #: lib/modules/sv_header_bar/sv_header_bar.php:57
-#: lib/modules/sv_header_content/sv_header_content.php:264
-#: lib/modules/sv_header_content/sv_header_content.php:291
-#: lib/modules/sv_header_content/sv_header_content.php:318
+#: lib/modules/sv_header_content/sv_header_content.php:263
+#: lib/modules/sv_header_content/sv_header_content.php:290
+#: lib/modules/sv_header_content/sv_header_content.php:317
 #: lib/modules/sv_header_menu/sv_header_menu.php:177
 #: lib/modules/sv_pagination/sv_pagination.php:42
 #: lib/modules/sv_tags/sv_tags.php:30
@@ -753,16 +784,33 @@ msgstr "Schriftart (Font Family)"
 #: lib/core_theme/core/settings/tpl/setting_font_tpl/font_size.php:7
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:44
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:220
+#: lib/modules/sv_block_audio/sv_block_audio.php:27
 #: lib/modules/sv_block_button/sv_block_button.php:27
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:27
+#: lib/modules/sv_block_categories/sv_block_categories.php:27
 #: lib/modules/sv_block_code/sv_block_code.php:27
-#: lib/modules/sv_block_heading/sv_block_heading.php:65
+#: lib/modules/sv_block_file/sv_block_file.php:27
+#: lib/modules/sv_block_heading/sv_block_heading.php:60
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:27
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:27
 #: lib/modules/sv_block_list/sv_block_list.php:27
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:27
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:27
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:27
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:27
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:27
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:27
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:27
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:27
+#: lib/modules/sv_block_query/sv_block_query.php:27
 #: lib/modules/sv_block_quote/sv_block_quote.php:27
 #: lib/modules/sv_block_quote/sv_block_quote.php:74
+#: lib/modules/sv_block_rss/sv_block_rss.php:27
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:27
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:27
 #: lib/modules/sv_block_table/sv_block_table.php:27
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:27
+#: lib/modules/sv_block_verse/sv_block_verse.php:27
 #: lib/modules/sv_branding/sv_branding.php:47
 #: lib/modules/sv_comments/sv_comments.php:34
 #: lib/modules/sv_comments/sv_comments.php:83
@@ -772,14 +820,14 @@ msgstr "Schriftart (Font Family)"
 #: lib/modules/sv_comments/sv_comments.php:235
 #: lib/modules/sv_comments/sv_comments.php:283
 #: lib/modules/sv_comments/sv_comments.php:331
-#: lib/modules/sv_footer/sv_footer.php:144
-#: lib/modules/sv_footer/sv_footer.php:220
-#: lib/modules/sv_footer/sv_footer.php:262
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:43
+#: lib/modules/sv_footer/sv_footer.php:147
+#: lib/modules/sv_footer/sv_footer.php:223
+#: lib/modules/sv_footer/sv_footer.php:265
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:42
 #: lib/modules/sv_header_bar/sv_header_bar.php:64
-#: lib/modules/sv_header_content/sv_header_content.php:271
-#: lib/modules/sv_header_content/sv_header_content.php:298
-#: lib/modules/sv_header_content/sv_header_content.php:325
+#: lib/modules/sv_header_content/sv_header_content.php:270
+#: lib/modules/sv_header_content/sv_header_content.php:297
+#: lib/modules/sv_header_content/sv_header_content.php:324
 #: lib/modules/sv_header_menu/sv_header_menu.php:184
 #: lib/modules/sv_pagination/sv_pagination.php:49
 #: lib/modules/sv_tags/sv_tags.php:37
@@ -797,16 +845,33 @@ msgstr "Zeichenabstand"
 #: lib/core_theme/core/settings/tpl/setting_font_tpl/line_height.php:7
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:50
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:226
+#: lib/modules/sv_block_audio/sv_block_audio.php:34
 #: lib/modules/sv_block_button/sv_block_button.php:34
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:34
+#: lib/modules/sv_block_categories/sv_block_categories.php:34
 #: lib/modules/sv_block_code/sv_block_code.php:34
-#: lib/modules/sv_block_heading/sv_block_heading.php:72
+#: lib/modules/sv_block_file/sv_block_file.php:34
+#: lib/modules/sv_block_heading/sv_block_heading.php:67
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:34
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:33
 #: lib/modules/sv_block_list/sv_block_list.php:34
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:34
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:34
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:34
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:34
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:34
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:34
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:34
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:34
+#: lib/modules/sv_block_query/sv_block_query.php:34
 #: lib/modules/sv_block_quote/sv_block_quote.php:34
 #: lib/modules/sv_block_quote/sv_block_quote.php:81
+#: lib/modules/sv_block_rss/sv_block_rss.php:34
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:34
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:34
 #: lib/modules/sv_block_table/sv_block_table.php:34
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:34
+#: lib/modules/sv_block_verse/sv_block_verse.php:34
 #: lib/modules/sv_branding/sv_branding.php:54
 #: lib/modules/sv_comments/sv_comments.php:41
 #: lib/modules/sv_comments/sv_comments.php:90
@@ -817,14 +882,14 @@ msgstr "Zeichenabstand"
 #: lib/modules/sv_comments/sv_comments.php:290
 #: lib/modules/sv_comments/sv_comments.php:338
 #: lib/modules/sv_common/sv_common.php:188
-#: lib/modules/sv_footer/sv_footer.php:151
-#: lib/modules/sv_footer/sv_footer.php:227
-#: lib/modules/sv_footer/sv_footer.php:269
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:50
+#: lib/modules/sv_footer/sv_footer.php:154
+#: lib/modules/sv_footer/sv_footer.php:230
+#: lib/modules/sv_footer/sv_footer.php:272
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:49
 #: lib/modules/sv_header_bar/sv_header_bar.php:71
-#: lib/modules/sv_header_content/sv_header_content.php:278
-#: lib/modules/sv_header_content/sv_header_content.php:305
-#: lib/modules/sv_header_content/sv_header_content.php:332
+#: lib/modules/sv_header_content/sv_header_content.php:277
+#: lib/modules/sv_header_content/sv_header_content.php:304
+#: lib/modules/sv_header_content/sv_header_content.php:331
 #: lib/modules/sv_header_menu/sv_header_menu.php:191
 #: lib/modules/sv_pagination/sv_pagination.php:56
 #: lib/modules/sv_tags/sv_tags.php:44
@@ -854,11 +919,15 @@ msgstr "Keine Seite ausgewählt"
 msgid "Delete File"
 msgstr "Datei löschen"
 
-#: lib/core_theme/core_theme.php:47
+#: lib/core_theme/core_theme.php:49
 msgid "SV100 Theme"
 msgstr "SV100 Theme"
 
-#: lib/core_theme/core_theme.php:64
+#: lib/core_theme/core_theme.php:51
+msgid " does not collect or share any data"
+msgstr " sammelt oder teilt keine Daten"
+
+#: lib/core_theme/core_theme.php:67
 #, php-format
 msgid ""
 "%1$s requires WordPress %2$s or later to function properly.\n"
@@ -867,15 +936,15 @@ msgstr ""
 "%1$s erfordert WordPress %2$s oder später, um richtig zu funktionieren. "
 "Bitte aktualisiere WordPress vor der Aktivierung von %3$s."
 
-#: lib/core_theme/core_theme.php:100
+#: lib/core_theme/core_theme.php:103
 msgid "No Description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_theme/core_theme.php:157
+#: lib/core_theme/core_theme.php:160
 msgid "Description is available once activated."
 msgstr "Beschreibung ist verfügbar sobald das Modul aktiviert wurde."
 
-#: lib/core_theme/core_theme.php:169
+#: lib/core_theme/core_theme.php:172
 msgid "Tried to load theme module which does not exist: "
 msgstr "Versuch ein Theme Modul zu laden, das nicht existiert: "
 
@@ -904,29 +973,46 @@ msgstr "Zeige alle Beiträge in %s"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:22
 #: lib/modules/sv_block_columns/sv_block_columns.php:20
-#: lib/modules/sv_content/sv_content.php:46
+#: lib/modules/sv_content/sv_content.php:49
 msgid "Stack Columns"
 msgstr "Staple Spalten"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:23
 #: lib/modules/sv_block_columns/sv_block_columns.php:21
-#: lib/modules/sv_content/sv_content.php:47
+#: lib/modules/sv_content/sv_content.php:50
 msgid "You may want to stack Columns on narrow viewports."
 msgstr "Du möchtest möglicherweise Spalten auf schmalen Geräten stapeln."
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:38
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:214
+#: lib/modules/sv_block_audio/sv_block_audio.php:21
 #: lib/modules/sv_block_button/sv_block_button.php:21
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:21
+#: lib/modules/sv_block_categories/sv_block_categories.php:21
 #: lib/modules/sv_block_code/sv_block_code.php:21
-#: lib/modules/sv_block_heading/sv_block_heading.php:51
+#: lib/modules/sv_block_file/sv_block_file.php:21
+#: lib/modules/sv_block_heading/sv_block_heading.php:35
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:21
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:21
 #: lib/modules/sv_block_list/sv_block_list.php:21
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:21
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:21
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:21
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:21
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:21
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:21
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:21
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:21
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:21
+#: lib/modules/sv_block_query/sv_block_query.php:21
 #: lib/modules/sv_block_quote/sv_block_quote.php:21
 #: lib/modules/sv_block_quote/sv_block_quote.php:68
+#: lib/modules/sv_block_rss/sv_block_rss.php:21
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:21
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:21
 #: lib/modules/sv_block_table/sv_block_table.php:21
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:21
+#: lib/modules/sv_block_verse/sv_block_verse.php:21
 #: lib/modules/sv_branding/sv_branding.php:41
 #: lib/modules/sv_comments/sv_comments.php:28
 #: lib/modules/sv_comments/sv_comments.php:77
@@ -938,14 +1024,14 @@ msgstr "Du möchtest möglicherweise Spalten auf schmalen Geräten stapeln."
 #: lib/modules/sv_comments/sv_comments.php:277
 #: lib/modules/sv_comments/sv_comments.php:325
 #: lib/modules/sv_common/sv_common.php:203
-#: lib/modules/sv_footer/sv_footer.php:138
-#: lib/modules/sv_footer/sv_footer.php:214
-#: lib/modules/sv_footer/sv_footer.php:256
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:37
+#: lib/modules/sv_footer/sv_footer.php:141
+#: lib/modules/sv_footer/sv_footer.php:217
+#: lib/modules/sv_footer/sv_footer.php:259
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:36
 #: lib/modules/sv_header_bar/sv_header_bar.php:58
-#: lib/modules/sv_header_content/sv_header_content.php:265
-#: lib/modules/sv_header_content/sv_header_content.php:292
-#: lib/modules/sv_header_content/sv_header_content.php:319
+#: lib/modules/sv_header_content/sv_header_content.php:264
+#: lib/modules/sv_header_content/sv_header_content.php:291
+#: lib/modules/sv_header_content/sv_header_content.php:318
 #: lib/modules/sv_header_menu/sv_header_menu.php:178
 #: lib/modules/sv_pagination/sv_pagination.php:43
 #: lib/modules/sv_tags/sv_tags.php:31
@@ -954,17 +1040,34 @@ msgstr "Wähle eine Schriftart für deinen Text."
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:39
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:215
+#: lib/modules/sv_block_audio/sv_block_audio.php:22
 #: lib/modules/sv_block_button/sv_block_button.php:22
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:22
+#: lib/modules/sv_block_categories/sv_block_categories.php:22
 #: lib/modules/sv_block_code/sv_block_code.php:22
-#: lib/modules/sv_block_heading/sv_block_heading.php:52
+#: lib/modules/sv_block_file/sv_block_file.php:22
+#: lib/modules/sv_block_heading/sv_block_heading.php:36
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:22
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:22
 #: lib/modules/sv_block_list/sv_block_list.php:22
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:22
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:22
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:22
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:22
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:22
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:22
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:22
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:22
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:22
+#: lib/modules/sv_block_query/sv_block_query.php:22
 #: lib/modules/sv_block_quote/sv_block_quote.php:22
 #: lib/modules/sv_block_quote/sv_block_quote.php:69
+#: lib/modules/sv_block_rss/sv_block_rss.php:22
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:22
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:22
 #: lib/modules/sv_block_table/sv_block_table.php:22
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:22
+#: lib/modules/sv_block_verse/sv_block_verse.php:22
 #: lib/modules/sv_branding/sv_branding.php:42
 #: lib/modules/sv_comments/sv_comments.php:29
 #: lib/modules/sv_comments/sv_comments.php:78
@@ -977,14 +1080,14 @@ msgstr "Wähle eine Schriftart für deinen Text."
 #: lib/modules/sv_comments/sv_comments.php:326
 #: lib/modules/sv_common/sv_common.php:183
 #: lib/modules/sv_common/sv_common.php:204
-#: lib/modules/sv_footer/sv_footer.php:139
-#: lib/modules/sv_footer/sv_footer.php:215
-#: lib/modules/sv_footer/sv_footer.php:257
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:38
+#: lib/modules/sv_footer/sv_footer.php:142
+#: lib/modules/sv_footer/sv_footer.php:218
+#: lib/modules/sv_footer/sv_footer.php:260
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:37
 #: lib/modules/sv_header_bar/sv_header_bar.php:59
-#: lib/modules/sv_header_content/sv_header_content.php:267
-#: lib/modules/sv_header_content/sv_header_content.php:293
-#: lib/modules/sv_header_content/sv_header_content.php:320
+#: lib/modules/sv_header_content/sv_header_content.php:266
+#: lib/modules/sv_header_content/sv_header_content.php:292
+#: lib/modules/sv_header_content/sv_header_content.php:319
 #: lib/modules/sv_header_menu/sv_header_menu.php:179
 #: lib/modules/sv_pagination/sv_pagination.php:44
 #: lib/modules/sv_tags/sv_tags.php:32
@@ -1004,16 +1107,33 @@ msgstr "Schriftgröße in Pixel"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:51
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:227
+#: lib/modules/sv_block_audio/sv_block_audio.php:35
 #: lib/modules/sv_block_button/sv_block_button.php:35
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:35
+#: lib/modules/sv_block_categories/sv_block_categories.php:35
 #: lib/modules/sv_block_code/sv_block_code.php:35
-#: lib/modules/sv_block_heading/sv_block_heading.php:73
+#: lib/modules/sv_block_file/sv_block_file.php:35
+#: lib/modules/sv_block_heading/sv_block_heading.php:68
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:35
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:34
 #: lib/modules/sv_block_list/sv_block_list.php:35
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:35
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:35
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:35
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:35
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:35
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:35
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:35
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:35
+#: lib/modules/sv_block_query/sv_block_query.php:35
 #: lib/modules/sv_block_quote/sv_block_quote.php:35
 #: lib/modules/sv_block_quote/sv_block_quote.php:82
+#: lib/modules/sv_block_rss/sv_block_rss.php:35
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:35
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:35
 #: lib/modules/sv_block_table/sv_block_table.php:35
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:35
+#: lib/modules/sv_block_verse/sv_block_verse.php:35
 #: lib/modules/sv_branding/sv_branding.php:55
 #: lib/modules/sv_comments/sv_comments.php:42
 #: lib/modules/sv_comments/sv_comments.php:91
@@ -1024,14 +1144,14 @@ msgstr "Schriftgröße in Pixel"
 #: lib/modules/sv_comments/sv_comments.php:291
 #: lib/modules/sv_comments/sv_comments.php:339
 #: lib/modules/sv_common/sv_common.php:189
-#: lib/modules/sv_footer/sv_footer.php:152
-#: lib/modules/sv_footer/sv_footer.php:228
-#: lib/modules/sv_footer/sv_footer.php:270
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:51
+#: lib/modules/sv_footer/sv_footer.php:155
+#: lib/modules/sv_footer/sv_footer.php:231
+#: lib/modules/sv_footer/sv_footer.php:273
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:50
 #: lib/modules/sv_header_bar/sv_header_bar.php:72
-#: lib/modules/sv_header_content/sv_header_content.php:279
-#: lib/modules/sv_header_content/sv_header_content.php:306
-#: lib/modules/sv_header_content/sv_header_content.php:333
+#: lib/modules/sv_header_content/sv_header_content.php:278
+#: lib/modules/sv_header_content/sv_header_content.php:305
+#: lib/modules/sv_header_content/sv_header_content.php:332
 #: lib/modules/sv_header_menu/sv_header_menu.php:192
 #: lib/modules/sv_pagination/sv_pagination.php:57
 #: lib/modules/sv_tags/sv_tags.php:45
@@ -1040,16 +1160,33 @@ msgstr "Setze Zeilenhöhe als Multiplier oder mit einer Einheit."
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:56
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:232
+#: lib/modules/sv_block_audio/sv_block_audio.php:40
 #: lib/modules/sv_block_button/sv_block_button.php:40
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:40
+#: lib/modules/sv_block_categories/sv_block_categories.php:40
 #: lib/modules/sv_block_code/sv_block_code.php:40
-#: lib/modules/sv_block_heading/sv_block_heading.php:78
+#: lib/modules/sv_block_file/sv_block_file.php:40
+#: lib/modules/sv_block_heading/sv_block_heading.php:73
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:40
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:39
 #: lib/modules/sv_block_list/sv_block_list.php:40
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:40
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:40
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:40
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:40
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:40
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:40
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:40
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:40
+#: lib/modules/sv_block_query/sv_block_query.php:40
 #: lib/modules/sv_block_quote/sv_block_quote.php:40
 #: lib/modules/sv_block_quote/sv_block_quote.php:87
+#: lib/modules/sv_block_rss/sv_block_rss.php:40
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:40
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:40
 #: lib/modules/sv_block_table/sv_block_table.php:40
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:40
+#: lib/modules/sv_block_verse/sv_block_verse.php:40
 #: lib/modules/sv_branding/sv_branding.php:60
 #: lib/modules/sv_comments/sv_comments.php:47
 #: lib/modules/sv_comments/sv_comments.php:96
@@ -1063,13 +1200,13 @@ msgstr "Setze Zeilenhöhe als Multiplier oder mit einer Einheit."
 #: lib/modules/sv_common/sv_common.php:195
 #: lib/modules/sv_common/sv_common.php:209
 #: lib/modules/sv_common/sv_common.php:227
-#: lib/modules/sv_footer/sv_footer.php:158
-#: lib/modules/sv_footer/sv_footer.php:234
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:58
+#: lib/modules/sv_footer/sv_footer.php:161
+#: lib/modules/sv_footer/sv_footer.php:237
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:57
 #: lib/modules/sv_header_bar/sv_header_bar.php:79
-#: lib/modules/sv_header_content/sv_header_content.php:285
-#: lib/modules/sv_header_content/sv_header_content.php:312
-#: lib/modules/sv_header_content/sv_header_content.php:339
+#: lib/modules/sv_header_content/sv_header_content.php:284
+#: lib/modules/sv_header_content/sv_header_content.php:311
+#: lib/modules/sv_header_content/sv_header_content.php:338
 #: lib/modules/sv_header_menu/sv_header_menu.php:198
 #: lib/modules/sv_header_menu/sv_header_menu.php:223
 #: lib/modules/sv_header_menu/sv_header_menu.php:248
@@ -1088,16 +1225,16 @@ msgstr "Textfarbe"
 #: lib/modules/sv_comments/sv_comments.php:302
 #: lib/modules/sv_comments/sv_comments.php:350
 #: lib/modules/sv_common/sv_common.php:119
-#: lib/modules/sv_content/sv_content.php:61
-#: lib/modules/sv_footer/sv_footer.php:60
-#: lib/modules/sv_footer/sv_footer.php:200
-#: lib/modules/sv_footer/sv_footer.php:206
-#: lib/modules/sv_footer/sv_footer.php:311
-#: lib/modules/sv_footer/sv_footer.php:317
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:64
-#: lib/modules/sv_header/sv_header.php:105
+#: lib/modules/sv_content/sv_content.php:64
+#: lib/modules/sv_footer/sv_footer.php:63
+#: lib/modules/sv_footer/sv_footer.php:203
+#: lib/modules/sv_footer/sv_footer.php:209
+#: lib/modules/sv_footer/sv_footer.php:314
+#: lib/modules/sv_footer/sv_footer.php:320
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:63
+#: lib/modules/sv_header/sv_header.php:103
 #: lib/modules/sv_header_bar/sv_header_bar.php:85
-#: lib/modules/sv_header_content/sv_header_content.php:370
+#: lib/modules/sv_header_content/sv_header_content.php:369
 #: lib/modules/sv_header_menu/sv_header_menu.php:45
 #: lib/modules/sv_header_menu/sv_header_menu.php:204
 #: lib/modules/sv_header_menu/sv_header_menu.php:229
@@ -1110,41 +1247,58 @@ msgstr "Hintergrundfarbe"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:66
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:105
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:252
+#: lib/modules/sv_block_audio/sv_block_audio.php:46
 #: lib/modules/sv_block_button/sv_block_button.php:52
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:46
+#: lib/modules/sv_block_categories/sv_block_categories.php:46
 #: lib/modules/sv_block_code/sv_block_code.php:46
 #: lib/modules/sv_block_columns/sv_block_columns.php:35
 #: lib/modules/sv_block_cover/sv_block_cover.php:20
 #: lib/modules/sv_block_embed/sv_block_embed.php:20
+#: lib/modules/sv_block_file/sv_block_file.php:46
 #: lib/modules/sv_block_gallery/sv_block_gallery.php:20
 #: lib/modules/sv_block_group/sv_block_group.php:20
-#: lib/modules/sv_block_heading/sv_block_heading.php:84
+#: lib/modules/sv_block_heading/sv_block_heading.php:79
 #: lib/modules/sv_block_image/sv_block_image.php:20
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:46
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:45
 #: lib/modules/sv_block_list/sv_block_list.php:46
 #: lib/modules/sv_block_media_text/sv_block_media_text.php:26
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:27
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:46
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:46
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:46
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:46
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:46
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:46
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:46
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:46
+#: lib/modules/sv_block_query/sv_block_query.php:46
 #: lib/modules/sv_block_quote/sv_block_quote.php:46
 #: lib/modules/sv_block_quote/sv_block_quote.php:93
+#: lib/modules/sv_block_rss/sv_block_rss.php:46
 #: lib/modules/sv_block_search/sv_block_search.php:20
 #: lib/modules/sv_block_separator/sv_block_separator.php:20
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:46
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:46
 #: lib/modules/sv_block_table/sv_block_table.php:46
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:46
+#: lib/modules/sv_block_verse/sv_block_verse.php:46
 #: lib/modules/sv_block_video/sv_block_video.php:20
 #: lib/modules/sv_comments/sv_comments.php:53
 #: lib/modules/sv_comments/sv_comments.php:212
 #: lib/modules/sv_comments/sv_comments.php:260
 #: lib/modules/sv_comments/sv_comments.php:308
 #: lib/modules/sv_comments/sv_comments.php:356
-#: lib/modules/sv_content/sv_content.php:74
-#: lib/modules/sv_footer/sv_footer.php:102
-#: lib/modules/sv_footer/sv_footer.php:323
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:71
-#: lib/modules/sv_header/sv_header.php:82
-#: lib/modules/sv_header/sv_header.php:208
+#: lib/modules/sv_content/sv_content.php:77
+#: lib/modules/sv_footer/sv_footer.php:105
+#: lib/modules/sv_footer/sv_footer.php:326
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:70
+#: lib/modules/sv_header/sv_header.php:80
+#: lib/modules/sv_header/sv_header.php:206
 #: lib/modules/sv_header_bar/sv_header_bar.php:92
-#: lib/modules/sv_header_content/sv_header_content.php:183
-#: lib/modules/sv_header_content/sv_header_content.php:241
+#: lib/modules/sv_header_content/sv_header_content.php:182
+#: lib/modules/sv_header_content/sv_header_content.php:240
 #: lib/modules/sv_header_menu/sv_header_menu.php:28
 #: lib/modules/sv_header_menu/sv_header_menu.php:143
 #: lib/modules/sv_header_menu/sv_header_menu.php:160
@@ -1156,42 +1310,59 @@ msgstr "Margin"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:79
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:118
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:257
+#: lib/modules/sv_block_audio/sv_block_audio.php:51
 #: lib/modules/sv_block_button/sv_block_button.php:57
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:51
+#: lib/modules/sv_block_categories/sv_block_categories.php:51
 #: lib/modules/sv_block_code/sv_block_code.php:51
 #: lib/modules/sv_block_columns/sv_block_columns.php:46
 #: lib/modules/sv_block_columns/sv_block_columns.php:61
 #: lib/modules/sv_block_cover/sv_block_cover.php:25
 #: lib/modules/sv_block_embed/sv_block_embed.php:31
+#: lib/modules/sv_block_file/sv_block_file.php:51
 #: lib/modules/sv_block_gallery/sv_block_gallery.php:31
 #: lib/modules/sv_block_group/sv_block_group.php:31
-#: lib/modules/sv_block_heading/sv_block_heading.php:95
+#: lib/modules/sv_block_heading/sv_block_heading.php:90
 #: lib/modules/sv_block_image/sv_block_image.php:31
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:51
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:50
 #: lib/modules/sv_block_list/sv_block_list.php:57
 #: lib/modules/sv_block_media_text/sv_block_media_text.php:37
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:38
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:57
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:51
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:51
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:51
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:51
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:51
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:51
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:51
+#: lib/modules/sv_block_query/sv_block_query.php:51
 #: lib/modules/sv_block_quote/sv_block_quote.php:51
 #: lib/modules/sv_block_quote/sv_block_quote.php:98
+#: lib/modules/sv_block_rss/sv_block_rss.php:51
 #: lib/modules/sv_block_search/sv_block_search.php:31
 #: lib/modules/sv_block_separator/sv_block_separator.php:31
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:51
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:51
 #: lib/modules/sv_block_table/sv_block_table.php:51
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:51
+#: lib/modules/sv_block_verse/sv_block_verse.php:51
 #: lib/modules/sv_block_video/sv_block_video.php:31
 #: lib/modules/sv_comments/sv_comments.php:58
 #: lib/modules/sv_comments/sv_comments.php:217
 #: lib/modules/sv_comments/sv_comments.php:265
 #: lib/modules/sv_comments/sv_comments.php:313
 #: lib/modules/sv_comments/sv_comments.php:361
-#: lib/modules/sv_content/sv_content.php:79
-#: lib/modules/sv_footer/sv_footer.php:114
-#: lib/modules/sv_footer/sv_footer.php:328
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:82
-#: lib/modules/sv_header/sv_header.php:93
-#: lib/modules/sv_header/sv_header.php:213
+#: lib/modules/sv_content/sv_content.php:82
+#: lib/modules/sv_footer/sv_footer.php:117
+#: lib/modules/sv_footer/sv_footer.php:331
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:81
+#: lib/modules/sv_header/sv_header.php:91
+#: lib/modules/sv_header/sv_header.php:211
 #: lib/modules/sv_header_bar/sv_header_bar.php:103
-#: lib/modules/sv_header_content/sv_header_content.php:196
-#: lib/modules/sv_header_content/sv_header_content.php:252
+#: lib/modules/sv_header_content/sv_header_content.php:195
+#: lib/modules/sv_header_content/sv_header_content.php:251
 #: lib/modules/sv_header_menu/sv_header_menu.php:39
 #: lib/modules/sv_header_menu/sv_header_menu.php:165
 #: lib/modules/sv_pagination/sv_pagination.php:31
@@ -1202,43 +1373,60 @@ msgstr "Padding"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:92
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:123
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:262
+#: lib/modules/sv_block_audio/sv_block_audio.php:56
 #: lib/modules/sv_block_button/sv_block_button.php:62
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:56
+#: lib/modules/sv_block_categories/sv_block_categories.php:56
 #: lib/modules/sv_block_code/sv_block_code.php:56
 #: lib/modules/sv_block_columns/sv_block_columns.php:56
 #: lib/modules/sv_block_columns/sv_block_columns.php:66
 #: lib/modules/sv_block_cover/sv_block_cover.php:30
 #: lib/modules/sv_block_embed/sv_block_embed.php:36
+#: lib/modules/sv_block_file/sv_block_file.php:56
 #: lib/modules/sv_block_gallery/sv_block_gallery.php:36
 #: lib/modules/sv_block_group/sv_block_group.php:36
-#: lib/modules/sv_block_heading/sv_block_heading.php:100
+#: lib/modules/sv_block_heading/sv_block_heading.php:95
 #: lib/modules/sv_block_image/sv_block_image.php:36
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:56
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:55
 #: lib/modules/sv_block_list/sv_block_list.php:62
 #: lib/modules/sv_block_media_text/sv_block_media_text.php:42
 #: lib/modules/sv_block_navigation/sv_block_navigation.php:43
 #: lib/modules/sv_block_paragraph/sv_block_paragraph.php:62
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:56
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:56
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:56
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:56
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:56
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:56
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:56
+#: lib/modules/sv_block_query/sv_block_query.php:56
 #: lib/modules/sv_block_quote/sv_block_quote.php:56
 #: lib/modules/sv_block_quote/sv_block_quote.php:103
+#: lib/modules/sv_block_rss/sv_block_rss.php:56
 #: lib/modules/sv_block_search/sv_block_search.php:36
 #: lib/modules/sv_block_separator/sv_block_separator.php:36
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:56
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:56
 #: lib/modules/sv_block_table/sv_block_table.php:56
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:56
+#: lib/modules/sv_block_verse/sv_block_verse.php:56
 #: lib/modules/sv_block_video/sv_block_video.php:36
 #: lib/modules/sv_comments/sv_comments.php:63
 #: lib/modules/sv_comments/sv_comments.php:222
 #: lib/modules/sv_comments/sv_comments.php:270
 #: lib/modules/sv_comments/sv_comments.php:318
 #: lib/modules/sv_comments/sv_comments.php:366
-#: lib/modules/sv_content/sv_content.php:92
-#: lib/modules/sv_footer/sv_footer.php:125
-#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:36
+#: lib/modules/sv_content/sv_content.php:95
+#: lib/modules/sv_footer/sv_footer.php:128
+#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:46
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:93
 #: lib/modules/sv_footer_copyright/sv_footer_copyright.php:94
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:95
 #: lib/modules/sv_header_bar/lib/tpl/settings/general.php:65
 #: lib/modules/sv_header_bar/sv_header_bar.php:115
 #: lib/modules/sv_header_bar/sv_header_bar.php:116
-#: lib/modules/sv_header_content/sv_header_content.php:201
-#: lib/modules/sv_header_content/sv_header_content.php:257
+#: lib/modules/sv_header_content/sv_header_content.php:200
+#: lib/modules/sv_header_content/sv_header_content.php:256
 #: lib/modules/sv_header_menu/lib/tpl/settings/general.php:21
 #: lib/modules/sv_header_menu/lib/tpl/settings/items.php:43
 #: lib/modules/sv_header_menu/sv_header_menu.php:71
@@ -1262,10 +1450,10 @@ msgstr "Rahmen"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:184
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:190
 #: lib/modules/sv_archive/lib/tpl/settings/general.php:4
-#: lib/modules/sv_archive/sv_archive.php:120
-#: lib/modules/sv_archive/sv_archive.php:126
-#: lib/modules/sv_archive/sv_archive.php:132
-#: lib/modules/sv_archive/sv_archive.php:138
+#: lib/modules/sv_archive/sv_archive.php:119
+#: lib/modules/sv_archive/sv_archive.php:125
+#: lib/modules/sv_archive/sv_archive.php:131
+#: lib/modules/sv_archive/sv_archive.php:137
 msgid "Parts"
 msgstr "Bereiche"
 
@@ -1284,10 +1472,6 @@ msgstr "Archivkopfzeile anzeigen"
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:180
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:186
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:192
-#: lib/modules/sv_archive/sv_archive.php:122
-#: lib/modules/sv_archive/sv_archive.php:128
-#: lib/modules/sv_archive/sv_archive.php:134
-#: lib/modules/sv_archive/sv_archive.php:140
 msgid "Show or Hide this Template Part"
 msgstr "Templatebereich anzeigen oder verstecken"
 
@@ -1300,20 +1484,20 @@ msgid "Show Notice when empty"
 msgstr "Nachricht anzeigen, falls leer"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:149
-#: lib/modules/sv_header_content/sv_header_content.php:71
-#: lib/modules/sv_header_content/sv_header_content.php:617
+#: lib/modules/sv_header_content/sv_header_content.php:70
+#: lib/modules/sv_header_content/sv_header_content.php:592
 msgid "Show Featured Image"
 msgstr "Beitragsbild anzeigen"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:155
-#: lib/modules/sv_header_content/sv_header_content.php:78
-#: lib/modules/sv_header_content/sv_header_content.php:623
+#: lib/modules/sv_header_content/sv_header_content.php:77
+#: lib/modules/sv_header_content/sv_header_content.php:598
 msgid "Show Title"
 msgstr "Titel anzeigen"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:161
-#: lib/modules/sv_header_content/sv_header_content.php:85
-#: lib/modules/sv_header_content/sv_header_content.php:629
+#: lib/modules/sv_header_content/sv_header_content.php:84
+#: lib/modules/sv_header_content/sv_header_content.php:604
 msgid "Show Excerpt"
 msgstr "Auszug anzeigen"
 
@@ -1322,21 +1506,19 @@ msgid "Show Read More"
 msgstr "Weiterlesen anzeigen"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:173
-#: lib/modules/sv_header_content/sv_header_content.php:106
-#: lib/modules/sv_header_content/sv_header_content.php:647
-#, fuzzy
-#| msgid "Show author"
+#: lib/modules/sv_header_content/sv_header_content.php:105
+#: lib/modules/sv_header_content/sv_header_content.php:622
 msgid "Show Author"
 msgstr "Autor anzeigen"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:179
-#: lib/modules/sv_header_content/sv_header_content.php:92
-#: lib/modules/sv_header_content/sv_header_content.php:635
+#: lib/modules/sv_header_content/sv_header_content.php:91
+#: lib/modules/sv_header_content/sv_header_content.php:610
 msgid "Show Date"
 msgstr "Datum anzeigen"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:185
-#: lib/modules/sv_header_content/sv_header_content.php:99
+#: lib/modules/sv_header_content/sv_header_content.php:98
 msgid "Show Date Modified"
 msgstr "Datum der letzten Bearbeitung anzeigen"
 
@@ -1353,18 +1535,14 @@ msgid "Order part"
 msgstr "Reihenfolge Bereich"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:242
-#, fuzzy
-#| msgid "Text Color"
 msgid "Text Color Hover"
-msgstr "Textfarbe"
+msgstr "Textfarbe Hover"
 
 #: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:247
-#, fuzzy
-#| msgid "Background Color"
 msgid "Background Color Hover"
-msgstr "Hintergrundfarbe"
+msgstr "Hintergrundfarbe Hover"
 
-#: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:359
+#: lib/modules/sv_archive/lib/template_sv_archive_list/template_sv_archive_list.php:362
 msgid "List"
 msgstr "Liste"
 
@@ -1397,133 +1575,91 @@ msgstr "Schlagwort"
 msgid "Archive Template and Settings"
 msgstr "Archiv Template und Einstellungen"
 
-#: lib/modules/sv_archive/sv_archive.php:41
+#: lib/modules/sv_archive/sv_archive.php:40
 #, php-format
 msgid "%1$s"
-msgstr ""
+msgstr "%1$s"
 
-#: lib/modules/sv_archive/sv_archive.php:98
+#: lib/modules/sv_archive/sv_archive.php:97
 msgid "Template"
 msgstr "Template"
 
-#: lib/modules/sv_archive/sv_archive.php:99
+#: lib/modules/sv_archive/sv_archive.php:98
 msgid "Choose a visual style for this archive type"
 msgstr "Wähle einen visuellen Stil für den Archivtypen"
 
-#: lib/modules/sv_archive/sv_archive.php:105
-#, fuzzy
-#| msgid "Max Width Wrapper"
+#: lib/modules/sv_archive/sv_archive.php:104
 msgid "Max Width Outer Wrapper"
-msgstr "Maximale Breite des Wrappers"
+msgstr "Max. Breite Äußerer Wrapper"
+
+#: lib/modules/sv_archive/sv_archive.php:105
+msgid "Set the max width of the outer archive wrapper."
+msgstr "Legen Sie die maximale Breite des äußeren Archivwrappers fest."
 
 #: lib/modules/sv_archive/sv_archive.php:106
-#, fuzzy
-#| msgid "Set the max width of the header wrapper."
-msgid "Set the max width of the outer archive wrapper."
-msgstr "Setze die maximale Breite des Header Wrappers."
-
-#: lib/modules/sv_archive/sv_archive.php:107
-#: lib/modules/sv_archive/sv_archive.php:115
-#: lib/modules/sv_footer/sv_footer.php:75
-#: lib/modules/sv_footer/sv_footer.php:83
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:29
-#: lib/modules/sv_header/sv_header.php:29
-#: lib/modules/sv_header/sv_header.php:37
+#: lib/modules/sv_archive/sv_archive.php:114
+#: lib/modules/sv_footer/sv_footer.php:78
+#: lib/modules/sv_footer/sv_footer.php:86
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:28
+#: lib/modules/sv_header/sv_header.php:27
+#: lib/modules/sv_header/sv_header.php:35
 #: lib/modules/sv_header_bar/sv_header_bar.php:29
 #: lib/modules/sv_header_bar/sv_header_bar.php:37
-#: lib/modules/sv_header_content/sv_header_content.php:141
-#: lib/modules/sv_header_content/sv_header_content.php:149
-#: lib/modules/sv_header_content/sv_header_content.php:157
+#: lib/modules/sv_header_content/sv_header_content.php:140
+#: lib/modules/sv_header_content/sv_header_content.php:148
+#: lib/modules/sv_header_content/sv_header_content.php:156
 msgid "Please activate module SV Common for this Feature."
 msgstr "Bitte aktiviere das Modul SV Common für dieses Funktion."
 
-#: lib/modules/sv_archive/sv_archive.php:113
-#, fuzzy
-#| msgid "Max Width Wrapper"
+#: lib/modules/sv_archive/sv_archive.php:112
 msgid "Max Width Inner Wrapper"
-msgstr "Maximale Breite des Wrappers"
+msgstr "Max. Breite Innerer Wrapper"
 
-#: lib/modules/sv_archive/sv_archive.php:114
-#, fuzzy
-#| msgid "Set the max width of the header wrapper."
+#: lib/modules/sv_archive/sv_archive.php:113
 msgid "Set the max width of the inner archive wrapper."
-msgstr "Setze die maximale Breite des Header Wrappers."
+msgstr "Legen Sie die maximale Breite des inneren Archivwrappers fest."
 
 #: lib/modules/sv_archive/sv_archive.php:121
-#, fuzzy
-#| msgid "Show Archive Header"
-msgid "Show Top Archive Sidebar"
-msgstr "Archivkopfzeile anzeigen"
+msgid "Select Sidebar for top position."
+msgstr "Wählen Sie Seitenleiste für die oberste Position aus."
+
+#: lib/modules/sv_archive/sv_archive.php:122
+#: lib/modules/sv_archive/sv_archive.php:128
+#: lib/modules/sv_archive/sv_archive.php:134
+#: lib/modules/sv_archive/sv_archive.php:140
+#: lib/modules/sv_content/sv_content.php:111
+#: lib/modules/sv_content/sv_content.php:209
+#: lib/modules/sv_footer/sv_footer.php:35
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:118
+#: lib/modules/sv_header/sv_header.php:184
+#: lib/modules/sv_header_bar/sv_header_bar.php:45
+#: lib/modules/sv_header_bar/sv_header_bar.php:51
+msgid "Please activate module SV Sidebar for this Feature."
+msgstr "Bitte aktivieren Sie das Modul SV Sidebar für diese Funktion."
 
 #: lib/modules/sv_archive/sv_archive.php:127
-#, fuzzy
-#| msgid "Show right sidebar"
-msgid "Show Right Archive Sidebar"
-msgstr "Rechte Seitenleiste anzeigen"
+msgid "Select Sidebar for right position."
+msgstr "Wählen Sie Seitenleiste für die richtige Position."
 
 #: lib/modules/sv_archive/sv_archive.php:133
-#, fuzzy
-#| msgid "Show bottom sidebar"
-msgid "Show Bottom Archive Sidebar"
-msgstr "Untere Seitenleiste anzeigen"
+msgid "Select Sidebar for bottom position."
+msgstr "Wählen Sie Seitenleiste für die untere Position aus."
 
 #: lib/modules/sv_archive/sv_archive.php:139
-#, fuzzy
-#| msgid "Show Archive Header"
-msgid "Show Left Archive Sidebar"
-msgstr "Archivkopfzeile anzeigen"
+msgid "Select Sidebar for left position."
+msgstr "Wählen Sie Sidebar für die linke Position aus."
 
-#: lib/modules/sv_archive/sv_archive.php:149
-#, fuzzy
-#| msgid "Template"
+#: lib/modules/sv_archive/sv_archive.php:148
 msgid "Template Class \""
-msgstr "Template"
+msgstr "Template-Klasse \""
 
-#: lib/modules/sv_archive/sv_archive.php:212
+#: lib/modules/sv_archive/sv_archive.php:211
 msgid "Section"
 msgstr "Sektion"
 
-#: lib/modules/sv_archive/sv_archive.php:212
+#: lib/modules/sv_archive/sv_archive.php:211
 msgid "not found."
 msgstr "nicht gefunden."
-
-#: lib/modules/sv_archive/sv_archive.php:249
-#: lib/modules/sv_content/sv_content.php:9
-msgid "Top"
-msgstr ""
-
-#: lib/modules/sv_archive/sv_archive.php:250
-#: lib/modules/sv_content/sv_content.php:10
-#: lib/modules/sv_footer/sv_footer.php:38
-#: lib/modules/sv_footer/sv_footer.php:51
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:121
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:134
-#: lib/modules/sv_header/sv_header.php:60
-#: lib/modules/sv_header/sv_header.php:133
-#: lib/modules/sv_header/sv_header.php:155
-#: lib/modules/sv_header/sv_header.php:194
-#: lib/modules/sv_header_bar/sv_header_bar.php:177
-#: lib/modules/sv_header_bar/sv_header_bar.php:190
-#: lib/modules/sv_header_content/sv_header_content.php:212
-#: lib/modules/sv_header_content/sv_header_content.php:223
-#: lib/modules/sv_header_content/sv_header_content.php:235
-#: lib/modules/sv_header_content/sv_header_content.php:350
-#: lib/modules/sv_header_content/sv_header_content.php:362
-#: lib/modules/sv_sidebar/sv_sidebar.php:200
-msgid "Right"
-msgstr "Rechts"
-
-#: lib/modules/sv_archive/sv_archive.php:251
-#: lib/modules/sv_content/sv_content.php:11
-msgid "Bottom"
-msgstr ""
-
-#: lib/modules/sv_archive/sv_archive.php:252
-#: lib/modules/sv_comments/sv_comments.php:104
-#: lib/modules/sv_header_content/sv_header_content.php:167
-#: lib/modules/sv_header_menu/sv_header_menu.php:54
-msgid "left"
-msgstr "links"
 
 #: lib/modules/sv_author/sv_author.php:7
 msgid "Author Template and Settings"
@@ -1541,29 +1677,141 @@ msgstr "Paginierung deaktivieren"
 msgid "Paginated Subpages will redirect to main author page"
 msgstr "Paginierte Unterseiten werden zur Hauptseite des Autors weitergeleitet"
 
+#: lib/modules/sv_block_audio/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_button/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_calendar/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_categories/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_code/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_file/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_heading/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_latest_comments/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_latest_posts/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_list/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_navigation/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_paragraph/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_post_author/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_post_comments/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_post_excerpt/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_post_featured_image/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_post_title/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_preformatted/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_pullquote/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_query/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_quote/lib/tpl/settings/cite.php:4
 #: lib/modules/sv_block_quote/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_rss/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_site_logo/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_social_links/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_spacer/lib/tpl/settings/general.php:4
 #: lib/modules/sv_block_table/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_tag_cloud/lib/tpl/settings/general.php:4
+#: lib/modules/sv_block_verse/lib/tpl/settings/general.php:4
 #: lib/modules/sv_footer/lib/tpl/settings/navbars.php:10
-#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:11
+#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:21
 #: lib/modules/sv_header_bar/lib/tpl/settings/general.php:24
 #: lib/modules/sv_header_menu/lib/tpl/settings/items.php:11
 msgid "Font"
 msgstr "Schriftarten"
 
+#: lib/modules/sv_block_audio/sv_block_audio.php:6
+msgid "Block: Audio"
+msgstr "Block: Audio"
+
+#: lib/modules/sv_block_audio/sv_block_audio.php:7
+#: lib/modules/sv_block_button/sv_block_button.php:7
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:7
+#: lib/modules/sv_block_categories/sv_block_categories.php:7
+#: lib/modules/sv_block_code/sv_block_code.php:7
+#: lib/modules/sv_block_columns/sv_block_columns.php:7
+#: lib/modules/sv_block_cover/sv_block_cover.php:7
+#: lib/modules/sv_block_embed/sv_block_embed.php:7
+#: lib/modules/sv_block_file/sv_block_file.php:7
+#: lib/modules/sv_block_gallery/sv_block_gallery.php:7
+#: lib/modules/sv_block_group/sv_block_group.php:7
+#: lib/modules/sv_block_heading/sv_block_heading.php:7
+#: lib/modules/sv_block_image/sv_block_image.php:7
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:7
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:7
+#: lib/modules/sv_block_list/sv_block_list.php:7
+#: lib/modules/sv_block_media_text/sv_block_media_text.php:7
+#: lib/modules/sv_block_navigation/sv_block_navigation.php:7
+#: lib/modules/sv_block_paragraph/sv_block_paragraph.php:7
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:7
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:7
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:7
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:7
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:7
+#: lib/modules/sv_block_preformatted/sv_block_preformatted.php:7
+#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:7
+#: lib/modules/sv_block_query/sv_block_query.php:7
+#: lib/modules/sv_block_quote/sv_block_quote.php:7
+#: lib/modules/sv_block_rss/sv_block_rss.php:7
+#: lib/modules/sv_block_search/sv_block_search.php:7
+#: lib/modules/sv_block_separator/sv_block_separator.php:7
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:7
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:7
+#: lib/modules/sv_block_spacer/sv_block_spacer.php:7
+#: lib/modules/sv_block_table/sv_block_table.php:7
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:7
+#: lib/modules/sv_block_verse/sv_block_verse.php:7
+#: lib/modules/sv_block_video/sv_block_video.php:7
+msgid "Settings for Gutenberg Block"
+msgstr "Einstellungen für Gutenberg-Block"
+
+#: lib/modules/sv_block_audio/sv_block_audio.php:28
+#: lib/modules/sv_block_button/sv_block_button.php:28
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:28
+#: lib/modules/sv_block_categories/sv_block_categories.php:28
+#: lib/modules/sv_block_code/sv_block_code.php:28
+#: lib/modules/sv_block_file/sv_block_file.php:28
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:28
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:28
+#: lib/modules/sv_block_list/sv_block_list.php:28
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:28
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:28
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:28
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:28
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:28
+#: lib/modules/sv_block_preformatted/sv_block_preformatted.php:28
+#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:28
+#: lib/modules/sv_block_query/sv_block_query.php:28
+#: lib/modules/sv_block_quote/sv_block_quote.php:28
+#: lib/modules/sv_block_quote/sv_block_quote.php:75
+#: lib/modules/sv_block_rss/sv_block_rss.php:28
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:28
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:28
+#: lib/modules/sv_block_table/sv_block_table.php:28
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:28
+#: lib/modules/sv_block_verse/sv_block_verse.php:28
+#: lib/modules/sv_branding/sv_branding.php:48
+#: lib/modules/sv_comments/sv_comments.php:35
+#: lib/modules/sv_comments/sv_comments.php:84
+#: lib/modules/sv_comments/sv_comments.php:122
+#: lib/modules/sv_comments/sv_comments.php:149
+#: lib/modules/sv_comments/sv_comments.php:176
+#: lib/modules/sv_comments/sv_comments.php:236
+#: lib/modules/sv_comments/sv_comments.php:284
+#: lib/modules/sv_comments/sv_comments.php:332
+#: lib/modules/sv_common/sv_common.php:315
+#: lib/modules/sv_footer/sv_footer.php:148
+#: lib/modules/sv_footer/sv_footer.php:224
+#: lib/modules/sv_footer/sv_footer.php:266
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:43
+#: lib/modules/sv_header_bar/sv_header_bar.php:65
+#: lib/modules/sv_header_content/sv_header_content.php:271
+#: lib/modules/sv_header_content/sv_header_content.php:298
+#: lib/modules/sv_header_content/sv_header_content.php:325
+#: lib/modules/sv_header_menu/sv_header_menu.php:185
+#: lib/modules/sv_pagination/sv_pagination.php:50
+#: lib/modules/sv_tags/sv_tags.php:38
+msgid "Font Size in pixel."
+msgstr "Schriftgröße in Pixel."
+
 #: lib/modules/sv_block_button/lib/tpl/settings/general.php:12
 #: lib/modules/sv_branding/lib/tpl/settings/general.php:18
 #: lib/modules/sv_comments/lib/tpl/settings/general.php:4
-#: lib/modules/sv_footer/lib/tpl/settings/general.php:48
-#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:20
+#: lib/modules/sv_footer/lib/tpl/settings/general.php:55
+#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:30
 #: lib/modules/sv_header/lib/tpl/settings/general.php:41
 #: lib/modules/sv_header_bar/lib/tpl/settings/general.php:33
 #: lib/modules/sv_header_content/lib/tpl/settings/general.php:30
@@ -1575,60 +1823,13 @@ msgstr "Farben"
 msgid "Block: Button"
 msgstr "Block: Button"
 
-#: lib/modules/sv_block_button/sv_block_button.php:7
-#: lib/modules/sv_block_code/sv_block_code.php:7
-#: lib/modules/sv_block_columns/sv_block_columns.php:7
-#: lib/modules/sv_block_cover/sv_block_cover.php:7
-#: lib/modules/sv_block_embed/sv_block_embed.php:7
-#: lib/modules/sv_block_gallery/sv_block_gallery.php:7
-#: lib/modules/sv_block_group/sv_block_group.php:7
-#: lib/modules/sv_block_heading/sv_block_heading.php:7
-#: lib/modules/sv_block_image/sv_block_image.php:7
-#: lib/modules/sv_block_list/sv_block_list.php:7
-#: lib/modules/sv_block_media_text/sv_block_media_text.php:7
-#: lib/modules/sv_block_navigation/sv_block_navigation.php:7
-#: lib/modules/sv_block_paragraph/sv_block_paragraph.php:7
-#: lib/modules/sv_block_preformatted/sv_block_preformatted.php:7
-#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:7
-#: lib/modules/sv_block_quote/sv_block_quote.php:7
-#: lib/modules/sv_block_search/sv_block_search.php:7
-#: lib/modules/sv_block_separator/sv_block_separator.php:7
-#: lib/modules/sv_block_table/sv_block_table.php:7
-#: lib/modules/sv_block_video/sv_block_video.php:7
-msgid "Settings for Gutenberg Block"
-msgstr "Einstellungen für Gutenberg-Block"
+#: lib/modules/sv_block_calendar/sv_block_calendar.php:6
+msgid "Block: Calendar"
+msgstr "Block: Kalender"
 
-#: lib/modules/sv_block_button/sv_block_button.php:28
-#: lib/modules/sv_block_code/sv_block_code.php:28
-#: lib/modules/sv_block_list/sv_block_list.php:28
-#: lib/modules/sv_block_preformatted/sv_block_preformatted.php:28
-#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:28
-#: lib/modules/sv_block_quote/sv_block_quote.php:28
-#: lib/modules/sv_block_quote/sv_block_quote.php:75
-#: lib/modules/sv_block_table/sv_block_table.php:28
-#: lib/modules/sv_branding/sv_branding.php:48
-#: lib/modules/sv_comments/sv_comments.php:35
-#: lib/modules/sv_comments/sv_comments.php:84
-#: lib/modules/sv_comments/sv_comments.php:122
-#: lib/modules/sv_comments/sv_comments.php:149
-#: lib/modules/sv_comments/sv_comments.php:176
-#: lib/modules/sv_comments/sv_comments.php:236
-#: lib/modules/sv_comments/sv_comments.php:284
-#: lib/modules/sv_comments/sv_comments.php:332
-#: lib/modules/sv_common/sv_common.php:315
-#: lib/modules/sv_footer/sv_footer.php:145
-#: lib/modules/sv_footer/sv_footer.php:221
-#: lib/modules/sv_footer/sv_footer.php:263
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:44
-#: lib/modules/sv_header_bar/sv_header_bar.php:65
-#: lib/modules/sv_header_content/sv_header_content.php:272
-#: lib/modules/sv_header_content/sv_header_content.php:299
-#: lib/modules/sv_header_content/sv_header_content.php:326
-#: lib/modules/sv_header_menu/sv_header_menu.php:185
-#: lib/modules/sv_pagination/sv_pagination.php:50
-#: lib/modules/sv_tags/sv_tags.php:38
-msgid "Font Size in pixel."
-msgstr "Schriftgröße in Pixel."
+#: lib/modules/sv_block_categories/sv_block_categories.php:6
+msgid "Block: Categories"
+msgstr "Block: Kategorien"
 
 #: lib/modules/sv_block_code/sv_block_code.php:6
 msgid "Block: Code"
@@ -1649,9 +1850,9 @@ msgid "Block: Columns"
 msgstr "Block: Columns"
 
 #: lib/modules/sv_block_columns/sv_block_columns.php:51
-#: lib/modules/sv_content/sv_content.php:67
-#: lib/modules/sv_footer/lib/tpl/settings/general.php:36
-#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:28
+#: lib/modules/sv_content/sv_content.php:70
+#: lib/modules/sv_footer/lib/tpl/settings/general.php:43
+#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:38
 #: lib/modules/sv_header/lib/tpl/settings/general.php:34
 #: lib/modules/sv_header/lib/tpl/settings/sidebar.php:10
 #: lib/modules/sv_header_bar/lib/tpl/settings/general.php:57
@@ -1665,10 +1866,12 @@ msgid "Block: Cover"
 msgstr "Block: Cover"
 
 #: lib/modules/sv_block_embed/sv_block_embed.php:6
-#, fuzzy
-#| msgid "Block: Image"
 msgid "Block: Embed"
-msgstr "Block: Image"
+msgstr "Block: Einbetten"
+
+#: lib/modules/sv_block_file/sv_block_file.php:6
+msgid "Block: File"
+msgstr "Block: Datei"
 
 #: lib/modules/sv_block_gallery/sv_block_gallery.php:6
 msgid "Block: Gallery"
@@ -1690,37 +1893,45 @@ msgstr "H"
 msgid "Block: Heading"
 msgstr "Block: Heading"
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:38
+#: lib/modules/sv_block_heading/sv_block_heading.php:22
 #: lib/modules/sv_common/sv_common.php:99
 msgid "Hyphens"
 msgstr "Bindestriche"
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:39
+#: lib/modules/sv_block_heading/sv_block_heading.php:23
 msgid "Choose hyphens behavior."
-msgstr ""
+msgstr "Wählen Sie das Bindestrichverhalten aus."
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:41
+#: lib/modules/sv_block_heading/sv_block_heading.php:25
 #: lib/modules/sv_common/sv_common.php:102
 msgid "none"
-msgstr ""
+msgstr "keine"
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:42
+#: lib/modules/sv_block_heading/sv_block_heading.php:26
 #: lib/modules/sv_common/sv_common.php:103
 msgid "manual"
-msgstr ""
+msgstr "manuell"
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:43
+#: lib/modules/sv_block_heading/sv_block_heading.php:27
 #: lib/modules/sv_common/sv_common.php:104
 msgid "auto"
-msgstr ""
+msgstr "automatisch"
 
-#: lib/modules/sv_block_heading/sv_block_heading.php:66
+#: lib/modules/sv_block_heading/sv_block_heading.php:61
 msgid "Font Size in Pixel."
 msgstr "Schriftgröße in Pixel."
 
 #: lib/modules/sv_block_image/sv_block_image.php:6
 msgid "Block: Image"
 msgstr "Block: Image"
+
+#: lib/modules/sv_block_latest_comments/sv_block_latest_comments.php:6
+msgid "Block: Latest Comments"
+msgstr "Block: Neueste Kommentare"
+
+#: lib/modules/sv_block_latest_posts/sv_block_latest_posts.php:6
+msgid "Block: Latest Posts"
+msgstr "Block: Neueste Beiträge"
 
 #: lib/modules/sv_block_list/sv_block_list.php:6
 msgid "Block: List"
@@ -1746,6 +1957,26 @@ msgstr "Block: Navigation"
 msgid "Block: Paragraph"
 msgstr "Block: Paragraph"
 
+#: lib/modules/sv_block_post_author/sv_block_post_author.php:6
+msgid "Block: Post Author"
+msgstr "Block: Post-Autor"
+
+#: lib/modules/sv_block_post_comments/sv_block_post_comments.php:6
+msgid "Block: Post Comments"
+msgstr "Blockieren: Beitragskommentare"
+
+#: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:6
+msgid "Block: Post Excerpt"
+msgstr "Block: Post-Auszug"
+
+#: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:6
+msgid "Block: Featured Image"
+msgstr "Block: Ausgewähltes Bild"
+
+#: lib/modules/sv_block_post_title/sv_block_post_title.php:6
+msgid "Block: Post Title"
+msgstr "Block: Beitragstitel"
+
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:6
 msgid "Block: Preformatted"
 msgstr "Block: Preformatted"
@@ -1753,6 +1984,10 @@ msgstr "Block: Preformatted"
 #: lib/modules/sv_block_pullquote/sv_block_pullquote.php:6
 msgid "Block: Pullquote"
 msgstr "Block: Pullquote"
+
+#: lib/modules/sv_block_query/sv_block_query.php:6
+msgid "Block: Query"
+msgstr "Block: Abfrage"
 
 #: lib/modules/sv_block_quote/lib/tpl/settings/cite.php:3
 msgid "Cite"
@@ -1762,6 +1997,10 @@ msgstr "Cite"
 msgid "Block: Quote"
 msgstr "Block: Quote"
 
+#: lib/modules/sv_block_rss/sv_block_rss.php:6
+msgid "Block: RSS"
+msgstr "Block: RSS"
+
 #: lib/modules/sv_block_search/sv_block_search.php:6
 msgid "Block: Search"
 msgstr "Block: Search"
@@ -1770,9 +2009,29 @@ msgstr "Block: Search"
 msgid "Block: Separator"
 msgstr "Block: Separator"
 
+#: lib/modules/sv_block_site_logo/sv_block_site_logo.php:6
+msgid "Block: Site Logo"
+msgstr "Block: Seiten-Logo"
+
+#: lib/modules/sv_block_social_links/sv_block_social_links.php:6
+msgid "Block: Social Links"
+msgstr "Block: Soziale Links"
+
+#: lib/modules/sv_block_spacer/sv_block_spacer.php:6
+msgid "Block: Spacer"
+msgstr "Block: Abstandhalter"
+
 #: lib/modules/sv_block_table/sv_block_table.php:6
 msgid "Block: Table"
 msgstr "Block: Table"
+
+#: lib/modules/sv_block_tag_cloud/sv_block_tag_cloud.php:6
+msgid "Block: Tag Cloud"
+msgstr "Block: Tag Cloud"
+
+#: lib/modules/sv_block_verse/sv_block_verse.php:6
+msgid "Block: Verse"
+msgstr "Block: Vers"
 
 #: lib/modules/sv_block_video/sv_block_video.php:6
 msgid "Block: Video"
@@ -1781,6 +2040,14 @@ msgstr "Block: Video"
 #: lib/modules/sv_branding/lib/tpl/settings/general.php:10
 msgid "Fonts"
 msgstr "Schriftarten"
+
+#: lib/modules/sv_branding/lib/tpl/settings/general.php:25
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/modules/sv_branding/lib/tpl/settings/general.php:26
+msgid "Set Site Logo in Customizer"
+msgstr "Festlegen des Websitelogos im Customizer"
 
 #: lib/modules/sv_branding/sv_branding.php:6
 msgid "SV Branding"
@@ -1829,11 +2096,11 @@ msgstr "Logo Breite"
 msgid "Width"
 msgstr "Breite"
 
-#: lib/modules/sv_branding/sv_branding.php:80
+#: lib/modules/sv_branding/sv_branding.php:79
 msgid "Logo height"
 msgstr "Logo Höhe"
 
-#: lib/modules/sv_branding/sv_branding.php:81
+#: lib/modules/sv_branding/sv_branding.php:80
 msgid "Height"
 msgstr "Höhe"
 
@@ -1925,14 +2192,20 @@ msgstr "Anzeigen und Verwalten von Kommentaren in deinen Beiträgen."
 msgid "Text Align"
 msgstr "Text-Ausrichtung"
 
-#: lib/modules/sv_comments/sv_comments.php:105
+#: lib/modules/sv_comments/sv_comments.php:104
 #: lib/modules/sv_header_content/sv_header_content.php:166
+#: lib/modules/sv_header_menu/sv_header_menu.php:54
+msgid "left"
+msgstr "links"
+
+#: lib/modules/sv_comments/sv_comments.php:105
+#: lib/modules/sv_header_content/sv_header_content.php:165
 #: lib/modules/sv_header_menu/sv_header_menu.php:55
 msgid "center"
 msgstr "zentriert"
 
 #: lib/modules/sv_comments/sv_comments.php:106
-#: lib/modules/sv_header_content/sv_header_content.php:168
+#: lib/modules/sv_header_content/sv_header_content.php:167
 #: lib/modules/sv_header_menu/sv_header_menu.php:56
 msgid "right"
 msgstr "rechts"
@@ -2094,10 +2367,10 @@ msgstr "Schriftart (Font Family)"
 
 #: lib/modules/sv_common/sv_common.php:219
 #: lib/modules/sv_common/sv_common.php:236
-#: lib/modules/sv_footer/sv_footer.php:179
-#: lib/modules/sv_footer/sv_footer.php:191
-#: lib/modules/sv_footer/sv_footer.php:290
-#: lib/modules/sv_footer/sv_footer.php:302
+#: lib/modules/sv_footer/sv_footer.php:182
+#: lib/modules/sv_footer/sv_footer.php:194
+#: lib/modules/sv_footer/sv_footer.php:293
+#: lib/modules/sv_footer/sv_footer.php:305
 #: lib/modules/sv_header_bar/sv_header_bar.php:131
 #: lib/modules/sv_header_bar/sv_header_bar.php:148
 #: lib/modules/sv_header_menu/sv_header_menu.php:214
@@ -2110,10 +2383,10 @@ msgstr "Keine"
 
 #: lib/modules/sv_common/sv_common.php:220
 #: lib/modules/sv_common/sv_common.php:237
-#: lib/modules/sv_footer/sv_footer.php:180
-#: lib/modules/sv_footer/sv_footer.php:192
-#: lib/modules/sv_footer/sv_footer.php:291
-#: lib/modules/sv_footer/sv_footer.php:303
+#: lib/modules/sv_footer/sv_footer.php:183
+#: lib/modules/sv_footer/sv_footer.php:195
+#: lib/modules/sv_footer/sv_footer.php:294
+#: lib/modules/sv_footer/sv_footer.php:306
 #: lib/modules/sv_header_bar/sv_header_bar.php:132
 #: lib/modules/sv_header_bar/sv_header_bar.php:149
 #: lib/modules/sv_header_menu/sv_header_menu.php:215
@@ -2155,24 +2428,23 @@ msgstr "Normal"
 msgid "Font Size "
 msgstr "Schriftgröße "
 
-#: lib/modules/sv_content/lib/tpl/frontend/404.php:7
-msgid "Page not found"
-msgstr "Seite nicht gefunden"
-
-#: lib/modules/sv_content/lib/tpl/frontend/404.php:10
-msgid "Bring me back to the homepage"
-msgstr "Bringe mich zurück zur Startseite"
-
-#: lib/modules/sv_content/lib/tpl/frontend/frontpage.php:27
-#: lib/modules/sv_content/lib/tpl/frontend/page.php:27
-#: lib/modules/sv_content/lib/tpl/frontend/single.php:26
+#: lib/modules/sv_content/lib/tpl/frontend/single.php:24
 msgid "Page"
 msgstr "Seite"
 
+#: lib/modules/sv_content/lib/tpl/frontend/single_404.php:7
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: lib/modules/sv_content/lib/tpl/frontend/single_404.php:10
+msgid "Bring me back to the homepage"
+msgstr "Bringe mich zurück zur Startseite"
+
 #: lib/modules/sv_content/lib/tpl/settings/sidebar.php:3
-#: lib/modules/sv_content/sv_content.php:106
+#: lib/modules/sv_content/sv_content.php:109
+#: lib/modules/sv_footer/sv_footer.php:33
 #: lib/modules/sv_header/lib/tpl/settings/sidebar.php:2
-#: lib/modules/sv_header/sv_header.php:184
+#: lib/modules/sv_header/sv_header.php:182
 msgid "Sidebar"
 msgstr "Seitenleiste"
 
@@ -2182,27 +2454,55 @@ msgstr "Seitenleiste"
 msgid "You can override this within each post or page."
 msgstr "Du kannst dies in jedem Beitrag oder jeder Seite überschreiben."
 
-#: lib/modules/sv_content/lib/tpl/settings/sidebar.php:8
+#: lib/modules/sv_content/lib/tpl/settings/sidebar.php:7
 msgid "Post Type: "
-msgstr ""
+msgstr "Post-Typ: "
 
-#: lib/modules/sv_content/sv_content.php:12
-#: lib/modules/sv_footer/sv_footer.php:36
-#: lib/modules/sv_footer/sv_footer.php:49
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:119
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:132
+#: lib/modules/sv_content/sv_content.php:9
+msgid "Top"
+msgstr "Oben"
+
+#: lib/modules/sv_content/sv_content.php:10
+#: lib/modules/sv_footer/sv_footer.php:43
+#: lib/modules/sv_footer/sv_footer.php:54
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:126
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:139
 #: lib/modules/sv_header/sv_header.php:58
 #: lib/modules/sv_header/sv_header.php:131
 #: lib/modules/sv_header/sv_header.php:153
 #: lib/modules/sv_header/sv_header.php:192
+#: lib/modules/sv_header_bar/sv_header_bar.php:177
+#: lib/modules/sv_header_bar/sv_header_bar.php:190
+#: lib/modules/sv_header_content/sv_header_content.php:211
+#: lib/modules/sv_header_content/sv_header_content.php:222
+#: lib/modules/sv_header_content/sv_header_content.php:234
+#: lib/modules/sv_header_content/sv_header_content.php:349
+#: lib/modules/sv_header_content/sv_header_content.php:361
+#: lib/modules/sv_sidebar/sv_sidebar.php:215
+msgid "Right"
+msgstr "Rechts"
+
+#: lib/modules/sv_content/sv_content.php:11
+msgid "Bottom"
+msgstr "Unten"
+
+#: lib/modules/sv_content/sv_content.php:12
+#: lib/modules/sv_footer/sv_footer.php:41
+#: lib/modules/sv_footer/sv_footer.php:52
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:124
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:137
+#: lib/modules/sv_header/sv_header.php:56
+#: lib/modules/sv_header/sv_header.php:129
+#: lib/modules/sv_header/sv_header.php:151
+#: lib/modules/sv_header/sv_header.php:190
 #: lib/modules/sv_header_bar/sv_header_bar.php:175
 #: lib/modules/sv_header_bar/sv_header_bar.php:188
-#: lib/modules/sv_header_content/sv_header_content.php:210
-#: lib/modules/sv_header_content/sv_header_content.php:221
-#: lib/modules/sv_header_content/sv_header_content.php:233
-#: lib/modules/sv_header_content/sv_header_content.php:348
-#: lib/modules/sv_header_content/sv_header_content.php:360
-#: lib/modules/sv_sidebar/sv_sidebar.php:198
+#: lib/modules/sv_header_content/sv_header_content.php:209
+#: lib/modules/sv_header_content/sv_header_content.php:220
+#: lib/modules/sv_header_content/sv_header_content.php:232
+#: lib/modules/sv_header_content/sv_header_content.php:347
+#: lib/modules/sv_header_content/sv_header_content.php:359
+#: lib/modules/sv_sidebar/sv_sidebar.php:213
 msgid "Left"
 msgstr "Links"
 
@@ -2214,47 +2514,31 @@ msgstr "Inhalt"
 msgid "Manages content output."
 msgstr "Verwaltet die Inhaltsausgabe."
 
-#: lib/modules/sv_content/sv_content.php:68
+#: lib/modules/sv_content/sv_content.php:71
 msgid "The distance to the viewport left & right"
-msgstr ""
+msgstr "Der Abstand zum Ansichtsfenster links und rechts"
 
-#: lib/modules/sv_content/sv_content.php:98
+#: lib/modules/sv_content/sv_content.php:101
 msgid "404 Page"
 msgstr "404 Seite"
 
-#: lib/modules/sv_content/sv_content.php:99
+#: lib/modules/sv_content/sv_content.php:102
 msgid "Select a page for showing custom content in error 404 / not found cases"
 msgstr ""
 "Wähle eine Seite, die angezeigt werden soll, wenn keine Seite gefunden wurde"
 
-#: lib/modules/sv_content/sv_content.php:107
-#: lib/modules/sv_header/sv_header.php:185
-#, fuzzy
-#| msgid "SV Sidebar"
+#: lib/modules/sv_content/sv_content.php:110
+#: lib/modules/sv_header/sv_header.php:183
 msgid "Select Sidebar."
-msgstr "Seitenleiste"
+msgstr "Wählen Sie Seitenleiste aus."
 
-#: lib/modules/sv_content/sv_content.php:108
-#: lib/modules/sv_header/sv_header.php:186
-#: lib/modules/sv_header_bar/sv_header_bar.php:45
-#: lib/modules/sv_header_bar/sv_header_bar.php:51
-#, fuzzy
-#| msgid "Please activate module SV Webfontloader for this Feature."
-msgid "Please activate module SV Sidebar for this Feature."
-msgstr "Bitte aktiviere das Modul SV Webfontloader für diese Funktion."
+#: lib/modules/sv_content/sv_content.php:213
+msgid "Select Sidebar"
+msgstr "Seitenleiste auswählen"
 
-#: lib/modules/sv_content/sv_content.php:112
-#, fuzzy
-#| msgid "SV Sidebar"
-msgid "Sticky for Sidebar"
-msgstr "Seitenleiste"
-
-#: lib/modules/sv_content/sv_content.php:113
-#, fuzzy
-#| msgid "The header bar behavior when scrolling down the page."
-msgid "Sidebar will be sticky to top when scrolling down."
-msgstr ""
-"Das Verhalten des Kopfbereichs, wenn auf der Website heruntergescrolled wird."
+#: lib/modules/sv_content/sv_content.php:214
+msgid "Override Default Settings"
+msgstr "Standardeinstellungen überschreiben"
 
 #: lib/modules/sv_excerpt/sv_excerpt.php:6
 msgid "SV Excerpt"
@@ -2314,13 +2598,19 @@ msgstr "Theme von"
 msgid "Position & Alignment"
 msgstr "Position & Ausrichtung"
 
-#: lib/modules/sv_footer/lib/tpl/settings/general.php:18
+#: lib/modules/sv_footer/lib/tpl/settings/general.php:17
+#: lib/modules/sv_footer_copyright/lib/tpl/settings/general.php:11
+#: lib/modules/sv_header_bar/lib/tpl/settings/general.php:14
+msgid "Sidebars"
+msgstr "Seitenleisten"
+
+#: lib/modules/sv_footer/lib/tpl/settings/general.php:25
 #: lib/modules/sv_footer_copyright/lib/tpl/settings/sidebars.php:10
 #: lib/modules/sv_header_bar/lib/tpl/settings/sidebars.php:11
 msgid "Columns Alignments"
 msgstr "Spaltenausrichtung"
 
-#: lib/modules/sv_footer/lib/tpl/settings/general.php:27
+#: lib/modules/sv_footer/lib/tpl/settings/general.php:34
 #: lib/modules/sv_footer_copyright/lib/tpl/settings/sidebars.php:18
 #: lib/modules/sv_header_bar/lib/tpl/settings/sidebars.php:20
 msgid "Columns Content Alignments"
@@ -2369,123 +2659,128 @@ msgstr "Fußzeile"
 msgid "Manages the footer."
 msgstr "Verwaltet die Fußzeile."
 
-#: lib/modules/sv_footer/sv_footer.php:21
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:105
+#: lib/modules/sv_footer/sv_footer.php:20
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:104
 #: lib/modules/sv_header_bar/sv_header_bar.php:161
 msgid "Content Direction"
 msgstr "Inhaltsausrichtung"
 
-#: lib/modules/sv_footer/sv_footer.php:23
-#: lib/modules/sv_footer/sv_footer.php:246
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:107
+#: lib/modules/sv_footer/sv_footer.php:22
+#: lib/modules/sv_footer/sv_footer.php:249
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:106
 #: lib/modules/sv_header_bar/sv_header_bar.php:163
 msgid "Horizontal"
 msgstr "Horizontal"
 
-#: lib/modules/sv_footer/sv_footer.php:24
-#: lib/modules/sv_footer/sv_footer.php:247
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:108
+#: lib/modules/sv_footer/sv_footer.php:23
+#: lib/modules/sv_footer/sv_footer.php:250
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:107
 #: lib/modules/sv_header_bar/sv_header_bar.php:164
 msgid "Vertical"
 msgstr "Vertikal"
 
-#: lib/modules/sv_footer/sv_footer.php:27
-#: lib/modules/sv_footer/sv_footer.php:250
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:111
+#: lib/modules/sv_footer/sv_footer.php:26
+#: lib/modules/sv_footer/sv_footer.php:253
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:110
 #: lib/modules/sv_header_bar/sv_header_bar.php:167
 msgid "The direction of columns."
 msgstr "Die Ausrichtung von Spalten."
 
 #: lib/modules/sv_footer/sv_footer.php:34
-#: lib/modules/sv_footer/sv_footer.php:47
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:117
+msgid "Select Sidebar for this position."
+msgstr "Wählen Sie Seitenleiste für diese Position aus."
+
+#: lib/modules/sv_footer/sv_footer.php:39
+#: lib/modules/sv_footer/sv_footer.php:50
 msgid "Footer - "
 msgstr "Footer - "
 
-#: lib/modules/sv_footer/sv_footer.php:37
-#: lib/modules/sv_footer/sv_footer.php:50
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:120
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:133
-#: lib/modules/sv_header/sv_header.php:59
-#: lib/modules/sv_header/sv_header.php:132
-#: lib/modules/sv_header/sv_header.php:154
-#: lib/modules/sv_header/sv_header.php:193
+#: lib/modules/sv_footer/sv_footer.php:42
+#: lib/modules/sv_footer/sv_footer.php:53
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:125
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:138
+#: lib/modules/sv_header/sv_header.php:57
+#: lib/modules/sv_header/sv_header.php:130
+#: lib/modules/sv_header/sv_header.php:152
+#: lib/modules/sv_header/sv_header.php:191
 #: lib/modules/sv_header_bar/sv_header_bar.php:176
 #: lib/modules/sv_header_bar/sv_header_bar.php:189
-#: lib/modules/sv_header_content/sv_header_content.php:211
-#: lib/modules/sv_header_content/sv_header_content.php:222
-#: lib/modules/sv_header_content/sv_header_content.php:234
-#: lib/modules/sv_header_content/sv_header_content.php:349
-#: lib/modules/sv_header_content/sv_header_content.php:361
-#: lib/modules/sv_sidebar/sv_sidebar.php:199
+#: lib/modules/sv_header_content/sv_header_content.php:210
+#: lib/modules/sv_header_content/sv_header_content.php:221
+#: lib/modules/sv_header_content/sv_header_content.php:233
+#: lib/modules/sv_header_content/sv_header_content.php:348
+#: lib/modules/sv_header_content/sv_header_content.php:360
+#: lib/modules/sv_sidebar/sv_sidebar.php:214
 msgid "Center"
 msgstr "Zentriert"
 
-#: lib/modules/sv_footer/sv_footer.php:67
-#: lib/modules/sv_header/sv_header.php:112
+#: lib/modules/sv_footer/sv_footer.php:70
+#: lib/modules/sv_header/sv_header.php:110
 msgid "Box Shadow Color"
 msgstr "Boxschattenfarbe"
 
-#: lib/modules/sv_footer/sv_footer.php:68
-#: lib/modules/sv_header/sv_header.php:113
+#: lib/modules/sv_footer/sv_footer.php:71
+#: lib/modules/sv_header/sv_header.php:111
 msgid "Color of the box shadow."
 msgstr "Farbe des Boxschattens."
 
-#: lib/modules/sv_footer/sv_footer.php:73
+#: lib/modules/sv_footer/sv_footer.php:76
 msgid "Max Width Footer Container"
 msgstr "Maximale Breite Footer Container"
 
-#: lib/modules/sv_footer/sv_footer.php:74
+#: lib/modules/sv_footer/sv_footer.php:77
 msgid "Set the max width of the Footer container"
 msgstr "Maximale Breite für den Footer Container"
 
-#: lib/modules/sv_footer/sv_footer.php:81
+#: lib/modules/sv_footer/sv_footer.php:84
 msgid "Max Width Footer Inner Content"
 msgstr "Maximale Breite für den inneren Inhalt des Footers"
 
-#: lib/modules/sv_footer/sv_footer.php:82
+#: lib/modules/sv_footer/sv_footer.php:85
 msgid "Set the max width of the Footer inner content"
 msgstr "Maximale Breite für den inneren Inhalt des Footers setzen"
 
-#: lib/modules/sv_footer/sv_footer.php:89
-#: lib/modules/sv_header/sv_header.php:43
+#: lib/modules/sv_footer/sv_footer.php:92
+#: lib/modules/sv_header/sv_header.php:41
 msgid "Position"
 msgstr "Position"
 
-#: lib/modules/sv_footer/sv_footer.php:90
+#: lib/modules/sv_footer/sv_footer.php:93
 msgid "The footer bar behavior when scrolling down the page."
 msgstr "Das Verhalten der Fußzeile wenn die Seite heruntergescrolled wird."
 
-#: lib/modules/sv_footer/sv_footer.php:92
-#: lib/modules/sv_header/sv_header.php:46
+#: lib/modules/sv_footer/sv_footer.php:95
+#: lib/modules/sv_header/sv_header.php:44
 msgid "Static"
 msgstr "Statisch"
 
-#: lib/modules/sv_footer/sv_footer.php:93
-#: lib/modules/sv_header/sv_header.php:47
+#: lib/modules/sv_footer/sv_footer.php:96
+#: lib/modules/sv_header/sv_header.php:45
 msgid "Absolute"
 msgstr "Absolut"
 
-#: lib/modules/sv_footer/sv_footer.php:94
-#: lib/modules/sv_header/sv_header.php:48
+#: lib/modules/sv_footer/sv_footer.php:97
+#: lib/modules/sv_header/sv_header.php:46
 msgid "Fixed"
 msgstr "Fixiert"
 
-#: lib/modules/sv_footer/sv_footer.php:95
-#: lib/modules/sv_header/sv_header.php:49
+#: lib/modules/sv_footer/sv_footer.php:98
+#: lib/modules/sv_header/sv_header.php:47
 msgid "Sticky"
 msgstr "Angepinnt"
 
-#: lib/modules/sv_footer/sv_footer.php:176
-#: lib/modules/sv_footer/sv_footer.php:188
-#: lib/modules/sv_footer/sv_footer.php:287
-#: lib/modules/sv_footer/sv_footer.php:299
+#: lib/modules/sv_footer/sv_footer.php:179
+#: lib/modules/sv_footer/sv_footer.php:191
+#: lib/modules/sv_footer/sv_footer.php:290
+#: lib/modules/sv_footer/sv_footer.php:302
 msgid "Decoration"
 msgstr "Dekoration"
 
-#: lib/modules/sv_footer/sv_footer.php:181
-#: lib/modules/sv_footer/sv_footer.php:193
-#: lib/modules/sv_footer/sv_footer.php:292
-#: lib/modules/sv_footer/sv_footer.php:304
+#: lib/modules/sv_footer/sv_footer.php:184
+#: lib/modules/sv_footer/sv_footer.php:196
+#: lib/modules/sv_footer/sv_footer.php:295
+#: lib/modules/sv_footer/sv_footer.php:307
 #: lib/modules/sv_header_menu/sv_header_menu.php:216
 #: lib/modules/sv_header_menu/sv_header_menu.php:241
 #: lib/modules/sv_header_menu/sv_header_menu.php:266
@@ -2493,10 +2788,10 @@ msgstr "Dekoration"
 msgid "Line Through"
 msgstr "Durchgestrichen"
 
-#: lib/modules/sv_footer/sv_footer.php:182
-#: lib/modules/sv_footer/sv_footer.php:194
-#: lib/modules/sv_footer/sv_footer.php:293
-#: lib/modules/sv_footer/sv_footer.php:305
+#: lib/modules/sv_footer/sv_footer.php:185
+#: lib/modules/sv_footer/sv_footer.php:197
+#: lib/modules/sv_footer/sv_footer.php:296
+#: lib/modules/sv_footer/sv_footer.php:308
 #: lib/modules/sv_header_menu/sv_header_menu.php:217
 #: lib/modules/sv_header_menu/sv_header_menu.php:242
 #: lib/modules/sv_header_menu/sv_header_menu.php:267
@@ -2504,42 +2799,12 @@ msgstr "Durchgestrichen"
 msgid "Overline"
 msgstr "Überstrichen"
 
-#: lib/modules/sv_footer/sv_footer.php:244
+#: lib/modules/sv_footer/sv_footer.php:247
 msgid "Navbar Direction"
 msgstr "Navbar Direction"
 
-#: lib/modules/sv_footer/sv_footer.php:355
-msgid "Footer - 1"
-msgstr "Footer - 1"
-
-#: lib/modules/sv_footer/sv_footer.php:356
-#: lib/modules/sv_footer/sv_footer.php:361
-#: lib/modules/sv_footer/sv_footer.php:366
-#: lib/modules/sv_footer/sv_footer.php:371
-#: lib/modules/sv_footer/sv_footer.php:376
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:148
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:153
-msgid "Widgets in this sidebar will be shown."
-msgstr "Widgets in dieser Seitenleiste werden angezeigt."
-
-#: lib/modules/sv_footer/sv_footer.php:360
-msgid "Footer - 2"
-msgstr "Footer - 2"
-
-#: lib/modules/sv_footer/sv_footer.php:365
-msgid "Footer - 3"
-msgstr "Footer - 3"
-
-#: lib/modules/sv_footer/sv_footer.php:370
-msgid "Footer - 4"
-msgstr "Footer - 4"
-
-#: lib/modules/sv_footer/sv_footer.php:375
-msgid "Footer - 5"
-msgstr "Footer - 5"
-
 #: lib/modules/sv_footer_copyright/lib/tpl/settings/sidebars.php:4
-#: lib/modules/sv_header/sv_header.php:69
+#: lib/modules/sv_header/sv_header.php:67
 #: lib/modules/sv_header_bar/lib/tpl/settings/sidebars.php:4
 msgid "Direction"
 msgstr "Ausrichtung"
@@ -2552,175 +2817,164 @@ msgstr "Copyright Footer"
 msgid "Manages the footer copyright bar."
 msgstr "Verwalte die Footer Copyright Bar."
 
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:27
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:26
 #: lib/modules/sv_header_menu/sv_header_menu.php:63
 msgid "Max Width"
 msgstr "Maximale Breite"
 
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:28
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:27
 msgid "Set the max width of the Header"
 msgstr "Setze die maximale Breite des Kopfbereichs"
 
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:117
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:130
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:116
+#: lib/modules/sv_header_bar/sv_header_bar.php:43
+msgid "Sidebar 1"
+msgstr "Seitenleiste 1"
+
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:122
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:135
 msgid "Copyright - "
 msgstr "Copyright - "
-
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:147
-msgid "Copyright - 1"
-msgstr "Copyright - 1"
-
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:152
-msgid "Copyright - 2"
-msgstr "Copyright - 2"
 
 #: lib/modules/sv_header/lib/tpl/settings/general.php:4
 msgid "Subareas"
 msgstr "Unterbereiche"
 
-#: lib/modules/sv_header/sv_header.php:8
+#: lib/modules/sv_header/sv_header.php:6
 msgid "SV Header"
 msgstr "Kopfbereich"
 
-#: lib/modules/sv_header/sv_header.php:9
+#: lib/modules/sv_header/sv_header.php:7
 msgid "Manages the header."
 msgstr "Verwaltet den Kopfbereich."
 
-#: lib/modules/sv_header/sv_header.php:27
+#: lib/modules/sv_header/sv_header.php:25
 msgid "Max Width Wrapper"
 msgstr "Maximale Breite des Wrappers"
 
-#: lib/modules/sv_header/sv_header.php:28
+#: lib/modules/sv_header/sv_header.php:26
 msgid "Set the max width of the header wrapper."
 msgstr "Setze die maximale Breite des Header Wrappers."
 
-#: lib/modules/sv_header/sv_header.php:35
+#: lib/modules/sv_header/sv_header.php:33
 #: lib/modules/sv_header_bar/sv_header_bar.php:35
 msgid "Max Width Inner"
 msgstr "Innere maximale Breite"
 
-#: lib/modules/sv_header/sv_header.php:36
+#: lib/modules/sv_header/sv_header.php:34
 msgid "Set the max width of the header."
 msgstr "Setze die maximale Breite des Kopfbereichs."
 
-#: lib/modules/sv_header/sv_header.php:44
+#: lib/modules/sv_header/sv_header.php:42
 msgid "The header bar behavior when scrolling down the page."
 msgstr ""
 "Das Verhalten des Kopfbereichs, wenn auf der Website heruntergescrolled wird."
 
-#: lib/modules/sv_header/sv_header.php:56
+#: lib/modules/sv_header/sv_header.php:54
 msgid "Content Alignment"
 msgstr "Inhaltsausrichtung"
 
-#: lib/modules/sv_header/sv_header.php:61
+#: lib/modules/sv_header/sv_header.php:59
 msgid "Space Between"
 msgstr "Space Between"
 
-#: lib/modules/sv_header/sv_header.php:64
+#: lib/modules/sv_header/sv_header.php:62
 msgid "On desktop, spread is the same as center."
 msgstr "Auf Desktop, Spread ist das selbe, wie Center."
 
-#: lib/modules/sv_header/sv_header.php:71
+#: lib/modules/sv_header/sv_header.php:69
 msgid "column"
 msgstr "Spalte"
 
-#: lib/modules/sv_header/sv_header.php:72
+#: lib/modules/sv_header/sv_header.php:70
 msgid "row"
 msgstr "Reihe"
 
-#: lib/modules/sv_header/sv_header.php:73
+#: lib/modules/sv_header/sv_header.php:71
 msgid "column-reverse"
 msgstr "Spalte umgekehrt"
 
-#: lib/modules/sv_header/sv_header.php:74
+#: lib/modules/sv_header/sv_header.php:72
 msgid "row-reverse"
 msgstr "Reihe umgekehrt"
 
-#: lib/modules/sv_header/sv_header.php:77
+#: lib/modules/sv_header/sv_header.php:75
 msgid "Set the direction of the areas"
 msgstr "Setze die Richtung der Bereiche"
 
-#: lib/modules/sv_header/sv_header.php:118
+#: lib/modules/sv_header/sv_header.php:116
 msgid "Branding Order Position"
 msgstr "Branding Order Position"
+
+#: lib/modules/sv_header/sv_header.php:118
+#: lib/modules/sv_header/sv_header.php:140
+#: lib/modules/sv_header/sv_header.php:173
+msgid "1"
+msgstr "1"
+
+#: lib/modules/sv_header/sv_header.php:119
+#: lib/modules/sv_header/sv_header.php:141
+#: lib/modules/sv_header/sv_header.php:174
+msgid "2"
+msgstr "2"
 
 #: lib/modules/sv_header/sv_header.php:120
 #: lib/modules/sv_header/sv_header.php:142
 #: lib/modules/sv_header/sv_header.php:175
-msgid "1"
-msgstr "1"
-
-#: lib/modules/sv_header/sv_header.php:121
-#: lib/modules/sv_header/sv_header.php:143
-#: lib/modules/sv_header/sv_header.php:176
-msgid "2"
-msgstr "2"
-
-#: lib/modules/sv_header/sv_header.php:122
-#: lib/modules/sv_header/sv_header.php:144
-#: lib/modules/sv_header/sv_header.php:177
 msgid "3"
 msgstr "3"
 
-#: lib/modules/sv_header/sv_header.php:129
+#: lib/modules/sv_header/sv_header.php:127
 msgid "Branding Alignment"
 msgstr "Brandingausrichtung"
 
-#: lib/modules/sv_header/sv_header.php:140
+#: lib/modules/sv_header/sv_header.php:138
 msgid "Menu Order Position"
 msgstr "Menu Order Position"
 
-#: lib/modules/sv_header/sv_header.php:151
+#: lib/modules/sv_header/sv_header.php:149
 msgid "Menu Alignment"
 msgstr "Menü Ausrichtung"
 
-#: lib/modules/sv_header/sv_header.php:163
+#: lib/modules/sv_header/sv_header.php:161
 msgid "Show Header Sidebar"
 msgstr "Header Sidebar anzeigen"
 
-#: lib/modules/sv_header/sv_header.php:165
+#: lib/modules/sv_header/sv_header.php:163
 msgid "Yes"
 msgstr "Ja"
 
-#: lib/modules/sv_header/sv_header.php:166
+#: lib/modules/sv_header/sv_header.php:164
 msgid "No"
 msgstr "Nein"
 
-#: lib/modules/sv_header/sv_header.php:173
+#: lib/modules/sv_header/sv_header.php:171
 msgid "Sidebar Order Position"
 msgstr "Sidebar Order Position"
 
-#: lib/modules/sv_header/sv_header.php:190
+#: lib/modules/sv_header/sv_header.php:188
 msgid "Sidebar Alignment"
 msgstr "Sidebar Ausrichtung"
 
-#: lib/modules/sv_header/sv_header.php:201
+#: lib/modules/sv_header/sv_header.php:199
 msgid "Max Width Sidebar"
 msgstr "Maximale Breite der Sidebar"
 
-#: lib/modules/sv_header/sv_header.php:202
+#: lib/modules/sv_header/sv_header.php:200
 msgid "Set the max width of the header sidebar."
 msgstr "Setze die maximale Breite der Sidebar des Kopfbereichs."
 
-#: lib/modules/sv_header/sv_header.php:287
+#: lib/modules/sv_header/sv_header.php:285
 msgid "Invert Logo"
-msgstr ""
+msgstr "Logo umkehren"
 
-#: lib/modules/sv_header/sv_header.php:288
-#, fuzzy
-#| msgid "Widget - Colors"
+#: lib/modules/sv_header/sv_header.php:286
 msgid "Invert Logo Colors"
 msgstr "Widget - Farben"
 
-#: lib/modules/sv_header/sv_header.php:292
+#: lib/modules/sv_header/sv_header.php:290
 msgid "Invert"
-msgstr ""
-
-#: lib/modules/sv_header_bar/lib/tpl/settings/general.php:14
-#, fuzzy
-#| msgid "Sidebar"
-msgid "Sidebars"
-msgstr "Seitenleiste"
+msgstr "Spiegeln"
 
 #: lib/modules/sv_header_bar/sv_header_bar.php:6
 msgid "SV Header Bar"
@@ -2742,27 +2996,15 @@ msgstr "Setze die maximale Breite des Sidebar Containers."
 msgid "Set the max width of the sidebar inner."
 msgstr "Setze die maximale Breite des inneren Bereichs der Sidebar."
 
-#: lib/modules/sv_header_bar/sv_header_bar.php:43
-#, fuzzy
-#| msgid "Sidebar"
-msgid "Sidebar 1"
-msgstr "Seitenleiste"
-
 #: lib/modules/sv_header_bar/sv_header_bar.php:44
-#, fuzzy
-#| msgid "Sidebar Order Position"
 msgid "Select Sidebar for Position 1."
 msgstr "Sidebar Order Position"
 
 #: lib/modules/sv_header_bar/sv_header_bar.php:49
-#, fuzzy
-#| msgid "Sidebar"
 msgid "Sidebar 2"
-msgstr "Seitenleiste"
+msgstr "Seitenleiste 2"
 
 #: lib/modules/sv_header_bar/sv_header_bar.php:50
-#, fuzzy
-#| msgid "Sidebar Order Position"
 msgid "Select Sidebar for Position 2."
 msgstr "Sidebar Order Position"
 
@@ -2785,326 +3027,297 @@ msgstr "Header Bar - "
 msgid "Meta"
 msgstr "Meta"
 
-#: lib/modules/sv_header_content/sv_header_content.php:12
+#: lib/modules/sv_header_content/sv_header_content.php:11
 msgid "Aurora"
-msgstr ""
+msgstr "Aurora"
+
+#: lib/modules/sv_header_content/sv_header_content.php:12
+msgid "Coalesce"
+msgstr "Zusammenfügen"
 
 #: lib/modules/sv_header_content/sv_header_content.php:13
-msgid "Coalesce"
-msgstr ""
+msgid "Pipeline"
+msgstr "Pipeline"
 
 #: lib/modules/sv_header_content/sv_header_content.php:14
-#, fuzzy
-#| msgid "Overline"
-msgid "Pipeline"
-msgstr "Überstrichen"
+msgid "Shift"
+msgstr "Schicht"
 
 #: lib/modules/sv_header_content/sv_header_content.php:15
-msgid "Shift"
-msgstr ""
-
-#: lib/modules/sv_header_content/sv_header_content.php:16
 msgid "Swirl"
-msgstr ""
+msgstr "Wirbel"
+
+#: lib/modules/sv_header_content/sv_header_content.php:21
+msgid "Color Burn"
+msgstr "Farbbrand"
 
 #: lib/modules/sv_header_content/sv_header_content.php:22
-#, fuzzy
-#| msgid "Color Slug"
-msgid "Color Burn"
-msgstr "Color Slug"
+msgid "Color Dodge"
+msgstr "Farbe Dodge"
 
 #: lib/modules/sv_header_content/sv_header_content.php:23
-#, fuzzy
-#| msgid "Color Name"
-msgid "Color Dodge"
-msgstr "Farb Name"
+msgid "Darken"
+msgstr "Verdunkeln"
 
 #: lib/modules/sv_header_content/sv_header_content.php:24
-msgid "Darken"
-msgstr ""
+msgid "Difference"
+msgstr "Differenz"
 
 #: lib/modules/sv_header_content/sv_header_content.php:25
-msgid "Difference"
-msgstr ""
+msgid "Exclusion"
+msgstr "Ausnahme"
 
 #: lib/modules/sv_header_content/sv_header_content.php:26
-msgid "Exclusion"
-msgstr ""
+msgid "Hard Light"
+msgstr "Hartes Licht"
 
 #: lib/modules/sv_header_content/sv_header_content.php:27
-#, fuzzy
-#| msgid "right"
-msgid "Hard Light"
-msgstr "rechts"
+msgid "Hue"
+msgstr "Farbton"
 
 #: lib/modules/sv_header_content/sv_header_content.php:28
-#, fuzzy
-#| msgid "Huge"
-msgid "Hue"
-msgstr "Riesig"
+msgid "Lighten"
+msgstr "Aufhellen"
 
 #: lib/modules/sv_header_content/sv_header_content.php:29
-#, fuzzy
-#| msgid "right"
-msgid "Lighten"
-msgstr "rechts"
+msgid "Luminosity"
+msgstr "Leuchtstärke"
 
 #: lib/modules/sv_header_content/sv_header_content.php:30
-msgid "Luminosity"
-msgstr ""
+msgid "Multiply"
+msgstr "Multiplizieren"
 
 #: lib/modules/sv_header_content/sv_header_content.php:31
-msgid "Multiply"
-msgstr ""
+msgid "Overlay"
+msgstr "Überlagern"
 
 #: lib/modules/sv_header_content/sv_header_content.php:32
-#, fuzzy
-#| msgid "Overline"
-msgid "Overlay"
-msgstr "Überstrichen"
+msgid "Saturation"
+msgstr "Sättigung"
 
 #: lib/modules/sv_header_content/sv_header_content.php:33
-#, fuzzy
-#| msgid "SV Navigation"
-msgid "Saturation"
-msgstr "Navigation"
+msgid "Screen"
+msgstr "Bildschirm"
 
 #: lib/modules/sv_header_content/sv_header_content.php:34
-msgid "Screen"
-msgstr ""
-
-#: lib/modules/sv_header_content/sv_header_content.php:35
-#, fuzzy
-#| msgid "Font Weight"
 msgid "Soft Light"
-msgstr "Schriftstärke"
+msgstr "Sanftes Licht"
 
-#: lib/modules/sv_header_content/sv_header_content.php:39
+#: lib/modules/sv_header_content/sv_header_content.php:38
 msgid "SV Header Content"
 msgstr "Inhaltskopfzeile"
 
-#: lib/modules/sv_header_content/sv_header_content.php:40
+#: lib/modules/sv_header_content/sv_header_content.php:39
 msgid "Content Header Settings"
 msgstr "Einstellungen für die Inhaltskopfzeile"
 
-#: lib/modules/sv_header_content/sv_header_content.php:64
-#: lib/modules/sv_header_content/sv_header_content.php:611
-#, fuzzy
-#| msgid "SV Header"
+#: lib/modules/sv_header_content/sv_header_content.php:63
+#: lib/modules/sv_header_content/sv_header_content.php:586
 msgid "Show Header"
-msgstr "Kopfbereich"
+msgstr "Zeige Kopfzeile"
 
-#: lib/modules/sv_header_content/sv_header_content.php:65
+#: lib/modules/sv_header_content/sv_header_content.php:64
 msgid "Select Post Types on which header should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, auf denen die Kopfzeile angezeigt werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:72
+#: lib/modules/sv_header_content/sv_header_content.php:71
 msgid "Select Post Types on which Featured Image should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, auf denen das vorgestellte Bild angezeigt "
+"werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:79
-#: lib/modules/sv_header_content/sv_header_content.php:107
+#: lib/modules/sv_header_content/sv_header_content.php:78
+#: lib/modules/sv_header_content/sv_header_content.php:106
 msgid "Select Post Types on which title should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, auf denen der Titel angezeigt werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:86
+#: lib/modules/sv_header_content/sv_header_content.php:85
 msgid "Select Post Types on which excerpt should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, auf denen der Auszug angezeigt werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:93
+#: lib/modules/sv_header_content/sv_header_content.php:92
 msgid "Select Post Types on which date should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, an denen das Datum angezeigt werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:100
+#: lib/modules/sv_header_content/sv_header_content.php:99
 msgid "Select Post Types on which modified date should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, an denen das Änderungsdatum angezeigt werden "
+"soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:113
-#: lib/modules/sv_header_content/sv_header_content.php:653
-#, fuzzy
-#| msgid "Show Categories"
+#: lib/modules/sv_header_content/sv_header_content.php:112
+#: lib/modules/sv_header_content/sv_header_content.php:628
 msgid "Show Category"
 msgstr "Kategorie anzeigen"
 
-#: lib/modules/sv_header_content/sv_header_content.php:114
+#: lib/modules/sv_header_content/sv_header_content.php:113
 msgid "Select Post Types on which category should be shown."
 msgstr ""
+"Wählen Sie Beitragstypen aus, für welche Kategorie angezeigt werden soll."
 
-#: lib/modules/sv_header_content/sv_header_content.php:120
-#: lib/modules/sv_header_content/sv_header_content.php:659
-#, fuzzy
-#| msgid "Header Excerpt: "
+#: lib/modules/sv_header_content/sv_header_content.php:119
+#: lib/modules/sv_header_content/sv_header_content.php:634
 msgid "Header Effect"
 msgstr "Kopfzeile - Auszug: "
 
-#: lib/modules/sv_header_content/sv_header_content.php:121
+#: lib/modules/sv_header_content/sv_header_content.php:120
 msgid "Select default header effect."
-msgstr ""
+msgstr "Wählen Sie den Standard-Header-Effekt aus."
+
+#: lib/modules/sv_header_content/sv_header_content.php:125
+#: lib/modules/sv_header_content/sv_header_content.php:643
+msgid "Mix Blend Mode"
+msgstr "Überblendmodus"
 
 #: lib/modules/sv_header_content/sv_header_content.php:126
-#: lib/modules/sv_header_content/sv_header_content.php:668
-msgid "Mix Blend Mode"
-msgstr ""
-
-#: lib/modules/sv_header_content/sv_header_content.php:127
-#: lib/modules/sv_header_content/sv_header_content.php:669
+#: lib/modules/sv_header_content/sv_header_content.php:644
 msgid "Select blend mix mode for header effect."
-msgstr ""
+msgstr "Wählen Sie den Mischmodus für den Kopfzeileneffekt aus."
 
-#: lib/modules/sv_header_content/sv_header_content.php:132
-#: lib/modules/sv_header_content/sv_header_content.php:677
-#, fuzzy
-#| msgid "Background Color"
+#: lib/modules/sv_header_content/sv_header_content.php:131
+#: lib/modules/sv_header_content/sv_header_content.php:652
 msgid "Background Blur"
 msgstr "Hintergrundfarbe"
 
-#: lib/modules/sv_header_content/sv_header_content.php:133
-#: lib/modules/sv_header_content/sv_header_content.php:678
+#: lib/modules/sv_header_content/sv_header_content.php:132
+#: lib/modules/sv_header_content/sv_header_content.php:653
 msgid "Set Blur Effect in Pixel"
-msgstr ""
+msgstr "Weichzeichnungseffekt in Pixel festlegen"
 
-#: lib/modules/sv_header_content/sv_header_content.php:139
+#: lib/modules/sv_header_content/sv_header_content.php:138
 msgid "Outer Wrapper Max Width"
 msgstr "Äußerer Wrapper maximale Breite"
 
-#: lib/modules/sv_header_content/sv_header_content.php:140
-#: lib/modules/sv_header_content/sv_header_content.php:148
+#: lib/modules/sv_header_content/sv_header_content.php:139
+#: lib/modules/sv_header_content/sv_header_content.php:147
 msgid ""
 "Set the max width of the wrapper for the content within the Content-Header"
 msgstr ""
 "Setze die maximale Breite des Wrappers für den Inhalt innerhalb des "
 "Kopfzeileninhalts"
 
-#: lib/modules/sv_header_content/sv_header_content.php:147
+#: lib/modules/sv_header_content/sv_header_content.php:146
 msgid "Inner Wrapper Max Width"
 msgstr "Maximale Breite des inneren Wrappers"
 
-#: lib/modules/sv_header_content/sv_header_content.php:155
+#: lib/modules/sv_header_content/sv_header_content.php:154
 msgid "Content Max Width"
 msgstr "Inhalt maximale Breite"
 
-#: lib/modules/sv_header_content/sv_header_content.php:156
+#: lib/modules/sv_header_content/sv_header_content.php:155
 msgid "Set the max width of the content within the Content-Header"
 msgstr "Setze die maximale Breite des Inhalts für den Kopfzeileninhalt"
 
-#: lib/modules/sv_header_content/sv_header_content.php:163
+#: lib/modules/sv_header_content/sv_header_content.php:162
 msgid "Alignment"
 msgstr "Ausrichtung"
 
-#: lib/modules/sv_header_content/sv_header_content.php:164
+#: lib/modules/sv_header_content/sv_header_content.php:163
 msgid "Set the alignment of the Content-Header"
 msgstr "Definiert die Ausrichtung innerhalb des Inhaltsheaders"
 
-#: lib/modules/sv_header_content/sv_header_content.php:175
+#: lib/modules/sv_header_content/sv_header_content.php:174
 msgid "Minimum Height"
 msgstr "Minimale Höhe"
 
-#: lib/modules/sv_header_content/sv_header_content.php:176
+#: lib/modules/sv_header_content/sv_header_content.php:175
 msgid "Set minimum height for Content-Header"
 msgstr "Setzt die minimale Höhe für den Kopfzeileninhalt"
 
-#: lib/modules/sv_header_content/sv_header_content.php:207
-#: lib/modules/sv_header_content/sv_header_content.php:218
-#: lib/modules/sv_header_content/sv_header_content.php:345
+#: lib/modules/sv_header_content/sv_header_content.php:206
+#: lib/modules/sv_header_content/sv_header_content.php:217
+#: lib/modules/sv_header_content/sv_header_content.php:344
 msgid "Text Alignment"
 msgstr "Text-Ausrichtung"
 
-#: lib/modules/sv_header_content/sv_header_content.php:208
+#: lib/modules/sv_header_content/sv_header_content.php:207
 msgid "Defines the alignment of the title inside the content header."
 msgstr "Definiert die Ausrichtung des Titels innerhalb des Inhaltsheaders."
 
-#: lib/modules/sv_header_content/sv_header_content.php:219
+#: lib/modules/sv_header_content/sv_header_content.php:218
 msgid "Defines the alignment of the excerpt inside the content header."
 msgstr "Definiert die Ausrichtung des Auszugs innerhalb des Inhaltsheaders."
 
-#: lib/modules/sv_header_content/sv_header_content.php:230
-#: lib/modules/sv_header_content/sv_header_content.php:357
+#: lib/modules/sv_header_content/sv_header_content.php:229
+#: lib/modules/sv_header_content/sv_header_content.php:356
 msgid "Block Alignment"
 msgstr "Blockausrichtung"
 
-#: lib/modules/sv_header_content/sv_header_content.php:231
+#: lib/modules/sv_header_content/sv_header_content.php:230
 msgid "Defines the alignment of the excerpt block inside the content header."
 msgstr ""
 "Definiert die Ausrichtung des Auszugsblocks innerhalb des Inhaltsheaders."
 
-#: lib/modules/sv_header_content/sv_header_content.php:340
+#: lib/modules/sv_header_content/sv_header_content.php:339
 msgid "Color for the post author and date in the header."
 msgstr "Farbe für den Postautor und Datum in der Kopfzeile."
 
-#: lib/modules/sv_header_content/sv_header_content.php:346
-#, fuzzy
-#| msgid "Defines the alignment of the excerpt inside the content header."
+#: lib/modules/sv_header_content/sv_header_content.php:345
 msgid "Defines the alignment of the meta inside the content header."
 msgstr "Definiert die Ausrichtung des Auszugs innerhalb des Inhaltsheaders."
 
-#: lib/modules/sv_header_content/sv_header_content.php:358
-#, fuzzy
-#| msgid ""
-#| "Defines the alignment of the excerpt block inside the content header."
+#: lib/modules/sv_header_content/sv_header_content.php:357
 msgid "Defines the alignment of the meta block inside the content header."
 msgstr ""
 "Definiert die Ausrichtung des Auszugsblocks innerhalb des Inhaltsheaders."
 
-#: lib/modules/sv_header_content/sv_header_content.php:377
+#: lib/modules/sv_header_content/sv_header_content.php:376
 msgid "Header Content Overlay Color"
 msgstr "Inhalts-Kopfzeile - Farben"
 
-#: lib/modules/sv_header_content/sv_header_content.php:606
+#: lib/modules/sv_header_content/sv_header_content.php:581
+#: lib/modules/sv_sidebar/sv_sidebar.php:192
 msgid "Hidden"
 msgstr "Verborgen"
 
-#: lib/modules/sv_header_content/sv_header_content.php:607
+#: lib/modules/sv_header_content/sv_header_content.php:582
 msgid "Show"
 msgstr "Anzeigen"
 
-#: lib/modules/sv_header_content/sv_header_content.php:612
-#, fuzzy
-#| msgid "Content Header Settings"
+#: lib/modules/sv_header_content/sv_header_content.php:587
 msgid "Show Content Header at all"
 msgstr "Einstellungen für die Inhaltskopfzeile"
 
-#: lib/modules/sv_header_content/sv_header_content.php:618
-#: lib/modules/sv_header_content/sv_header_content.php:624
-#: lib/modules/sv_header_content/sv_header_content.php:630
-#: lib/modules/sv_header_content/sv_header_content.php:636
-#: lib/modules/sv_header_content/sv_header_content.php:642
-#: lib/modules/sv_header_content/sv_header_content.php:648
-#: lib/modules/sv_header_content/sv_header_content.php:654
+#: lib/modules/sv_header_content/sv_header_content.php:593
+#: lib/modules/sv_header_content/sv_header_content.php:599
+#: lib/modules/sv_header_content/sv_header_content.php:605
+#: lib/modules/sv_header_content/sv_header_content.php:611
+#: lib/modules/sv_header_content/sv_header_content.php:617
+#: lib/modules/sv_header_content/sv_header_content.php:623
+#: lib/modules/sv_header_content/sv_header_content.php:629
 msgid "Visibility of this element."
-msgstr ""
+msgstr "Sichtbarkeit dieses Elements."
 
-#: lib/modules/sv_header_content/sv_header_content.php:641
-#, fuzzy
-#| msgid "Show modified date"
+#: lib/modules/sv_header_content/sv_header_content.php:616
 msgid "Show Modified Date"
-msgstr "Datum der letzten Bearbeitung anzeigen"
+msgstr "Geändertes Datum anzeigen"
 
-#: lib/modules/sv_header_content/sv_header_content.php:660
-#, fuzzy
-#| msgid "Select the font weight."
+#: lib/modules/sv_header_content/sv_header_content.php:635
 msgid "Select header effect."
 msgstr "Wähle die Schriftstärke aus."
 
-#: lib/modules/sv_header_content/sv_header_content.php:663
-#: lib/modules/sv_header_content/sv_header_content.php:672
+#: lib/modules/sv_header_content/sv_header_content.php:638
+#: lib/modules/sv_header_content/sv_header_content.php:647
 msgid "Nothing"
-msgstr ""
+msgstr "Nichts"
 
-#: lib/modules/sv_header_content/sv_header_content.php:682
+#: lib/modules/sv_header_content/sv_header_content.php:657
 msgid "Override Default Header Content Settings"
 msgstr "Überschreibe Einstellungen für Standard Kopfzeileninhalt"
 
-#: lib/modules/sv_header_content/sv_header_content.php:692
+#: lib/modules/sv_header_content/sv_header_content.php:667
 msgid "Header Title: "
 msgstr "Kopfzeile - Titel: "
 
-#: lib/modules/sv_header_content/sv_header_content.php:697
+#: lib/modules/sv_header_content/sv_header_content.php:672
 msgid "Header Excerpt: "
 msgstr "Kopfzeile - Auszug: "
 
-#: lib/modules/sv_header_content/sv_header_content.php:702
-#, fuzzy
-#| msgid "Header Excerpt: "
+#: lib/modules/sv_header_content/sv_header_content.php:677
 msgid "Header Meta: "
 msgstr "Kopfzeile - Auszug: "
 
@@ -3178,17 +3391,15 @@ msgstr "Farbe (Closed)"
 msgid "Color (Open)"
 msgstr "Farbe (Open)"
 
-#: lib/modules/sv_header_menu/sv_header_menu.php:327
+#: lib/modules/sv_header_menu/sv_header_menu.php:326
 msgid "Primary menu"
 msgstr "Hauptmenü"
 
 #: lib/modules/sv_metabox/sv_metabox.php:6
 msgid "SV Metabox"
-msgstr ""
+msgstr "SV Metabox"
 
 #: lib/modules/sv_metabox/sv_metabox.php:7
-#, fuzzy
-#| msgid "Manages excerpts."
 msgid "Manage metaboxes in posts."
 msgstr "Verwaltet Auszüge."
 
@@ -3224,11 +3435,11 @@ msgstr "Navigation"
 msgid "Manages navigations and their locations"
 msgstr "Verwaltet Navigationen und deren Standorte"
 
-#: lib/modules/sv_pagination/lib/tpl/settings/general.php:15
+#: lib/modules/sv_pagination/lib/tpl/settings/items.php:3
 msgid "Items"
-msgstr ""
+msgstr "Artikel"
 
-#: lib/modules/sv_pagination/lib/tpl/settings/general.php:36
+#: lib/modules/sv_pagination/lib/tpl/settings/items.php:24
 msgid "Pagination (Hover/Focus)"
 msgstr "Pagination (Hover/Focus)"
 
@@ -3278,60 +3489,51 @@ msgid "Creates and manages sidebars."
 msgstr "Erstellt und verwaltet Seitenleisten."
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:39
-#, fuzzy
-#| msgid "Show Header Sidebar"
 msgid "Register Sidebars"
 msgstr "Header Sidebar anzeigen"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:40
 msgid "Create unlimited Sidebars for use in Theme Modules"
 msgstr ""
+"Erstellen Sie unbegrenzte Seitenleisten für die Verwendung in Designmodulen"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:47
-#, fuzzy
-#| msgid "Sidebar"
 msgid "Sidebar ID"
-msgstr "Seitenleiste"
+msgstr "Sidebar-ID"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:48
 msgid "The unique ID of the sidebar."
-msgstr ""
+msgstr "Die eindeutige ID der Seitenleiste."
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:51
 msgid "ID"
 msgstr "ID"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:57
-#, fuzzy
-#| msgid "Sidebar - Pages"
 msgid "Sidebar Label"
 msgstr "Seitenleiste - Seiten"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:58
-#, fuzzy
-#| msgid "A label to differentiate your Styles."
 msgid "A label to differentiate your sidebars."
 msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:67
-#, fuzzy
-#| msgid "Description"
 msgid "Sidebar Description"
-msgstr "Beschreibung"
+msgstr "Beischreibung der Seitenleiste"
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:68
-#, fuzzy
-#| msgid "No Description defined."
 msgid "Description of the sidebar."
 msgstr "Keine Beschreibung definiert."
 
 #: lib/modules/sv_sidebar/sv_sidebar.php:178
-#, fuzzy
-#| msgid "Sidebar"
 msgid "No Sidebar"
-msgstr "Seitenleiste"
+msgstr "Keine Seitenleiste"
 
-#: lib/modules/sv_sidebar/sv_sidebar.php:196
+#: lib/modules/sv_sidebar/sv_sidebar.php:191
+msgid "Inherit"
+msgstr "Vererbt"
+
+#: lib/modules/sv_sidebar/sv_sidebar.php:211
 msgid "Widget alignment inside this Sidebar."
 msgstr "Widgetausrichtung innerhalb der Seitenleiste."
 
@@ -3479,11 +3681,8 @@ msgid "Plugin activated successfully."
 msgstr "Plugin erfolgreich aktiviert."
 
 #: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:388
-#: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:2952
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
-msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+msgid "The following plugin was activated successfully: "
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
 
 #. translators: 1: plugin name.
 #: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:390
@@ -3783,6 +3982,12 @@ msgstr ""
 msgid "No plugins are available to be activated at this time."
 msgstr "Derzeit stehen keine Plugins zur Aktivierung zur Verfügung."
 
+#: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+
 #: lib/modules/sv_tgmpa/lib/modules/class-tgm-plugin-activation.php:3158
 msgid "Plugin activation failed."
 msgstr "Plugin-Aktivierung fehlgeschlagen."
@@ -3986,1091 +4191,3 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://straightvisions.com"
 msgstr "https://straightvisions.com"
-
-#~ msgid "Show right sidebar on posts"
-#~ msgstr "Rechte Seitenleiste in Beiträgen anzeigen"
-
-#~ msgid "Make right sidebar on posts sticky"
-#~ msgstr "Mache die rechte Seitenleiste in Beiträgen sticky"
-
-#~ msgid "Show bottom sidebar on posts"
-#~ msgstr "Untere Seitenleiste auf Beiträgen anzeigen"
-
-#~ msgid "Show right sidebar on pages"
-#~ msgstr "Rechte Seitenleiste auf Seiten anzeigen"
-
-#~ msgid "Make right sidebar on pages sticky"
-#~ msgstr "Mache die rechte Seitenleiste auf Seiten sticky"
-
-#~ msgid "Show bottom sidebar on pages"
-#~ msgstr "Untere Seitenleiste auf Seiten anzeigen"
-
-#~ msgid "Frontpage - right"
-#~ msgstr "Frontpage - Rechts"
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown on the frontpage/landingpage, next "
-#~ "to the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden auf der Titelseite/Landingpage "
-#~ "neben dem Inhalt angezeigt."
-
-#~ msgid "Frontpage - bottom"
-#~ msgstr "Frontpage - Unten"
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown on the frontpage/landingpage, below "
-#~ "the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden auf der Titelseite/Landingpage "
-#~ "unter dem Inhalt angezeigt."
-
-#~ msgid "Pages - right"
-#~ msgstr "Seiten - Rechts"
-
-#~ msgid "Widgets in this sidebar will be shown on pages, next to the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden auf Seiten neben dem Inhalt "
-#~ "angezeigt."
-
-#~ msgid "Pages - bottom"
-#~ msgstr "Seiten - Unten"
-
-#~ msgid "Widgets in this sidebar will be shown on pages, below the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden auf den Seiten unter dem Inhalt "
-#~ "angezeigt."
-
-#~ msgid "Posts - right"
-#~ msgstr "Beiträge - Rechts"
-
-#~ msgid "Widgets in this sidebar will be shown on posts, next to the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden in Beiträgen neben dem Inhalt "
-#~ "angezeigt."
-
-#~ msgid "Posts - bottom"
-#~ msgstr "Beiträge - Unten"
-
-#~ msgid "Widgets in this sidebar will be shown on posts, below the content."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden in Beiträgen unter dem Inhalt "
-#~ "angezeigt."
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown in the header, next to the "
-#~ "navigation."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden in der Kopfzeile neben der "
-#~ "Navigation angezeigt."
-
-#~ msgid "Header Bar - 1"
-#~ msgstr "Header Bar - 1"
-
-#~ msgid "Header Bar - 2"
-#~ msgstr "Header Bar - 2"
-
-#~ msgid "Read more"
-#~ msgstr "Weiterlesen"
-
-#~ msgid "Widget - Title"
-#~ msgstr "Widget - Titel"
-
-#~ msgid "Sidebar Alignments"
-#~ msgstr "Sidebar Ausrichtung"
-
-#~ msgid "Posts from"
-#~ msgstr "Beiträge von"
-
-#~ msgid "Recent Posts"
-#~ msgstr "Aktuelle Beiträge"
-
-#~ msgid "No posts available"
-#~ msgstr "Keine Beiträge vorhanden"
-
-#~ msgid "Search results for"
-#~ msgstr "Suchergebnisse für"
-
-#~ msgid "Archive settings"
-#~ msgstr "Archiveinstellungen"
-
-#~ msgid "Read more text"
-#~ msgstr "'Weiterlesen'-Text"
-
-#~ msgid "Info text color"
-#~ msgstr "Infotextfarbe"
-
-#~ msgid "Color for the post info."
-#~ msgstr "Farbe für die Beitragsinfo."
-
-#~ msgid "Category text color"
-#~ msgstr "Kategorietextfarbe"
-
-#~ msgid "Color for the post categories."
-#~ msgstr "Farbe für die Beitragskategorien."
-
-#~ msgid "Category background color"
-#~ msgstr "Kategorie Hintergrundfarbe"
-
-#~ msgid "Background color for the post categories."
-#~ msgstr "Hintergrundfarbe für die Beitragskategorien."
-
-#~ msgid "Home listing"
-#~ msgstr "Startseiten Auflistung"
-
-#~ msgid "Defines how posts on the homepage will be displayed."
-#~ msgstr "Legt fest, wie Beiträge auf der Startseite angezeigt werden."
-
-#~ msgid "List (Default)"
-#~ msgstr "Liste (Standard)"
-
-#~ msgid "Masonry"
-#~ msgstr "Masonry"
-
-#~ msgid "Grid"
-#~ msgstr "Raster"
-
-#~ msgid "Search listing"
-#~ msgstr "Such Auflistung"
-
-#~ msgid "Defines how the search results will be displayed."
-#~ msgstr "Legt fest, wie die Suchergebnisse angezeigt werden."
-
-#~ msgid "Category listing"
-#~ msgstr "Kategorie Auflistung"
-
-#~ msgid "Defines how posts filtered by category will be displayed."
-#~ msgstr ""
-#~ "Legt fest, wie Beiträge, die nach Kategorien gefiltert werden, angezeigt "
-#~ "werden."
-
-#~ msgid "Tag listing"
-#~ msgstr "Schlagwörter Auflistung"
-
-#~ msgid "Defines how posts filtered by tags will be displayed."
-#~ msgstr ""
-#~ "Legt fest, wie Beiträge, die durch Schlagwörtern gefiltert werden, "
-#~ "angezeigt werden."
-
-#~ msgid "Author listing"
-#~ msgstr "Autor Auflistung"
-
-#~ msgid "Defines how posts created by an author will be displayed."
-#~ msgstr ""
-#~ "Legt fest, wie Beiträge, die von einem Autor erstellt wurden, angezeigt "
-#~ "werden."
-
-#~ msgid "No Template found."
-#~ msgstr "Kein Template gefunden."
-
-#~ msgid "Content"
-#~ msgstr "Inhalt"
-
-#~ msgid "Content settings"
-#~ msgstr "Inhalts Einstellungen"
-
-#~ msgid "Widget text color"
-#~ msgstr "Widget-Textfarbe"
-
-#~ msgid "Widget background color"
-#~ msgstr "Widget-Hintergrundfarbe"
-
-#~ msgid "Show date"
-#~ msgstr "Datum anzeigen"
-
-#~ msgid "Show author"
-#~ msgstr "Autor anzeigen"
-
-#~ msgid "no"
-#~ msgstr "nein"
-
-#~ msgid "yes"
-#~ msgstr "ja"
-
-#~ msgid "Hide Header"
-#~ msgstr "Verstecke Kopfzeile"
-
-#~ msgid "No Content Header will be shown on this post."
-#~ msgstr "Kein Kopfzeileninhalt bei diesem Beitrag anzeigen."
-
-#~ msgid "Hide Featured Image"
-#~ msgstr "Verstecke Beitragsbild"
-
-#~ msgid "No Featured Image will be shown on this post."
-#~ msgstr "Kein Beitragsbild wird bei diesem Beitrag angezeigt."
-
-#~ msgid "Show Excerpt on single post"
-#~ msgstr "Auszug auf Beiträgen anzeigen"
-
-#~ msgid "Image Overlay Color"
-#~ msgstr "Bild Overlayfarbe"
-
-#~ msgid "Date on Posts"
-#~ msgstr "Datum auf Beiträgen anzeigen"
-
-#~ msgid "Show date on posts"
-#~ msgstr "Datum auf Beiträgen anzeigen"
-
-#~ msgid "Date on Pages"
-#~ msgstr "Datum auf Seiten anzeigen"
-
-#~ msgid "Show date on pages"
-#~ msgstr "Datum auf Seiten anzeigen"
-
-#~ msgid "Modified Date on Posts"
-#~ msgstr "Datum auf Beiträgen anzeigen"
-
-#~ msgid "Show modified date on posts"
-#~ msgstr "Datum auf Beiträgen anzeigen"
-
-#~ msgid "Modified Date on Pages"
-#~ msgstr "Datum auf Seiten anzeigen"
-
-#~ msgid "Show modified date on pages"
-#~ msgstr "Datum auf Seiten anzeigen"
-
-#~ msgid "Author on Posts"
-#~ msgstr "Autor auf Beiträgen anzeigen"
-
-#~ msgid "Show author on posts"
-#~ msgstr "Autor auf Beiträgen anzeigen"
-
-#~ msgid "Author on Pages"
-#~ msgstr "Autor auf Seiten anzeigen"
-
-#~ msgid "Show author on pages"
-#~ msgstr "Autor auf Seiten anzeigen"
-
-#~ msgid "Display styles"
-#~ msgstr "Anzeigestile"
-
-#~ msgid "Grid - Title"
-#~ msgstr "Raster - Titel"
-
-#~ msgid "Grid - Excerpt"
-#~ msgstr "Raster - Auszug"
-
-#~ msgid "Grid - Colors"
-#~ msgstr "Raster - Farben"
-
-#~ msgid "List - Title"
-#~ msgstr "Liste - Titel"
-
-#~ msgid "List - Excerpt"
-#~ msgstr "Liste - Auszug"
-
-#~ msgid "List - Read more"
-#~ msgstr "Liste - Weiterlesen"
-
-#~ msgid "Masonry - Title"
-#~ msgstr "Masonry - Titel"
-
-#~ msgid "Masonry - Excerpt"
-#~ msgstr "Masonry - Auszug"
-
-#~ msgid "Masonry - Read more"
-#~ msgstr "Masonry - Weiterlesen"
-
-#~ msgid "Masonry - Colors"
-#~ msgstr "Masonry - Farben"
-
-#~ msgid ""
-#~ "This cheat sheet lists core methods you may want to use when developing "
-#~ "own modules."
-#~ msgstr ""
-#~ "Dieses Cheatsheet listet die wichtigsten Methoden auf, die bei der "
-#~ "Entwicklung eigener Module verwenden werden können."
-
-#~ msgid "get current url"
-#~ msgstr "Erhalte aktuelle URL"
-
-#~ msgid "URL to current location"
-#~ msgstr "URL zum aktuellen Standort"
-
-#~ msgid "Name of current instance:"
-#~ msgstr "Name der aktuellen Instanz:"
-
-#~ msgid "Full hierarchy name:"
-#~ msgstr "Voller Hierarchienname:"
-
-#~ msgid "Shortname (without namespace) of current hierarchy class"
-#~ msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
-
-#~ msgid "Prefix by get_name:"
-#~ msgstr "Präfix von get_name:"
-
-#~ msgid "Prefix by get_name, but root class replaced with sv_common:"
-#~ msgstr "Präfix von get_name, aber root-Klasse durch sv_common ersetzt:"
-
-#~ msgid "Absolute path to instance:"
-#~ msgstr "Absoluter Pfad zur Instanz:"
-
-#~ msgid "Absolute url to instance:"
-#~ msgstr "Absolute URL zur Instanz:"
-
-#~ msgid "Absolute path to core:"
-#~ msgstr "Absoluter Pfad zur Core:"
-
-#~ msgid "Absolute url to core:"
-#~ msgstr "Absolute URL zur Core:"
-
-#~ msgid "Enqueue Admin Styles"
-#~ msgstr "Admin-Stile einreihen"
-
-#~ msgid "Enqueue SV style for admin menu pages:"
-#~ msgstr "Admin-Stile einreihen für Admin-Menüseiten:"
-
-#~ msgid "Core Docs"
-#~ msgstr "Core Doku"
-
-#~ msgid "Instance Core Methods"
-#~ msgstr "Core Methoden der Instanz"
-
-#~ msgid "Background Attachment"
-#~ msgstr "Scroll-Verhalten des Hintergrunds"
-
-#~ msgid "fixed"
-#~ msgstr "fixiert"
-
-#~ msgid "scroll"
-#~ msgstr "scroll"
-
-#~ msgid "local"
-#~ msgstr "lokal"
-
-#~ msgid "initial"
-#~ msgstr "initial"
-
-#~ msgid "inherit"
-#~ msgstr "vererbt"
-
-#~ msgid "Background Fit"
-#~ msgstr "Hintergrund Abdeckung"
-
-#~ msgid "Defines how the background image aspect ratio behaves"
-#~ msgstr "Definiert das Verhalten des Hintergrundbild-Seitenverhältnisses"
-
-#~ msgid "Cover"
-#~ msgstr "Abdeckend"
-
-#~ msgid "Contain"
-#~ msgstr "Beinhaltend"
-
-#~ msgid "Background Media Size"
-#~ msgstr "Hintergrund-Mediengröße"
-
-#~ msgid "Background Repeat"
-#~ msgstr "Hintergrund wiederholen"
-
-#~ msgid "No Repeat"
-#~ msgstr "Keine Wiederholung"
-
-#~ msgid "Repeat"
-#~ msgstr "Wiederholen"
-
-#~ msgid "Repeat Vertically"
-#~ msgstr "Vertikal wiederholen"
-
-#~ msgid "Space"
-#~ msgstr "Abstand"
-
-#~ msgid "Round"
-#~ msgstr "Rund"
-
-#~ msgid "Initial"
-#~ msgstr "Initial"
-
-#~ msgid "Inherit"
-#~ msgstr "Vererbt"
-
-#~ msgid "Background Size"
-#~ msgstr "Hintergrund Größe"
-
-#~ msgid "Background Size in Pixel"
-#~ msgstr "Hintergrundgröße in Pixel"
-
-#~ msgid "If disabled Background Fit will take effect."
-#~ msgstr "Wenn deaktiviert, wird die Hintergrundanpassung wirksam."
-
-#~ msgid "0 = Disabled"
-#~ msgstr "0 = Deaktiviert"
-
-#~ msgid "Line Height in Pixel"
-#~ msgstr "Zeilenabstand in Pixel"
-
-#~ msgid "static"
-#~ msgstr "statisch"
-
-#~ msgid "Define your color palette"
-#~ msgstr "Definiere deine Farbpalette"
-
-#~ msgid "Invalid color code"
-#~ msgstr "Ungültige Farbcode"
-
-#~ msgid "Titles"
-#~ msgstr "Titel"
-
-#~ msgid "Text & Color settings"
-#~ msgstr "Text- & Farbeinstellungen"
-
-#~ msgid "This color is used for the author name."
-#~ msgstr "Diese Farbe wird für den Autorennamen verwendet."
-
-#~ msgid "Manage general styles, scripts & dependencies."
-#~ msgstr "Verwalte allgemeine Stile, Skripte und Abhängigkeiten."
-
-#~ msgid "Distance to border"
-#~ msgstr "Abstand zum Rand"
-
-#~ msgid ""
-#~ "The distance between your content and the window border on mobile "
-#~ "devices, in pixels."
-#~ msgstr ""
-#~ "Der Abstand zwischen deinem Inhalt und dem Fensterrahmen auf mobilen "
-#~ "Geräten in Pixeln."
-
-#~ msgid "Archives"
-#~ msgstr "Archive"
-
-#~ msgid "Title (Mobile)"
-#~ msgstr "Titel (Mobil)"
-
-#~ msgid "Excerpt (Mobile)"
-#~ msgstr "Auszug (Mobil)"
-
-#~ msgid "Colors (with Thumbnail)"
-#~ msgstr "Farben (mit Beitragsbild)"
-
-#~ msgid "Edit"
-#~ msgstr "Bearbeiten"
-
-#~ msgid "Defines the alignment of the title block inside the content header."
-#~ msgstr ""
-#~ "Definiert die Ausrichtung des Titelblocks innerhalb des Inhaltsheaders."
-
-#~ msgid "Author & Date color"
-#~ msgstr "Autor & Datum Farbe"
-
-#~ msgid "Excerpt color"
-#~ msgstr "Auszug Farbe"
-
-#~ msgid "Excerpts"
-#~ msgstr "Auszüge"
-
-#~ msgid "Set a default thumbnail for all posts and pages."
-#~ msgstr "Lege ein Standard Beitragsbild für alle Beiträge und Seiten fest."
-
-#~ msgid "Background"
-#~ msgstr "Hintergrund"
-
-#~ msgid "Sidebar & Color settings"
-#~ msgstr "Seitenleisten & Farbeinstellungen"
-
-#~ msgid "Activate or deactivate the footer."
-#~ msgstr "Aktiviere oder deaktiviere den Footer."
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown in the left section of the footer."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden im linken Bereich der Fußzeile "
-#~ "angezeigt."
-
-#~ msgid "Footer - Center"
-#~ msgstr "Footer - Mitte"
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown in the center section of the footer."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden im mittleren Bereich der Fußzeile "
-#~ "angezeigt."
-
-#~ msgid ""
-#~ "Widgets in this sidebar will be shown in the right section of the footer."
-#~ msgstr ""
-#~ "Widgets in dieser Seitenleiste werden im rechten Bereich der Fußzeile "
-#~ "angezeigt."
-
-#~ msgid "Submenu - Background"
-#~ msgstr "Untermenü - Hintergrund"
-
-#~ msgid "Submenu - Items"
-#~ msgstr "Untermenü - Elemente"
-
-#~ msgid "Submenu - Items (hover/focus)"
-#~ msgstr "Untermenü - Elemente (Hover/Fokus)"
-
-#~ msgid "Text, Color & Branding settings."
-#~ msgstr "Text-, Farb- & Branding-Einstellungen."
-
-#~ msgid "Width in pixel. 0 = auto"
-#~ msgstr "Breite in Pixel. 0 = automatisch"
-
-#~ msgid "Height in pixel. 0 = auto"
-#~ msgstr "Höhe in Pixel. 0 = automatisch"
-
-#~ msgid "Logo width (mobile)"
-#~ msgstr "Logobreite (mobil)"
-
-#~ msgid "Logo height (mobile)"
-#~ msgstr "Logohöhe (mobil)"
-
-#~ msgid "Activate background color"
-#~ msgstr "Aktivieren der Hintergrundfarbe"
-
-#~ msgid "Menu icon (closed) color"
-#~ msgstr "Farbe des Menüsymbols (geschlossen)"
-
-#~ msgid "Menu icon (open) color"
-#~ msgstr "Farbe des Menüsymbols (offen)"
-
-#~ msgid "Menu background opacity"
-#~ msgstr "Menü-Hintergrund Transparenz"
-
-#~ msgid "Define the background opacity of the mobile menu, in percent."
-#~ msgstr "Definiere die Hintergrund-Opazität des mobilen Menüs in Prozent."
-
-#~ msgid "Links to Images will be opened as Lightbox"
-#~ msgstr "Links zu Bildern werden als Lightbox geöffnet"
-
-#~ msgid "Lighhtbox"
-#~ msgstr "Lighhtbox"
-
-#~ msgid "Manage Lightbox"
-#~ msgstr "Verwalten von Lightbox"
-
-#~ msgid "Enable Lightbox"
-#~ msgstr "Lightbox aktivieren"
-
-#~ msgid "Links to Images will be opened in a Lightbox"
-#~ msgstr "Links zu Bildern werden in einer Lightbox geöffnet"
-
-#~ msgid "Available modules in the SV100 theme"
-#~ msgstr "Verfügbare Module im SV100 Theme"
-
-#~ msgid "Displays a scroll to top button."
-#~ msgstr "Zeigt einen \"Nach Oben Scrollen\"-Button an."
-
-#~ msgid "Scroll To Top"
-#~ msgstr "Nach Oben Scrollen"
-
-#~ msgid "Icon & Color settings"
-#~ msgstr "Symbol- & Farbeinstellungen"
-
-#~ msgid "Activate Scroll To Top Button"
-#~ msgstr "\"Nach Oben Scrollen\"-Button aktiviern"
-
-#~ msgid "Icon embed code"
-#~ msgstr "Symboleinbettungscode"
-
-#~ msgid "Icon color"
-#~ msgstr "Icon Farbe"
-
-#~ msgid "Smooth Scrolling"
-#~ msgstr "Weiches Scrollen"
-
-#~ msgid "Manage Scroll Speed"
-#~ msgstr "Scroll-Geschwindigkeit verwalten"
-
-#~ msgid "Activate Smooth Scrolling."
-#~ msgstr "Aktiviere Smooth Scrolling."
-
-#~ msgid "Import settings"
-#~ msgstr "Einstellungen importieren"
-
-#~ msgid ""
-#~ "All your settings will be removed and replaced with the new settings."
-#~ msgstr ""
-#~ "Alle deine Einstellungen werden entfernt und durch die neuen "
-#~ "Einstellungen ersetzt."
-
-#~ msgid "Do you want to proceed?"
-#~ msgstr "Willst du fortfahren?"
-
-#~ msgid "Reset settings"
-#~ msgstr "Einstellungen zurücksetzen"
-
-#~ msgid ""
-#~ "All your settings will be removed and replaced with the default settings."
-#~ msgstr ""
-#~ "Alle deine Einstellungen werden entfernt und durch die "
-#~ "Standardeinstellungen ersetzt."
-
-#~ msgid "Import"
-#~ msgstr "Importieren"
-
-#~ msgid "Select your settings file and click on \"Import settings\"."
-#~ msgstr ""
-#~ "Wähle deine Einstellungsdatei aus und klicke auf \"Einstellungen "
-#~ "importieren\"."
-
-#~ msgid "Allowed filetypes: .json"
-#~ msgstr "Zulässige Dateitypen: .json"
-
-#~ msgid "Settings file"
-#~ msgstr "Konfigurationsdatei"
-
-#~ msgid "Export"
-#~ msgstr "Export"
-
-#~ msgid "Export settings"
-#~ msgstr "Einstellungen exportieren"
-
-#~ msgid "Reset to factory settings"
-#~ msgstr "Zurücksetzen auf Werkseinstellungen"
-
-#~ msgid "Manages settings"
-#~ msgstr "Verwaltet Einstellungen"
-
-#~ msgid "Settings Import/Export"
-#~ msgstr "Konfiguration Import/Export"
-
-#~ msgid "Import and export your settings"
-#~ msgstr "Importiere und exportiere deine Einstellungen"
-
-#~ msgid "Successfully reseted all settings."
-#~ msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
-
-#~ msgid "Background Settings"
-#~ msgstr "Hintergrund-Einstellungen"
-
-#~ msgid "Sidebar - Frontpage"
-#~ msgstr "Seitenleiste - Startseite"
-
-#~ msgid "No branding"
-#~ msgstr "Kein Branding"
-
-#~ msgid ""
-#~ "Decide in which way you wanna display your brand/website in the header."
-#~ msgstr ""
-#~ "Entscheide, auf welche Weise du deine Marke/Website im Header anzeigen "
-#~ "möchtest."
-
-#~ msgid "If you uploaded a logo in the Customizer, the option"
-#~ msgstr "Wenn du ein Logo im Customizer hochgeladen hast, wird die Option"
-
-#~ msgid "will be available."
-#~ msgstr "verfügbar sein."
-
-#~ msgid "Menu icon (closed)"
-#~ msgstr "Menüsymbol (geschlossen)"
-
-#~ msgid "The menu icon for the mobile menu, when it's open."
-#~ msgstr "Das Menüsymbol für das Mobilmenü, wenn es geöffnet ist."
-
-#~ msgid "Please post your SVG embed code below."
-#~ msgstr "Bitte poste unten deinen SVG-Einbettungscode."
-
-#~ msgid "Menu icon (open)"
-#~ msgstr "Menüsymbol (offen)"
-
-#~ msgid "Theme modules"
-#~ msgstr "Theme-Module"
-
-#~ msgid "Submenu - Background "
-#~ msgstr "Untermenü - Hintergrund"
-
-#~ msgid "Scroll"
-#~ msgstr "Mitscrollen"
-
-#~ msgid "Local"
-#~ msgstr "Lokal"
-
-#~ msgid "Content Header - Colors (with Thumbnail)"
-#~ msgstr "Inhalts-Kopfzeile - Farben (mit Beitragsbild)"
-
-#~ msgid "This Name is used to identify this color for users."
-#~ msgstr ""
-#~ "Dieser Name wird verwendet, um diese Farbe für Benutzer zu identifizieren."
-
-#~ msgid "This Slug is used to identify this color within code."
-#~ msgstr ""
-#~ "Dieser Slug wird verwendet, um diese Farbe innerhalb des Codes zu "
-#~ "identifizieren."
-
-#~ msgid "color-slug"
-#~ msgstr "farb-slug"
-
-#~ msgid "The color to be used. Accepts hex and rgb values."
-#~ msgstr "Die Farbe, die verwendet werden soll. Akzeptiert Hex und rgb-Werte."
-
-#~ msgid ""
-#~ "This module gives the ability to display comments of the current post/"
-#~ "page via the \"[sv_comments]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, Kommentare des/der aktuellen Beitrages/"
-#~ "Seite über den \"[sv_comments]\" Shortcode anzuzeigen."
-
-#~ msgid "Base settings for the whole frontend."
-#~ msgstr "Basiseinstellungen für das gesamte Frontend."
-
-#~ msgid "Home Slider"
-#~ msgstr "Startseiten Slider"
-
-#~ msgid "Post listing themes"
-#~ msgstr "Beitragsauflistung Design"
-
-#~ msgid ""
-#~ "This module defines and manages content output, via the \"[sv_content]\" "
-#~ "shortcode."
-#~ msgstr ""
-#~ "Dieses Modul definiert und verwaltet die Ausgabe von Inhalten über den "
-#~ "Shortcode \"[sv_content]\"."
-
-#~ msgid "Activate or deactivate the slider on the home page."
-#~ msgstr "Aktiviere oder deaktiviere den Slider auf der Startseite."
-
-#~ msgid "Home Slider - Transition"
-#~ msgstr "Startseiten Slider -Übergang"
-
-#~ msgid "Home Slider - Max posts"
-#~ msgstr "Startseiten Slider - Maximale Beiträge"
-
-#~ msgid ""
-#~ "Set the maximum number of posts that will be shown in the slider.<br>1 = "
-#~ "single image"
-#~ msgstr ""
-#~ "Setze die maximale Anzahl der Beiträge, die im Slider angezeigt werden. "
-#~ "<br> 1 = Einzelbild"
-
-#~ msgid ""
-#~ "This module gives the ability to define how excerpts will be displayed."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit festzulegen, wie Auszüge angezeigt "
-#~ "werden."
-
-#~ msgid ""
-#~ "This module shows a featured image via \"[sv_featured_image]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt ein Beitragsbild über den \"[sv_featured_image]\" "
-#~ "Shortcode aus."
-
-#~ msgid "Settings for Featured Image"
-#~ msgstr "Einstellungen für Featured Image"
-
-#~ msgid "Fallback image"
-#~ msgstr "Fallback-Bild"
-
-#~ msgid ""
-#~ "This module gives the ability to display the footer via the "
-#~ "\"[sv_footer]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, den Footer über den \"[sv_footer]\" "
-#~ "Shortcode anzuzeigen."
-
-#~ msgid "Header Background Settings"
-#~ msgstr "Hintergrund-Einstellungen für die Kopfzeile"
-
-#~ msgid "Mobile Settings"
-#~ msgstr "Mobileinstellungen"
-
-#~ msgid "Title Text"
-#~ msgstr "Text des Titels"
-
-#~ msgid ""
-#~ "Defines the text color of the branding title and the underline color of "
-#~ "the menu item on hover/focus."
-#~ msgstr ""
-#~ "Definiert die Textfarbe des Brandingtitels und die Unterstrichfarbe des "
-#~ "Hover/Fokus-Menuelements."
-
-#~ msgid "Deactivate all modules"
-#~ msgstr "Deaktiviere alle Module"
-
-#~ msgid ""
-#~ "This module gives the ability to manage and display navigations via the "
-#~ "\"[sv_navigation]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, die Navigation über den Shortcode "
-#~ "\"[sv_navigation]\" zu verwalten und anzuzeigen."
-
-#~ msgid ""
-#~ "This module gives the ability to display pagination for posts & pages "
-#~ "with the \"[sv_pagination]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, die Paginierung für Beiträge und "
-#~ "Seiten mit dem \"[sv_pagination]\" Shortcode anzuzeigen."
-
-#~ msgid "Import and export your settings."
-#~ msgstr "Importiere und exportiere deine Einstellungen."
-
-#~ msgid ""
-#~ "This module gives the ability to display sidebars via the "
-#~ "\"[sv_sidebar]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, Seitenleisten über den Shortcode "
-#~ "\"[sv_sidebar]\" anzuzeigen."
-
-#~ msgid ""
-#~ "This module gives the ability to display and manage tags via the "
-#~ "\"[sv_tags]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, Schlagwörter über den Shortcode "
-#~ "\"[sv_tags]\" anzuzeigen und zu verwalten."
-
-#, fuzzy
-#~| msgid "Enqueue Admin Styles"
-#~ msgid "Removes Emoji Styles"
-#~ msgstr "Admin-Stile einreihen"
-
-#~ msgid ""
-#~ "This module gives the ability to display the header via the "
-#~ "\"[sv_header]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, den Header über den \"[sv_header]\" "
-#~ "Shortcode anzuzeigen."
-
-#~ msgid ""
-#~ "This module converts dates and times to a human readable text, via the "
-#~ "\"[sv_human_time]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul wandelt Daten und Zeiten über den Shortcode "
-#~ "\"[sv_human_time]\" in einen menschlich lesbaren Text um."
-
-#~ msgid "Enables relative date format for all posts"
-#~ msgstr "Ermöglicht das relative Datumsformat für alle Beiträge"
-
-#~ msgid "Enables relative date format for all comments"
-#~ msgstr "Ermöglicht das relative Datumsformat für alle Kommentare"
-
-#~ msgid ""
-#~ "Shows the date and time in the default WordPress format, when the time "
-#~ "difference is higher than the set days.<br>0 = never"
-#~ msgstr ""
-#~ "Zeigt das Datum und die Uhrzeit im Standard-WordPress-Format an, wenn der "
-#~ "Zeitunterschied höher ist als die gesetzten Tage.<br>0 = nie"
-
-#~ msgid "Starting date is needed!"
-#~ msgstr "Startdatum ist erforderlich!"
-
-#~ msgid "%s ago"
-#~ msgstr "vor %s"
-
-#~ msgid "This module allows you to upload your own Logo."
-#~ msgstr "Mit diesem Modul kannst du dein eigenes Logo hochladen."
-
-#~ msgid "<p>Upload your primary logo here.</p>"
-#~ msgstr "<p>lade hier dein Primärlogo hoch</p>"
-
-#~ msgid "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
-#~ msgstr "<h4 style=\"margin-top:24px;\">Shortcode</h4>"
-
-#~ msgid ""
-#~ "<p>This Logo is available in media library, as well as shortcode:</p>"
-#~ msgstr ""
-#~ "<p>Dieses Logo ist in der Mediathek erhältlich, ebenso wie Shortcode:</p>"
-
-#~ msgid "<h4 style=\"margin-top:24px;\">SVG support</h4>"
-#~ msgstr "<h4 style=\"margin-top:24px;\">SVG Unterstützung</h4>"
-
-#~ msgid ""
-#~ "<p>We recommend SVG, but you will need to add <a href=\"https://de."
-#~ "wordpress.org/plugins/svg-support/\" target=\"_blank\">SVG Support</a> to "
-#~ "WordPress. Make sure that your SVG file has the <a href=\"https://"
-#~ "wordpress.org/support/topic/sorry-this-file-type-is-not-permitted-for-"
-#~ "security-reasons-16/\" target=\"_blank\">following code</a> prepend: </p>"
-#~ msgstr ""
-#~ "<p>Wir empfehlen SVG, aber du musst <a href=\"https://de.wordpress.org/"
-#~ "plugins/svg-support/\" target=\"_blank\" >SVG-Support </a> auf WordPress "
-#~ "hinzufügen. Vergewissere dich, dass die SVG-Datei die <a href=\"https://"
-#~ "wordpress.org/support/topic/sorry-this-file-type-is-not-permitted-for-"
-#~ "security-reasons-16/\" target=\"_blank\"> folgenden Code</a> vorgehängt "
-#~ "hat:</p>"
-
-#~ msgid "Primary Logo"
-#~ msgstr "Primäres Logo"
-
-#~ msgid "Search ..."
-#~ msgstr "Suche …"
-
-#~ msgid ""
-#~ "This module gives the ability to display the search results via the "
-#~ "\"[sv_search]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, die Suchergebnisse über den Shortcode "
-#~ "\"[sv_search]\" anzuzeigen."
-
-#~ msgid "This module gives other modules the ability to use slick."
-#~ msgstr ""
-#~ "Dieses Modul gibt anderen Modulen die Möglichkeit, Slick zu verwenden."
-
-#~ msgid ""
-#~ "This module gives the ability to display a image slider via the "
-#~ "\"[sv_slider]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, einen Bild Slider über den "
-#~ "\"[sv_slider]\" Shortcode anzuzeigen."
-
-#~ msgid "Plugins & Modules"
-#~ msgstr "Plugins & Module"
-
-#~ msgid "Support"
-#~ msgstr "Hilfe"
-
-#~ msgid "Done"
-#~ msgstr "Fertig"
-
-#~ msgid "Welcome to the SV 100 setup!"
-#~ msgstr "Willkommen zum Setup des SV 100!"
-
-#~ msgid "Previous step"
-#~ msgstr "Vorheriger Schritt"
-
-#~ msgid "Skip this step"
-#~ msgstr "Diesen Schritt überspringen"
-
-#~ msgid ""
-#~ "An install wizard, to help the user with the configuration of the SV 100 "
-#~ "theme."
-#~ msgstr ""
-#~ "Ein Installationsassistent, der dem Benutzer bei der Konfiguration des SV "
-#~ "100-Themes hilft."
-
-#~ msgid "Configure your SV 100 theme!"
-#~ msgstr "Konfiguriere dein SV 100 Theme!"
-
-#~ msgid ""
-#~ "Personalize your theme now, with the <a href=\"admin.php?"
-#~ "page=sv100#section_sv100_sv_wizard\">Install Wizard</a>!"
-#~ msgstr ""
-#~ "Personalisiere dein Theme jetzt, mit dem <a href=\"admin.php?"
-#~ "page=sv100#section_sv100_sv_wizard\">Installationsassistent</a>!"
-
-#~ msgid ""
-#~ "This module gives the ability to upload & display icons via the "
-#~ "\"[sv_icon]\" shortcode."
-#~ msgstr ""
-#~ "Dieses Modul gibt die Möglichkeit, Symbole über den Shortcode "
-#~ "\"[sv_icon]\" hochzuladen und anzuzeigen."
-
-#~ msgid "Icons"
-#~ msgstr "Symbole"
-
-#~ msgid "Here you can add and remove icons."
-#~ msgstr "Hier kannst du Symbole hinzufügen und entfernen."
-
-#~ msgid "This will be the label for this icon settings."
-#~ msgstr "Dies wird die Beschriftung für diese Symbol Einstellungen sein."
-
-#~ msgid ""
-#~ "The icon ID will be used in the shortcode, to display the icon. Allowed "
-#~ "characters: (a-z, 0-9, -, _)."
-#~ msgstr ""
-#~ "Die Symbol-ID wird im Shortcode verwendet, um das Symbol anzuzeigen. "
-#~ "Erlaubte Zeichen: (a-z, 0-9,-, _)."
-
-#~ msgid "icon-id"
-#~ msgstr "symbol-id"
-
-#~ msgid "Inline Embed"
-#~ msgstr "Inline-Einbettung"
-
-#~ msgid "Icon as CSS variable"
-#~ msgstr "Icon als CSS-Variable"
-
-#~ msgid "The icon will be available as CSS variable."
-#~ msgstr "Das Icon wird als CSS-Variable verfügbar sein."
-
-#~ msgid ""
-#~ "Here you can set the title for the icon, that will be shown if you hover "
-#~ "over the icon."
-#~ msgstr ""
-#~ "Hier kannst du den Titel für das Symbol festlegen, der angezeigt wird, "
-#~ "wenn die Maus über das Icon wandert."
-
-#~ msgid ""
-#~ "Here you can add additional CSS classes, to the icon (seperate with "
-#~ "spaces)."
-#~ msgstr ""
-#~ "Hier kannst du zusätzliche CSS-Klassen zum Symbol hinzufügen (getrennt "
-#~ "mit Leerzeichen)."
-
-#~ msgid "class-1, class-2"
-#~ msgstr "klasse-1, klasse-2"
-
-#~ msgid "Here you can add custom styles to the icon."
-#~ msgstr "Hier kannst du dem Symbol individuelle Stile hinzufügen."
-
-#~ msgid "fill: white; height: 20px;"
-#~ msgstr "fill: white; height: 20px;"
-
-#~ msgid "This module manages the media files on this website."
-#~ msgstr "Dieses Modul verwaltet die Mediendateien auf dieser Website."
-
-#~ msgid "Media Library"
-#~ msgstr "Mediathek"
-
-#~ msgid "Settings for Media Library"
-#~ msgstr "Einstellungen für die Mediathek"
-
-#~ msgid "Media Lib Path"
-#~ msgstr "Mediathek Pfad"
-
-#~ msgid "Absolute path to media library base directory, replacing default "
-#~ msgstr ""
-#~ "Absoluter Pfad zum Basisverzeichnis der Mediathek, ersetzt die "
-#~ "Voreinstellung "
-
-#~ msgid "Media Lib URL"
-#~ msgstr "Mediathek URL"
-
-#~ msgid "Absolute URL to media library directory, replacing default "
-#~ msgstr ""
-#~ "Absolute URL zum Basisverzeichnis der Mediathek, ersetzt die "
-#~ "Voreinstellung "
-
-#~ msgid "Success"
-#~ msgstr "Erfolg"
-
-#~ msgid "Warning"
-#~ msgstr "Warnung"
-
-#~ msgid "Error"
-#~ msgstr "Fehler"
-
-#~ msgid "SV Log"
-#~ msgstr "SV Log"
-
-#~ msgid "Group"
-#~ msgstr "Gruppe"
-
-#~ msgid "WooCommerce Order Note creation failed."
-#~ msgstr "WooCommerce Bestellnotiz konnte nicht erstellt werden."
-
-#~ msgid "Order does not exist"
-#~ msgstr "Die Bestellung existiert nicht"
-
-#~ msgid "WooCommerce is not available."
-#~ msgstr "WooCommerce ist nicht verfügbar."
-
-#~ msgid "SV Notices"
-#~ msgstr "SV Notices"
-
-#~ msgid "SV Notice"
-#~ msgstr "SV Notice"
-
-#~ msgid "SV Notices Groups"
-#~ msgstr "SV Notices Gruppen"
-
-#~ msgid "SV Notices Group"
-#~ msgstr "SV Notices Gruppe"
-
-#~ msgid "all"
-#~ msgstr "Alle"
-
-#~ msgid "Multi Upload cannot be implemented more than once on a page."
-#~ msgstr ""
-#~ "Multi Upload kann nicht mehr als einmal auf einer Seite implementiert "
-#~ "werden."
-
-#~ msgid "straightvisions 100"
-#~ msgstr "straightvisions 100"
-
-#~ msgid ""
-#~ "A modular and easy to use Theme, with focus on a Google Pagespeed 100 "
-#~ "score."
-#~ msgstr ""
-#~ "Ein modulares und einfach zu bedienendes Theme, mit Fokus auf eine Google "
-#~ "Pagespeed 100 Score."
-
-#~ msgid "Configure your button"
-#~ msgstr "Konfiguriere deinen Knopf"
