@@ -33,6 +33,9 @@ Our theme brings:
 
 == Changelog ==
 
+= 1.8.20 =
+7. Public Release
+
 = 1.5.14 =
 6. Public Release
 
