@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
-"POT-Creation-Date: 2022-01-07 17:37+0100\n"
-"PO-Revision-Date: 2022-01-07 17:37+0100\n"
+"POT-Creation-Date: 2022-01-17 14:14+0100\n"
+"PO-Revision-Date: 2022-01-17 14:14+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1270,7 +1270,7 @@ msgstr "Festlegen eines Abstands in Pixel für Spalten"
 #: lib/modules/sv_block_cover/sv_block_cover.php:20
 #: lib/modules/sv_block_embed/sv_block_embed.php:20
 #: lib/modules/sv_block_file/sv_block_file.php:46
-#: lib/modules/sv_block_gallery/sv_block_gallery.php:20
+#: lib/modules/sv_block_gallery/sv_block_gallery.php:25
 #: lib/modules/sv_block_group/sv_block_group.php:20
 #: lib/modules/sv_block_heading/sv_block_heading.php:79
 #: lib/modules/sv_block_image/sv_block_image.php:20
@@ -1335,7 +1335,7 @@ msgstr "Margin"
 #: lib/modules/sv_block_cover/sv_block_cover.php:25
 #: lib/modules/sv_block_embed/sv_block_embed.php:31
 #: lib/modules/sv_block_file/sv_block_file.php:51
-#: lib/modules/sv_block_gallery/sv_block_gallery.php:31
+#: lib/modules/sv_block_gallery/sv_block_gallery.php:36
 #: lib/modules/sv_block_group/sv_block_group.php:31
 #: lib/modules/sv_block_heading/sv_block_heading.php:90
 #: lib/modules/sv_block_image/sv_block_image.php:31
@@ -1351,7 +1351,7 @@ msgstr "Margin"
 #: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:51
 #: lib/modules/sv_block_post_title/sv_block_post_title.php:51
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:51
-#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:51
+#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:57
 #: lib/modules/sv_block_query/sv_block_query.php:51
 #: lib/modules/sv_block_quote/sv_block_quote.php:57
 #: lib/modules/sv_block_quote/sv_block_quote.php:104
@@ -1399,7 +1399,7 @@ msgstr "Padding"
 #: lib/modules/sv_block_cover/sv_block_cover.php:30
 #: lib/modules/sv_block_embed/sv_block_embed.php:36
 #: lib/modules/sv_block_file/sv_block_file.php:56
-#: lib/modules/sv_block_gallery/sv_block_gallery.php:36
+#: lib/modules/sv_block_gallery/sv_block_gallery.php:41
 #: lib/modules/sv_block_group/sv_block_group.php:47
 #: lib/modules/sv_block_heading/sv_block_heading.php:95
 #: lib/modules/sv_block_image/sv_block_image.php:36
@@ -1415,7 +1415,7 @@ msgstr "Padding"
 #: lib/modules/sv_block_post_featured_image/sv_block_post_featured_image.php:56
 #: lib/modules/sv_block_post_title/sv_block_post_title.php:56
 #: lib/modules/sv_block_preformatted/sv_block_preformatted.php:56
-#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:56
+#: lib/modules/sv_block_pullquote/sv_block_pullquote.php:62
 #: lib/modules/sv_block_query/sv_block_query.php:56
 #: lib/modules/sv_block_quote/sv_block_quote.php:62
 #: lib/modules/sv_block_quote/sv_block_quote.php:109
@@ -1868,6 +1868,7 @@ msgid "Block: Columns"
 msgstr "Block: Columns"
 
 #: lib/modules/sv_block_columns/sv_block_columns.php:51
+#: lib/modules/sv_block_gallery/sv_block_gallery.php:20
 #: lib/modules/sv_content/sv_content.php:70
 #: lib/modules/sv_footer/lib/tpl/settings/general.php:50
 #: lib/modules/sv_footer/sv_footer.php:31
@@ -2031,6 +2032,18 @@ msgstr "Block: Search"
 #: lib/modules/sv_block_separator/sv_block_separator.php:6
 msgid "Block: Separator"
 msgstr "Block: Separator"
+
+#: lib/modules/sv_block_separator/sv_block_separator.php:41
+#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:26
+#: lib/modules/sv_header_menu/sv_header_menu.php:63
+msgid "Max Width"
+msgstr "Maximale Breite"
+
+#: lib/modules/sv_block_separator/sv_block_separator.php:47
+#, fuzzy
+#| msgid "Max Width Sidebar"
+msgid "Max Width Style Wide"
+msgstr "Maximale Breite der Sidebar"
 
 #: lib/modules/sv_block_site_logo/sv_block_site_logo.php:6
 msgid "Block: Site Logo"
@@ -2848,11 +2861,6 @@ msgstr "Copyright Footer"
 msgid "Manages the footer copyright bar."
 msgstr "Verwalte die Footer Copyright Bar."
 
-#: lib/modules/sv_footer_copyright/sv_footer_copyright.php:26
-#: lib/modules/sv_header_menu/sv_header_menu.php:63
-msgid "Max Width"
-msgstr "Maximale Breite"
-
 #: lib/modules/sv_footer_copyright/sv_footer_copyright.php:27
 msgid "Set the max width of the Header"
 msgstr "Setze die maximale Breite des Kopfbereichs"
@@ -3212,7 +3220,7 @@ msgstr "Wählen Sie den Mischmodus für den Kopfzeileneffekt aus."
 #: lib/modules/sv_header_content/sv_header_content.php:131
 #: lib/modules/sv_header_content/sv_header_content.php:652
 msgid "Background Blur"
-msgstr "Hintergrundfarbe"
+msgstr "Hintergrund Weichzeichnen"
 
 #: lib/modules/sv_header_content/sv_header_content.php:132
 #: lib/modules/sv_header_content/sv_header_content.php:653
