@@ -35,7 +35,9 @@ Our theme brings:
 
 = 1.8.30 =
 * FEAT - ADD - Section Visibility for Block Group Sections
-* FEAT - ADD - Group Style: Sticky
+* STYLE - ADD - GROUP: Sticky
+* STYLE - ADD - HEADING: No Margin
+* SETTINGS - ADD - IMAGE: Caption
 
 = 1.8.20 =
 7. Public Release
