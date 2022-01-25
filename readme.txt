@@ -38,6 +38,7 @@ Our theme brings:
 * STYLE - ADD - GROUP: Sticky
 * STYLE - ADD - HEADING: No Margin
 * SETTINGS - ADD - IMAGE: Caption
+* SETTINGS - ADD - COPYRIGHT FOOTER: Links Styling
 
 = 1.8.20 =
 7. Public Release
