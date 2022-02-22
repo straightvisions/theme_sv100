@@ -2,8 +2,8 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.8.3
-Stable tag: 1.8.30
+Tested up to: 5.9.0
+Stable tag: 1.8.40
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -32,6 +32,9 @@ Our theme brings:
 <a href="https://straightvisions.com/en/technology/pagespeed-wordpress-themes-comparison/">Pagespeed - WordPress Themes Comparison</a>
 
 == Changelog ==
+
+= 1.8.40 =
+* FEAT - REMOVE - FOOTER CSS OUTPUT FOR COMMON LINKS
 
 = 1.8.30 =
 * FEAT - ADD - Section Visibility for Block Group Sections
