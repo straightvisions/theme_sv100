@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
 "POT-Creation-Date: 2022-01-17 14:14+0100\n"
-"PO-Revision-Date: 2022-01-17 14:14+0100\n"
+"PO-Revision-Date: 2022-03-18 16:31+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1987,7 +1987,7 @@ msgstr "Block: Post-Autor"
 
 #: lib/modules/sv_block_post_comments/sv_block_post_comments.php:6
 msgid "Block: Post Comments"
-msgstr "Blockieren: Beitragskommentare"
+msgstr "Block: Beitragskommentare"
 
 #: lib/modules/sv_block_post_excerpt/sv_block_post_excerpt.php:6
 msgid "Block: Post Excerpt"
