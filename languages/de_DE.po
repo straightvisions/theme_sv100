@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SV100\n"
 "POT-Creation-Date: 2022-01-07 17:33+0100\n"
-"PO-Revision-Date: 2022-03-18 16:31+0100\n"
+"PO-Revision-Date: 2022-04-04 13:17+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -3297,7 +3297,7 @@ msgstr ""
 
 #: lib/modules/sv_header_content/sv_header_content.php:376
 msgid "Header Content Overlay Color"
-msgstr "Inhalts-Kopfzeile - Farben"
+msgstr "Inhalts-Kopfzeile - Farbüberlagerung"
 
 #: lib/modules/sv_header_content/sv_header_content.php:581
 #: lib/modules/sv_sidebar/sv_sidebar.php:192
