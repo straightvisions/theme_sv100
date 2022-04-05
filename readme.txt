@@ -2,8 +2,8 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.9.0
-Stable tag: 1.8.42
+Tested up to: 5.9.2
+Stable tag: 1.8.44
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -32,6 +32,26 @@ Our theme brings:
 <a href="https://straightvisions.com/en/technology/pagespeed-wordpress-themes-comparison/">Pagespeed - WordPress Themes Comparison</a>
 
 == Changelog ==
+
+= 1.8.44 =
+* Module Block Paragraph - Fix: align middle for inline images
+* Module Common - Move Spacing from Module Content to Module Common
+* Module Content - Refactor Sidebars to Grid instead of Flex
+* Module Content - Move Spacing from Module Content to Module Common
+* Module Content - Remove Settings: Margin, Padding, Border
+* Module Footer - Add Support for Common Spacing CSS
+* Module Footer Copyright - Add Support for Common Spacing CSS
+* Module Header - Remove Settings: Margin, Padding, Border, Box Shadow
+* Module Header - Add Support for Common Spacing CSS
+* Module Header Bar - Add Support for Common Spacing CSS
+* Module Header Content - Remove Settings: Margin, Padding, Border
+* Module Header Content - Add Support for Common Spacing CSS
+
+= 1.8.43 =
+* sv footer - config - remove - box-shadow, spacing, border -> Styling these parameters is now block-territory or as fallback child-theme or custom css territory
+* sv footer copyright - config - remove - spacing, border -> Styling these parameters is now block-territory or as fallback child-theme or custom css territory
+* sv header bar - config - remove - spacing, border, font-styling -> Styling these parameters is now block-territory or as fallback child-theme or custom css territory
+Sidebars reduced from 2 to 1, use Block Columns in future
 
 = 1.8.42 =
 * FEAT - REMOVE - COPYRIGHT FOOTER MULTIPLE SIDEBARS SUPPORT
