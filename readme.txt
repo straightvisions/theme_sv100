@@ -3,7 +3,7 @@ Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 7.3
 Requires at least: 5.3.2
 Tested up to: 5.9.2
-Stable tag: 1.8.44
+Stable tag: 1.8.45
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -32,6 +32,10 @@ Our theme brings:
 <a href="https://straightvisions.com/en/technology/pagespeed-wordpress-themes-comparison/">Pagespeed - WordPress Themes Comparison</a>
 
 == Changelog ==
+
+= 1.8.45 =
+* Module Footer - Feat - Add - Override Sidebar via Metabox in Post
+* Module Footer Copyright - Feat - Add - Override Sidebar via Metabox in Post
 
 = 1.8.44 =
 * Module Block Paragraph - Fix: align middle for inline images
