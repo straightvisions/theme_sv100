@@ -37,6 +37,7 @@ Our theme brings:
 * Module Footer - Feat - Add - Override Sidebar via Metabox in Post
 * Module Footer Copyright - Feat - Add - Override Sidebar via Metabox in Post
 * Module Header Menu - Override Primary Menu Visibility via Metabox in Post
+* Module - Header - Override Sidebar via Metabox in Post
 
 = 1.8.44 =
 * Module Block Paragraph - Fix: align middle for inline images
