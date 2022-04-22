@@ -39,6 +39,7 @@ Our theme brings:
 * Module Header Menu - Override Primary Menu Visibility via Metabox in Post
 * Module - Header - Override Sidebar via Metabox in Post
 * Module - Header Menu - Override Header Menu Top Level Color per Post
+* Module - Header Menu - Override Header Menu Top Level Background Color per Post
 
 = 1.8.44 =
 * Module Block Paragraph - Fix: align middle for inline images
