@@ -2,7 +2,7 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.9.3
+Tested up to: 6.0.0
 Stable tag: 1.9.00
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -38,11 +38,7 @@ Core v9.000 Upgrade Notice / Breaking Change: Make Metabox Settings hidden on Po
 
 Manually Update SV100 Metabox Settings to new metakeys via SQL Query:
 
-UPDATE wp_postmeta SET meta_key = REPLACE(meta_key, 'sv100_', '_sv100_');
-
-For SV-Plugins:
-
-UPDATE wp_postmeta SET meta_key = REPLACE(meta_key, 'sv_', '_sv_');
+UPDATE wp_postmeta SET meta_key = REPLACE(meta_key, 'sv100_sv_metabox_settings_', '_sv100_sv_metabox_settings_');
 
 Change Table prefix when custom prefix is used.
 
