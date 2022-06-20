@@ -33,7 +33,12 @@ Our theme brings:
 
 == Changelog ==
 
-= 1.9.00
+= 2.0.00 =
+* Major Release
+* Support for Site Editor
+* Removed support for Classic PHP Templates
+
+= 1.9.00 =
 Core v9.000 Upgrade Notice / Breaking Change: Make Metabox Settings hidden on Post Edit Screens
 
 Manually Update SV100 Metabox Settings to new metakeys via SQL Query:
