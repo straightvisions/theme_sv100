@@ -1,24 +1,12 @@
 [submodule "lib/modules/sv_colors"]
 	path = lib/modules/sv_colors
 	url = ../module_sv_colors.git
-[submodule "lib/modules/sv_comments"]
-	path = lib/modules/sv_comments
-	url = ../module_sv_comments.git
 [submodule "lib/modules/sv_common"]
 	path = lib/modules/sv_common
 	url = ../module_sv_common.git
-[submodule "lib/modules/sv_content"]
-	path = lib/modules/sv_content
-	url = ../module_sv_content.git
 [submodule "lib/modules/sv_excerpt"]
 	path = lib/modules/sv_excerpt
 	url = ../module_sv_excerpt.git
-[submodule "lib/modules/sv_footer"]
-	path = lib/modules/sv_footer
-	url = ../module_sv_footer.git
-[submodule "lib/modules/sv_header"]
-	path = lib/modules/sv_header
-	url = ../module_sv_header.git
 [submodule "lib/modules/sv_modules"]
 	path = lib/modules/sv_modules
 	url = ../module_sv_modules.git
@@ -31,9 +19,6 @@
 [submodule "lib/modules/sv_sidebar"]
 	path = lib/modules/sv_sidebar
 	url = ../module_sv_sidebar.git
-[submodule "lib/modules/sv_tags"]
-	path = lib/modules/sv_tags
-	url = ../module_sv_tags.git
 [submodule "lib/modules/sv_webfontloader"]
 	path = lib/modules/sv_webfontloader
 	url = ../module_sv_webfontloader.git
@@ -49,12 +34,6 @@
 [submodule "lib/modules/sv_branding"]
 	path = lib/modules/sv_branding
 	url = ../module_sv_branding
-[submodule "lib/modules/sv_header_content"]
-	path = lib/modules/sv_header_content
-	url = ../module_sv_header_content
-[submodule "lib/modules/sv_header_menu"]
-	path = lib/modules/sv_header_menu
-	url = ../module_sv_header_menu
 [submodule "lib/modules/sv_block_columns"]
 	path = lib/modules/sv_block_columns
 	url = ../module_sv_block_columns
@@ -88,12 +67,6 @@
 [submodule "lib/modules/sv_block_list"]
 	path = lib/modules/sv_block_list
 	url = ../module_sv_block_list
-[submodule "lib/modules/sv_footer_copyright"]
-	path = lib/modules/sv_footer_copyright
-	url = ../module_sv_footer_copyright.git
-[submodule "lib/modules/sv_header_bar"]
-	path = lib/modules/sv_header_bar
-	url = ../module_sv_header_bar.git
 [submodule "lib/modules/sv_block_video"]
 	path = lib/modules/sv_block_video
 	url = ../module_sv_block_video
@@ -103,9 +76,6 @@
 [submodule "lib/modules/sv_block_media_text"]
 	path = lib/modules/sv_block_media_text
 	url = ../module_sv_block_media_text
-[submodule "lib/modules/sv_woocommerce"]
-	path = lib/modules/sv_woocommerce
-	url = ../module_sv_woocommerce
 [submodule "lib/modules/sv_block_separator"]
 	path = lib/modules/sv_block_separator
 	url = ../module_sv_block_separator
@@ -124,12 +94,6 @@
 [submodule "lib/modules/sv_featured_image"]
 	path = lib/modules/sv_featured_image
 	url = ../module_sv_featured_image
-[submodule "lib/modules/sv_author"]
-	path = lib/modules/sv_author
-	url = ../module_sv_author
-[submodule "lib/modules/sv_archive"]
-	path = lib/modules/sv_archive
-	url = ../module_sv_archive
 [submodule "lib/modules/sv_metabox"]
 	path = lib/modules/sv_metabox
 	url = ../module_sv_metabox
