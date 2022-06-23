@@ -190,3 +190,6 @@
 [submodule "lib/modules/sv_block_post_featured_image"]
 	path = lib/modules/sv_block_post_featured_image
 	url = ../module_sv_block_post_featured_image
+[submodule "lib/modules/sv_font_sizes"]
+	path = lib/modules/sv_font_sizes
+	url = ../module_sv_font_sizes
