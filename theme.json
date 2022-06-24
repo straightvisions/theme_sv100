@@ -11,10 +11,5 @@
       "title": "Footer",
       "area": "footer"
     }
-  ],
-  "settings": {
-    "color": {
-      "defaultPalette": false
-    }
-  }
+  ]
 }
