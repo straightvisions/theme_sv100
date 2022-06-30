@@ -151,3 +151,6 @@
 [submodule "lib/modules/sv_font_sizes"]
 	path = lib/modules/sv_font_sizes
 	url = ../module_sv_font_sizes
+[submodule "lib/modules/sv_block_query_title"]
+	path = lib/modules/sv_block_query_title
+	url = ../module_sv_block_query_title
