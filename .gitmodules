@@ -154,3 +154,6 @@
 [submodule "lib/modules/sv_block_query_title"]
 	path = lib/modules/sv_block_query_title
 	url = ../module_sv_block_query_title
+[submodule "lib/modules/sv_block_term_description"]
+	path = lib/modules/sv_block_term_description
+	url = ../module_sv_block_term_description
