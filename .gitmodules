@@ -157,3 +157,12 @@
 [submodule "lib/modules/sv_block_term_description"]
 	path = lib/modules/sv_block_term_description
 	url = ../module_sv_block_term_description
+[submodule "lib/modules/sv_block_post"]
+	path = lib/modules/sv_block_post
+	url = ../module_sv_block_post
+[submodule "lib/modules/sv_block_post_template"]
+	path = lib/modules/sv_block_post_template
+	url = ../module_sv_block_post_template
+[submodule "lib/modules/sv_block_query_pagination"]
+	path = lib/modules/sv_block_query_pagination
+	url = ../module_sv_block_query_pagination
