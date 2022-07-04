@@ -4,9 +4,6 @@
 [submodule "lib/modules/sv_common"]
 	path = lib/modules/sv_common
 	url = ../module_sv_common.git
-[submodule "lib/modules/sv_excerpt"]
-	path = lib/modules/sv_excerpt
-	url = ../module_sv_excerpt.git
 [submodule "lib/modules/sv_modules"]
 	path = lib/modules/sv_modules
 	url = ../module_sv_modules.git
