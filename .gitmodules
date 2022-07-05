@@ -163,3 +163,12 @@
 [submodule "lib/modules/sv_block_query_pagination"]
 	path = lib/modules/sv_block_query_pagination
 	url = ../module_sv_block_query_pagination
+[submodule "lib/modules/sv_block_post_navigation_link_previous"]
+	path = lib/modules/sv_block_post_navigation_link_previous
+	url = ../module_sv_block_post_navigation_link_previous
+[submodule "lib/modules/sv_block_post_navigation_link_next"]
+	path = lib/modules/sv_block_post_navigation_link_next
+	url = ../module_sv_block_post_navigation_link_next
+[submodule "lib/modules/sv_block_post_content"]
+	path = lib/modules/sv_block_post_content
+	url = ../module_sv_block_post_content
