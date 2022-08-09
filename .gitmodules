@@ -169,3 +169,6 @@
 [submodule "lib/modules/sv_block_post_terms"]
 	path = lib/modules/sv_block_post_terms
 	url = ../module_sv_block_post_terms
+[submodule "lib/modules/sv_block_navigation_link"]
+	path = lib/modules/sv_block_navigation_link
+	url = ../module_sv_block_navigation_link
