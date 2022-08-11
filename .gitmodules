@@ -172,3 +172,9 @@
 [submodule "lib/modules/sv_block_navigation_link"]
 	path = lib/modules/sv_block_navigation_link
 	url = ../module_sv_block_navigation_link
+[submodule "lib/modules/sv_block_avatar"]
+	path = lib/modules/sv_block_avatar
+	url = ../module_sv_block_avatar
+[submodule "lib/modules/sv_block_post_date"]
+	path = lib/modules/sv_block_post_date
+	url = ../module_sv_block_post_date
