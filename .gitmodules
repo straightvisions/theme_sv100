@@ -172,3 +172,6 @@
 [submodule "lib/modules/sv_block_post_date"]
 	path = lib/modules/sv_block_post_date
 	url = ../module_sv_block_post_date
+[submodule "lib/modules/sv_block_post_navigation_link"]
+	path = lib/modules/sv_block_post_navigation_link
+	url = ../sv_block_post_navigation_link
