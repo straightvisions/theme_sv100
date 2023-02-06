@@ -169,3 +169,6 @@
 [submodule "lib/modules/sv_block_post_navigation_link"]
 	path = lib/modules/sv_block_post_navigation_link
 	url = ../sv_block_post_navigation_link
+[submodule "lib/modules/sv_block_woocommerce_legacy_template"]
+	path = lib/modules/sv_block_woocommerce_legacy_template
+	url = ../module_sv_block_woocommerce_legacy_template
