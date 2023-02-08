@@ -172,3 +172,9 @@
 [submodule "lib/modules/sv_block_woocommerce_legacy_template"]
 	path = lib/modules/sv_block_woocommerce_legacy_template
 	url = ../module_sv_block_woocommerce_legacy_template
+[submodule "lib/modules/sv_block_woocommerce_product_image"]
+	path = lib/modules/sv_block_woocommerce_product_image
+	url = ../module_sv_block_woocommerce_product_image
+[submodule "lib/modules/sv_block_woocommerce_product_rating"]
+	path = lib/modules/sv_block_woocommerce_product_rating
+	url = ../module_sv_block_woocommerce_product_rating
