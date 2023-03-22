@@ -178,3 +178,6 @@
 [submodule "lib/modules/sv_block_woocommerce_product_rating"]
 	path = lib/modules/sv_block_woocommerce_product_rating
 	url = ../module_sv_block_woocommerce_product_rating
+[submodule "lib/modules/sv_block_woocommerce_cart_line_items"]
+	path = lib/modules/sv_block_woocommerce_cart_line_items
+	url = ../module_sv_block_woocommerce_cart_line_items
