@@ -3,7 +3,7 @@ Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Requires PHP: 8.0
 Requires at least: 6.1
 Tested up to: 6.5.5
-Stable tag: 2.1.00
+Stable tag: 2.1.01
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -32,6 +32,9 @@ Our theme brings:
 <a href="https://straightvisions.com/en/technology/pagespeed-wordpress-themes-comparison/">Pagespeed - WordPress Themes Comparison</a>
 
 == Changelog ==
+
+= 2.1.01 =
+* Update Core
 
 = 2.1.00 =
 * Several Improvements
